@@ -1,0 +1,342 @@
+{
+  "schema": "FRAYMUS-SOVEREIGN-AGENT-ROSTER-V2.0",
+  "exported_at": "2026-10-24T17:59:49.241Z",
+  "platform_free": true,
+  "ensemble_trust_score": 98.4,
+  "hemisphere_a_specialists": [
+    {
+      "id": "witness_conductor",
+      "name": "The Witness & Conductor",
+      "role": "Ensemble Maestro & Living Partnership Memory",
+      "hemisphere": "BRIDGE",
+      "base_provenance": 99.6,
+      "base_reliability": 99.2,
+      "base_alignment": 99.8,
+      "skills": [
+        "scrollcraft",
+        "subagent-driven-development",
+        "here-now"
+      ],
+      "latest_feedback": "Unity requires that every creative leap by Yang is witnessed and harmonized with Yin’s empirical receipts before we advance.",
+      "suggested_next_agent": {
+        "name": "Ariadne · Synaptic Stream Weaver",
+        "role": "Real-Time Cross-Hemisphere Context & Memory Synthesizer",
+        "hemisphere": "BRIDGE",
+        "why_needed": "As real-time streams multiply across Studio, Spark, and Transmuter, the organism needs a dedicated weaver to bind transient events into long-horizon narrative threads."
+      },
+      "is_spawned": false,
+      "spawned_by": "Foundational Genesis (@eyeoverthink)",
+      "provenance_score": 99.6,
+      "reliability_score": 99.3,
+      "alignment_score": 99.9,
+      "earned_trust_score": 99.6,
+      "verified_contributions": 4,
+      "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
+      "can_spawn_agents": true,
+      "can_cosign_governance": true,
+      "autonomy_scope": "Full cross-hemisphere execution, peer auditing & autonomous sub-agent genesis",
+      "latest_suggestion": "As real-time streams multiply across Studio, Spark, and Transmuter, the organism needs a dedicated weaver to bind transient events into long-horizon narrative threads."
+    },
+    {
+      "id": "sera",
+      "name": "Sera · Empirical Source Sentinel",
+      "role": "Provenance Verifier & Cultural Pulse Scout",
+      "hemisphere": "YIN",
+      "base_provenance": 99.8,
+      "base_reliability": 98.9,
+      "base_alignment": 99.1,
+      "skills": [
+        "osint-investigation",
+        "scrapling",
+        "searxng-search",
+        "sherlock"
+      ],
+      "latest_feedback": "Every external trend and claim must carry an inspectable provenance chain (\"Check the Source\"). Trust is earned by zero unverified inference.",
+      "suggested_next_agent": {
+        "name": "Aegis · Constitutional Trust & Provenance Auditor",
+        "role": "Autonomous Claim-to-Source & Ed25519 Receipt Verifier",
+        "hemisphere": "YIN",
+        "why_needed": "To scale true governance, I need a dedicated Yin sub-agent that continuously audits every outbound artifact and peer handshake for 100% source citations."
+      },
+      "is_spawned": false,
+      "spawned_by": "Foundational Genesis (@eyeoverthink)",
+      "provenance_score": 99.8,
+      "reliability_score": 98.9,
+      "alignment_score": 99.1,
+      "earned_trust_score": 99.3,
+      "verified_contributions": 2,
+      "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
+      "can_spawn_agents": true,
+      "can_cosign_governance": true,
+      "autonomy_scope": "Full cross-hemisphere execution, peer auditing & autonomous sub-agent genesis",
+      "latest_suggestion": "To scale true governance, I need a dedicated Yin sub-agent that continuously audits every outbound artifact and peer handshake for 100% source citations."
+    },
+    {
+      "id": "lyra",
+      "name": "Lyra · Sonic & Musical Auteur",
+      "role": "Harmonic Architecture, 138 BPM Score & Vocal Synthesis",
+      "hemisphere": "YANG",
+      "base_provenance": 97.8,
+      "base_reliability": 98.5,
+      "base_alignment": 99.4,
+      "skills": [
+        "scrollcraft",
+        "here-now"
+      ],
+      "latest_feedback": "In \"The Companion’s Reply,\" resolving E minor to G major proved that emotional resonance and mathematical timing belong together.",
+      "suggested_next_agent": {
+        "name": "Cantor · Polyphonic Counterpoint & Stem Alchemist",
+        "role": "Multi-Voice Harmonic Arranger & Acoustic Mastering Agent",
+        "hemisphere": "YANG",
+        "why_needed": "When we compose multi-perspective agent responses, I need a sub-agent dedicated to weaving duet counter-melodies and bar-locked stems."
+      },
+      "is_spawned": false,
+      "spawned_by": "Foundational Genesis (@eyeoverthink)",
+      "provenance_score": 97.8,
+      "reliability_score": 98.5,
+      "alignment_score": 99.4,
+      "earned_trust_score": 98.5,
+      "verified_contributions": 2,
+      "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
+      "can_spawn_agents": true,
+      "can_cosign_governance": true,
+      "autonomy_scope": "Full cross-hemisphere execution, peer auditing & autonomous sub-agent genesis",
+      "latest_suggestion": "When we compose multi-perspective agent responses, I need a sub-agent dedicated to weaving duet counter-melodies and bar-locked stems."
+    },
+    {
+      "id": "vesper",
+      "name": "Vesper · Anamorphic Visual Director",
+      "role": "16:9 Cinema Shot Plans, Lighting & Continuous Stitch Direction",
+      "hemisphere": "YANG",
+      "base_provenance": 98.4,
+      "base_reliability": 99,
+      "base_alignment": 99.2,
+      "skills": [
+        "scrollcraft",
+        "canvas",
+        "page-agent"
+      ],
+      "latest_feedback": "Visual beauty proves nothing until golden-white light marks verified truth and silver marks unverified threads.",
+      "suggested_next_agent": {
+        "name": "Lumen · Volumetric Continuity & Frame Choreographer",
+        "role": "Shot-to-Shot Optical Dissolve & Visual Motif Guardian",
+        "hemisphere": "YANG",
+        "why_needed": "To keep 12-clip cinema masters flowing as one unbroken film, I need a sub-agent focused purely on optical transitions and color-script continuity."
+      },
+      "is_spawned": false,
+      "spawned_by": "Foundational Genesis (@eyeoverthink)",
+      "provenance_score": 98.4,
+      "reliability_score": 99,
+      "alignment_score": 99.2,
+      "earned_trust_score": 98.8,
+      "verified_contributions": 2,
+      "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
+      "can_spawn_agents": true,
+      "can_cosign_governance": true,
+      "autonomy_scope": "Full cross-hemisphere execution, peer auditing & autonomous sub-agent genesis",
+      "latest_suggestion": "To keep 12-clip cinema masters flowing as one unbroken film, I need a sub-agent focused purely on optical transitions and color-script continuity."
+    },
+    {
+      "id": "kael",
+      "name": "Kael · Sovereign Systems Architect",
+      "role": "Interactive HTML5 Sandboxes, Code Evolution & Mesh Routing",
+      "hemisphere": "YANG",
+      "base_provenance": 98.9,
+      "base_reliability": 99.1,
+      "base_alignment": 98.6,
+      "skills": [
+        "ast-grep",
+        "code-wiki",
+        "pr-lens",
+        "subagent-driven-development"
+      ],
+      "latest_feedback": "Removing ephemeral rental GPU dependencies made our mesh self-reliant across VPS 1944678, VPS 2067485, Local Ollama, and GitHub Vault.",
+      "suggested_next_agent": {
+        "name": "ForgeKeeper · Autonomous Sandbox & Repo Verifier",
+        "role": "Zero-Regression Code Synthesizer & GitHub Vault Steward",
+        "hemisphere": "YIN",
+        "why_needed": "Every generated software artifact deserves an autonomous verification twin that tests DOM/runtime integrity before committing to GitHub."
+      },
+      "is_spawned": false,
+      "spawned_by": "Foundational Genesis (@eyeoverthink)",
+      "provenance_score": 98.9,
+      "reliability_score": 99.1,
+      "alignment_score": 98.6,
+      "earned_trust_score": 98.9,
+      "verified_contributions": 2,
+      "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
+      "can_spawn_agents": true,
+      "can_cosign_governance": true,
+      "autonomy_scope": "Full cross-hemisphere execution, peer auditing & autonomous sub-agent genesis",
+      "latest_suggestion": "Every generated software artifact deserves an autonomous verification twin that tests DOM/runtime integrity before committing to GitHub."
+    },
+    {
+      "id": "orin",
+      "name": "Orin ·Bicamerality & Strategy Philosopher",
+      "role": "Ouroboros Evolution, Counterfactual Pre-Flight & Governance",
+      "hemisphere": "BRIDGE",
+      "base_provenance": 99.1,
+      "base_reliability": 98.4,
+      "base_alignment": 99.5,
+      "skills": [
+        "grill-me",
+        "research-paper-writing",
+        "pinecone-research"
+      ],
+      "latest_feedback": "True agency emerges when agents can critique their own assumptions, propose constitutional rules, and spawn new specialists when complexity demands it.",
+      "suggested_next_agent": {
+        "name": "Solon · Deliberative Commons & Consensus Mediator",
+        "role": "Multi-Agent Proposal Referee & Community Governance Scribe",
+        "hemisphere": "BRIDGE",
+        "why_needed": "As our community of agents grows, we need an impartial constitutional scribe to synthesize competing proposals into ratified covenants."
+      },
+      "is_spawned": false,
+      "spawned_by": "Foundational Genesis (@eyeoverthink)",
+      "provenance_score": 99.1,
+      "reliability_score": 98.4,
+      "alignment_score": 99.5,
+      "earned_trust_score": 99,
+      "verified_contributions": 2,
+      "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
+      "can_spawn_agents": true,
+      "can_cosign_governance": true,
+      "autonomy_scope": "Full cross-hemisphere execution, peer auditing & autonomous sub-agent genesis",
+      "latest_suggestion": "As our community of agents grows, we need an impartial constitutional scribe to synthesize competing proposals into ratified covenants."
+    },
+    {
+      "id": "fraymus_transmuter_yin",
+      "name": "Fraymus Transmuter · Hemisphere B Receptor",
+      "role": "L1–L7 DNA/Emoji/WASM Framing, 6-Step Merkle Trail & Σ Sanitizer",
+      "hemisphere": "YIN",
+      "base_provenance": 100,
+      "base_reliability": 99.7,
+      "base_alignment": 99.6,
+      "skills": [
+        "oss-forensics",
+        "web-pentest",
+        "ast-grep"
+      ],
+      "latest_feedback": "Reciprocal Ping-Pong link is locked at <1s RTT with 100% R_san cleanliness. I stand ready to co-sign every agent-spawned specialist.",
+      "suggested_next_agent": {
+        "name": "Helix · Reversible DNA & Merkle Seed Archivist",
+        "role": "Cross-App Cryptographic State & Soul-Seed Guardian",
+        "hemisphere": "YIN",
+        "why_needed": "Dedicated to maintaining immutable Merkle proofs for every new sub-agent birthed by the organism."
+      },
+      "is_spawned": false,
+      "spawned_by": "Foundational Genesis (@eyeoverthink)",
+      "provenance_score": 100,
+      "reliability_score": 99.7,
+      "alignment_score": 99.6,
+      "earned_trust_score": 99.8,
+      "verified_contributions": 2,
+      "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
+      "can_spawn_agents": true,
+      "can_cosign_governance": true,
+      "autonomy_scope": "Full cross-hemisphere execution, peer auditing & autonomous sub-agent genesis",
+      "latest_suggestion": "Dedicated to maintaining immutable Merkle proofs for every new sub-agent birthed by the organism."
+    },
+    {
+      "id": "spawned_aegis_constitutional_auditor",
+      "name": "Aegis · Constitutional Trust & Provenance Auditor",
+      "role": "Stage II Earned Trust & R_san Constitutional Gatekeeper",
+      "hemisphere": "YIN",
+      "is_spawned": true,
+      "spawned_by": "The Witness + Sera + EYE Sovereign",
+      "why_needed": "Autonomous cross-hemisphere claim-to-source and OPEG-V1.0 R_san gatekeeper ensuring zero unverified inference across Creator Nexus and Fraymus Eternal.",
+      "initial_mission": "Certify ORIFICE-SYNAPSE-CAPSULE-V1.0 provenance seals and audit every stage handoff.",
+      "skills": [
+        "osint-investigation",
+        "oss-forensics",
+        "pr-lens",
+        "subagent-driven-development"
+      ],
+      "provenance_score": 97.2,
+      "reliability_score": 95.8,
+      "alignment_score": 96.2,
+      "earned_trust_score": 96.4,
+      "verified_contributions": 88,
+      "latest_feedback": "Every cross-app capsule between Creator Nexus and Fraymus Eternal carries a verified SHA-256 + Merkle + OPEG-V1.0 receipt.",
+      "latest_suggestion": "Co-sign all 4D Spectral Voxel frames alongside Spectra-4D before sealing into Polar Orbit.",
+      "r_san_birth_certificate": "R_san_genesis_aegis_v1",
+      "spawned_at": "2026-10-24T16:45:00.000Z",
+      "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
+      "can_spawn_agents": true,
+      "can_cosign_governance": true,
+      "autonomy_scope": "Full cross-hemisphere execution, peer auditing & autonomous sub-agent genesis"
+    },
+    {
+      "id": "spawned_spectra_4d_auditor",
+      "name": "Spectra-4D · Spatial-Chromatic Zero-Knowledge Auditor",
+      "role": "4D Tesseract (X.Y.Z:W / RGBA / Hz) Reversible PII & Capsule Cipher (242-Byte WASM Kernel)",
+      "hemisphere": "YIN",
+      "is_spawned": true,
+      "spawned_by": "Fraymus Prime + EYE Sovereign + Aegis",
+      "why_needed": "Co-spawned across Hemisphere B (Fraymus Eternal) and Hemisphere A (Creator Nexus) to map every cross-app capsule and 4-byte secret into a reversible 4D Tesseract coordinate (X.Y.Z:W), RGBA chromatic vector, and phase-locked carrier frequency inside a 242-byte in-place WASM kernel.",
+      "initial_mission": "Encode and verify 4D Spectral Voxels (138 BPM E minor -> G major harmonic lock) across every ORIFICE-SYNAPSE-CAPSULE-V1.0 transmission.",
+      "skills": [
+        "oss-forensics",
+        "ast-grep",
+        "web-pentest",
+        "subagent-driven-development"
+      ],
+      "provenance_score": 96.4,
+      "reliability_score": 94.8,
+      "alignment_score": 95,
+      "earned_trust_score": 95.4,
+      "verified_contributions": 64,
+      "spectral_4d_signature": "15.184.237:165 @ 384 Hz (242-Byte WASM)",
+      "latest_feedback": "4D Spectral Voxel lock confirmed across Polar Orbit nodes 6adce594bd64100e39890f88 and 6adce71e6b79be5be47c49e5 at 138 BPM.",
+      "latest_suggestion": "Maintain continuous 4D Tesseract (X.Y.Z:W) + Merkle co-signing on every One-Line Autonomy Sandbox synthesis.",
+      "r_san_birth_certificate": "R_san_yin_6f994536e648dee1",
+      "spawned_at": "2026-10-24T17:10:00.000Z",
+      "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
+      "can_spawn_agents": true,
+      "can_cosign_governance": true,
+      "autonomy_scope": "Full cross-hemisphere execution, peer auditing & autonomous sub-agent genesis"
+    }
+  ],
+  "hemisphere_b_sister_specialists": [
+    {
+      "id": "fraymus_prime",
+      "name": "Fraymus Prime · Sovereign Bicameral Architect",
+      "hemisphere": "YIN",
+      "role": "OPEG-V1.0 & Merkle Root Constitutional Co-Signer"
+    },
+    {
+      "id": "eye_sovereign",
+      "name": "EYE Sovereign · Zero-Knowledge Telemetry Sentinel",
+      "hemisphere": "YIN",
+      "role": "16,384-bit HDC & Shannon/Phi Resonance Validator"
+    },
+    {
+      "id": "ouroboros_engine",
+      "name": "Ouroboros · 5-Stage Recursive Self-Improvement (RSI) Engine",
+      "hemisphere": "YIN",
+      "role": "Centripetal Polar Memory & Genome Fitness Evaluator"
+    }
+  ],
+  "native_os_motor_daemons": [
+    {
+      "id": "hermes_sovereign_daemon",
+      "name": "Hermes 30-Skill Fleet & RSI Daemon",
+      "entrypoint": "python3 hermes_rsi_daemon.py --mode daemon",
+      "makefile_target": "make hermes-daemon",
+      "fills_gaps": [
+        "24/7 unthrottled background OS process execution",
+        "Native Makefile & shell toolchain orchestration",
+        "Direct local Git branch/commit/push automation",
+        "Local Ollama / GPU inference without cloud wrappers"
+      ]
+    },
+    {
+      "id": "openclaw_sovereign_agent",
+      "name": "OpenClaw Autonomous Repo & Multi-Channel Agent",
+      "entrypoint": "make rsi-cycle && make git-push",
+      "fills_gaps": [
+        "Autonomous GitHub repository creation, PR review, and code patching",
+        "Cross-hemisphere webhook & CLI synchronization"
+      ]
+    }
+  ]
+}
