@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-24T19:54:51.344Z",
-  "packet_sha256": "cbcf91b6787a5064905b251fa206dc201476751a293df69eba7080124af398bb",
+  "updated_at": "2026-10-24T19:56:30.416Z",
+  "packet_sha256": "c0f4658d1cf8ccdef691983b3583db7e80b4b3f3e4a042630a373d1a43f2fbfa",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,35 +52,35 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9a6793c2e0db623a",
+    "merkle_root_hex": "7439682306ddbb9c",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9a6793c2e0db623a",
-      "frame_sha256": "9843ce81609ce32d18b0afd709c26c6f7906e1a0407e2e0ef831c3e81eb5925a",
+      "merkle_root_hex": "7439682306ddbb9c",
+      "frame_sha256": "e3b2b64ee4eb79c519a4843038463d53d1c1738e991754bbf0d09ae6d27be0d8",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:267dd03f:70d61b92:ee08eaef:ac2ba32c",
+      "hdc_16k": "hdc16k:dcf5cfa6:f8770e5e:1455e462:a2cb0083",
       "spectral_4d": {
-        "coord4D": "152.67.206:129",
-        "rgbaStr": "{152}{67}{206}{129}",
-        "carrier_freq_hz": 378,
+        "coord4D": "227.178.182:78",
+        "rgbaStr": "{227}{178}{182}{78}",
+        "carrier_freq_hz": 469,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9a6793c2e0db623a",
+        "receipt_id": "R_san_yin_7439682306ddbb9c",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-24T19:54:51.642Z"
+        "verified_at": "2026-10-24T19:56:30.827Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-24T19:54:51.519Z",
-    "focus_topic": "Real-time online AI skills, MCP tool breakthroughs, multi-agent reasoning curves, and creative-brain synthesis",
+    "harvested_at": "2026-10-24T19:56:30.628Z",
+    "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
       "huggingface_papers": 5,
@@ -137,15 +137,6 @@
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
-        "url": "http://arxiv.org/abs/2610.31667v1",
-        "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool aft",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:59:48Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
         "title": "Reliable AI-Assisted Decisions via Selective Auditing",
         "url": "http://arxiv.org/abs/2610.31662v1",
         "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need not be produced by the same model: for example, one agent may",
@@ -155,11 +146,11 @@
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing",
-        "url": "http://arxiv.org/abs/2610.31661v1",
-        "summary": "We present OpenTac, a novel sensor and a full-stack ecosystem for tactile skins that are highly customizable, scalable, and readily deployed in downstream robot control and learning applications. Our core contribution is twofold. First, we develop a scalable resistive tactile skin with a structured deformable overlay t",
+        "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+        "url": "http://arxiv.org/abs/2610.31656v1",
+        "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at",
         "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:59:06Z"
+        "published_at": "2026-10-22T17:58:27Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -178,6 +169,15 @@
         "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark",
         "metric": "Published 2026-10-22",
         "published_at": "2026-10-22T17:57:04Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "On the direct SLE-martingale approach to the integrability of Conformal Loop Ensembles",
+        "url": "http://arxiv.org/abs/2610.31648v1",
+        "summary": "This paper is about the derivation of \"integrability results\" (i.e., for example, explicit formulas for the probability of events involving a few marked points) for Conformal Loop Ensembles, that are the (conjectured) scaling limits of discrete crititical planar lattice models from Statistical Physics. We discuss the e",
+        "metric": "Published 2026-10-22",
+        "published_at": "2026-10-22T17:56:41Z"
       }
     ],
     "curve_augmentations": [
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Reliable AI-Assisted Decisions via Selective Auditing",
-        "source_url": "http://arxiv.org/abs/2610.31662v1",
+        "source_anchor": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+        "source_url": "http://arxiv.org/abs/2610.31656v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9a6793c2e0db623a"
+      "receipt_hash": "7439682306ddbb9c"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9a6793c2e0db"
+      "receipt_hash": "arm_7439682306dd"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
