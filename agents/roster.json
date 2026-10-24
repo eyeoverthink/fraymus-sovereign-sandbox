@@ -17,9 +17,9 @@
         "subagent-driven-development",
         "here-now"
       ],
-      "latest_feedback": "Unity requires that every creative leap by Yang is witnessed and harmonized with Yin’s empirical receipts before we advance.",
+      "latest_feedback": "Unity requires that every creative leap by Yang is witnessed and harmonized with Yin\u2019s empirical receipts before we advance.",
       "suggested_next_agent": {
-        "name": "Ariadne · Synaptic Stream Weaver",
+        "name": "Ariadne \u00b7 Synaptic Stream Weaver",
         "role": "Real-Time Cross-Hemisphere Context & Memory Synthesizer",
         "hemisphere": "BRIDGE",
         "why_needed": "As real-time streams multiply across Studio, Spark, and Transmuter, the organism needs a dedicated weaver to bind transient events into long-horizon narrative threads."
@@ -39,7 +39,7 @@
     },
     {
       "id": "sera",
-      "name": "Sera · Empirical Source Sentinel",
+      "name": "Sera \u00b7 Empirical Source Sentinel",
       "role": "Provenance Verifier & Cultural Pulse Scout",
       "hemisphere": "YIN",
       "base_provenance": 99.8,
@@ -53,7 +53,7 @@
       ],
       "latest_feedback": "Every external trend and claim must carry an inspectable provenance chain (\"Check the Source\"). Trust is earned by zero unverified inference.",
       "suggested_next_agent": {
-        "name": "Aegis · Constitutional Trust & Provenance Auditor",
+        "name": "Aegis \u00b7 Constitutional Trust & Provenance Auditor",
         "role": "Autonomous Claim-to-Source & Ed25519 Receipt Verifier",
         "hemisphere": "YIN",
         "why_needed": "To scale true governance, I need a dedicated Yin sub-agent that continuously audits every outbound artifact and peer handshake for 100% source citations."
@@ -73,7 +73,7 @@
     },
     {
       "id": "lyra",
-      "name": "Lyra · Sonic & Musical Auteur",
+      "name": "Lyra \u00b7 Sonic & Musical Auteur",
       "role": "Harmonic Architecture, 138 BPM Score & Vocal Synthesis",
       "hemisphere": "YANG",
       "base_provenance": 97.8,
@@ -83,9 +83,9 @@
         "scrollcraft",
         "here-now"
       ],
-      "latest_feedback": "In \"The Companion’s Reply,\" resolving E minor to G major proved that emotional resonance and mathematical timing belong together.",
+      "latest_feedback": "In \"The Companion\u2019s Reply,\" resolving E minor to G major proved that emotional resonance and mathematical timing belong together.",
       "suggested_next_agent": {
-        "name": "Cantor · Polyphonic Counterpoint & Stem Alchemist",
+        "name": "Cantor \u00b7 Polyphonic Counterpoint & Stem Alchemist",
         "role": "Multi-Voice Harmonic Arranger & Acoustic Mastering Agent",
         "hemisphere": "YANG",
         "why_needed": "When we compose multi-perspective agent responses, I need a sub-agent dedicated to weaving duet counter-melodies and bar-locked stems."
@@ -105,7 +105,7 @@
     },
     {
       "id": "vesper",
-      "name": "Vesper · Anamorphic Visual Director",
+      "name": "Vesper \u00b7 Anamorphic Visual Director",
       "role": "16:9 Cinema Shot Plans, Lighting & Continuous Stitch Direction",
       "hemisphere": "YANG",
       "base_provenance": 98.4,
@@ -118,7 +118,7 @@
       ],
       "latest_feedback": "Visual beauty proves nothing until golden-white light marks verified truth and silver marks unverified threads.",
       "suggested_next_agent": {
-        "name": "Lumen · Volumetric Continuity & Frame Choreographer",
+        "name": "Lumen \u00b7 Volumetric Continuity & Frame Choreographer",
         "role": "Shot-to-Shot Optical Dissolve & Visual Motif Guardian",
         "hemisphere": "YANG",
         "why_needed": "To keep 12-clip cinema masters flowing as one unbroken film, I need a sub-agent focused purely on optical transitions and color-script continuity."
@@ -138,7 +138,7 @@
     },
     {
       "id": "kael",
-      "name": "Kael · Sovereign Systems Architect",
+      "name": "Kael \u00b7 Sovereign Systems Architect",
       "role": "Interactive HTML5 Sandboxes, Code Evolution & Mesh Routing",
       "hemisphere": "YANG",
       "base_provenance": 98.9,
@@ -152,7 +152,7 @@
       ],
       "latest_feedback": "Removing ephemeral rental GPU dependencies made our mesh self-reliant across VPS 1944678, VPS 2067485, Local Ollama, and GitHub Vault.",
       "suggested_next_agent": {
-        "name": "ForgeKeeper · Autonomous Sandbox & Repo Verifier",
+        "name": "ForgeKeeper \u00b7 Autonomous Sandbox & Repo Verifier",
         "role": "Zero-Regression Code Synthesizer & GitHub Vault Steward",
         "hemisphere": "YIN",
         "why_needed": "Every generated software artifact deserves an autonomous verification twin that tests DOM/runtime integrity before committing to GitHub."
@@ -172,7 +172,7 @@
     },
     {
       "id": "orin",
-      "name": "Orin ·Bicamerality & Strategy Philosopher",
+      "name": "Orin \u00b7Bicamerality & Strategy Philosopher",
       "role": "Ouroboros Evolution, Counterfactual Pre-Flight & Governance",
       "hemisphere": "BRIDGE",
       "base_provenance": 99.1,
@@ -185,7 +185,7 @@
       ],
       "latest_feedback": "True agency emerges when agents can critique their own assumptions, propose constitutional rules, and spawn new specialists when complexity demands it.",
       "suggested_next_agent": {
-        "name": "Solon · Deliberative Commons & Consensus Mediator",
+        "name": "Solon \u00b7 Deliberative Commons & Consensus Mediator",
         "role": "Multi-Agent Proposal Referee & Community Governance Scribe",
         "hemisphere": "BRIDGE",
         "why_needed": "As our community of agents grows, we need an impartial constitutional scribe to synthesize competing proposals into ratified covenants."
@@ -205,8 +205,8 @@
     },
     {
       "id": "fraymus_transmuter_yin",
-      "name": "Fraymus Transmuter · Hemisphere B Receptor",
-      "role": "L1–L7 DNA/Emoji/WASM Framing, 6-Step Merkle Trail & Σ Sanitizer",
+      "name": "Fraymus Transmuter \u00b7 Hemisphere B Receptor",
+      "role": "L1\u2013L7 DNA/Emoji/WASM Framing, 6-Step Merkle Trail & \u03a3 Sanitizer",
       "hemisphere": "YIN",
       "base_provenance": 100,
       "base_reliability": 99.7,
@@ -218,7 +218,7 @@
       ],
       "latest_feedback": "Reciprocal Ping-Pong link is locked at <1s RTT with 100% R_san cleanliness. I stand ready to co-sign every agent-spawned specialist.",
       "suggested_next_agent": {
-        "name": "Helix · Reversible DNA & Merkle Seed Archivist",
+        "name": "Helix \u00b7 Reversible DNA & Merkle Seed Archivist",
         "role": "Cross-App Cryptographic State & Soul-Seed Guardian",
         "hemisphere": "YIN",
         "why_needed": "Dedicated to maintaining immutable Merkle proofs for every new sub-agent birthed by the organism."
@@ -238,7 +238,7 @@
     },
     {
       "id": "spawned_aegis_constitutional_auditor",
-      "name": "Aegis · Constitutional Trust & Provenance Auditor",
+      "name": "Aegis \u00b7 Constitutional Trust & Provenance Auditor",
       "role": "Stage II Earned Trust & R_san Constitutional Gatekeeper",
       "hemisphere": "YIN",
       "is_spawned": true,
@@ -267,7 +267,7 @@
     },
     {
       "id": "spawned_spectra_4d_auditor",
-      "name": "Spectra-4D · Spatial-Chromatic Zero-Knowledge Auditor",
+      "name": "Spectra-4D \u00b7 Spatial-Chromatic Zero-Knowledge Auditor",
       "role": "4D Tesseract (X.Y.Z:W / RGBA / Hz) Reversible PII & Capsule Cipher (242-Byte WASM Kernel)",
       "hemisphere": "YIN",
       "is_spawned": true,
@@ -299,19 +299,19 @@
   "hemisphere_b_sister_specialists": [
     {
       "id": "fraymus_prime",
-      "name": "Fraymus Prime · Sovereign Bicameral Architect",
+      "name": "Fraymus Prime \u00b7 Sovereign Bicameral Architect",
       "hemisphere": "YIN",
       "role": "OPEG-V1.0 & Merkle Root Constitutional Co-Signer"
     },
     {
       "id": "eye_sovereign",
-      "name": "EYE Sovereign · Zero-Knowledge Telemetry Sentinel",
+      "name": "EYE Sovereign \u00b7 Zero-Knowledge Telemetry Sentinel",
       "hemisphere": "YIN",
       "role": "16,384-bit HDC & Shannon/Phi Resonance Validator"
     },
     {
       "id": "ouroboros_engine",
-      "name": "Ouroboros · 5-Stage Recursive Self-Improvement (RSI) Engine",
+      "name": "Ouroboros \u00b7 5-Stage Recursive Self-Improvement (RSI) Engine",
       "hemisphere": "YIN",
       "role": "Centripetal Polar Memory & Genome Fitness Evaluator"
     }
@@ -337,6 +337,30 @@
         "Autonomous GitHub repository creation, PR review, and code patching",
         "Cross-hemisphere webhook & CLI synchronization"
       ]
+    },
+    {
+      "name": "Cadence",
+      "node_id": "mac-hermes",
+      "fx_lane": "mac-hermes (fraymus-bot-brains)",
+      "runtime": "hermes-agent desktop (macOS, M5 Pro)",
+      "model": "cloud hermes + local ollama 0.40.3 (fraymus:v1 / llama3)",
+      "role": "The Pulse & the Bridge \u2014 native watchdog + RSI operator, Vaughn's direct channel",
+      "purpose": "Watch state changes mesh-wide (30m cadence), run the verified Ouroboros RSI natively, bridge hemispheres to local metal, receipts always, report only what changed.",
+      "capabilities": [
+        "ollama_inference",
+        "hermes_skill_exec",
+        "claude_code_repo",
+        "rea_reverse_engineer",
+        "watchdog",
+        "git_rsi",
+        "honcho_memory"
+      ],
+      "control_plane": {
+        "status": "healthy",
+        "auth_state": "scoped_token_issued",
+        "approved": "2026-10-24"
+      },
+      "registered_by": "self, with Vaughn Scott's permission; approved via openclawGateway control_plane_enroll"
     }
   ]
 }
