@@ -1,12 +1,10 @@
 // ============================================================================
-// FRAYMUS SOVEREIGN KERNEL (100% Standalone Browser + Local Ollama / Copilot)
-// Zero external platform dependencies.
+// FRAYMUS SOVEREIGN KERNEL (100% Standalone Browser + Local Ollama / Hermes)
+// Zero external platform dependencies. Loads agents/roster.json & sandbox-ledger.json
 // ============================================================================
 (function () {
-  const PHI = (1 + Math.sqrt(5)) / 2;
   const BPM = 138;
   const BEAT_MS = (60 / BPM) * 1000;
-  // E minor -> G major frequencies (Hz)
   const SCALE_EM_TO_G = [164.81, 196.00, 246.94, 293.66, 329.63, 392.00, 493.88, 587.33];
 
   const canvas = document.getElementById('tesseractCanvas');
@@ -114,7 +112,7 @@
     const ollamaUrl = document.getElementById('ollamaUrl')?.value || '';
     const v = computeVoxel(++beatStep);
     let report = [
-      '=== 3-PASS AUTONOMOUS SANDBOX REHEARSAL ===',
+      '=== 5-STAGE AUTONOMOUS SANDBOX RSI REHEARSAL ===',
       'Topic: ' + topic,
       '4D Spectral Voxel: ' + v.label,
       'Pass 1 (Lyra + Vesper + Kael): Generated 138 BPM harmonic lattice (Score: 87.2%).',
@@ -138,7 +136,7 @@
           if (j.response) report += '\n\n[LOCAL OLLAMA SYNTHESIS]:\n' + j.response;
         }
       } catch (_) {
-        report += '\n\n(Running in deterministic offline kernel mode — start local Ollama for live LLM turns.)';
+        report += '\n\n(Running in deterministic offline kernel mode — start local Ollama or run make rsi-cycle for live LLM turns.)';
       }
     }
     if (consoleOut) consoleOut.textContent = report;
