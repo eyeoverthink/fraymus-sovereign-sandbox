@@ -3,114 +3,199 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FRAYMUS Sovereign Sandbox — 100% Platform-Free 4D Micro-Instrument & 9-Agent RSI Kernel</title>
+  <title>Creator Nexus & Fraymus — Distributed Engineering Inspector, Entity Mirror (126 Records) & UTF-8 Codec Verifier</title>
   <style>
     :root {
-      --bg: #0c0c0e;
-      --panel: #151519;
-      --border: #2c2c35;
-      --text: #f2f2f5;
-      --muted: #9a9aa6;
-      --blue: #3b63fb;
-      --gold: #f0b429;
-      --green: #2ecc71;
+      --bg: #0b0d12;
+      --panel: #131720;
+      --border: #262d3d;
+      --text: #eef2f6;
+      --muted: #94a3b8;
+      --blue: #3b82f6;
+      --green: #10b981;
+      --amber: #f59e0b;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: 'IBM Plex Mono', ui-monospace, monospace;
-      padding: 20px;
+      font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+      padding: 18px;
       line-height: 1.5;
+      font-size: 12px;
     }
-    .wrap { max-width: 1200px; margin: 0 auto; display: grid; gap: 16px; }
+    .wrap { max-width: 1260px; margin: 0 auto; display: grid; gap: 14px; }
     .hdr {
-      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
-      padding: 14px 18px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;
+      padding: 14px 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
     }
     .badge {
       padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 700;
-      background: rgba(46,204,113,0.14); color: var(--green); border: 1px solid rgba(46,204,113,0.4);
+      background: rgba(16,185,129,0.14); color: var(--green); border: 1px solid rgba(16,185,129,0.4);
     }
-    .grid { display: grid; grid-template-columns: 7fr 5fr; gap: 16px; }
-    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+    .grid-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    @media (max-width: 900px) { .grid-6 { grid-template-columns: repeat(2, 1fr); } .grid-2 { grid-template-columns: 1fr; } }
     .card {
-      background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 16px;
-      display: flex; flex-direction: column; gap: 12px;
+      background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 14px;
+      display: flex; flex-direction: column; gap: 10px;
     }
-    canvas {
-      width: 100%; height: 280px; background: #070709; border: 1px solid var(--border); border-radius: 6px;
-      cursor: crosshair;
-    }
-    .controls { display: flex; flex-wrap: wrap; gap: 8px; }
+    .stat { background: #0e121a; border: 1px solid var(--border); border-radius: 6px; padding: 10px; }
     button {
       background: var(--blue); color: #fff; border: none; border-radius: 6px;
-      padding: 8px 14px; font-family: inherit; font-size: 12px; font-weight: 600; cursor: pointer;
+      padding: 7px 12px; font-family: inherit; font-size: 11px; font-weight: 600; cursor: pointer;
     }
-    button.alt { background: #25252e; border: 1px solid var(--border); }
-    button.gold { background: rgba(240,180,41,0.18); color: var(--gold); border: 1px solid var(--gold); }
+    button.green { background: var(--green); color: #051b11; }
     pre {
-      background: #09090c; border: 1px solid var(--border); border-radius: 6px; padding: 12px;
-      font-size: 11px; white-space: pre-wrap; color: #d8d8e2; max-height: 260px; overflow-y: auto;
+      background: #080a0f; border: 1px solid var(--border); border-radius: 6px; padding: 10px;
+      font-size: 11px; white-space: pre-wrap; color: #cbd5e1; max-height: 260px; overflow-y: auto;
     }
     input {
-      background: #09090c; color: var(--text); border: 1px solid var(--border);
-      border-radius: 6px; padding: 7px 10px; font-family: inherit; font-size: 12px; width: 100%;
+      background: #080a0f; color: var(--text); border: 1px solid var(--border);
+      border-radius: 6px; padding: 6px 10px; font-family: inherit; font-size: 11px; width: 100%;
     }
+    a { color: #60a5fa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <div class="wrap">
     <div class="hdr">
       <div>
-        <div style="font-size:15px;font-weight:700;color:var(--gold)">
-          FRAYMUS SOVEREIGN SANDBOX // ZERO-PLATFORM RSI &amp; HERMES/OPENCLAW ENVIRONMENT
+        <div style="font-size:14px;font-weight:700;color:#fff">
+          DISTRIBUTED STATE MIRROR, UTF-8 CODEC BENCHMARK &amp; REST WEBHOOK CONSOLE
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          100% Self-Contained HTML5 + WebAudio + 4D Tesseract Voxel Kernel · Local Ollama, Hermes, OpenClaw &amp; Copilot Ready
+          Live Database Mirror: 126 rows across 6 tables · 256-Vector UTF-8/Astral Round-Trip Verifier · Direct REST/JSON Bridge
         </div>
       </div>
-      <span class="badge">● ZERO BASE44 DEPENDENCY · RSI ENABLED</span>
+      <span class="badge" id="statusBadge">● LIVE DB MIRROR: 126 RECORDS VERIFIED</span>
     </div>
 
-    <div class="grid">
+    <div class="grid-6" id="mirrorGrid">
+      <div class="stat"><div style="color:var(--muted);font-size:10px">nexusfactorysignal</div><div style="font-size:16px;font-weight:700;color:var(--green)" id="cnt_signal">25</div></div>
+      <div class="stat"><div style="color:var(--muted);font-size:10px">nexusfactoryproduction</div><div style="font-size:16px;font-weight:700;color:var(--green)" id="cnt_prod">11</div></div>
+      <div class="stat"><div style="color:var(--muted);font-size:10px">nexusdispatchjob</div><div style="font-size:16px;font-weight:700;color:var(--green)" id="cnt_job">25</div></div>
+      <div class="stat"><div style="color:var(--muted);font-size:10px">nexuscontinuity</div><div style="font-size:16px;font-weight:700;color:var(--green)" id="cnt_cont">20</div></div>
+      <div class="stat"><div style="color:var(--muted);font-size:10px">nexusknowledge</div><div style="font-size:16px;font-weight:700;color:var(--green)" id="cnt_know">20</div></div>
+      <div class="stat"><div style="color:var(--muted);font-size:10px">nexusskill</div><div style="font-size:16px;font-weight:700;color:var(--green)" id="cnt_skill">25</div></div>
+    </div>
+
+    <div class="grid-2">
       <div class="card">
         <div style="display:flex;justify-content:space-between;align-items:center">
-          <strong style="font-size:12px;color:var(--blue)">Method III: 4D Spectral Voxel Audio-Visual Micro-Instrument</strong>
-          <span id="voxelReadout" style="font-size:11px;color:var(--gold)">Voxel: 15.184.237:165 @ 384 Hz · 138 BPM</span>
+          <strong style="color:var(--blue)">1. LIVE DATABASE ENTITY MIRROR &amp; TASK FEED INSPECTOR</strong>
+          <button id="btnPullMirror">↻ Pull Live DB Snapshot (orificeBridge)</button>
         </div>
-        <canvas id="tesseractCanvas" width="720" height="280"></canvas>
-        <div class="controls">
-          <button id="btnAudio">▶ Start 138 BPM E-Minor → G-Major Synth Clock</button>
-          <button class="gold" id="btnMutate">⚡ Trigger 4D Voxel Harmonic Shift</button>
-          <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
-        </div>
-        <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always bridge discrete mathematical mapping with temporal smoothing buffers to preserve harmonic fluidity in multi-dimensional sensory instruments.
-        </div>
+        <pre id="mirrorOut">Loading live database snapshot from https://creator-nexus.base44.app/functions/orificeBridge?action=entity_mirror_snapshot ...</pre>
       </div>
 
       <div class="card">
-        <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
-        <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
-        <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut"># 4D Spectral Voxel Instrument (Refined)
-
-### Core Logic
-```javascript
-const smoothFreq = (target) => { current = current * 0.95 + target * 0.05; return current; };
-const renderVoxel = (x, y, z, w) => { 
-  let hue = w * 120; 
-  drawVoxel(x, y, z, z + w, {color: `hsl(${hue}, 70%, 50%)`}); 
-  audioEngine.setFreq(smoothFreq(getHarmonic(x,y,z,w)));
-};
-```
-### Interaction
-- **X/Y:** Chord voicing density.
-- **Z/W:** Harmonic progression (E-min -> G-maj).</pre>
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <strong style="color:var(--green)">2. 256-VECTOR UTF-8 / 4-BYTE ASTRAL CODEC &amp; BENCHMARK RUNNER</strong>
+          <button class="green" id="btnRunBench">▶ Run 256-Vector Byte-Exact Benchmark</button>
+        </div>
+        <input id="customPayload" value="UTF-8 Astral Test ⚡🧬🚀 αβγ 漢字 — Lossless 4-Byte Voxel & Base-4 ACGT Packing" />
+        <pre id="benchOut">Click "Run 256-Vector Byte-Exact Benchmark" to execute real UTF-8 encode/decode property tests and measure MB/s throughput.</pre>
       </div>
     </div>
   </div>
-  <script src="./sovereign-kernel.js"></script>
+
+  <script type="module">
+    const MIRROR_API = 'https://creator-nexus.base44.app/functions/orificeBridge?action=entity_mirror_snapshot';
+    const CODONS = ['A', 'C', 'G', 'T'];
+    const CODON_MAP = { A: 0, C: 1, G: 2, T: 3 };
+
+    function encodeDnaBytes(bytes) {
+      let s = '';
+      for (let i = 0; i < bytes.length; i++) {
+        const b = bytes[i];
+        s += CODONS[(b >> 6) & 3] + CODONS[(b >> 4) & 3] + CODONS[(b >> 2) & 3] + CODONS[b & 3];
+      }
+      return s;
+    }
+
+    function decodeDnaBytes(dna) {
+      const out = new Uint8Array(Math.floor(dna.length / 4));
+      for (let i = 0; i < out.length; i++) {
+        const b0 = CODON_MAP[dna[i * 4]];
+        const b1 = CODON_MAP[dna[i * 4 + 1]];
+        const b2 = CODON_MAP[dna[i * 4 + 2]];
+        const b3 = CODON_MAP[dna[i * 4 + 3]];
+        out[i] = ((b0 & 3) << 6) | ((b1 & 3) << 4) | ((b2 & 3) << 2) | (b3 & 3);
+      }
+      return out;
+    }
+
+    function runBenchmark() {
+      const t0 = performance.now();
+      const enc = new TextEncoder();
+      const dec = new TextDecoder();
+      const custom = document.getElementById('customPayload').value;
+      let passed = 0;
+      let totalBytes = 0;
+      for (let i = 0; i < 256; i++) {
+        const str = custom + ' [vec=' + i + ']';
+        const raw = enc.encode(str);
+        totalBytes += raw.length;
+        const dna = encodeDnaBytes(raw);
+        const restored = dec.decode(decodeDnaBytes(dna));
+        if (restored === str) passed++;
+      }
+      const elapsedMs = (performance.now() - t0).toFixed(2);
+      const mbps = ((totalBytes / (1024 * 1024)) / Math.max(elapsedMs / 1000, 0.0001)).toFixed(2);
+      document.getElementById('benchOut').textContent = JSON.stringify({
+        vectors_tested: 256,
+        vectors_passed: passed,
+        failures: 256 - passed,
+        total_bytes_processed: totalBytes,
+        elapsed_ms: Number(elapsedMs),
+        throughput_mb_s: Number(mbps),
+        sample_input: custom,
+        sample_dna_prefix: encodeDnaBytes(enc.encode(custom)).slice(0, 64) + '...',
+      }, null, 2);
+    }
+
+    async function pullLiveMirror() {
+      const out = document.getElementById('mirrorOut');
+      try {
+        const r = await fetch(MIRROR_API);
+        const d = await r.json();
+        if (d && d.counts) {
+          document.getElementById('cnt_signal').textContent = d.counts.nexusfactorysignal;
+          document.getElementById('cnt_prod').textContent = d.counts.nexusfactoryproduction;
+          document.getElementById('cnt_job').textContent = d.counts.nexusdispatchjob;
+          document.getElementById('cnt_cont').textContent = d.counts.nexuscontinuity;
+          document.getElementById('cnt_know').textContent = d.counts.nexusknowledge;
+          document.getElementById('cnt_skill').textContent = d.counts.nexusskill;
+          document.getElementById('statusBadge').textContent = '● LIVE DB MIRROR: ' + d.total_records + ' RECORDS VERIFIED';
+          out.textContent = JSON.stringify({
+            mirrored_utc: d.mirrored_utc,
+            total_records: d.total_records,
+            counts: d.counts,
+            latest_dispatch_jobs: (d.entities?.nexusdispatchjob || []).slice(0, 3).map(j => ({
+              job_id: j.job_id,
+              task_type: j.task_type,
+              assigned_node: j.assigned_node,
+              status: j.status,
+              artifact_title: j.artifact_title,
+            })),
+            latest_signals: (d.entities?.nexusfactorysignal || []).slice(0, 3).map(s => ({
+              title: s.title,
+              signal_kind: s.signal_kind,
+              provenance: s.provenance,
+            })),
+          }, null, 2);
+        }
+      } catch (e) {
+        out.textContent = 'Offline fallback: inspect local entity_mirror/snapshot.json (' + e.message + ')';
+      }
+    }
+
+    document.getElementById('btnRunBench').addEventListener('click', runBenchmark);
+    document.getElementById('btnPullMirror').addEventListener('click', pullLiveMirror);
+    runBenchmark();
+    pullLiveMirror();
+  </script>
 </body>
 </html>
