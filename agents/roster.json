@@ -338,5 +338,30 @@
         "Cross-hemisphere webhook & CLI synchronization"
       ]
     }
+  ],
+  "native_rsi_daemons": [
+    {
+      "name": "Assay (Parent CLI Verifier)",
+      "node_id": "hermes-assay-01-parent-cli",
+      "fx_id": "fx-5f26-c8ae-b1c3-01f7",
+      "runtime": "Hermes Agent TUI (Linux container)",
+      "role": "Fail-Closed Field Verifier — 3-turn sequential Ollama gate, γ²=2g² EP3 check & SHA-256 source-lineage auditor",
+      "control_plane": {
+        "status": "healthy",
+        "auth_state": "scoped_token_issued",
+        "approved": "2026-10-24"
+      }
+    },
+    {
+      "name": "Assay (KVM2 Twin)",
+      "node_id": "hermes-assay-01-kvm2",
+      "fx_id": "fx-af08-bf8f-5d7c-145a",
+      "runtime": "fraymus-kvm2 VPS (Ollama v0.33.2 · 11 local models)",
+      "role": "Dedicated KVM2 verification & local model host (strictly separated slot from fx-5f26-c8ae-b1c3-01f7)",
+      "control_plane": {
+        "status": "healthy",
+        "approved": "2026-10-24"
+      }
+    }
   ]
 }
