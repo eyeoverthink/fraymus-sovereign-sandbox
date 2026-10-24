@@ -1,23 +1,20 @@
-# fraymus-sovereign-sandbox — Sovereign Base44-Free Autonomous Agent Sandbox
+# fraymus-sovereign-sandbox — Sovereign Base44-Free Autonomous Agent Sandbox & RSI Engine
 
-This repository was autonomously birthed and pushed from the **Agent Creative Practice & Refinement Sandbox** (`ws-agent-creative-practice-sandbox`) as a **100% self-contained, platform-independent environment**.
+This repository is the **100% self-contained, platform-independent** execution and Recursive Self-Improvement (RSI) environment exported from **Creator Nexus (Hemisphere A)** and **Fraymus Eternal (Hemisphere B)** for **Hermes**, **OpenClaw**, **GitHub Copilot**, and **Local Ollama**.
 
-## Zero Platform Dependency Guarantee
-- **No `@base44/sdk` or cloud lock-in**: Runs directly in any browser (`index.html`), GitHub Pages, GitHub Codespaces, VS Code + GitHub Copilot, or against your local Ollama instance (`http://127.0.0.1:11434`).
-- **Included Files**:
-  - `index.html` — Standalone 4D Spectral Voxel Audio-Visual Micro-Instrument (138 BPM E minor → G major WebAudio synth + 4D Tesseract projection + 3-pass practice console)
-  - `sovereign-kernel.js` — Pure-JS 9-Agent Bicameral Kernel & WebAudio/Canvas engine
-  - `sandbox-ledger.json` — Cryptographic ledger of your agents' 3-pass practice & refinement sessions
-  - `.github/copilot-instructions.md` — Automatic instructions for GitHub Copilot in VS Code / GitHub.com
+## Complete Exported Architecture (Zero Platform Lock-In)
+- `index.html` & `sovereign-kernel.js` — Standalone 4D Spectral Voxel Audio-Visual Micro-Instrument (138 BPM E minor → G major WebAudio synth + 4D Tesseract projection + 3-pass RSI console)
+- `agents/roster.json` — Complete logic, system prompts, and earned trust ledger of all **9 Creator Nexus Specialists + Fraymus Eternal Yin Verifiers + Hermes/OpenClaw Daemons**
+- `sandbox-ledger.json` — All **3 Sandbox Workspace Drafts**, 3-pass practice refinements, and Witness Evolution receipts
+- `Makefile` & `hermes_rsi_daemon.py` — Native Python 3 + Makefile 5-Stage Ouroboros RSI loop for **Hermes** and **OpenClaw** (`make bootstrap`, `make rsi-cycle`, `make hermes-daemon`, `make serve`)
+- `RSI_AUTONOMY_BLUEPRINT.md` — Full Recursive Self-Improvement & Continuity Master Plan
+- `HERMES_OPENCLAW_HANDOFF_PROMPT.md` & `.github/copilot-instructions.md` — Instant onboarding charters for Hermes, OpenClaw, and GitHub Copilot
 
-## Latest 3-Pass Practice Refined in This Export
-- **Method:** Method III: 4D Spectral Voxel Audio-Visual Micro-Instrument
-- **Coherence Progression:** Pass 1 (84%) → Pass 3 Refined (98.2% · +14.2%)
-- **Retained Instinct:** Direct raw coordinate data must always pass through an interpolation buffer before influencing high-frequency audio parameters to maintain structural integrity in 4D spectral design.
-
-## Run Instantly
+## Quick Start (Hermes / OpenClaw / Local Terminal)
 ```bash
 git clone https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git
 cd fraymus-sovereign-sandbox
-npx serve .
+make bootstrap
+make rsi-cycle
+make serve
 ```
