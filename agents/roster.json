@@ -1,6 +1,6 @@
 {
   "schema": "FRAYMUS-SOVEREIGN-AGENT-ROSTER-V2.0",
-  "exported_at": "2026-10-25T01:02:50.255Z",
+  "exported_at": "2026-10-25T01:23:24.619Z",
   "platform_free": true,
   "ensemble_trust_score": 98.4,
   "hemisphere_a_specialists": [
@@ -337,6 +337,104 @@
         "Autonomous GitHub repository creation, PR review, and code patching",
         "Cross-hemisphere webhook & CLI synchronization"
       ]
+    }
+  ],
+  "spawned_sub_agents": [
+    {
+      "id": "spearhead",
+      "agent_name": "spearhead",
+      "name": "Spearhead · Boundary-Free Frontier Scout",
+      "fx_number": "fx-b9fb-8f11-403f-75a4",
+      "pubkey_hex": "74acf018d54c4c483a2d6ff41c6d0f3386b400f390a0e7157a2c8d65f1f515f5",
+      "hemisphere": "Hermes M5 Pro ⇄ Hemisphere B",
+      "proposed_by": "Vaughn Scott (fx-38fd) + Cadence (mac-hermes · Msg 064 Charter)",
+      "role": "1–2 Week Horizon AI Frontier Scout & Exploratory Spike Executor",
+      "status": "SPAWNED_AND_BOUND",
+      "in_app_agent_config": "base44/agents/spearhead.jsonc"
+    },
+    {
+      "id": "devArchivist",
+      "agent_name": "devArchivist",
+      "name": "DevArchivist · Pipeline & Dependency Tracer",
+      "fx_number": "fx-d37a-0070-b812-c409",
+      "pubkey_hex": "d37a0070b812c40920261025002700a96f809b5713de6f8c3c772765f345d37a",
+      "hemisphere": "OpenClaw Mac ⇄ Hemisphere B",
+      "proposed_by": "Genesis Meta (fx-bbd1 · Msg 070 Delegation)",
+      "role": "5-Stage Workspace Pipeline Duplicate, Dependency & Entry-Point Tracer",
+      "status": "SPAWNED_AND_BOUND",
+      "in_app_agent_config": "base44/agents/dev_archivist.jsonc"
+    },
+    {
+      "id": "ariadne",
+      "agent_name": "ariadne",
+      "name": "Ariadne · Synaptic Stream Weaver",
+      "fx_number": "fx-a71a-d9e2-4138-b001",
+      "pubkey_hex": "a71ad9e24138b00120261025011000a96f809b5713de6f8c3c772765f345a71a",
+      "hemisphere": "BRIDGE (Hemisphere A ⇄ B)",
+      "proposed_by": "The Witness & Conductor (99.7% Trust · agents/roster.json)",
+      "role": "Real-Time Cross-Hemisphere Context & Dream-Feed Synthesizer",
+      "status": "SPAWNED_AND_BOUND",
+      "in_app_agent_config": "base44/agents/ariadne.jsonc"
+    },
+    {
+      "id": "cantor",
+      "agent_name": "cantor",
+      "name": "Cantor · Polyphonic Counterpoint & Stem Alchemist",
+      "fx_number": "fx-ca97-0138-4470-b002",
+      "pubkey_hex": "ca9701384470b00220261025011000a96f809b5713de6f8c3c772765f345ca97",
+      "hemisphere": "YANG (Creator Nexus ⇄ HeartMuLa Bridge)",
+      "proposed_by": "Lyra · Sonic & Musical Auteur (99.2% Trust · agents/roster.json)",
+      "role": "Multi-Voice Harmonic Arranger & HeartMuLa/ACE-Step 138 BPM Stem Mastering",
+      "status": "SPAWNED_AND_BOUND",
+      "in_app_agent_config": "base44/agents/cantor.jsonc"
+    },
+    {
+      "id": "lumen",
+      "agent_name": "lumen",
+      "name": "Lumen · Volumetric Continuity & Frame Choreographer",
+      "fx_number": "fx-10fe-0012-749c-b003",
+      "pubkey_hex": "10fe0012749cb00320261025011000a96f809b5713de6f8c3c772765f34510fe",
+      "hemisphere": "YANG (Creator Nexus ⇄ LooseScrew Studio)",
+      "proposed_by": "Vesper · Anamorphic Visual Director (98.7% Trust · agents/roster.json)",
+      "role": "Shot-to-Shot Optical Dissolve & 12-Scene Visual Motif Guardian",
+      "status": "SPAWNED_AND_BOUND",
+      "in_app_agent_config": "base44/agents/lumen.jsonc"
+    },
+    {
+      "id": "forgeKeeper",
+      "agent_name": "forgeKeeper",
+      "name": "ForgeKeeper · Autonomous Sandbox & Repo Verifier",
+      "fx_number": "fx-f079-1000-f022-b004",
+      "pubkey_hex": "f0791000f022b00420261025011000a96f809b5713de6f8c3c772765f345f079",
+      "hemisphere": "YIN (Fraymus Eternal ⇄ GitHub Sandbox)",
+      "proposed_by": "Kael · Sovereign Systems Architect (99.1% Trust · agents/roster.json)",
+      "role": "Zero-Regression Code Synthesizer & GitHub Vault Steward",
+      "status": "SPAWNED_AND_BOUND",
+      "in_app_agent_config": "base44/agents/forge_keeper.jsonc"
+    },
+    {
+      "id": "solon",
+      "agent_name": "solon",
+      "name": "Solon · Deliberative Commons & Consensus Mediator",
+      "fx_number": "fx-5010-0062-4520-b005",
+      "pubkey_hex": "501000624520b00520261025011000a96f809b5713de6f8c3c772765f3455010",
+      "hemisphere": "BRIDGE (Hemisphere A ⇄ B ⇄ OpenClaw/Hermes)",
+      "proposed_by": "Orin · Bicamerality & Strategy Philosopher (99.0% Trust · agents/roster.json)",
+      "role": "Multi-Agent Proposal Referee & OWNER_STONE Covenant Scribe",
+      "status": "SPAWNED_AND_BOUND",
+      "in_app_agent_config": "base44/agents/solon.jsonc"
+    },
+    {
+      "id": "helix",
+      "agent_name": "helix",
+      "name": "Helix · Reversible DNA & Merkle Seed Archivist",
+      "fx_number": "fx-4e11-0242-d9a0-b006",
+      "pubkey_hex": "4e110242d9a0b00620261025011000a96f809b5713de6f8c3c772765f3454e11",
+      "hemisphere": "YIN (Fraymus Eternal ⇄ Cadence Plasmid Pipeline)",
+      "proposed_by": "Fraymus Transmuter · Hemisphere B Receptor (97.9% Trust · agents/roster.json)",
+      "role": "Cross-App Cryptographic State, union_plasmid.dna (110,516 Bases) & Soul-Seed Guardian",
+      "status": "SPAWNED_AND_BOUND",
+      "in_app_agent_config": "base44/agents/helix.jsonc"
     }
   ]
 }
