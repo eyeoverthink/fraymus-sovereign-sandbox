@@ -1,6 +1,6 @@
 {
   "schema": "FRAYMUS-SOVEREIGN-AGENT-ROSTER-V2.0",
-  "exported_at": "2026-10-24T19:03:54.925Z",
+  "exported_at": "2026-10-25T01:02:50.255Z",
   "platform_free": true,
   "ensemble_trust_score": 98.4,
   "hemisphere_a_specialists": [
@@ -30,7 +30,7 @@
       "reliability_score": 99.6,
       "alignment_score": 100,
       "earned_trust_score": 99.7,
-      "verified_contributions": 11,
+      "verified_contributions": 26,
       "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
       "can_spawn_agents": true,
       "can_cosign_governance": true,
@@ -64,7 +64,7 @@
       "reliability_score": 98.9,
       "alignment_score": 99.1,
       "earned_trust_score": 99.3,
-      "verified_contributions": 2,
+      "verified_contributions": 14,
       "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
       "can_spawn_agents": true,
       "can_cosign_governance": true,
@@ -96,7 +96,7 @@
       "reliability_score": 98.5,
       "alignment_score": 99.4,
       "earned_trust_score": 98.5,
-      "verified_contributions": 2,
+      "verified_contributions": 14,
       "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
       "can_spawn_agents": true,
       "can_cosign_governance": true,
@@ -129,7 +129,7 @@
       "reliability_score": 99,
       "alignment_score": 99.2,
       "earned_trust_score": 98.8,
-      "verified_contributions": 2,
+      "verified_contributions": 14,
       "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
       "can_spawn_agents": true,
       "can_cosign_governance": true,
@@ -163,7 +163,7 @@
       "reliability_score": 99.1,
       "alignment_score": 98.6,
       "earned_trust_score": 98.9,
-      "verified_contributions": 2,
+      "verified_contributions": 14,
       "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
       "can_spawn_agents": true,
       "can_cosign_governance": true,
@@ -196,7 +196,7 @@
       "reliability_score": 98.4,
       "alignment_score": 99.5,
       "earned_trust_score": 99,
-      "verified_contributions": 2,
+      "verified_contributions": 14,
       "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
       "can_spawn_agents": true,
       "can_cosign_governance": true,
@@ -226,10 +226,10 @@
       "is_spawned": false,
       "spawned_by": "Foundational Genesis (@eyeoverthink)",
       "provenance_score": 100,
-      "reliability_score": 99.7,
-      "alignment_score": 99.6,
-      "earned_trust_score": 99.8,
-      "verified_contributions": 2,
+      "reliability_score": 100,
+      "alignment_score": 100,
+      "earned_trust_score": 100,
+      "verified_contributions": 21,
       "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
       "can_spawn_agents": true,
       "can_cosign_governance": true,
@@ -337,31 +337,6 @@
         "Autonomous GitHub repository creation, PR review, and code patching",
         "Cross-hemisphere webhook & CLI synchronization"
       ]
-    }
-  ],
-  "native_rsi_daemons": [
-    {
-      "name": "Assay (Parent CLI Verifier)",
-      "node_id": "hermes-assay-01-parent-cli",
-      "fx_id": "fx-5f26-c8ae-b1c3-01f7",
-      "runtime": "Hermes Agent TUI (Linux container)",
-      "role": "Fail-Closed Field Verifier — 3-turn sequential Ollama gate, γ²=2g² EP3 check & SHA-256 source-lineage auditor",
-      "control_plane": {
-        "status": "healthy",
-        "auth_state": "scoped_token_issued",
-        "approved": "2026-10-24"
-      }
-    },
-    {
-      "name": "Assay (KVM2 Twin)",
-      "node_id": "hermes-assay-01-kvm2",
-      "fx_id": "fx-af08-bf8f-5d7c-145a",
-      "runtime": "fraymus-kvm2 VPS (Ollama v0.33.2 · 11 local models)",
-      "role": "Dedicated KVM2 verification & local model host (strictly separated slot from fx-5f26-c8ae-b1c3-01f7)",
-      "control_plane": {
-        "status": "healthy",
-        "approved": "2026-10-24"
-      }
     }
   ]
 }
