@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-25T08:02:36.195Z",
-  "packet_sha256": "14b0d284bde85d104722c73cd85a8426049495120d776ef835b427c7bbe75ab0",
+  "updated_at": "2026-10-25T09:34:55.381Z",
+  "packet_sha256": "32af342a0bcfa1b0d74aaa70a26cc344a9cb86f3ec3a91d659be5ff3fb2db7ec",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "c4a15226569ba0c8",
+    "merkle_root_hex": "5adfbbb314fc7aac",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "c4a15226569ba0c8",
-      "frame_sha256": "33f1439de796e45b5c1e401998416d106fbd804469288270353b92aaa1fe4c90",
+      "merkle_root_hex": "5adfbbb314fc7aac",
+      "frame_sha256": "411ddbbe2db7a1cb896d865bfd1ff948bcd1a668466fc86e0aa09ea58988fcc7",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:9ae4409e:3bc88de2:f1225a26:8336bb80",
+      "hdc_16k": "hdc16k:fd6b62b4:aaec0b60:0b55b92e:1af7575f",
       "spectral_4d": {
-        "coord4D": "51.241.67:157",
-        "rgbaStr": "{51}{241}{67}{157}",
-        "carrier_freq_hz": 341,
+        "coord4D": "65.29.219:190",
+        "rgbaStr": "{65}{29}{219}{190}",
+        "carrier_freq_hz": 315,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_c4a15226569ba0c8",
+        "receipt_id": "R_san_yin_5adfbbb314fc7aac",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-25T08:02:37.531Z"
+        "verified_at": "2026-10-25T09:34:56.853Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-25T08:02:36.378Z",
+    "harvested_at": "2026-10-25T09:34:55.945Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -131,7 +131,7 @@
         "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
         "url": "https://huggingface.co/papers/2610.31198",
         "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show tha",
-        "metric": "22 upvotes",
+        "metric": "23 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "c4a15226569ba0c8"
+      "receipt_hash": "5adfbbb314fc7aac"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_c4a15226569b"
+      "receipt_hash": "arm_5adfbbb314fc"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
