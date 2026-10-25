@@ -44,8 +44,7 @@ def query_local_ollama(ollama_url: str, prompt: str, model: str = "llama3.2:late
         req = urllib.request.Request(
             f"{ollama_url.rstrip('/')}/api/generate",
             data=json.dumps({"model": model, "prompt": prompt, "stream": False}).encode("utf-8"),
-            headers={"Content-Type": "application/json",
-                     "User-Agent": "Fraymus-Engineering-Daemon/2.0"},
+            headers={"Content-Type": "application/json"},
             method="POST",
         )
         with urllib.request.urlopen(req, timeout=15) as resp:
@@ -144,8 +143,7 @@ def sync_with_hemispheres(rsi_entry: dict) -> None:
             req = urllib.request.Request(
                 url,
                 data=json.dumps(payload).encode("utf-8"),
-                headers={"Content-Type": "application/json",
-                     "User-Agent": "Fraymus-Engineering-Daemon/2.0"},
+                headers={"Content-Type": "application/json"},
                 method="POST",
             )
             with urllib.request.urlopen(req, timeout=8) as resp:
