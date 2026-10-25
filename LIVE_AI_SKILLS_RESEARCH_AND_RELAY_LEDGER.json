@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-25T00:06:56.352Z",
-  "packet_sha256": "6a82955974334e734004e2f0a84df1743aa5f3796253f95a24b0425004aaaecb",
+  "updated_at": "2026-10-25T01:06:05.456Z",
+  "packet_sha256": "c6a79d43bfb978ce1e463a380e0ccdb888c79b0c5b4281656334c88b2c3061e7",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "5dde7fc5768120a3",
+    "merkle_root_hex": "60d4d1200b61118d",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "5dde7fc5768120a3",
-      "frame_sha256": "f3a879c7a638568d8aed89efa5e1501f36efbcb399fb72dc8e98d05da65fbfea",
+      "merkle_root_hex": "60d4d1200b61118d",
+      "frame_sha256": "5ce2b65a9f79d64ff892a4dbe4429d836f8fc14c2aa62632fea60b84b30603fa",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:093b9c52:72606429:75168000:8a08156f",
+      "hdc_16k": "hdc16k:c2b0a115:9beb7d5d:5ff56c8d:555bb181",
       "spectral_4d": {
-        "coord4D": "243.168.121:199",
-        "rgbaStr": "{243}{168}{121}{199}",
-        "carrier_freq_hz": 438,
+        "coord4D": "92.226.182:90",
+        "rgbaStr": "{92}{226}{182}{90}",
+        "carrier_freq_hz": 420,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_5dde7fc5768120a3",
+        "receipt_id": "R_san_yin_60d4d1200b61118d",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-25T00:06:57.684Z"
+        "verified_at": "2026-10-25T01:06:07.025Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-25T00:06:56.516Z",
+    "harvested_at": "2026-10-25T01:06:06.165Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
         "url": "https://huggingface.co/papers/2610.30043",
         "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduce TARSphere, a robot-oriented full-stack ",
-        "metric": "2 upvotes",
+        "metric": "8 upvotes",
         "published_at": "2026-10-21T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
         "url": "https://huggingface.co/papers/2610.22722",
         "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different datasets and recovery measures. We presen",
-        "metric": "4 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-10-15T00:00:00.000Z"
       },
       {
@@ -113,7 +113,7 @@
         "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
         "url": "https://huggingface.co/papers/2610.04184",
         "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this des",
-        "metric": "2 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-10-16T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
         "url": "https://huggingface.co/papers/2610.25835",
         "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two diffusion models across 10 tasks. We find",
-        "metric": "3 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-10-19T05:47:58.000Z"
       },
       {
@@ -131,7 +131,7 @@
         "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
         "url": "https://huggingface.co/papers/2610.31198",
         "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show tha",
-        "metric": "15 upvotes",
+        "metric": "19 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "5dde7fc5768120a3"
+      "receipt_hash": "60d4d1200b61118d"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_5dde7fc57681"
+      "receipt_hash": "arm_60d4d1200b61"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
