@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T10:07:03.149Z",
-  "packet_sha256": "822b705bcf12d5a1c0559f22dbfb5c5c58531c8f96531820a6e3c0d152c79ad1",
+  "updated_at": "2026-10-26T10:53:45.423Z",
+  "packet_sha256": "e0b9eca4a341c326206c36801c89e95fbce6cc730f2e573cc4ebb05c454ac985",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "409ab85f7357a404",
+    "merkle_root_hex": "4d8ebaecb64af97e",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "409ab85f7357a404",
-      "frame_sha256": "afb171fd9fe461acba077ff26aca2c9255ea183bb5133f7fbbbba7df7a79a043",
+      "merkle_root_hex": "4d8ebaecb64af97e",
+      "frame_sha256": "7a3d81fefa4979b254ddf310f280427c93e7b4ed4420814069f2c4609ab46dcf",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ec48cc73:737bbf46:cb80bc37:f43a235a",
+      "hdc_16k": "hdc16k:9847b4e5:54555d20:1bde3c45:4b2b55d4",
       "spectral_4d": {
-        "coord4D": "175.177.113:253",
-        "rgbaStr": "{175}{177}{113}{253}",
-        "carrier_freq_hz": 401,
+        "coord4D": "122.61.129:254",
+        "rgbaStr": "{122}{61}{129}{254}",
+        "carrier_freq_hz": 314,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_409ab85f7357a404",
+        "receipt_id": "R_san_yin_4d8ebaecb64af97e",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T10:07:04.943Z"
+        "verified_at": "2026-10-26T10:53:47.489Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T10:07:03.407Z",
+    "harvested_at": "2026-10-26T10:53:46.031Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
         "url": "https://huggingface.co/papers/2610.31668",
         "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopt",
-        "metric": "11 upvotes",
+        "metric": "34 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
         "url": "https://huggingface.co/papers/2610.27782",
         "summary": "Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions. Multimodal large language models (MLLMs) are increasingly used to judge these properties, yet their agreement with human judgments on embodied videos ",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-20T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
         "url": "https://huggingface.co/papers/2610.01352",
         "summary": "Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference. We introduce MMVistaReason (MVR), an open-data post-training reci",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "409ab85f7357a404"
+      "receipt_hash": "4d8ebaecb64af97e"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_409ab85f7357"
+      "receipt_hash": "arm_4d8ebaecb64a"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
