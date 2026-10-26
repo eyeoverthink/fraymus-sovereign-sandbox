@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T14:21:18.637Z",
-  "packet_sha256": "4b774f0740303c0f7c8359cd4868ec5fdcca3bad8844f5b9b268f3db5e03ac31",
+  "updated_at": "2026-10-26T14:59:17.860Z",
+  "packet_sha256": "30d361267b1d9b1091cf69b8e909c6fbc551e52ef8b9193f72b1da1a082d5715",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "d74532a90684814a",
+    "merkle_root_hex": "87316fafb74e584a",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "d74532a90684814a",
-      "frame_sha256": "92212ea5bf56ac39ec55a0f298424d46baef7471c157f2b91351035569a2348b",
+      "merkle_root_hex": "87316fafb74e584a",
+      "frame_sha256": "9b35646913e7826b80fe3623dc629dacd6fcfba868bb7147f7dd3685c4721a4c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:7202bfa1:05f00f01:5ddffbcb:7babd46e",
+      "hdc_16k": "hdc16k:35b7c97a:56c5f4b5:295338e0:a859a1d3",
       "spectral_4d": {
-        "coord4D": "146.33.46:165",
-        "rgbaStr": "{146}{33}{46}{165}",
-        "carrier_freq_hz": 265,
+        "coord4D": "155.53.100:105",
+        "rgbaStr": "{155}{53}{100}{105}",
+        "carrier_freq_hz": 312,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_d74532a90684814a",
+        "receipt_id": "R_san_yin_87316fafb74e584a",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T14:21:20.696Z"
+        "verified_at": "2026-10-26T14:59:21.533Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T14:21:18.816Z",
+    "harvested_at": "2026-10-26T14:59:18.119Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
+        "url": "https://huggingface.co/papers/2610.31819",
+        "summary": "Speculative decoding is a technique that accelerates the inference speed of autoregressive large language models (LLMs) by sampling from a faster, lower quality draft model. Traditionally, a fundamental characteristic of speculative decoding is that it is lossless with respect to the verifier distribution, guaranteeing",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
+        "url": "https://huggingface.co/papers/2610.28655",
+        "summary": "Publishers and funders increasingly ask authors to disclose how AI tools contributed to a piece of research. In computational work the repository is where an author or an auditor would look for the answer, and we ask what it can actually supply. We audit two single-investigator repositories by the same author in the sa",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-09T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopt",
         "metric": "218 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
-        "url": "https://huggingface.co/papers/2610.27782",
-        "summary": "Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions. Multimodal large language models (MLLMs) are increasingly used to judge these properties, yet their agreement with human judgments on embodied videos ",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-20T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
-        "url": "https://huggingface.co/papers/2610.14253",
-        "summary": "Slider-based control aims to give users continuous, fine-grained control over the intensity of individual edits in instruction-based image editing. However, existing approaches fail to deliver reliable continuous controllability: traversing a slider can produce abrupt visual jumps and non-monotonic changes, while joint",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-14T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
-        "source_url": "https://huggingface.co/papers/2610.31423",
+        "source_anchor": "Speculative Diffusion is a Tale of Two Tradeoffs",
+        "source_url": "https://huggingface.co/papers/2610.31819",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "d74532a90684814a"
+      "receipt_hash": "87316fafb74e584a"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_d74532a90684"
+      "receipt_hash": "arm_87316fafb74e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
