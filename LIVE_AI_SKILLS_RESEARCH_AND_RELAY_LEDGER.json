@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T17:01:38.064Z",
-  "packet_sha256": "3915783ea636b68841fc013320aaa5f4cb8638bce2b40a671f1f4478b56d42c3",
+  "updated_at": "2026-10-26T17:32:29.141Z",
+  "packet_sha256": "8cb281c00974adc3e87574a94d40f31dd8db695d6113e2242106dd0d11737240",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "7f6b5515330d14c8",
+    "merkle_root_hex": "930e12ad8568d8b9",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "7f6b5515330d14c8",
-      "frame_sha256": "b7c29222ddce00d4abb00850e6ac7e9066fa6f07775655a86a3c709ba236f63c",
+      "merkle_root_hex": "930e12ad8568d8b9",
+      "frame_sha256": "8886d0c1325ff11ef415480c88a3ab29c54e380ba536b61d60ae88db051b5188",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8e0d4f86:20c0fba6:fdfcef84:ade7d004",
+      "hdc_16k": "hdc16k:2aeb69e2:b796024c:cab8c432:76445244",
       "spectral_4d": {
-        "coord4D": "183.194.146:34",
-        "rgbaStr": "{183}{194}{146}{34}",
-        "carrier_freq_hz": 433,
+        "coord4D": "136.134.208:193",
+        "rgbaStr": "{136}{134}{208}{193}",
+        "carrier_freq_hz": 408,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_7f6b5515330d14c8",
+        "receipt_id": "R_san_yin_930e12ad8568d8b9",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T17:01:44.145Z"
+        "verified_at": "2026-10-26T17:32:34.319Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T17:01:44.145Z",
+    "harvested_at": "2026-10-26T17:32:29.591Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
+        "url": "https://huggingface.co/papers/2610.31779",
+        "summary": "The life-cycle of robotics foundation models crucially depends on data labels. Outcome reward labels are needed for monitoring real-world deployments. Process reward labels are needed during RL post-training. Timestamped captions are needed for filtering and balancing pretraining data. We present Flora, an industrial-q",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks",
+        "url": "https://huggingface.co/papers/2610.20117",
+        "summary": "KANLab is a browser-based visualization tool designed to interactively teach the core concepts of Kolmogorov-Arnold Networks (KAN), forked from the widely successful TensorFlow Playground. To maximize educational clarity, KANLab omits residual connections and learnable scaling parameters found in modern KAN implementat",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-14T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +122,7 @@
         "title": "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
         "url": "https://huggingface.co/papers/2610.19589",
         "summary": "Repeated event forecasting requires extracting predictive signals from noisy evidence and evaluating their value across successive decisions. We introduce JockeyBench, a benchmark and evaluation protocol that studies this problem through historical Japanese horse racing. The protocol combines time-gated evidence, price",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-14T00:00:00.000Z"
       },
       {
@@ -115,24 +133,6 @@
         "summary": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version. Starting from the LaTeX source, PaperFormalizer tra",
         "metric": "2 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
-        "url": "https://huggingface.co/papers/2610.31819",
-        "summary": "Speculative decoding is a technique that accelerates the inference speed of autoregressive large language models (LLMs) by sampling from a faster, lower quality draft model. Traditionally, a fundamental characteristic of speculative decoding is that it is lossless with respect to the verifier distribution, guaranteeing",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
-        "url": "https://huggingface.co/papers/2610.28655",
-        "summary": "Publishers and funders increasingly ask authors to disclose how AI tools contributed to a piece of research. In computational work the repository is where an author or an auditor would look for the answer, and we ask what it can actually supply. We audit two single-investigator repositories by the same author in the sa",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-09T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification",
-        "source_url": "https://huggingface.co/papers/2610.30524",
+        "source_anchor": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
+        "source_url": "https://huggingface.co/papers/2610.31779",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "7f6b5515330d14c8"
+      "receipt_hash": "930e12ad8568d8b9"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_7f6b5515330d"
+      "receipt_hash": "arm_930e12ad8568"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
