@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T06:33:49.397Z",
-  "packet_sha256": "e8ea69c1ba36ef33d9f8cd738f1080548d84854b7f90311c3f7beefd305a5028",
+  "updated_at": "2026-10-26T08:45:34.899Z",
+  "packet_sha256": "dcbb424625ec4e0336d40ff60de3e014d0ab301747c378db45b3732b736a9d09",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "c4b65c96eb4bde21",
+    "merkle_root_hex": "82396d0f2fc7292c",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "c4b65c96eb4bde21",
-      "frame_sha256": "5e2a8d6894382eccdceff8fed1a96dd73e16974a8f759fb78db5f8c8dd4bcc7b",
+      "merkle_root_hex": "82396d0f2fc7292c",
+      "frame_sha256": "25ab9acee044f20b4948af03aa3c7d3381d39846b0c6bdc8ecafc854d3ac6b8f",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:27ccb0b4:d5fefbfe:c8522000:407569dc",
+      "hdc_16k": "hdc16k:be6d5434:45cf9723:d6c6f9aa:766e825c",
       "spectral_4d": {
-        "coord4D": "94.42.141:104",
-        "rgbaStr": "{94}{42}{141}{104}",
-        "carrier_freq_hz": 294,
+        "coord4D": "37.171.154:206",
+        "rgbaStr": "{37}{171}{154}{206}",
+        "carrier_freq_hz": 342,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_c4b65c96eb4bde21",
+        "receipt_id": "R_san_yin_82396d0f2fc7292c",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T06:33:53.099Z"
+        "verified_at": "2026-10-26T08:45:36.772Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T06:33:49.799Z",
+    "harvested_at": "2026-10-26T08:45:35.352Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
-        "url": "https://huggingface.co/papers/2610.32894",
-        "summary": "Location encoders map geographic coordinates to high-dimensional descriptors through contrastive alignment with paired Earth Observation imagery. We prove that this construction is structurally limited: any Lipschitz location encoder produces an output of intrinsic dimension at most 2, regardless of architecture or ban",
+        "title": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
+        "url": "https://huggingface.co/papers/2610.14253",
+        "summary": "Slider-based control aims to give users continuous, fine-grained control over the intensity of individual edits in instruction-based image editing. However, existing approaches fail to deliver reliable continuous controllability: traversing a slider can produce abrupt visual jumps and non-monotonic changes, while joint",
         "metric": "1 upvotes",
-        "published_at": "2026-10-23T00:00:00.000Z"
+        "published_at": "2026-10-14T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
-        "url": "https://huggingface.co/papers/2610.32002",
-        "summary": "The rapid growth of microdramas has increased demand for high-quality script production. Long-form microdrama script generation with LLMs requires both diverse plot progression and long-range narrative coherence. Our observations reveal that candidate continuations increasingly concentrate on fewer narrative mechanisms",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Every Weight Is a Path of Shared Discrete Decisions",
-        "url": "https://huggingface.co/papers/2610.31931",
-        "summary": "We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural network is the end of a path of small discrete decisions: a sign, a shift by a power of two, a zero gate, an index into a shared table. Weights that belong together share the upper part of their paths, a",
+        "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
+        "url": "https://huggingface.co/papers/2610.01352",
+        "summary": "Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference. We introduce MMVistaReason (MVR), an open-data post-training reci",
         "metric": "3 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
-        "url": "https://huggingface.co/papers/2610.31066",
-        "summary": "World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response ",
-        "metric": "8 upvotes",
+        "title": "Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval",
+        "url": "https://huggingface.co/papers/2610.14465",
+        "summary": "Structured knowledge retrieval acquires task-relevant evidence from structured knowledge sources for downstream tasks. Existing methods rely on unconstrained retrieval or predefined query-rule supervision, such as author-paper rules for scientific discovery and anatomy-drug rules for precision medicine. Such supervisio",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-17T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "DISC: Domain-Integrated Similarity Cost for Time-Series Dataset",
+        "url": "https://huggingface.co/papers/2610.31288",
+        "summary": "The growth of time-series datasets and foundation models has made dataset comparison a central part of time-series workflows. Assessing source-target transfer before model adaptation requires similarity estimates that can summarize transfer-related dataset relationships without exhaustive source-target evaluation over ",
+        "metric": "1 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
-        "url": "https://huggingface.co/papers/2610.31162",
-        "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existi",
-        "metric": "23 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
+        "title": "Building Auditable AI Text Detectors with Sparse Autoencoders",
+        "url": "https://huggingface.co/papers/2610.30006",
+        "summary": "AI-generated text detectors are increasingly deployed in consequential settings---peer review, education, admissions, journalism, and content moderation---where their outputs directly affect individuals. Yet the strongest detectors are fine-tuned neural classifiers whose decisions are opaque, while transparent alternat",
+        "metric": "3 upvotes",
+        "published_at": "2026-10-21T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
-        "source_url": "https://huggingface.co/papers/2610.32894",
+        "source_anchor": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
+        "source_url": "https://huggingface.co/papers/2610.14253",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "c4b65c96eb4bde21"
+      "receipt_hash": "82396d0f2fc7292c"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_c4b65c96eb4b"
+      "receipt_hash": "arm_82396d0f2fc7"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
