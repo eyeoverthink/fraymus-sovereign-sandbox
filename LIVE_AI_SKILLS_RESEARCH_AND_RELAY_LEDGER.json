@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T14:19:45.863Z",
-  "packet_sha256": "a3f71fc57198570472700980a1dc1d4375b390d45fd91e3a7dd359002e80eb70",
+  "updated_at": "2026-10-26T14:19:47.536Z",
+  "packet_sha256": "53978af0e1f9e93d17734364917fab61449956ee164c26e8dc7a7d0e9e0072f2",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,43 +52,88 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "7c1c496fd2fd08a0",
+    "merkle_root_hex": "467c65be6a748dc5",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "7c1c496fd2fd08a0",
-      "frame_sha256": "87eec6122661d2e187f11ef4acf907ce18d3cfc9c1edc55a64ec05b2d0bfd289",
+      "merkle_root_hex": "467c65be6a748dc5",
+      "frame_sha256": "9c235b06c495960a33a268129a229322cbc15cab358eb298d72851f5f2e378c9",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:36d03033:cb125401:b2933e13:5675e8ee",
+      "hdc_16k": "hdc16k:6c4b2939:f825d68c:5ce42829:639a4b5a",
       "spectral_4d": {
-        "coord4D": "135.238.198:18",
-        "rgbaStr": "{135}{238}{198}{18}",
-        "carrier_freq_hz": 460,
+        "coord4D": "156.35.91:6",
+        "rgbaStr": "{156}{35}{91}{6}",
+        "carrier_freq_hz": 297,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_7c1c496fd2fd08a0",
+        "receipt_id": "R_san_yin_467c65be6a748dc5",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T14:19:47.332Z"
+        "verified_at": "2026-10-26T14:19:49.041Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T14:19:46.148Z",
+    "harvested_at": "2026-10-26T14:19:47.718Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
-      "huggingface_papers": 0,
+      "total": 10,
+      "huggingface_papers": 5,
       "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+        "url": "https://huggingface.co/papers/2610.31423",
+        "summary": "Vision-language-action (VLA) models have become an important paradigm for robotic manipulation by unifying visual perception, language understanding, and action generation. Since reliable manipulation requires sufficient observation of objects, end-effectors, and their spatial relationships, multi-view inputs are widel",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Does LeWorldModel Preserve Local Action Geometry?",
+        "url": "https://huggingface.co/papers/2610.31716",
+        "summary": "We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes. Using matched simulator and model responses, we measure action sensitivity with Gram matrices at three perturbation scales. Across nearly a thousand states from Reacher and OGBench Cube, the most sensitive action direc",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+        "url": "https://huggingface.co/papers/2610.31668",
+        "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopt",
+        "metric": "218 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+        "url": "https://huggingface.co/papers/2610.27782",
+        "summary": "Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions. Multimodal large language models (MLLMs) are increasingly used to judge these properties, yet their agreement with human judgments on embodied videos ",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
+        "url": "https://huggingface.co/papers/2610.14253",
+        "summary": "Slider-based control aims to give users continuous, fine-grained control over the intensity of individual edits in instruction-based image editing. However, existing approaches fail to deliver reliable continuous controllability: traversing a slider can produce abrupt visual jumps and non-monotonic changes, while joint",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-14T00:00:00.000Z"
+      },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
@@ -139,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "The Language of Instruction: Genre and Generative AI",
-        "source_url": "http://arxiv.org/abs/2610.32982v1",
+        "source_anchor": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+        "source_url": "https://huggingface.co/papers/2610.31423",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "7c1c496fd2fd08a0"
+      "receipt_hash": "467c65be6a748dc5"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_7c1c496fd2fd"
+      "receipt_hash": "arm_467c65be6a74"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
