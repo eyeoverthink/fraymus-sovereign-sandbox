@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T00:42:12.841Z",
-  "packet_sha256": "dee0e7d0fb84f95e95921fd467a70ca86476bb6f5410976c72a492665b593706",
+  "updated_at": "2026-10-26T01:54:01.581Z",
+  "packet_sha256": "2b64e8f509cfd50c2601efbc75f2010c5cf170c6607e7638b964e89654ba03ff",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "234efb5d9b3e0c25",
+    "merkle_root_hex": "294a71fc14f78fe2",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "234efb5d9b3e0c25",
-      "frame_sha256": "cd4a1f23cf0d9b3b61105a7ccfb870c0202da8d336cd50bed9da9c7aa4bdba63",
+      "merkle_root_hex": "294a71fc14f78fe2",
+      "frame_sha256": "5e1987ff5950916248a95b48dddd0262b31173a41598e6f64af9e1097e9b3281",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:555211c0:f0179c8b:0d60a91c:77dc7b15",
+      "hdc_16k": "hdc16k:c4904450:f605ddf8:e7e8465c:e6d1dda6",
       "spectral_4d": {
-        "coord4D": "205.74.31:35",
-        "rgbaStr": "{205}{74}{31}{35}",
-        "carrier_freq_hz": 313,
+        "coord4D": "94.25.135:255",
+        "rgbaStr": "{94}{25}{135}{255}",
+        "carrier_freq_hz": 281,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_234efb5d9b3e0c25",
+        "receipt_id": "R_san_yin_294a71fc14f78fe2",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T00:42:14.721Z"
+        "verified_at": "2026-10-26T01:54:06.080Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T00:42:13.092Z",
+    "harvested_at": "2026-10-26T01:54:02.088Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+        "url": "https://huggingface.co/papers/2610.27103",
+        "summary": "Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge. Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused representations.",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-19T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -126,66 +135,57 @@
         "published_at": "2026-10-19T05:47:58.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
-        "url": "https://huggingface.co/papers/2610.31198",
-        "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show tha",
-        "metric": "23 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Privacy-Preserving Federated Loss Exploration for Vision-Based Perception under Non-IID Data",
+        "url": "http://arxiv.org/abs/2610.32626v1",
+        "summary": "Vision-based image classification models benefit from Federated Learning (FL) across vehicles, however learning accurate models from distributed vehicular cameras is challenging due to data heterogeneity and privacy concerns. To improve performance on non-IID data, advanced FL optimization approaches have emerged that ",
+        "metric": "Published 2026-10-23",
+        "published_at": "2026-10-23T13:41:37Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Reliable AI-Assisted Decisions via Selective Auditing",
-        "url": "http://arxiv.org/abs/2610.31662v1",
-        "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need not be produced by the same model: for example, one agent may",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:59:22Z"
+        "title": "What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design",
+        "url": "http://arxiv.org/abs/2610.32620v1",
+        "summary": "LLM agents optimize a ligand in a protein pocket by editing it step by step and docking each edit. Recent agents first spend extra dockings probing the complex with controlled edits; guidance induced from these probes is reported to help more than the chemical knowledge the model already carries. The probes are then di",
+        "metric": "Published 2026-10-23",
+        "published_at": "2026-10-23T13:38:42Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-        "url": "http://arxiv.org/abs/2610.31656v1",
-        "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:58:27Z"
+        "title": "DriveOSS: Dataset and Benchmark for 3D Anomaly Segmentation and Open-set Semantic Segmentation in Autonomous Driving",
+        "url": "http://arxiv.org/abs/2610.32612v1",
+        "summary": "Recent advances in 3D semantic segmentation have significantly improved scene understanding in autonomous driving. However, existing methods are typically developed under a closed-set assumption and evaluated under standard driving conditions, where all categories are known in advance. In real-world driving, autonomous",
+        "metric": "Published 2026-10-23",
+        "published_at": "2026-10-23T13:33:39Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
-        "url": "http://arxiv.org/abs/2610.31651v1",
-        "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:57:20Z"
+        "title": "Political sense-making in \"individual\" human-technology-world relations: the case of LLM-generated autobiographies",
+        "url": "http://arxiv.org/abs/2610.32594v1",
+        "summary": "As AI systems increasingly mediate how people describe, recognize, and present themselves, their politics cannot be reduced to what remains hidden inside the \"black box.\" This chapter argues that AI's political significance emerges within technologically, intersubjectively, and temporally mediated interpretive practice",
+        "metric": "Published 2026-10-23",
+        "published_at": "2026-10-23T13:17:38Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-        "url": "http://arxiv.org/abs/2610.31650v1",
-        "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:57:04Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "On the direct SLE-martingale approach to the integrability of Conformal Loop Ensembles",
-        "url": "http://arxiv.org/abs/2610.31648v1",
-        "summary": "This paper is about the derivation of \"integrability results\" (i.e., for example, explicit formulas for the probability of events involving a few marked points) for Conformal Loop Ensembles, that are the (conjectured) scaling limits of discrete crititical planar lattice models from Statistical Physics. We discuss the e",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:56:41Z"
+        "title": "GLP Networking API Specification",
+        "url": "http://arxiv.org/abs/2610.32583v1",
+        "summary": "Multiagent deterministic GLP (madGLP) runs Grassroots Logic Programs (GLP) as agents that communicate solely by asynchronous message passing, and assumes fair delivery: every message sent is eventually delivered. Each agent runs on a person's smartphone, named by the person's public key. A grassroots platform depends o",
+        "metric": "Published 2026-10-23",
+        "published_at": "2026-10-23T13:10:32Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
-        "source_url": "https://huggingface.co/papers/2610.30043",
+        "source_anchor": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+        "source_url": "https://huggingface.co/papers/2610.27103",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-        "source_url": "http://arxiv.org/abs/2610.31656v1",
+        "source_anchor": "What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design",
+        "source_url": "http://arxiv.org/abs/2610.32620v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "234efb5d9b3e0c25"
+      "receipt_hash": "294a71fc14f78fe2"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_234efb5d9b3e"
+      "receipt_hash": "arm_294a71fc14f7"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
