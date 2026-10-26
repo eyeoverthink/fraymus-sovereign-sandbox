@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T02:53:42.490Z",
-  "packet_sha256": "8d6002ee8c3d32bdfbbb392c25aa9e55c9ca6a0f3811a4281a682416363744b1",
+  "updated_at": "2026-10-26T03:55:57.016Z",
+  "packet_sha256": "8f42c169b9ca488d18f4262ef25c17828964a2341b8fedf484c2a87317f7f9c6",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a43fbf37d712c080",
+    "merkle_root_hex": "be49a7dc0df829a5",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a43fbf37d712c080",
-      "frame_sha256": "7c09c4e9444ccbc2d2f869a727becbb220c454cac3c134b5e6549c3e7f00ab33",
+      "merkle_root_hex": "be49a7dc0df829a5",
+      "frame_sha256": "59fe703c812c983761084576d532d1b91526f640ce68c78ecf39e50f10a17033",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:604e9d4e:5d364f9c:51f41cf2:b8b162a8",
+      "hdc_16k": "hdc16k:233648d7:87d0ab77:92b684ad:f6c743ee",
       "spectral_4d": {
-        "coord4D": "124.9.196:233",
-        "rgbaStr": "{124}{9}{196}{233}",
-        "carrier_freq_hz": 324,
+        "coord4D": "89.254.112:60",
+        "rgbaStr": "{89}{254}{112}{60}",
+        "carrier_freq_hz": 395,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a43fbf37d712c080",
+        "receipt_id": "R_san_yin_be49a7dc0df829a5",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T02:53:44.176Z"
+        "verified_at": "2026-10-26T03:55:58.724Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T02:53:42.767Z",
+    "harvested_at": "2026-10-26T03:55:57.498Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,100 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
-        "url": "https://huggingface.co/papers/2610.31569",
-        "summary": "Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after failure. Existing methods augment Vision Language Action (VLA) policies with task status signal prediction to support these execution decisions. However, learning and integrating these signals can requi",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
+        "title": "FLOMSS: Generative Music Source Separation by Flow Matching",
+        "url": "https://huggingface.co/papers/2610.17821",
+        "summary": "Music source separation (MSS) has been conventionally addressed by discriminative methods. Recently, flow matching has emerged as a strong generative paradigm for modeling complex data distributions, with successful applications across diverse domains. These advances motivate us to systematically investigate flow match",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-14T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
-        "url": "https://huggingface.co/papers/2610.29552",
-        "summary": "Fine-grained multimodal intelligence requires models to both understand a designated region and localize it from language. Existing methods learn these directions with separate objectives and task-specific annotations. We present Generalized CycleGRPO, the first unified reinforcement learning framework coupling region ",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-21T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
-        "url": "https://huggingface.co/papers/2610.30932",
-        "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely pr",
-        "metric": "10 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
-        "url": "https://huggingface.co/papers/2610.31734",
-        "summary": "A live esports broadcast needs a director who chooses which camera goes on air and a caster who talks over that choice, every second and without knowing what comes next. Streaming video language models have learned to commentate, but only over a broadcast that a human director has already produced. We study live broadc",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
-        "url": "https://huggingface.co/papers/2610.32909",
-        "summary": "HoloBoxing presents a simple recipe for learning humanoid boxing by building on a pretrained whole-body controller. The recipe separates reusable motor skills from task decisions: a compact planner requests future body-point targets, while the frozen controller handles joint-level execution. A learned decoder maps 32-d",
+        "title": "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
+        "url": "https://huggingface.co/papers/2610.32250",
+        "summary": "Single-image 3D scene construction is a fundamental problem in 3D vision. Recent methods such as SAM-3Dfy enable end-to-end reconstruction of 3D assets and their scene layouts, but still struggle with fine-grained scene geometry and asset quality. Meanwhile, specialized 3D object generators provide detailed object geom",
         "metric": "1 upvotes",
         "published_at": "2026-10-23T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Privacy-Preserving Federated Loss Exploration for Vision-Based Perception under Non-IID Data",
-        "url": "http://arxiv.org/abs/2610.32626v1",
-        "summary": "Vision-based image classification models benefit from Federated Learning (FL) across vehicles, however learning accurate models from distributed vehicular cameras is challenging due to data heterogeneity and privacy concerns. To improve performance on non-IID data, advanced FL optimization approaches have emerged that ",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T13:41:37Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+        "url": "https://huggingface.co/papers/2610.32253",
+        "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusabl",
+        "metric": "18 upvotes",
+        "published_at": "2026-10-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RynnUnify: Towards Unified Embodied Brain",
+        "url": "https://huggingface.co/papers/2610.32965",
+        "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world wi",
+        "metric": "10 upvotes",
+        "published_at": "2026-10-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+        "url": "https://huggingface.co/papers/2610.31569",
+        "summary": "Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after failure. Existing methods augment Vision Language Action (VLA) policies with task status signal prediction to support these execution decisions. However, learning and integrating these signals can requi",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design",
-        "url": "http://arxiv.org/abs/2610.32620v1",
-        "summary": "LLM agents optimize a ligand in a protein pocket by editing it step by step and docking each edit. Recent agents first spend extra dockings probing the complex with controlled edits; guidance induced from these probes is reported to help more than the chemical knowledge the model already carries. The probes are then di",
+        "title": "The Language of Instruction: Genre and Generative AI",
+        "url": "http://arxiv.org/abs/2610.32982v1",
+        "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massi",
         "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T13:38:42Z"
+        "published_at": "2026-10-23T17:59:56Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "DriveOSS: Dataset and Benchmark for 3D Anomaly Segmentation and Open-set Semantic Segmentation in Autonomous Driving",
-        "url": "http://arxiv.org/abs/2610.32612v1",
-        "summary": "Recent advances in 3D semantic segmentation have significantly improved scene understanding in autonomous driving. However, existing methods are typically developed under a closed-set assumption and evaluated under standard driving conditions, where all categories are known in advance. In real-world driving, autonomous",
+        "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+        "url": "http://arxiv.org/abs/2610.32978v1",
+        "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their ou",
         "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T13:33:39Z"
+        "published_at": "2026-10-23T17:59:21Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Political sense-making in \"individual\" human-technology-world relations: the case of LLM-generated autobiographies",
-        "url": "http://arxiv.org/abs/2610.32594v1",
-        "summary": "As AI systems increasingly mediate how people describe, recognize, and present themselves, their politics cannot be reduced to what remains hidden inside the \"black box.\" This chapter argues that AI's political significance emerges within technologically, intersubjectively, and temporally mediated interpretive practice",
+        "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+        "url": "http://arxiv.org/abs/2610.32969v1",
+        "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their ",
         "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T13:17:38Z"
+        "published_at": "2026-10-23T17:56:28Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "GLP Networking API Specification",
-        "url": "http://arxiv.org/abs/2610.32583v1",
-        "summary": "Multiagent deterministic GLP (madGLP) runs Grassroots Logic Programs (GLP) as agents that communicate solely by asynchronous message passing, and assumes fair delivery: every message sent is eventually delivered. Each agent runs on a person's smartphone, named by the person's public key. A grassroots platform depends o",
+        "title": "RynnUnify: Towards Unified Embodied Brain",
+        "url": "http://arxiv.org/abs/2610.32965v1",
+        "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world wi",
         "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T13:10:32Z"
+        "published_at": "2026-10-23T17:54:07Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+        "url": "http://arxiv.org/abs/2610.32955v1",
+        "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protoco",
+        "metric": "Published 2026-10-23",
+        "published_at": "2026-10-23T17:49:43Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
-        "source_url": "https://huggingface.co/papers/2610.31569",
+        "source_anchor": "FLOMSS: Generative Music Source Separation by Flow Matching",
+        "source_url": "https://huggingface.co/papers/2610.17821",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design",
-        "source_url": "http://arxiv.org/abs/2610.32620v1",
+        "source_anchor": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+        "source_url": "http://arxiv.org/abs/2610.32978v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a43fbf37d712c080"
+      "receipt_hash": "be49a7dc0df829a5"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a43fbf37d712"
+      "receipt_hash": "arm_be49a7dc0df8"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
