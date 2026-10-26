@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T11:24:42.877Z",
-  "packet_sha256": "2a490ef34b7e60d8af16fbbeb7ab02157a5ca32d3a516fa66ca8c54be62e8f3c",
+  "updated_at": "2026-10-26T11:59:01.594Z",
+  "packet_sha256": "cdc7875ce9aa1e436000aacff6dba71a27754314c7ea0e1490396f68629f48be",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "bd01c55ee34056b",
+    "merkle_root_hex": "94df34853d68c742",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "bd01c55ee34056b",
-      "frame_sha256": "8ce860eb70719097a4bb788f8bbbfe83521487f0ed6cbfb9dd78bf132dd1845c",
+      "merkle_root_hex": "94df34853d68c742",
+      "frame_sha256": "edf9baa69740380d5673410e1cd7427ce57c333b47317f13e393368e0b062f5d",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:c24bd9ef:4a9b1519:fff32a43:8c82dbb2",
+      "hdc_16k": "hdc16k:fcc81690:3f2f8c2e:91a1867e:4799d941",
       "spectral_4d": {
-        "coord4D": "140.232.96:235",
-        "rgbaStr": "{140}{232}{96}{235}",
-        "carrier_freq_hz": 402,
+        "coord4D": "237.249.186:166",
+        "rgbaStr": "{237}{249}{186}{166}",
+        "carrier_freq_hz": 517,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_bd01c55ee34056b",
+        "receipt_id": "R_san_yin_94df34853d68c742",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T11:24:44.697Z"
+        "verified_at": "2026-10-26T11:59:03.833Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T11:24:43.243Z",
+    "harvested_at": "2026-10-26T11:59:02.174Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
         "url": "https://huggingface.co/papers/2610.31668",
         "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopt",
-        "metric": "73 upvotes",
+        "metric": "116 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "bd01c55ee34056b"
+      "receipt_hash": "94df34853d68c742"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_bd01c55ee340"
+      "receipt_hash": "arm_94df34853d68"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
