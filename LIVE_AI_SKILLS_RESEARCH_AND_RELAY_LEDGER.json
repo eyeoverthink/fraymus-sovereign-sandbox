@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T12:37:06.868Z",
-  "packet_sha256": "468deaf27dba1995c215daf8d5b7d2d41712b3de3756e44c40450d6127dc2197",
+  "updated_at": "2026-10-26T13:00:04.096Z",
+  "packet_sha256": "8dcde545d59d253c5e870488c1ced6079bf4c916a71d5b68ceaca515eda68a20",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "895ec569187f850a",
+    "merkle_root_hex": "bf1b008761b11b6d",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "895ec569187f850a",
-      "frame_sha256": "4f7940dd3e82799737ec766ddb202daf22606cb031103f1c5d78db251e33a705",
+      "merkle_root_hex": "bf1b008761b11b6d",
+      "frame_sha256": "f5b195d0af54802cb438d38691a4c37248f7ef9e8001d05568f1a4ffb40cd51f",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:df7e4ba3:d005e21c:5f1baf39:f9e5040d",
+      "hdc_16k": "hdc16k:2cdf6375:587de4c8:9a7519b5:0f2bbce6",
       "spectral_4d": {
-        "coord4D": "79.121.64:221",
-        "rgbaStr": "{79}{121}{64}{221}",
-        "carrier_freq_hz": 287,
+        "coord4D": "245.177.149:208",
+        "rgbaStr": "{245}{177}{149}{208}",
+        "carrier_freq_hz": 460,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_895ec569187f850a",
+        "receipt_id": "R_san_yin_bf1b008761b11b6d",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T12:37:09.236Z"
+        "verified_at": "2026-10-26T13:00:06.413Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T12:37:07.061Z",
+    "harvested_at": "2026-10-26T13:00:06.413Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Does LeWorldModel Preserve Local Action Geometry?",
+        "url": "https://huggingface.co/papers/2610.31716",
+        "summary": "We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes. Using matched simulator and model responses, we measure action sensitivity with Gram matrices at three perturbation scales. Across nearly a thousand states from Reacher and OGBench Cube, the most sensitive action direc",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
         "url": "https://huggingface.co/papers/2610.31668",
         "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopt",
-        "metric": "169 upvotes",
+        "metric": "191 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference. We introduce MMVistaReason (MVR), an open-data post-training reci",
         "metric": "4 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval",
-        "url": "https://huggingface.co/papers/2610.14465",
-        "summary": "Structured knowledge retrieval acquires task-relevant evidence from structured knowledge sources for downstream tasks. Existing methods rely on unconstrained retrieval or predefined query-rule supervision, such as author-paper rules for scientific discovery and anatomy-drug rules for precision medicine. Such supervisio",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-17T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Reading, Writing, Sharing, and Interacting with the World through Video",
-        "source_url": "https://huggingface.co/papers/2610.31668",
+        "source_anchor": "Does LeWorldModel Preserve Local Action Geometry?",
+        "source_url": "https://huggingface.co/papers/2610.31716",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "895ec569187f850a"
+      "receipt_hash": "bf1b008761b11b6d"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_895ec569187f"
+      "receipt_hash": "arm_bf1b008761b1"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
