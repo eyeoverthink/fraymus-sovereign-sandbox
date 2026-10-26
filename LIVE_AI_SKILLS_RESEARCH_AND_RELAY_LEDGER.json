@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T14:59:17.860Z",
-  "packet_sha256": "30d361267b1d9b1091cf69b8e909c6fbc551e52ef8b9193f72b1da1a082d5715",
+  "updated_at": "2026-10-26T15:01:38.910Z",
+  "packet_sha256": "69b2e9fc3e9f9e91dd5af05a7b97e0a70cc673db5a83b0700d852864e72169ec",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "87316fafb74e584a",
+    "merkle_root_hex": "12cc6e0e884e22c7",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "87316fafb74e584a",
-      "frame_sha256": "9b35646913e7826b80fe3623dc629dacd6fcfba868bb7147f7dd3685c4721a4c",
+      "merkle_root_hex": "12cc6e0e884e22c7",
+      "frame_sha256": "929e1d302729c9861c0dc46ddcc31629f6fa1563c314dad3fde5e2acbcad1382",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:35b7c97a:56c5f4b5:295338e0:a859a1d3",
+      "hdc_16k": "hdc16k:51ca6c39:f0130982:9edc5fc5:2ef4b990",
       "spectral_4d": {
-        "coord4D": "155.53.100:105",
-        "rgbaStr": "{155}{53}{100}{105}",
-        "carrier_freq_hz": 312,
+        "coord4D": "146.158.29:48",
+        "rgbaStr": "{146}{158}{29}{48}",
+        "carrier_freq_hz": 326,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_87316fafb74e584a",
+        "receipt_id": "R_san_yin_12cc6e0e884e22c7",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T14:59:21.533Z"
+        "verified_at": "2026-10-26T15:01:46.910Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T14:59:18.119Z",
+    "harvested_at": "2026-10-26T15:01:46.910Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -95,7 +95,7 @@
         "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
         "url": "https://huggingface.co/papers/2610.31819",
         "summary": "Speculative decoding is a technique that accelerates the inference speed of autoregressive large language models (LLMs) by sampling from a faster, lower quality draft model. Traditionally, a fundamental characteristic of speculative decoding is that it is lossless with respect to the verifier distribution, guaranteeing",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -133,51 +133,6 @@
         "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopt",
         "metric": "218 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "The Language of Instruction: Genre and Generative AI",
-        "url": "http://arxiv.org/abs/2610.32982v1",
-        "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massi",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:59:56Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-        "url": "http://arxiv.org/abs/2610.32978v1",
-        "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their ou",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:59:21Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-        "url": "http://arxiv.org/abs/2610.32969v1",
-        "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their ",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:56:28Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "RynnUnify: Towards Unified Embodied Brain",
-        "url": "http://arxiv.org/abs/2610.32965v1",
-        "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world wi",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:54:07Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
-        "url": "http://arxiv.org/abs/2610.32955v1",
-        "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protoco",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:49:43Z"
       }
     ],
     "curve_augmentations": [
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-        "source_url": "http://arxiv.org/abs/2610.32978v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "87316fafb74e584a"
+      "receipt_hash": "12cc6e0e884e22c7"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_87316fafb74e"
+      "receipt_hash": "arm_12cc6e0e884e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
