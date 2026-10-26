@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T04:27:46.747Z",
-  "packet_sha256": "5c0431ebde737bef3971ee856e0cb1a9e99ccd229bab3dfd821e51cf4e68c73a",
+  "updated_at": "2026-10-26T05:57:58.668Z",
+  "packet_sha256": "4230e2f384b118f45600eb16f9c40d8db25983cc592c655534fda79c4bd57b86",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9cb1a0c881c5270b",
+    "merkle_root_hex": "39a06a6493fcda5c",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9cb1a0c881c5270b",
-      "frame_sha256": "4d46a55edf26bc55573e13c3e1b5e868b8d193707e6da2c211c280c6f607465d",
+      "merkle_root_hex": "39a06a6493fcda5c",
+      "frame_sha256": "ceb4ad6034123a39eb6ad0a34474da0fc8ee22fb9cf8ebf43361282bc3014e49",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:2a08b377:83987823:1638c9e9:403a6aa7",
+      "hdc_16k": "hdc16k:089e0d99:d26c731e:916ac4d1:2d0d30d9",
       "spectral_4d": {
-        "coord4D": "77.70.165:94",
-        "rgbaStr": "{77}{70}{165}{94}",
-        "carrier_freq_hz": 314,
+        "coord4D": "206.180.173:96",
+        "rgbaStr": "{206}{180}{173}{96}",
+        "carrier_freq_hz": 454,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9cb1a0c881c5270b",
+        "receipt_id": "R_san_yin_39a06a6493fcda5c",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T04:27:51.852Z"
+        "verified_at": "2026-10-26T05:58:03.421Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T04:27:47.007Z",
+    "harvested_at": "2026-10-26T05:57:58.893Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Every Weight Is a Path of Shared Discrete Decisions",
+        "url": "https://huggingface.co/papers/2610.31931",
+        "summary": "We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural network is the end of a path of small discrete decisions: a sign, a shift by a power of two, a zero gate, an index into a shared table. Weights that belong together share the upper part of their paths, a",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
         "url": "https://huggingface.co/papers/2610.31066",
         "summary": "World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response ",
-        "metric": "1 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -104,7 +113,7 @@
         "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
         "url": "https://huggingface.co/papers/2610.31162",
         "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existi",
-        "metric": "13 upvotes",
+        "metric": "21 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -123,15 +132,6 @@
         "url": "https://huggingface.co/papers/2610.32250",
         "summary": "Single-image 3D scene construction is a fundamental problem in 3D vision. Recent methods such as SAM-3Dfy enable end-to-end reconstruction of 3D assets and their scene layouts, but still struggle with fine-grained scene geometry and asset quality. Meanwhile, specialized 3D object generators provide detailed object geom",
         "metric": "2 upvotes",
-        "published_at": "2026-10-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
-        "url": "https://huggingface.co/papers/2610.32253",
-        "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusabl",
-        "metric": "19 upvotes",
         "published_at": "2026-10-23T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
-        "source_url": "https://huggingface.co/papers/2610.31066",
+        "source_anchor": "Every Weight Is a Path of Shared Discrete Decisions",
+        "source_url": "https://huggingface.co/papers/2610.31931",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9cb1a0c881c5270b"
+      "receipt_hash": "39a06a6493fcda5c"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9cb1a0c881c5"
+      "receipt_hash": "arm_39a06a6493fc"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
