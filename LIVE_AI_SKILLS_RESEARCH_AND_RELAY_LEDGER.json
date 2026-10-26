@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T17:32:29.141Z",
-  "packet_sha256": "8cb281c00974adc3e87574a94d40f31dd8db695d6113e2242106dd0d11737240",
+  "updated_at": "2026-10-26T18:20:24.937Z",
+  "packet_sha256": "bc1cba538aed299219e966181f9ba7870d6c603dfe9e958df30a071f7ad2bf51",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "930e12ad8568d8b9",
+    "merkle_root_hex": "817f908095b8c5ea",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "930e12ad8568d8b9",
-      "frame_sha256": "8886d0c1325ff11ef415480c88a3ab29c54e380ba536b61d60ae88db051b5188",
+      "merkle_root_hex": "817f908095b8c5ea",
+      "frame_sha256": "e50d12e18498c5fe258fbd3f034efb1ce9f2e6216e57f3c5b5ad2447a97b56e0",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:2aeb69e2:b796024c:cab8c432:76445244",
+      "hdc_16k": "hdc16k:ef23e101:d96c60bf:193d2661:a0473a9d",
       "spectral_4d": {
-        "coord4D": "136.134.208:193",
-        "rgbaStr": "{136}{134}{208}{193}",
-        "carrier_freq_hz": 408,
+        "coord4D": "229.13.18:225",
+        "rgbaStr": "{229}{13}{18}{225}",
+        "carrier_freq_hz": 285,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_930e12ad8568d8b9",
+        "receipt_id": "R_san_yin_817f908095b8c5ea",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T17:32:34.319Z"
+        "verified_at": "2026-10-26T18:20:27.183Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T17:32:29.591Z",
+    "harvested_at": "2026-10-26T18:20:25.282Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Judging the Justification: Decision Certificate Supervision for Generative Reward Models",
+        "url": "https://huggingface.co/papers/2610.27528",
+        "summary": "Generative reward models (GenRMs) generate natural language rationales to justify preference judgments, yet a correct verdict does not guarantee a sound justification. Existing approaches often rely on reference explanations to supervise rationales, but obtaining such references can be costly and does not necessarily e",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
+        "url": "https://huggingface.co/papers/2610.31572",
+        "summary": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts. G-Retriever combines graph soft prompts with a verbalized description of the same graph to",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Lyapunov functions and barrier certificates give state-space guarantees of stability and safety, but synthesizing and verifying them---especially for nonlinear, high-dimensional systems---remains an open challenge. Existing pipelines verify candidates with numerical solvers (sum-of-squares programs), interval methods, ",
         "metric": "1 upvotes",
         "published_at": "2026-10-21T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
-        "url": "https://huggingface.co/papers/2610.19589",
-        "summary": "Repeated event forecasting requires extracting predictive signals from noisy evidence and evaluating their value across successive decisions. We introduce JockeyBench, a benchmark and evaluation protocol that studies this problem through historical Japanese horse racing. The protocol combines time-gated evidence, price",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-14T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
-        "url": "https://huggingface.co/papers/2610.31810",
-        "summary": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version. Starting from the LaTeX source, PaperFormalizer tra",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
-        "source_url": "https://huggingface.co/papers/2610.31779",
+        "source_anchor": "Judging the Justification: Decision Certificate Supervision for Generative Reward Models",
+        "source_url": "https://huggingface.co/papers/2610.27528",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "930e12ad8568d8b9"
+      "receipt_hash": "817f908095b8c5ea"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_930e12ad8568"
+      "receipt_hash": "arm_817f908095b8"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
