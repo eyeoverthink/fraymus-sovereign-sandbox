@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T08:45:34.899Z",
-  "packet_sha256": "dcbb424625ec4e0336d40ff60de3e014d0ab301747c378db45b3732b736a9d09",
+  "updated_at": "2026-10-26T09:18:29.069Z",
+  "packet_sha256": "4f2371f48ec0868e7ec0c35c66f19a57b63eb591abfde9ad1635ebdb7d315bcb",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "82396d0f2fc7292c",
+    "merkle_root_hex": "16120ffb3f322769",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "82396d0f2fc7292c",
-      "frame_sha256": "25ab9acee044f20b4948af03aa3c7d3381d39846b0c6bdc8ecafc854d3ac6b8f",
+      "merkle_root_hex": "16120ffb3f322769",
+      "frame_sha256": "a749297a6daa9299bb9fda708e911092060ec3762336ad6a2a25e096fb0abc4d",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:be6d5434:45cf9723:d6c6f9aa:766e825c",
+      "hdc_16k": "hdc16k:bfba4444:f7d81aec:e901417a:4e0fef50",
       "spectral_4d": {
-        "coord4D": "37.171.154:206",
-        "rgbaStr": "{37}{171}{154}{206}",
-        "carrier_freq_hz": 342,
+        "coord4D": "167.73.41:122",
+        "rgbaStr": "{167}{73}{41}{122}",
+        "carrier_freq_hz": 297,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_82396d0f2fc7292c",
+        "receipt_id": "R_san_yin_16120ffb3f322769",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T08:45:36.772Z"
+        "verified_at": "2026-10-26T09:18:30.856Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T08:45:35.352Z",
+    "harvested_at": "2026-10-26T09:18:29.620Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+        "url": "https://huggingface.co/papers/2610.27782",
+        "summary": "Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions. Multimodal large language models (MLLMs) are increasingly used to judge these properties, yet their agreement with human judgments on embodied videos ",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-20T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "The growth of time-series datasets and foundation models has made dataset comparison a central part of time-series workflows. Assessing source-target transfer before model adaptation requires similarity estimates that can summarize transfer-related dataset relationships without exhaustive source-target evaluation over ",
         "metric": "1 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Building Auditable AI Text Detectors with Sparse Autoencoders",
-        "url": "https://huggingface.co/papers/2610.30006",
-        "summary": "AI-generated text detectors are increasingly deployed in consequential settings---peer review, education, admissions, journalism, and content moderation---where their outputs directly affect individuals. Yet the strongest detectors are fine-tuned neural classifiers whose decisions are opaque, while transparent alternat",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-21T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
-        "source_url": "https://huggingface.co/papers/2610.14253",
+        "source_anchor": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+        "source_url": "https://huggingface.co/papers/2610.27782",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "82396d0f2fc7292c"
+      "receipt_hash": "16120ffb3f322769"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_82396d0f2fc7"
+      "receipt_hash": "arm_16120ffb3f32"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
