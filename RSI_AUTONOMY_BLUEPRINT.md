@@ -1,5 +1,5 @@
 # FRAYMUS SOVEREIGN SANDBOX — RECURSIVE SELF-IMPROVEMENT (RSI) & CONTINUITY ARCHITECTURE
-> **Repository:** `https://github.com/eyeoverthink/fraymus-sovereign-sandbox` · **Exported Specialists:** 16 · **Exported Sandbox Drafts:** 11
+> **Repository:** `https://github.com/eyeoverthink/fraymus-sovereign-sandbox` · **Exported Specialists:** 16 · **Exported Sandbox Drafts:** 5
 
 ## 1. Why This Architecture Exists (Closing the Cloud Sandbox Gap)
 Cloud-hosted web apps (`Creator Nexus` and `Fraymus Eternal`) excel at real-time browser visualization, database persistence, and cross-app HTTP handshakes, but they cannot natively run:
