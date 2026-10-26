@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-25T22:34:22.699Z",
-  "packet_sha256": "cda05afa81e8831c34762a321b8c9fb316e38aa5d4777eb2bf96ef745c48d3a5",
+  "updated_at": "2026-10-26T00:09:19.778Z",
+  "packet_sha256": "e354c04062e6eb7cb26c56472280513bcdc31698e8d50e46cbad3cc69108f4ab",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a4be9c9e8692ca41",
+    "merkle_root_hex": "dee1f850fb601220",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a4be9c9e8692ca41",
-      "frame_sha256": "1e3dc6f4a9a9b0855210a4ee2e012bbc71435c3d9841b59fa45a5acc1fac868e",
+      "merkle_root_hex": "dee1f850fb601220",
+      "frame_sha256": "147d261216759cb2731c60062c72898b961e55a86435c9c2d97b3dcfc0a80865",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ed4a4151:b3b2da5d:25dde2b5:5d62433a",
+      "hdc_16k": "hdc16k:7647cb3d:9654f2c6:854f0b75:09628707",
       "spectral_4d": {
-        "coord4D": "30.61.198:244",
-        "rgbaStr": "{30}{61}{198}{244}",
-        "carrier_freq_hz": 301,
+        "coord4D": "20.125.38:18",
+        "rgbaStr": "{20}{125}{38}{18}",
+        "carrier_freq_hz": 241,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a4be9c9e8692ca41",
+        "receipt_id": "R_san_yin_dee1f850fb601220",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-25T22:34:24.758Z"
+        "verified_at": "2026-10-26T00:09:27.778Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-25T22:34:23.174Z",
+    "harvested_at": "2026-10-26T00:09:27.778Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -133,51 +133,6 @@
         "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show tha",
         "metric": "23 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Reliable AI-Assisted Decisions via Selective Auditing",
-        "url": "http://arxiv.org/abs/2610.31662v1",
-        "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need not be produced by the same model: for example, one agent may",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:59:22Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-        "url": "http://arxiv.org/abs/2610.31656v1",
-        "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:58:27Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
-        "url": "http://arxiv.org/abs/2610.31651v1",
-        "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:57:20Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-        "url": "http://arxiv.org/abs/2610.31650v1",
-        "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:57:04Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "On the direct SLE-martingale approach to the integrability of Conformal Loop Ensembles",
-        "url": "http://arxiv.org/abs/2610.31648v1",
-        "summary": "This paper is about the derivation of \"integrability results\" (i.e., for example, explicit formulas for the probability of events involving a few marked points) for Conformal Loop Ensembles, that are the (conjectured) scaling limits of discrete crititical planar lattice models from Statistical Physics. We discuss the e",
-        "metric": "Published 2026-10-22",
-        "published_at": "2026-10-22T17:56:41Z"
       }
     ],
     "curve_augmentations": [
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-        "source_url": "http://arxiv.org/abs/2610.31656v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a4be9c9e8692ca41"
+      "receipt_hash": "dee1f850fb601220"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a4be9c9e8692"
+      "receipt_hash": "arm_dee1f850fb60"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
