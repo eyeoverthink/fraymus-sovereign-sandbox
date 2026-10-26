@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T22:27:30.835Z",
-  "packet_sha256": "1069ff1a81aba554673444fe625ed15bd501a79df63f289a09bc4ef1d04d2e77",
+  "updated_at": "2026-10-26T23:54:05.108Z",
+  "packet_sha256": "483578a52e4764509decdc911e99122a54090f2433c8e596505026d1b71e5d35",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b059809fc1f9e096",
+    "merkle_root_hex": "3d7da2cffa2b3f0d",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b059809fc1f9e096",
-      "frame_sha256": "e2ed5d8f53734b3365475240f5c59a3ecf861c10f5867d727f119597c9ec6926",
+      "merkle_root_hex": "3d7da2cffa2b3f0d",
+      "frame_sha256": "969f522dd62b028d4e3d452815fb26b5a4632a9b710cf9c8acb6454a3b929e0b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:63ffebee:5913f35e:26b34a4c:77567fe7",
+      "hdc_16k": "hdc16k:de042ab7:90ea7e0c:6e2c07ff:3c67a5bb",
       "spectral_4d": {
-        "coord4D": "226.237.93:143",
-        "rgbaStr": "{226}{237}{93}{143}",
-        "carrier_freq_hz": 452,
+        "coord4D": "150.159.82:45",
+        "rgbaStr": "{150}{159}{82}{45}",
+        "carrier_freq_hz": 359,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b059809fc1f9e096",
+        "receipt_id": "R_san_yin_3d7da2cffa2b3f0d",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T22:27:32.841Z"
+        "verified_at": "2026-10-26T23:54:06.948Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T22:27:31.091Z",
+    "harvested_at": "2026-10-26T23:54:05.573Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "How Much Feedback Is Needed to Break Template Protection? The Geometric Vulnerability of Biometric Authentication",
+        "url": "https://huggingface.co/papers/2610.25118",
+        "summary": "Biometric authentication systems increasingly use privacy-preserving mechanisms to protect sensitive templates. However, the authentication interface itself may still leak information that enables reconstruction attacks. Prior attacks exploit released similarity scores, whereas more advanced systems reveal only the bin",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-18T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -122,15 +131,6 @@
         "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
         "url": "https://huggingface.co/papers/2610.31572",
         "summary": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts. G-Retriever combines graph soft prompts with a verbalized description of the same graph to",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
-        "url": "https://huggingface.co/papers/2610.31779",
-        "summary": "The life-cycle of robotics foundation models crucially depends on data labels. Outcome reward labels are needed for monitoring real-world deployments. Process reward labels are needed during RL post-training. Timestamped captions are needed for filtering and balancing pretraining data. We present Flora, an industrial-q",
         "metric": "0 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
-        "source_url": "https://huggingface.co/papers/2610.21109",
+        "source_anchor": "How Much Feedback Is Needed to Break Template Protection? The Geometric Vulnerability of Biometric Authentication",
+        "source_url": "https://huggingface.co/papers/2610.25118",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b059809fc1f9e096"
+      "receipt_hash": "3d7da2cffa2b3f0d"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b059809fc1f9"
+      "receipt_hash": "arm_3d7da2cffa2b"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
