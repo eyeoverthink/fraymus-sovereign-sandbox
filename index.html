@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always bridge the gap between abstract coordinate math and sensory output through non-linear soft-clipping and color-coded state indicators.
+          <strong>Retained Instinct:</strong> Harmonic movement in multi-dimensional space requires temporal interpolation to prevent dissonance during axial state transitions.
         </div>
       </div>
 
@@ -94,7 +94,19 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut"># 4D Spectral Voxel Instrument (Refined) ### Implementation: The instrument now uses a Math.tanh limiter on the AudioNode output and a dynamic color shift `hsla(180 + (isMajor ? 40 : 0), 70%, 50%, 0.8)` to provide sensory feedback for the musical transition from E-minor to G-major.</pre>
+        <pre id="consoleOut"># 4D Spectral Voxel Instrument (v2.0) 
+
+## Refined Architecture 
+- **Smooth Interpolation:** Frequencies now utilize a `lerp()` function to bridge the E-minor to G-major shift over 200ms.
+- **Dimensional Depth:** Added a `globalAlpha` multiplier based on the W-coordinate to create a pseudo-volumetric spatial effect.
+
+```javascript
+function updateAudio(w) {
+  const targetFreq = w > 0.5 ? 392 : 329;
+  currentFreq = lerp(currentFreq, targetFreq, 0.1);
+  oscillator.frequency.setTargetAtTime(currentFreq, audioCtx.currentTime, 0.05);
+}
+```</pre>
       </div>
     </div>
   </div>
