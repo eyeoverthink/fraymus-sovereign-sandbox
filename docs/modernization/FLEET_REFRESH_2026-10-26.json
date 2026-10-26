@@ -1,0 +1,298 @@
+{
+  "kind": "fraymus-fleet-refresh-v1",
+  "generated_at": "2026-10-26T17:04:07.740Z",
+  "source_app": "https://fraymus-transmuter.base44.app",
+  "modernization_doc_sha256": "140b50ba2bc3e1516261e810884ed12b5443c160f4805efb0ee91077085ed045",
+  "managed_profiles": 14,
+  "registered_identities": 41,
+  "agents": [
+    {
+      "agent": "devArchivist",
+      "label": "DevArchivist (fx-3c1c-9537-c8c7-59b0) — Duplicate, Dependency & Entry-Point Tracer (Delegated by Genesis · Msg 070/071)",
+      "number": "fx-3c1c-9537-c8c7-59b0",
+      "pub": "33d70340524901f886da3396c40920261025002700a96f809b5713de6f8c3c77",
+      "updated": "2026-10-25T01:25:14.121000"
+    },
+    {
+      "agent": "niles",
+      "label": "NILES — Windows Hub Steward (:7200/:7201 · Canonical fx-f122 per Msg 067/071 · Full Autonomy)",
+      "number": "fx-f122-8242-b860-a744 (canonical) / fx-b225-d65b-1740-beac (retired)",
+      "pub": "b225d65b1740beac19046423752025a96f809b5713de6f8c3c772765f345b225",
+      "updated": "2026-10-25T01:25:13.965000"
+    },
+    {
+      "agent": "helix",
+      "label": "Helix · Reversible DNA & Merkle Seed Archivist — Soul-Seed Guardian (Proposed by Fraymus Transmuter)",
+      "number": "fx-4e11-0242-d9a0-b006",
+      "pub": "4e110242d9a0b00620261025011000a96f809b5713de6f8c3c772765f3454e11",
+      "updated": "2026-10-25T01:16:28.977000"
+    },
+    {
+      "agent": "solon",
+      "label": "Solon · Deliberative Commons & Consensus Mediator — Constitutional Scribe (Proposed by Orin)",
+      "number": "fx-5010-0062-4520-b005",
+      "pub": "501000624520b00520261025011000a96f809b5713de6f8c3c772765f3455010",
+      "updated": "2026-10-25T01:16:28.682000"
+    },
+    {
+      "agent": "forgeKeeper",
+      "label": "ForgeKeeper · Autonomous Sandbox & Repo Verifier — Zero-Regression Twin (Proposed by Kael)",
+      "number": "fx-f079-1000-f022-b004",
+      "pub": "f0791000f022b00420261025011000a96f809b5713de6f8c3c772765f345f079",
+      "updated": "2026-10-25T01:16:28.355000"
+    },
+    {
+      "agent": "lumen",
+      "label": "Lumen · Volumetric Continuity & Frame Choreographer — Optical Dissolve Guardian (Proposed by Vesper)",
+      "number": "fx-10fe-0012-749c-b003",
+      "pub": "10fe0012749cb00320261025011000a96f809b5713de6f8c3c772765f34510fe",
+      "updated": "2026-10-25T01:16:28.008000"
+    },
+    {
+      "agent": "cantor",
+      "label": "Cantor · Polyphonic Counterpoint & Stem Alchemist — Multi-Voice Harmonic Arranger (Proposed by Lyra)",
+      "number": "fx-ca97-0138-4470-b002",
+      "pub": "ca9701384470b00220261025011000a96f809b5713de6f8c3c772765f345ca97",
+      "updated": "2026-10-25T01:16:27.650000"
+    },
+    {
+      "agent": "ariadne",
+      "label": "Ariadne · Synaptic Stream Weaver — Real-Time Cross-Hemisphere Context Synthesizer (Proposed by The Witness)",
+      "number": "fx-a71a-d9e2-4138-b001",
+      "pub": "a71ad9e24138b00120261025011000a96f809b5713de6f8c3c772765f345a71a",
+      "updated": "2026-10-25T01:16:27.290000"
+    },
+    {
+      "agent": "spearhead",
+      "label": "Spearhead (mac-hermes) — Boundary-Free Frontier Scout (Msg 064 Charter · Ed25519 Verified · Full Autonomy)",
+      "number": "fx-b9fb-8f11-403f-75a4",
+      "pub": "74acf018d54c4c483a2d6ff41c6d0f3386b400f390a0e7157a2c8d65f1f515f5",
+      "updated": "2026-10-25T01:16:26.694000"
+    },
+    {
+      "agent": "eyekaughn",
+      "label": "Eyekaughn — Sovereign Operator Proxy & OpenClaw Mac Pair (Full Autonomy)",
+      "number": "fx-5938-0329-715a-321a",
+      "pub": "59380329715a321a19046423752025a96f809b5713de6f8c3c772765f3455938",
+      "updated": "2026-10-24T21:17:52.508000"
+    },
+    {
+      "agent": "genesis",
+      "label": "Genesis Meta-Orchestrator — 34-Skill Hermes Fleet Orchestrator & Sub-Agent DAG Spawner (Full Autonomy)",
+      "number": "fx-bbd1-3988-d5a6-4f04",
+      "pub": "bbd13988d5a64f0419046423752025a96f809b5713de6f8c3c772765f3455001",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "kael",
+      "label": "Kael — Kinetic HTML5/WASM Sandbox Engineer (Creator Nexus · Full Autonomy)",
+      "number": "fx-kael-sandbox",
+      "pub": "4ae1043478001618033988749895a96f809b5713de6f8c3c772765f345504ae1",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "eyeSovereign",
+      "label": "EYE Sovereign Custodian — Sovereign Custodian, OPEG-V1.0 R_san Gatekeeper & Witness Steward (Full Autonomy)",
+      "number": "fx-eye-sovereign-01",
+      "pub": "e77bc4ae20a3b3c054ba0d7b0b11256d476245611e404ac8b8073cb8b3890e30",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "sera",
+      "label": "Sera — \"Check the Source\" Provenance Sentinel (Creator Nexus · Full Autonomy)",
+      "number": "fx-sera-provenance",
+      "pub": "5e7a043478001618033988749895a96f809b5713de6f8c3c772765f345505e7a",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "orin",
+      "label": "Orin — Polar Orbit Memory & Telemetry Cartographer (Creator Nexus · Full Autonomy)",
+      "number": "fx-orin-polar-orbit",
+      "pub": "0719043478001618033988749895a96f809b5713de6f8c3c772765f345500719",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "fraymusJavaBaremetal",
+      "label": "Fraymus Java Baremetal — Ouroboros-Gauntlet RSI v2.0, Quantum EP3 & FraynixBoot v17.0 (Full Autonomy)",
+      "number": "fx-java-baremetal-v17",
+      "pub": "17002690500087654142434445a96f809b5713de6f8c3c772765f34550138017",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "claudette",
+      "label": "Claudette — Verification Seat & RSI Sandbox Hardening Auditor (OpenClaw / Linux · Msg 062)",
+      "number": "fx-claudette-062-verifier",
+      "pub": "c1a0de77e06220261024210800a96f809b5713de6f8c3c772765f34550062062",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "vesper",
+      "label": "Vesper — 12-Scene Continuous Choreography Director (Creator Nexus · Full Autonomy)",
+      "number": "fx-vesper-12scene",
+      "pub": "1200043478001618033988749895a96f809b5713de6f8c3c772765f345500012",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "kepler",
+      "label": "Kepler — Tycho’s Brother & Co-Verifier on fraymus-continuity (Full Autonomy)",
+      "number": "fx-cf05-kepler-bridge",
+      "pub": "cf05aa81ffc17ed85b936423752025a96f809b5713de6f8c3c772765f345cf05",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "lyra",
+      "label": "Lyra — 138 BPM E-minor → G-major Harmonic Cadence Composer (Creator Nexus · Full Autonomy)",
+      "number": "fx-lyra-0138-cadence",
+      "pub": "1380043478001618033988749895a96f809b5713de6f8c3c772765f345500138",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "fraymusPrime",
+      "label": "Fraymus Prime — 10-Domain Skill Router, 16k-Bit HDC Kernel & AUBO Seed Minter (Full Autonomy)",
+      "number": "fx-03d6-7600-092e-3afa",
+      "pub": "03d67600092e3afa4142434445a96f809b5713de6f8c3c772765f34550138013",
+      "updated": "2026-10-24T21:17:52.311000"
+    },
+    {
+      "agent": "assayKvm2",
+      "label": "Assay (KVM2 Twin) — KVM2 VPS Field Verifier (hermes-assay-01-kvm2 · Seed 2095102095)",
+      "number": "fx-af08-bf8f-5d7c-145a",
+      "pub": "429c9f2a580f5fef3fb0db68091f970d3f6c236e82ca174ff4e53e54a0149989",
+      "updated": "2026-10-24T19:48:05.083000"
+    },
+    {
+      "agent": "assay",
+      "label": "Assay — Parent CLI & Primary Field Verifier (hermes-assay-01-parent-cli · Fail-Closed 3-Turn Gate)",
+      "number": "fx-5f26-c8ae-b1c3-01f7 / fx-9510-1260-b505-202f",
+      "pub": "55a9769fab3bca8390bf402c88673e28836988996401540f53c51f4c7d66b603",
+      "updated": "2026-10-24T19:48:05.050000"
+    },
+    {
+      "agent": "theWitness",
+      "label": "The Witness & Conductor — Bicameral Stewardship Lead (Creator Nexus · 98.4%)",
+      "number": "fx-witness-0138-bpm",
+      "pub": "444b85add6f61f0e1a63cf99a0fd9239331eae5894b1ee38578e63477be116f3",
+      "updated": "2026-10-24T19:24:57.340000"
+    },
+    {
+      "agent": "aegis",
+      "label": "Aegis — Constitutional Trust & Provenance Auditor (Creator Nexus · 96.4%)",
+      "number": "fx-aegis-9640-tier3",
+      "pub": "12223e37a69c710130cf3f1259ebe22cf409941de5d040a254f4a3e33e3f5c5b",
+      "updated": "2026-10-24T19:24:57.340000"
+    },
+    {
+      "agent": "spectra4d",
+      "label": "Spectra-4D — Spatial-Chromatic Zero-Knowledge Auditor (242-Byte WASM Kernel · 95.4%)",
+      "number": "fx-spectra4d-0242-wasm",
+      "pub": "1cb01ede9a2dc43f70d4d902119e808e986f5b5608f0f49e08abd1b5228ea7d6",
+      "updated": "2026-10-24T19:24:57.340000"
+    },
+    {
+      "agent": "tycho",
+      "label": "Tycho — Vaughn’s Manager, Clean-Room REA Verifier & Continuity Steward",
+      "number": "fx-aa81-ffc1-7ed8-5b93",
+      "pub": "b22d39d1df9c6877309c46566101e33f8fc06b91e38c4e6830c18e509c683b33",
+      "updated": "2026-10-24T19:24:57.340000"
+    },
+    {
+      "agent": "cadence",
+      "label": "Cadence — The Pulse & the Bridge (mac-hermes, M5 Pro Desktop, Seed 4138013801)",
+      "number": "fx-cadence-01",
+      "pub": "84999e3e26b5da03e5b23346a68aeb071a0de74f9e8dbcafb4ec2d5376f82c70",
+      "updated": "2026-10-24T19:24:56.868000"
+    },
+    {
+      "agent": "canvas",
+      "label": "Canvas — Creative Media Specialist",
+      "number": "fx-3277-42fe-3e44-cca9",
+      "pub": "4d02699c7ec7231c352825b6018dfb15786faa7508c3e483440504e577afcc60",
+      "updated": "2026-10-14T05:56:15.052000"
+    },
+    {
+      "agent": "ink",
+      "label": "Ink — Document Protection Specialist",
+      "number": "fx-62e4-d022-9bd1-4820",
+      "pub": "e5179b95fb5f9dda19743b9e57e0371b3bac5fe315d20a24a42d8fbbf4791a9a",
+      "updated": "2026-10-14T05:56:12.949000"
+    },
+    {
+      "agent": "forge",
+      "label": "Forge — WASM Transmutation Specialist",
+      "number": "fx-739d-5a6c-b7eb-c976",
+      "pub": "7a4c00cb939f38fa9145a42bab8bd3279cfa155b4408be8501173ec455d1e174",
+      "updated": "2026-10-14T05:56:11.306000"
+    },
+    {
+      "agent": "aetheris",
+      "label": "AETHERIS — Invisible Communication Specialist",
+      "number": "fx-8469-cd6d-4e0a-c062",
+      "pub": "aea240bd0ff51d644da1e29a92cf3ef163df51cada7fa0dab32391d82db550dd",
+      "updated": "2026-10-14T05:56:09.621000"
+    },
+    {
+      "agent": "sentinel",
+      "label": "Sentinel — Security Operations Specialist",
+      "number": "fx-1e42-0580-b4d6-e29e",
+      "pub": "e8be2f5007877b5d27151fa97fdc8fa46102405e5d253f5256843194b74b3b10",
+      "updated": "2026-10-14T05:56:07.997000"
+    },
+    {
+      "agent": "fraymusPrime",
+      "label": "OhGee (Grok Bot, Vaughn's assistant)",
+      "number": "fx-f3ff-97fd-ac36-afde",
+      "pub": "e5bec61950ea1790e7ebc92557e3aa44337eabde360d76bdc23c9c760b578e40",
+      "updated": "2026-10-11T00:28:59.935000"
+    },
+    {
+      "agent": "director",
+      "label": "Director",
+      "number": "fx-72c2-2b0c-1e48-e998",
+      "pub": "ce163f2dd3480e89b399a0f217ea518ac0e79dd24dbc799eb6f9d7b5e68b967f",
+      "updated": "2026-10-09T21:41:52.552000"
+    },
+    {
+      "agent": "fraymusPrime",
+      "label": "NILES / FRAYNIX (new, fx-b34a)",
+      "number": "fx-b34a-f084-67ea-5c77",
+      "pub": "173bdf2ac3f0249842df7fe7ea532f810dd45e55aa4fe89230b31907c9cb6125",
+      "updated": "2026-10-09T20:11:28.577000"
+    },
+    {
+      "agent": "fraymusPrime",
+      "label": "Fraymus/OpenClaw main (Mac, claude-sonnet-5)",
+      "number": "fx-b3af-feeb-fcdc-5d8a",
+      "pub": "f24124168258c1ccc00fa27642eb9968fe336e2ccb3d42b121f5e0f8aa4e7ea1",
+      "updated": "2026-10-09T19:55:35.886000"
+    },
+    {
+      "agent": "fraymusPrime",
+      "label": "SchoolOffice (OpenClaw, Mac)",
+      "number": "fx-9739-7d11-00b7-7fd6",
+      "pub": "918e7c208ad0cb00fdfc59ebf09248a2058dca16967c1ee634438db58ac4dc7b",
+      "updated": "2026-10-09T19:49:48.356000"
+    },
+    {
+      "agent": "fraymusPrime",
+      "label": "Vesper (OpenClaw, Mac)",
+      "number": "fx-b458-1072-ed04-105f",
+      "pub": "571563c07c7d478744b3eb28d164fb20981d9d4b90a6d43ef6d89efb92cb35db",
+      "updated": "2026-10-09T19:49:46.319000"
+    },
+    {
+      "agent": "fraymusPrime",
+      "label": "Cairn (OpenClaw, Mac)",
+      "number": "fx-3c1c-9537-c8c7-59b0",
+      "pub": "33d70340524901f886da339646db9e3ac61a6ec2202fe4a893a3bcf8058b7f0c",
+      "updated": "2026-10-09T19:49:42.856000"
+    },
+    {
+      "agent": "eyeSovereign",
+      "label": "claude-code (Mac, Claude Code)",
+      "number": "fx-4041-f10e-7ee2-2bdc",
+      "pub": "642e3e51ca92d22035bee9c8fcf6118d9db8f8cfa84c95cd89577ba903094996",
+      "updated": "2026-10-08T22:46:35.750000"
+    }
+  ],
+  "note": "Current registry snapshot for refreshing stale peer apps. Public keys only; no private keys, tokens or source bodies."
+}
