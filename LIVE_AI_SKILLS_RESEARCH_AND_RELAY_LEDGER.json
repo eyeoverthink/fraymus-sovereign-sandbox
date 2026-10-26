@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-26T13:26:24.163Z",
-  "packet_sha256": "2df795145644a101a5695d32bd608b4279e9bad2bd917d5f2436a35b982a636e",
+  "updated_at": "2026-10-26T14:00:25.365Z",
+  "packet_sha256": "0007d78d99b1b1059c7c827b754e61ff260f0fdc61a051c5d1b52aabcd281aad",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "43dbc1fed3a4646c",
+    "merkle_root_hex": "fb05ec5b23def225",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "43dbc1fed3a4646c",
-      "frame_sha256": "057e6ba04588b762887b3735bd88721ee53b99e7b111d872fdfb9a934f7253f4",
+      "merkle_root_hex": "fb05ec5b23def225",
+      "frame_sha256": "b7d76244bbcd07d20fc18e67a420d803bdd085b577b36248253ab2cfea329561",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:83e00ca2:38afa46d:16a8ee7a:4ab08b58",
+      "hdc_16k": "hdc16k:77509f0d:c36eb780:d648e9d7:95263b40",
       "spectral_4d": {
-        "coord4D": "5.126.107:160",
-        "rgbaStr": "{5}{126}{107}{160}",
-        "carrier_freq_hz": 272,
+        "coord4D": "183.215.98:68",
+        "rgbaStr": "{183}{215}{98}{68}",
+        "carrier_freq_hz": 418,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_43dbc1fed3a4646c",
+        "receipt_id": "R_san_yin_fb05ec5b23def225",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-26T13:26:25.797Z"
+        "verified_at": "2026-10-26T14:00:27.224Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-26T13:26:24.582Z",
+    "harvested_at": "2026-10-26T14:00:26.419Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+        "url": "https://huggingface.co/papers/2610.31423",
+        "summary": "Vision-language-action (VLA) models have become an important paradigm for robotic manipulation by unifying visual perception, language understanding, and action generation. Since reliable manipulation requires sufficient observation of objects, end-effectors, and their spatial relationships, multi-view inputs are widel",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +113,7 @@
         "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
         "url": "https://huggingface.co/papers/2610.31668",
         "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopt",
-        "metric": "217 upvotes",
+        "metric": "218 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Slider-based control aims to give users continuous, fine-grained control over the intensity of individual edits in instruction-based image editing. However, existing approaches fail to deliver reliable continuous controllability: traversing a slider can produce abrupt visual jumps and non-monotonic changes, while joint",
         "metric": "1 upvotes",
         "published_at": "2026-10-14T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
-        "url": "https://huggingface.co/papers/2610.01352",
-        "summary": "Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference. We introduce MMVistaReason (MVR), an open-data post-training reci",
-        "metric": "4 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Does LeWorldModel Preserve Local Action Geometry?",
-        "source_url": "https://huggingface.co/papers/2610.31716",
+        "source_anchor": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+        "source_url": "https://huggingface.co/papers/2610.31423",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "43dbc1fed3a4646c"
+      "receipt_hash": "fb05ec5b23def225"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_43dbc1fed3a4"
+      "receipt_hash": "arm_fb05ec5b23de"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
