@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T00:31:51.854Z",
-  "packet_sha256": "75a2cedc32856566ba1d499585239150a018581ba5ff9b8ca53a715d562e2eb9",
+  "updated_at": "2026-10-27T01:28:59.982Z",
+  "packet_sha256": "b67483f552f347b069d2d2d3046fc9497bcfd6b375e67bf1d398add046c17434",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "2d610d7a3a359beb",
+    "merkle_root_hex": "9d4f6489cabe3595",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "2d610d7a3a359beb",
-      "frame_sha256": "048320985c38e8f706e742c84ef523d9e9f161b1739c0116f11ec3bb73e717f1",
+      "merkle_root_hex": "9d4f6489cabe3595",
+      "frame_sha256": "e551cb47bcade6a28d43b72cdc969f727b9fb22b7b159d5482fbedc5ac35db8e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:e3fcabcb:694e029e:0de458a1:ea9eee85",
+      "hdc_16k": "hdc16k:ed856d14:862c7bac:b553727e:60ef15d5",
       "spectral_4d": {
-        "coord4D": "4.131.32:152",
-        "rgbaStr": "{4}{131}{32}{152}",
-        "carrier_freq_hz": 232,
+        "coord4D": "229.81.203:71",
+        "rgbaStr": "{229}{81}{203}{71}",
+        "carrier_freq_hz": 428,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_2d610d7a3a359beb",
+        "receipt_id": "R_san_yin_9d4f6489cabe3595",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T00:31:53.615Z"
+        "verified_at": "2026-10-27T01:29:01.990Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T00:31:52.124Z",
+    "harvested_at": "2026-10-27T01:29:00.358Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
+        "url": "https://huggingface.co/papers/2610.32093",
+        "summary": "Behavior cloning for robotic manipulation is highly sensitive to the coverage of its training data, yet collecting diverse successful demonstrations remains costly. We study reinforcement learning (RL) not as a deployable controller, but as a data generator for downstream visuomotor imitation learning. Our key premise ",
+        "metric": "6 upvotes",
+        "published_at": "2026-10-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Function-Space Temporal Self-Distillation for Policy Optimization",
+        "url": "https://huggingface.co/papers/2610.19687",
+        "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) improves reasoning in language models, but scalar outcomes provide coarse supervision over response trajectories. Self-distillation offers denser token-level guidance by comparing an unassisted policy with a feedback-informed self-teacher, yet the teacher evolves wi",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-14T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -117,75 +135,57 @@
         "published_at": "2026-10-19T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Judging the Justification: Decision Certificate Supervision for Generative Reward Models",
-        "url": "https://huggingface.co/papers/2610.27528",
-        "summary": "Generative reward models (GenRMs) generate natural language rationales to justify preference judgments, yet a correct verdict does not guarantee a sound justification. Existing approaches often rely on reference explanations to supervise rationales, but obtaining such references can be costly and does not necessarily e",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-20T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
-        "url": "https://huggingface.co/papers/2610.31572",
-        "summary": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts. G-Retriever combines graph soft prompts with a verbalized description of the same graph to",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "The Symmetry of Differential Neural Tangent Kernel under the Orthogonal Group",
+        "url": "http://arxiv.org/abs/2610.34023v1",
+        "summary": "The differential neural tangent kernel (DNTK) is a tool for analyzing the training dynamics of overparameterized physics informed neural networks. In this work, we investigate the symmetry of the infinite DNTK under an orthogonal group, for two layer and deep neural networks separately, based on the explicit expression",
+        "metric": "Published 2026-10-25",
+        "published_at": "2026-10-25T03:27:08Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "The Language of Instruction: Genre and Generative AI",
-        "url": "http://arxiv.org/abs/2610.32982v1",
-        "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massi",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:59:56Z"
+        "title": "BriLLM-MetaPred: A Representation-Prediction Unity Language Model with Adaptive Self-Measurement",
+        "url": "http://arxiv.org/abs/2610.34018v1",
+        "summary": "We present BriLLM-MetaPred, the first engineering implementation of the MetaPred machine-learning framework established by a mathematical theory of AGI, instantiated for language modeling. The theory argues that MetaPred is both necessary and sufficient as a machine-learning primitive for general cognition. Taking this",
+        "metric": "Published 2026-10-25",
+        "published_at": "2026-10-25T03:08:17Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-        "url": "http://arxiv.org/abs/2610.32978v1",
-        "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their ou",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:59:21Z"
+        "title": "The Patient Is Always Right? Evaluating Sycophancy in Medical Diagnosis with Graded Patient Beliefs",
+        "url": "http://arxiv.org/abs/2610.34013v1",
+        "summary": "More people are seeking out general-purpose AI models for medical advice, including diagnosis. Yet, AI models are susceptible to sycophancy, like validating users' beliefs even when they are untrue, which could lead to false positive diagnoses. Here, we evaluate how nine AI models change their diagnostic decision when ",
+        "metric": "Published 2026-10-25",
+        "published_at": "2026-10-25T02:54:42Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-        "url": "http://arxiv.org/abs/2610.32969v1",
-        "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their ",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:56:28Z"
+        "title": "Fed-Universe: A Semantic-Geometric-Topological-Human (S-G-T-H) Stack for Negotiated Alignment in Federated Systems",
+        "url": "http://arxiv.org/abs/2610.34009v1",
+        "summary": "Conventional federated learners implicitly optimize for global means, creating a \"one-size-fits-all\" paradigm that inevitably suppresses the minority under cross-site heterogeneity. To bridge this critical gap, we present Fed-Universe, a generalizable Semantic-Geometric-Topological-Human (S-G-T-H) architecture that tra",
+        "metric": "Published 2026-10-25",
+        "published_at": "2026-10-25T02:43:50Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "RynnUnify: Towards Unified Embodied Brain",
-        "url": "http://arxiv.org/abs/2610.32965v1",
-        "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world wi",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:54:07Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
-        "url": "http://arxiv.org/abs/2610.32955v1",
-        "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protoco",
-        "metric": "Published 2026-10-23",
-        "published_at": "2026-10-23T17:49:43Z"
+        "title": "InferScale: Kubernetes-Native Predictive Autoscaling for SLO-Aware AI Inference",
+        "url": "http://arxiv.org/abs/2610.34006v1",
+        "summary": "Kubernetes Horizontal Pod Autoscaler (HPA) is widely used for inference services, but reactive scaling is often too slow when pods take tens of seconds to become ready. The problem gets worse in shared clusters, where independent HPAs compete for the same resource budget and can hurt different tenants from run to run. ",
+        "metric": "Published 2026-10-25",
+        "published_at": "2026-10-25T02:36:19Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "How Much Feedback Is Needed to Break Template Protection? The Geometric Vulnerability of Biometric Authentication",
-        "source_url": "https://huggingface.co/papers/2610.25118",
+        "source_anchor": "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
+        "source_url": "https://huggingface.co/papers/2610.32093",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-        "source_url": "http://arxiv.org/abs/2610.32978v1",
+        "source_anchor": "BriLLM-MetaPred: A Representation-Prediction Unity Language Model with Adaptive Self-Measurement",
+        "source_url": "http://arxiv.org/abs/2610.34018v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "2d610d7a3a359beb"
+      "receipt_hash": "9d4f6489cabe3595"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_2d610d7a3a35"
+      "receipt_hash": "arm_9d4f6489cabe"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
