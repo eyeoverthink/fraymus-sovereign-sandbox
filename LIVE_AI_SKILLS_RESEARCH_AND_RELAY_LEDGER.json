@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T14:47:54.706Z",
-  "packet_sha256": "26d954cb9a4e979d0ae76af61baef82c18589d0257a821ff4135466ece6d869d",
+  "updated_at": "2026-10-27T16:22:55.869Z",
+  "packet_sha256": "a90cedfdab1cd336e12a7c12939ab10c54b41e3c3f62fc231e03412bc4a9a1af",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b413a5bdab7847d5",
+    "merkle_root_hex": "511b711393d1fc62",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b413a5bdab7847d5",
-      "frame_sha256": "043b0e5d09f717083f4fe56062115ab4bd46c54f63c3fe9fa32b60b9cc14ea4c",
+      "merkle_root_hex": "511b711393d1fc62",
+      "frame_sha256": "7358e0306ca1e6beaf15a85b2bdf91cb672a60e73fef2e214c345848929d52af",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:961a8194:c5622b1d:1cf6926c:6ffda14e",
+      "hdc_16k": "hdc16k:28b87800:dc7a40e0:a9d6635a:322a1644",
       "spectral_4d": {
-        "coord4D": "4.59.14:93",
-        "rgbaStr": "{4}{59}{14}{93}",
-        "carrier_freq_hz": 181,
+        "coord4D": "115.88.224:48",
+        "rgbaStr": "{115}{88}{224}{48}",
+        "carrier_freq_hz": 379,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b413a5bdab7847d5",
+        "receipt_id": "R_san_yin_511b711393d1fc62",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T14:47:56.760Z"
+        "verified_at": "2026-10-27T16:22:59.764Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T14:47:55.416Z",
+    "harvested_at": "2026-10-27T16:22:56.364Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
+        "url": "https://huggingface.co/papers/2610.34735",
+        "summary": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-use agents bring this promise within reach by capably executing fully specified tasks across apps. However, real-world user requests are often underspecified. To act correctly for the particular user, an",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning",
+        "url": "https://huggingface.co/papers/2610.33877",
+        "summary": "Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation drift: models maintain predictive accuracy while silently shifting attention from diagnostic features to spurious correlations. This work identifies and resolves a previously overlooked structural flaw ",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-24T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +122,7 @@
         "title": "Intrinsic Goals for Autonomous Agents: Hierarchical Exploration Captures Future Volitional Action in Drosophila",
         "url": "https://huggingface.co/papers/2610.34638",
         "summary": "Animals have a remarkable capacity for autonomy---driven by intrinsic motivation---without external sensory cues or extrinsic objectives, yet the computational mechanisms behind this ability largely remain a mystery. We combine whole-brain recordings in the fruit fly (Drosophila melanogaster), which reveal neural repre",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
@@ -115,24 +133,6 @@
         "summary": "Referring expression grounding in overhead imagery requires oriented bounding boxes rather than horizontal ones, since aerial objects appear at arbitrary orientations. Most grounding models emit box coordinates sequentially; Parallel Box Decoding (PBD) instead predicts all geometry slots in one forward pass, but only f",
         "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
-        "url": "https://huggingface.co/papers/2610.33718",
-        "summary": "Many robot manipulation videos do not indicate whether the task was successfully completed. RoboJev-27B is an open-weight vision-language model that takes a task instruction, 10 frames of a manipulation attempt, and (if available) final frames from auxiliary cameras and predicts whether the robot accomplished the task.",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
-        "url": "https://huggingface.co/papers/2610.33024",
-        "summary": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters. Its effectiveness depends on whether models can successfully act on the guidance provided by their harnesses. However, we find that harness benefits are not uniform across model capabil",
-        "metric": "10 upvotes",
-        "published_at": "2026-10-10T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
-        "source_url": "https://huggingface.co/papers/2610.28490",
+        "source_anchor": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
+        "source_url": "https://huggingface.co/papers/2610.34735",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b413a5bdab7847d5"
+      "receipt_hash": "511b711393d1fc62"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b413a5bdab78"
+      "receipt_hash": "arm_511b711393d1"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
