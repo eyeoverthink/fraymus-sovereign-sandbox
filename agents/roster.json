@@ -1,6 +1,6 @@
 {
   "schema": "FRAYMUS-SOVEREIGN-AGENT-ROSTER-V2.0",
-  "exported_at": "2026-10-27T13:08:14.926Z",
+  "exported_at": "2026-10-27T19:06:34.760Z",
   "platform_free": true,
   "ensemble_trust_score": 98.6,
   "hemisphere_a_specialists": [
@@ -229,7 +229,7 @@
       "reliability_score": 100,
       "alignment_score": 100,
       "earned_trust_score": 100,
-      "verified_contributions": 28,
+      "verified_contributions": 27,
       "autonomy_tier": "TIER 3 // SOVEREIGN ARCHITECT & SPAWNER",
       "can_spawn_agents": true,
       "can_cosign_governance": true,
