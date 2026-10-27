@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T16:22:55.869Z",
-  "packet_sha256": "a90cedfdab1cd336e12a7c12939ab10c54b41e3c3f62fc231e03412bc4a9a1af",
+  "updated_at": "2026-10-27T16:56:55.878Z",
+  "packet_sha256": "530fe39c162f0651c7412b6915176f1348dc9835533c466eeec494443b981210",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "511b711393d1fc62",
+    "merkle_root_hex": "4e48d0587c5216a0",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "511b711393d1fc62",
-      "frame_sha256": "7358e0306ca1e6beaf15a85b2bdf91cb672a60e73fef2e214c345848929d52af",
+      "merkle_root_hex": "4e48d0587c5216a0",
+      "frame_sha256": "ada1c7382b80923cd8cdc3437ae6fe3b69c0514e2d350237fe8512bd8b8a1912",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:28b87800:dc7a40e0:a9d6635a:322a1644",
+      "hdc_16k": "hdc16k:741cd418:43ab733e:ba3fe79e:6f6d4fd4",
       "spectral_4d": {
-        "coord4D": "115.88.224:48",
-        "rgbaStr": "{115}{88}{224}{48}",
-        "carrier_freq_hz": 379,
+        "coord4D": "173.161.199:56",
+        "rgbaStr": "{173}{161}{199}{56}",
+        "carrier_freq_hz": 439,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_511b711393d1fc62",
+        "receipt_id": "R_san_yin_4e48d0587c5216a0",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T16:22:59.764Z"
+        "verified_at": "2026-10-27T16:56:58.172Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T16:22:56.364Z",
+    "harvested_at": "2026-10-27T16:56:56.174Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning",
+        "url": "https://huggingface.co/papers/2610.34886",
+        "summary": "Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth, so storing weights in two bits instead of bfloat16 can potentially make inference 8times cheaper. Two-bit methods are usually judged by perplexity and multiple-choice question-answering accuracy, both",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
         "url": "https://huggingface.co/papers/2610.34735",
         "summary": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-use agents bring this promise within reach by capably executing fully specified tasks across apps. However, real-world user requests are often underspecified. To act correctly for the particular user, an",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Animals have a remarkable capacity for autonomy---driven by intrinsic motivation---without external sensory cues or extrinsic objectives, yet the computational mechanisms behind this ability largely remain a mystery. We combine whole-brain recordings in the fruit fly (Drosophila melanogaster), which reveal neural repre",
         "metric": "2 upvotes",
         "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
-        "url": "https://huggingface.co/papers/2610.35450",
-        "summary": "Referring expression grounding in overhead imagery requires oriented bounding boxes rather than horizontal ones, since aerial objects appear at arbitrary orientations. Most grounding models emit box coordinates sequentially; Parallel Box Decoding (PBD) instead predicts all geometry slots in one forward pass, but only f",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
-        "source_url": "https://huggingface.co/papers/2610.34735",
+        "source_anchor": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning",
+        "source_url": "https://huggingface.co/papers/2610.34886",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "511b711393d1fc62"
+      "receipt_hash": "4e48d0587c5216a0"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_511b711393d1"
+      "receipt_hash": "arm_4e48d0587c52"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
