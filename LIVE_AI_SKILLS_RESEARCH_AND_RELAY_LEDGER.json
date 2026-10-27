@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T07:52:42.367Z",
-  "packet_sha256": "c2a7c5404603ede48b76ab6c63dd17d2508439a2d7f639be8f88679b58cc3ac4",
+  "updated_at": "2026-10-27T08:25:42.325Z",
+  "packet_sha256": "e4951b9b1335f9f9a271166f3703d82a7036c54d56d8be54716ceb11c1c6438f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "edec6c462eff11ba",
+    "merkle_root_hex": "292d467af7ded5ae",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "edec6c462eff11ba",
-      "frame_sha256": "a3f9fe9cf185c7692bd73bdfb5ece9990e57ce2acb93fd0e9f77c208ee4c2fd7",
+      "merkle_root_hex": "292d467af7ded5ae",
+      "frame_sha256": "bacf5ca3530c78fa2911f82ea8b3938a1c09b88c9a568cdd7ece7cc3c840fca6",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:a365b4a0:c02f88b5:21fef6aa:0661ce9a",
+      "hdc_16k": "hdc16k:74199758:38ede736:29dbe2ae:213998f3",
       "spectral_4d": {
-        "coord4D": "163.249.254:156",
-        "rgbaStr": "{163}{249}{254}{156}",
-        "carrier_freq_hz": 514,
+        "coord4D": "186.207.92:163",
+        "rgbaStr": "{186}{207}{92}{163}",
+        "carrier_freq_hz": 412,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_edec6c462eff11ba",
+        "receipt_id": "R_san_yin_292d467af7ded5ae",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T07:52:44.076Z"
+        "verified_at": "2026-10-27T08:25:44.527Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T07:52:42.876Z",
+    "harvested_at": "2026-10-27T08:25:42.610Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
+        "url": "https://huggingface.co/papers/2610.35385",
+        "summary": "Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings. For many such goals, changing the physical state of the world is the means rather than the end: the agent changes the state of a system through interaction, observes the feedback, and",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Rethinking Video Storage for AI Training: Breaking Cross-Frame Dependencies for Efficient Random Access",
+        "url": "https://huggingface.co/papers/2610.33079",
+        "summary": "Large-scale AI training increasingly relies on massive video datasets with random temporal sampling patterns. However, existing video storage paradigms are optimized for sequential playback and employ sophisticated inter-frame reference structures to maximize compression efficiency. When applied to the random-sampling ",
+        "metric": "6 upvotes",
+        "published_at": "2026-10-21T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Nested Sparsity for Scalable Pretraining and Continual Learning",
+        "url": "https://huggingface.co/papers/2610.31818",
+        "summary": "Mixture-of-experts (MoE) transformers, the standard backbone for modern large-scale deep learning, employ conditional computation: only a sparse subset of model weights is used in each forward pass. In MoE transformers, this sparsity arises in the MoE operator, which generalizes the multi-layer perceptron in the classi",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -106,33 +133,6 @@
         "summary": "While Multimodal Large Language Models (MLLMs) excel at zero-shot reasoning, their spatial capabilities are primarily evaluated through static, passive observation. In complex, human-centric scenes, occlusion often hides crucial geometric evidence, and passive benchmarks force models to guess rather than recognize thei",
         "metric": "1 upvotes",
         "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
-        "url": "https://huggingface.co/papers/2610.35518",
-        "summary": "Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought (CoT) reasoning, avoiding difficult and costly critic training. Common alternatives lack token-level credit assignment and typically rely on grouped rollouts to estimate prompt-specific baselines. A cr",
-        "metric": "10 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
-        "url": "https://huggingface.co/papers/2610.31635",
-        "summary": "Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational and memory costs prevent direct inference on sequences containing thousands of frames. Long videos must therefore be processed as overlapping chunks. This division produces independent local reconstruc",
-        "metric": "5 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Skill^{infty}: Recursive Self-Improvement for Agent Skill Optimization",
-        "url": "https://huggingface.co/papers/2610.35434",
-        "summary": "Recursive self-improvement (RSI), in which a system also improves the way it improves, is a long-standing aspiration on the path to AGI. Language agents increasingly store procedural knowledge in reusable skills. Optimizing skills offers a direct way to achieve RSI, because the optimization procedure itself can be enco",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities",
-        "source_url": "https://huggingface.co/papers/2610.33608",
+        "source_anchor": "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
+        "source_url": "https://huggingface.co/papers/2610.35385",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "edec6c462eff11ba"
+      "receipt_hash": "292d467af7ded5ae"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_edec6c462eff"
+      "receipt_hash": "arm_292d467af7de"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
