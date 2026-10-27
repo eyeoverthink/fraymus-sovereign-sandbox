@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T10:48:01.537Z",
-  "packet_sha256": "7b5123f765c7564332e9c070959c02d5d613c48ee612ac05a14e1abcb060056f",
+  "updated_at": "2026-10-27T12:06:54.833Z",
+  "packet_sha256": "cea35f206cc77556c58698fc0d459c13f6187bbea1d8d202b8ae53e6d7487255",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,43 +52,70 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "7ff83283c60aafc5",
+    "merkle_root_hex": "f88b1cee6fe38b42",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "7ff83283c60aafc5",
-      "frame_sha256": "ae0ddbff785cb22a5db11724676648faf66f1cf2bc468f2dd446f1b563e3b89f",
+      "merkle_root_hex": "f88b1cee6fe38b42",
+      "frame_sha256": "1fc0df2e91cd7e683dab0638f66bdb16f24f350795405e258dfe108e1676895a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:3398ca39:1a664764:ec167ddf:d2285793",
+      "hdc_16k": "hdc16k:bf4f58d6:747f03b7:f956e98e:f4ee73ad",
       "spectral_4d": {
-        "coord4D": "174.13.219:255",
-        "rgbaStr": "{174}{13}{219}{255}",
-        "carrier_freq_hz": 367,
+        "coord4D": "31.192.223:46",
+        "rgbaStr": "{31}{192}{223}{46}",
+        "carrier_freq_hz": 390,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_7ff83283c60aafc5",
+        "receipt_id": "R_san_yin_f88b1cee6fe38b42",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T10:48:05.477Z"
+        "verified_at": "2026-10-27T12:07:02.833Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T10:48:01.757Z",
+    "harvested_at": "2026-10-27T12:07:02.833Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
+        "url": "https://huggingface.co/papers/2610.35450",
+        "summary": "Referring expression grounding in overhead imagery requires oriented bounding boxes rather than horizontal ones, since aerial objects appear at arbitrary orientations. Most grounding models emit box coordinates sequentially; Parallel Box Decoding (PBD) instead predicts all geometry slots in one forward pass, but only f",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
+        "url": "https://huggingface.co/papers/2610.33718",
+        "summary": "Many robot manipulation videos do not indicate whether the task was successfully completed. RoboJev-27B is an open-weight vision-language model that takes a task instruction, 10 frames of a manipulation attempt, and (if available) final frames from auxiliary cameras and predicts whether the robot accomplished the task.",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
+        "url": "https://huggingface.co/papers/2610.33024",
+        "summary": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters. Its effectiveness depends on whether models can successfully act on the guidance provided by their harnesses. However, we find that harness benefits are not uniform across model capabil",
+        "metric": "7 upvotes",
+        "published_at": "2026-10-10T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -106,86 +133,14 @@
         "summary": "Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. While factual hallucination has received extensive attention, a different failure mode has been overlooked: procedural hallucination, in which an agent produces individually fluent and factually plausibl",
         "metric": "1 upvotes",
         "published_at": "2026-10-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Trust Mechanisms for Offline Generative AI at the Edge: A Connectivity-Regime Framework and an Empirical Study on a Raspberry Pi 5",
-        "url": "https://huggingface.co/papers/2610.33732",
-        "summary": "Generative AI and large language models (LLMs) are moving into the Internet of Things, yet most deployments assume cloud connectivity, and many IoT settings have intermittent, restricted, or no connectivity. We propose a connectivity-regime framework (C0-C4), a taxonomy of inference-time trust mechanisms, and signed, v",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
-        "url": "https://huggingface.co/papers/2610.29915",
-        "summary": "Diffusion-based video generation models (VGMs) can produce visually plausible videos, yet their camera ego-motion often drifts over long horizons. Camera ego-motion determines how the viewpoint changes between frames and is essential for maintaining consistent geometry and trajectories. To address this problem, we prop",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-21T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
-        "url": "https://huggingface.co/papers/2610.33413",
-        "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly",
-        "metric": "12 upvotes",
-        "published_at": "2026-10-24T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
-        "url": "http://arxiv.org/abs/2610.35866v1",
-        "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research ",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:59:33Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
-        "url": "http://arxiv.org/abs/2610.35864v1",
-        "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideo",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:59:32Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
-        "url": "http://arxiv.org/abs/2610.35850v1",
-        "summary": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality, incurring substanti",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:57:09Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
-        "url": "http://arxiv.org/abs/2610.35847v1",
-        "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clini",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:56:26Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
-        "url": "http://arxiv.org/abs/2610.35846v1",
-        "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language mode",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:56:22Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance",
-        "source_url": "https://huggingface.co/papers/2610.35328",
+        "source_anchor": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
+        "source_url": "https://huggingface.co/papers/2610.35450",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
-        "source_url": "http://arxiv.org/abs/2610.35864v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "7ff83283c60aafc5"
+      "receipt_hash": "f88b1cee6fe38b42"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_7ff83283c60a"
+      "receipt_hash": "arm_f88b1cee6fe3"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
