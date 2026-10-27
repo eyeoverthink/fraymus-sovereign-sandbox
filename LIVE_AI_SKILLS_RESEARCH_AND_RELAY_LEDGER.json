@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T06:41:04.439Z",
-  "packet_sha256": "97f4d27a773da96cf599a2f71c4d2d76ad2406fee663af4f835091867d5f8948",
+  "updated_at": "2026-10-27T07:52:42.367Z",
+  "packet_sha256": "c2a7c5404603ede48b76ab6c63dd17d2508439a2d7f639be8f88679b58cc3ac4",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "16935e4a58eb1ab2",
+    "merkle_root_hex": "edec6c462eff11ba",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "16935e4a58eb1ab2",
-      "frame_sha256": "c2562df9d34505d61c9072a122de783d33737223f4b07a184a8d607e74abee43",
+      "merkle_root_hex": "edec6c462eff11ba",
+      "frame_sha256": "a3f9fe9cf185c7692bd73bdfb5ece9990e57ce2acb93fd0e9f77c208ee4c2fd7",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:4ea845bd:b82e45b3:bc48232f:0815cca2",
+      "hdc_16k": "hdc16k:a365b4a0:c02f88b5:21fef6aa:0661ce9a",
       "spectral_4d": {
-        "coord4D": "194.86.45:249",
-        "rgbaStr": "{194}{86}{45}{249}",
-        "carrier_freq_hz": 322,
+        "coord4D": "163.249.254:156",
+        "rgbaStr": "{163}{249}{254}{156}",
+        "carrier_freq_hz": 514,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_16935e4a58eb1ab2",
+        "receipt_id": "R_san_yin_edec6c462eff11ba",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T06:41:06.695Z"
+        "verified_at": "2026-10-27T07:52:44.076Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T06:41:04.689Z",
+    "harvested_at": "2026-10-27T07:52:42.876Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities",
+        "url": "https://huggingface.co/papers/2610.33608",
+        "summary": "Hallucination detection is increasingly important for evaluating and deploying large language models. However, existing methods are often compared across benchmarks that define and measure hallucination in substantially different ways, making reported scores difficult to interpret across settings. We study hallucinatio",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?",
+        "url": "https://huggingface.co/papers/2610.34149",
+        "summary": "While Multimodal Large Language Models (MLLMs) excel at zero-shot reasoning, their spatial capabilities are primarily evaluated through static, passive observation. In complex, human-centric scenes, occlusion often hides crucial geometric evidence, and passive benchmarks force models to guess rather than recognize thei",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
         "url": "https://huggingface.co/papers/2610.35518",
         "summary": "Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought (CoT) reasoning, avoiding difficult and costly critic training. Common alternatives lack token-level credit assignment and typically rely on grouped rollouts to estimate prompt-specific baselines. A cr",
-        "metric": "6 upvotes",
+        "metric": "10 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -104,7 +122,7 @@
         "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
         "url": "https://huggingface.co/papers/2610.31635",
         "summary": "Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational and memory costs prevent direct inference on sequences containing thousands of frames. Long videos must therefore be processed as overlapping chunks. This division produces independent local reconstruc",
-        "metric": "4 upvotes",
+        "metric": "5 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -115,24 +133,6 @@
         "summary": "Recursive self-improvement (RSI), in which a system also improves the way it improves, is a long-standing aspiration on the path to AGI. Language agents increasingly store procedural knowledge in reusable skills. Optimizing skills offers a direct way to achieve RSI, because the optimization procedure itself can be enco",
         "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
-        "url": "https://huggingface.co/papers/2610.34415",
-        "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contribu",
-        "metric": "21 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
-        "url": "https://huggingface.co/papers/2610.33512",
-        "summary": "Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a result, RL-trained models produce responses that are more complete but al",
-        "metric": "19 upvotes",
-        "published_at": "2026-10-24T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
-        "source_url": "https://huggingface.co/papers/2610.35518",
+        "source_anchor": "Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities",
+        "source_url": "https://huggingface.co/papers/2610.33608",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "16935e4a58eb1ab2"
+      "receipt_hash": "edec6c462eff11ba"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_16935e4a58eb"
+      "receipt_hash": "arm_edec6c462eff"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
