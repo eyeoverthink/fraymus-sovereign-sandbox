@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T14:14:51.757Z",
-  "packet_sha256": "6c75d1592ea50d876eb1a40d8b0e31a5ac58165d2e8ab1b4e87a532325d55bb2",
+  "updated_at": "2026-10-27T14:47:54.706Z",
+  "packet_sha256": "26d954cb9a4e979d0ae76af61baef82c18589d0257a821ff4135466ece6d869d",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "d2bd8018b2322ddb",
+    "merkle_root_hex": "b413a5bdab7847d5",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "d2bd8018b2322ddb",
-      "frame_sha256": "0c97958d187c46bf2547edef774928966a0f1294c57fe8f71b06a49c11b21606",
+      "merkle_root_hex": "b413a5bdab7847d5",
+      "frame_sha256": "043b0e5d09f717083f4fe56062115ab4bd46c54f63c3fe9fa32b60b9cc14ea4c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:57f3255f:bc0b9f16:c679d4fb:bac92420",
+      "hdc_16k": "hdc16k:961a8194:c5622b1d:1cf6926c:6ffda14e",
       "spectral_4d": {
-        "coord4D": "12.151.149:141",
-        "rgbaStr": "{12}{151}{149}{141}",
-        "carrier_freq_hz": 314,
+        "coord4D": "4.59.14:93",
+        "rgbaStr": "{4}{59}{14}{93}",
+        "carrier_freq_hz": 181,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_d2bd8018b2322ddb",
+        "receipt_id": "R_san_yin_b413a5bdab7847d5",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T14:14:54.221Z"
+        "verified_at": "2026-10-27T14:47:56.760Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T14:14:52.526Z",
+    "harvested_at": "2026-10-27T14:47:55.416Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
+        "url": "https://huggingface.co/papers/2610.28490",
+        "summary": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and evidence models are unknown beforehand, a",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-21T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Intrinsic Goals for Autonomous Agents: Hierarchical Exploration Captures Future Volitional Action in Drosophila",
+        "url": "https://huggingface.co/papers/2610.34638",
+        "summary": "Animals have a remarkable capacity for autonomy---driven by intrinsic motivation---without external sensory cues or extrinsic objectives, yet the computational mechanisms behind this ability largely remain a mystery. We combine whole-brain recordings in the fruit fly (Drosophila melanogaster), which reveal neural repre",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-25T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters. Its effectiveness depends on whether models can successfully act on the guidance provided by their harnesses. However, we find that harness benefits are not uniform across model capabil",
         "metric": "10 upvotes",
         "published_at": "2026-10-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance",
-        "url": "https://huggingface.co/papers/2610.35328",
-        "summary": "Constrained decoding guarantees that Large Language Models (LLMs) produce outputs conforming to predefined formats, but is often assumed to inherently degrade reasoning. We examine this assumption through a taxonomy of three constraint types: format constraints, which enforce output structure; validity constraints, whi",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
-        "url": "https://huggingface.co/papers/2610.21561",
-        "summary": "Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. While factual hallucination has received extensive attention, a different failure mode has been overlooked: procedural hallucination, in which an agent produces individually fluent and factually plausibl",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-15T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
-        "source_url": "https://huggingface.co/papers/2610.35450",
+        "source_anchor": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
+        "source_url": "https://huggingface.co/papers/2610.28490",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "d2bd8018b2322ddb"
+      "receipt_hash": "b413a5bdab7847d5"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_d2bd8018b232"
+      "receipt_hash": "arm_b413a5bdab78"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
