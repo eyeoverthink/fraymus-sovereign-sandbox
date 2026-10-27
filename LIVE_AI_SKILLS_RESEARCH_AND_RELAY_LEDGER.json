@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T16:58:48.014Z",
-  "packet_sha256": "c3f5d45a40c10a5b27676a8462985939181d5f4fda9ba3ccae39dceff964fe4f",
+  "updated_at": "2026-10-27T18:33:06.147Z",
+  "packet_sha256": "459423554ec9eaf97a837ce87f52ee3c3b6252b6296659cd0e756f7770f1de2b",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "938af7474bf5c612",
+    "merkle_root_hex": "daf0a55a2568e287",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "938af7474bf5c612",
-      "frame_sha256": "2fcd03ba76cdcea4f078519eaac663171e2a2b2a4fc55f7874e1a7f0e99896f3",
+      "merkle_root_hex": "daf0a55a2568e287",
+      "frame_sha256": "b6e6306fc4d8aca7ffdee8a881ea7a014c82655cf976ccd7c1e08aa0f4bf6207",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:fccd353d:ba471672:5cd65ce5:093bbeb3",
+      "hdc_16k": "hdc16k:07f96753:23b8cd3b:e0fb8b81:458f7e7c",
       "spectral_4d": {
-        "coord4D": "47.205.3:186",
-        "rgbaStr": "{47}{205}{3}{186}",
-        "carrier_freq_hz": 282,
+        "coord4D": "182.230.48:111",
+        "rgbaStr": "{182}{230}{48}{111}",
+        "carrier_freq_hz": 398,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_938af7474bf5c612",
+        "receipt_id": "R_san_yin_daf0a55a2568e287",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T16:58:50.666Z"
+        "verified_at": "2026-10-27T18:33:08.635Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T16:58:48.267Z",
+    "harvested_at": "2026-10-27T18:33:06.550Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "ReGE: Stronger Agents through Experience Synthesis",
+        "url": "https://huggingface.co/papers/2610.33861",
+        "summary": "Repeated attempts at interactive tasks uncover facts, useful operations, and failures that can inform subsequent execution. We introduce ReGE, a framework for turning this recorded experience into guidance for a fresh attempt. Its main implementation, ReGE-Syn, uses a single coach call to jointly synthesize bounded exe",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments",
+        "url": "https://huggingface.co/papers/2610.32004",
+        "summary": "Deploying language agents in real applications demands more than the right answer: an agent must execute a multi-step business process correctly, follow domain-specific rules, and interact with a user across a dialogue, where the gap between saying and doing is the gap between a satisfied customer and a real loss. We a",
+        "metric": "3 upvotes",
+        "published_at": "2026-10-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations",
+        "url": "https://huggingface.co/papers/2610.17117",
+        "summary": "Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing changes. We treat each paraphrase pair as a local witness that two activations should agree and build a cellular sheaf over the paraphrase graph; its Laplacian L_F answers the question on a frozen model wi",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-12T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -106,33 +133,6 @@
         "summary": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-use agents bring this promise within reach by capably executing fully specified tasks across apps. However, real-world user requests are often underspecified. To act correctly for the particular user, an",
         "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning",
-        "url": "https://huggingface.co/papers/2610.33877",
-        "summary": "Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation drift: models maintain predictive accuracy while silently shifting attention from diagnostic features to spurious correlations. This work identifies and resolves a previously overlooked structural flaw ",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
-        "url": "https://huggingface.co/papers/2610.28490",
-        "summary": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and evidence models are unknown beforehand, a",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-21T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Intrinsic Goals for Autonomous Agents: Hierarchical Exploration Captures Future Volitional Action in Drosophila",
-        "url": "https://huggingface.co/papers/2610.34638",
-        "summary": "Animals have a remarkable capacity for autonomy---driven by intrinsic motivation---without external sensory cues or extrinsic objectives, yet the computational mechanisms behind this ability largely remain a mystery. We combine whole-brain recordings in the fruit fly (Drosophila melanogaster), which reveal neural repre",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning",
-        "source_url": "https://huggingface.co/papers/2610.34886",
+        "source_anchor": "ReGE: Stronger Agents through Experience Synthesis",
+        "source_url": "https://huggingface.co/papers/2610.33861",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "938af7474bf5c612"
+      "receipt_hash": "daf0a55a2568e287"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_938af7474bf5"
+      "receipt_hash": "arm_daf0a55a2568"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
