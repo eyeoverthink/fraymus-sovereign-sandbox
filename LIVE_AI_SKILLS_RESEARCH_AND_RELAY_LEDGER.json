@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T21:11:27.316Z",
-  "packet_sha256": "3c9cb5e5eaedc60118a48718155778b67d681abf226619ea53d4598c7fc7419c",
+  "updated_at": "2026-10-27T22:50:14.814Z",
+  "packet_sha256": "2973a50d2b828380a1ed182ef5546588b3706bc2fc017b1a59f8957f09b0af82",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "934006bf770f58a6",
+    "merkle_root_hex": "160206048c2f5ba2",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "934006bf770f58a6",
-      "frame_sha256": "513b641b41b5f3a3edfcdbbb40eb3bcd43bf530578b0944f8bc366612ba2d1fc",
+      "merkle_root_hex": "160206048c2f5ba2",
+      "frame_sha256": "4eed5b3e277a7910bcc7ad9404adc111ccc7223106f16bea8e4cfe2a437172ed",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ee14e65c:311cefd6:1b8957b6:bae89ccc",
+      "hdc_16k": "hdc16k:d2a81685:0abd6d1d:66f8f09d:9b57179f",
       "spectral_4d": {
-        "coord4D": "81.59.100:27",
-        "rgbaStr": "{81}{59}{100}{27}",
-        "carrier_freq_hz": 274,
+        "coord4D": "78.237.91:62",
+        "rgbaStr": "{78}{237}{91}{62}",
+        "carrier_freq_hz": 367,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_934006bf770f58a6",
+        "receipt_id": "R_san_yin_160206048c2f5ba2",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T21:11:29.211Z"
+        "verified_at": "2026-10-27T22:50:17.328Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T21:11:27.542Z",
+    "harvested_at": "2026-10-27T22:50:15.238Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Rethinking Verification in Agent Harnesses",
-        "url": "https://huggingface.co/papers/2610.34577",
-        "summary": "Agent harnesses enable large language models to act through tools, observe the results, and iteratively work toward a task goal. Verification checks and revises agents' work to improve output quality. Yet there is limited guidance on how harnesses should organize this effort. We study verification as an axis of test-ti",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
+        "title": "Representation Redistribution in Sparse Autoencoders",
+        "url": "https://huggingface.co/papers/2610.21240",
+        "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-15T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "ReGE: Stronger Agents through Experience Synthesis",
-        "url": "https://huggingface.co/papers/2610.33861",
-        "summary": "Repeated attempts at interactive tasks uncover facts, useful operations, and failures that can inform subsequent execution. We introduce ReGE, a framework for turning this recorded experience into guidance for a fresh attempt. Its main implementation, ReGE-Syn, uses a single coach call to jointly synthesize bounded exe",
-        "metric": "5 upvotes",
+        "title": "EnvLunch: The Environment as a Free Lunch for Learning to Interact",
+        "url": "https://huggingface.co/papers/2610.33817",
+        "summary": "For agentic data analysis, language-model agents often require a large number of annotated tasks to learn how to interact effectively with executable environments (i.e., databases). While high-quality annotated tasks require heavy manual effort, an executable environment already provides rich interaction structure and ",
+        "metric": "1 upvotes",
         "published_at": "2026-10-24T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments",
-        "url": "https://huggingface.co/papers/2610.32004",
-        "summary": "Deploying language agents in real applications demands more than the right answer: an agent must execute a multi-step business process correctly, follow domain-specific rules, and interact with a user across a dialogue, where the gap between saying and doing is the gap between a satisfied customer and a real loss. We a",
-        "metric": "4 upvotes",
+        "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+        "url": "https://huggingface.co/papers/2610.32046",
+        "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computat",
+        "metric": "3 upvotes",
         "published_at": "2026-10-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations",
-        "url": "https://huggingface.co/papers/2610.17117",
-        "summary": "Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing changes. We treat each paraphrase pair as a local witness that two activations should agree and build a cellular sheaf over the paraphrase graph; its Laplacian L_F answers the question on a frozen model wi",
+        "title": "Did the Model Use That? Counterfactual Training Boosts Self-Attribution in Language Models",
+        "url": "https://huggingface.co/papers/2610.35295",
+        "summary": "A fundamental challenge for explainable and accountable language models is revealing how external information influences their answers. This paper examines whether models are self-attributive: that is, whether they indicate when -- and only when -- their responses to questions are influenced by information provided alo",
         "metric": "0 upvotes",
-        "published_at": "2026-10-12T00:00:00.000Z"
+        "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning",
-        "url": "https://huggingface.co/papers/2610.34886",
-        "summary": "Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth, so storing weights in two bits instead of bfloat16 can potentially make inference 8times cheaper. Two-bit methods are usually judged by perplexity and multiple-choice question-answering accuracy, both",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
+        "title": "Rethinking Verification in Agent Harnesses",
+        "url": "https://huggingface.co/papers/2610.34577",
+        "summary": "Agent harnesses enable large language models to act through tools, observe the results, and iteratively work toward a task goal. Verification checks and revises agents' work to improve output quality. Yet there is limited guidance on how harnesses should organize this effort. We study verification as an axis of test-ti",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Rethinking Verification in Agent Harnesses",
-        "source_url": "https://huggingface.co/papers/2610.34577",
+        "source_anchor": "Representation Redistribution in Sparse Autoencoders",
+        "source_url": "https://huggingface.co/papers/2610.21240",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "934006bf770f58a6"
+      "receipt_hash": "160206048c2f5ba2"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_934006bf770f"
+      "receipt_hash": "arm_160206048c2f"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
