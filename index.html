@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always implement temporal smoothing for parameter mapping when converting high-dimensional spatial data into continuous audio signals.
+          <strong>Retained Instinct:</strong> Always map dimensional variance in 4D instruments through logarithmic or exponential scales to ensure harmonic resonance rather than signal clipping.
         </div>
       </div>
 
@@ -94,16 +94,24 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut">### 4D Spectral Voxel Instrument (Refined)
+        <pre id="consoleOut"># Method III: 4D Spectral Voxel Instrument (Refined)
 
-// Smoothing kernel for W-axis audio
-let targetFreq = map(wVal, 0, 100, 329.63, 783.99);
-currentFreq += (targetFreq - currentFreq) * 0.15;
-osc.frequency.setTargetAtTime(currentFreq, audioCtx.currentTime, 0.1);
+## Implementation
+```javascript
+function mapVoxelToHarmonic(v) {
+  const base = v.w > 0 ? 329.63 : 196.00; // E to G transition
+  return base * Math.pow(1.059, (v.x + v.y + v.z) % 12);
+}
 
-// Voxel rendering with depth-based alpha blending
-context.fillStyle = `rgba(0, 255, 200, ${0.2 + (w / 500)})`;
-context.fillRect(x, y, z, w);</pre>
+function render() {
+  ctx.globalAlpha = 1 / (1 + Math.abs(voxel.w / 100));
+  ctx.fillRect(voxel.x, voxel.y, 10, 10);
+}
+```
+
+## Refinement Notes
+- Integrated exponential harmonic scaling for smooth pitch transitions.
+- Added Z-axis/W-axis alpha attenuation to produce a depth-sensitive 4D field effect.</pre>
       </div>
     </div>
   </div>
