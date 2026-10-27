@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T02:36:19.594Z",
-  "packet_sha256": "f279b7c2ff1bd975e702772e622eaa9794649538d85179116dcba305b1936112",
+  "updated_at": "2026-10-27T02:57:58.057Z",
+  "packet_sha256": "c25195920a238275244a3251590d595da60ae6679fa41e91899b9f6346ba849d",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "76b645952e199dbc",
+    "merkle_root_hex": "6a449bb8a65f7583",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "76b645952e199dbc",
-      "frame_sha256": "9be251abed9cfddb86c70a88494b82f059f720fc41e7226528035b51b6841da9",
+      "merkle_root_hex": "6a449bb8a65f7583",
+      "frame_sha256": "675838497f1046186882885f9050cf5bc2f697448c05cc63af3f498eb2010347",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ae9b96b9:ceb14f0b:12a5f5ff:83edf709",
+      "hdc_16k": "hdc16k:04dc2bed:eb2791f9:ee705b6b:f5f3af43",
       "spectral_4d": {
-        "coord4D": "155.226.81:171",
-        "rgbaStr": "{155}{226}{81}{171}",
-        "carrier_freq_hz": 399,
+        "coord4D": "103.88.56:73",
+        "rgbaStr": "{103}{88}{56}{73}",
+        "carrier_freq_hz": 277,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_76b645952e199dbc",
+        "receipt_id": "R_san_yin_6a449bb8a65f7583",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T02:36:21.386Z"
+        "verified_at": "2026-10-27T02:58:00.127Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T02:36:20.353Z",
+    "harvested_at": "2026-10-27T02:57:58.345Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+        "url": "https://huggingface.co/papers/2610.31309",
+        "summary": "Scaling embedding capacity alongside Transformer computation is an emerging trend in language models. This trend makes high compression rates increasingly useful. Hence, we study extreme compression of Per-Layer Embeddings (PLE), which follow this trend and account for 35.2% of the parameters of Gemma 4 E4B. At such ra",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+        "url": "https://huggingface.co/papers/2610.34662",
+        "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultane",
+        "metric": "10 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
         "url": "https://huggingface.co/papers/2610.33568",
         "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: co",
-        "metric": "8 upvotes",
+        "metric": "26 upvotes",
         "published_at": "2026-10-24T00:00:00.000Z"
       },
       {
@@ -104,7 +122,7 @@
         "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
         "url": "https://huggingface.co/papers/2610.33966",
         "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions",
-        "metric": "6 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery",
         "url": "https://huggingface.co/papers/2610.32195",
         "summary": "Scientific discovery requires identifying the scientific principles underlying observed phenomena to guide further investigation. As these empirical principles are often unknown in complex discovery processes, they are constructed via a hypotheses-to-principle pipeline to obtain recurring causalities from progressively",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
-        "url": "https://huggingface.co/papers/2610.33169",
-        "summary": "Interactive video world models require coordinated control over viewing perspectives, character actions, and camera motion. Existing methods typically leave view modes implicit in text captions, conflate action with camera motion, and inject controls through fragmented architectural pathways that capture interdependenc",
-        "metric": "6 upvotes",
-        "published_at": "2026-10-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
-        "url": "https://huggingface.co/papers/2610.33956",
-        "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvem",
-        "metric": "6 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
-        "source_url": "https://huggingface.co/papers/2610.33568",
+        "source_anchor": "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+        "source_url": "https://huggingface.co/papers/2610.31309",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "76b645952e199dbc"
+      "receipt_hash": "6a449bb8a65f7583"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_76b645952e19"
+      "receipt_hash": "arm_6a449bb8a65f"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
