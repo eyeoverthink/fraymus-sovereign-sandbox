@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T04:16:30.947Z",
-  "packet_sha256": "90ce5e657c6005b316bd8a47c59c72826416ab37d1f99a1e06a683ecfb31b20a",
+  "updated_at": "2026-10-27T04:23:44.223Z",
+  "packet_sha256": "21f4e155ed5d3dbed53c91fb983f1b1221717c545ef30ee1872dbe8ce8699e5f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "8c0e8f87c5b00e54",
+    "merkle_root_hex": "7d5b4f593f74ffec",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "8c0e8f87c5b00e54",
-      "frame_sha256": "f0383dec0e9775fbd2567e8a9a03665ec99c53059be4cc9b88ca539cc410ea39",
+      "merkle_root_hex": "7d5b4f593f74ffec",
+      "frame_sha256": "48fcb0f8ba611c60fad55420318c74a9e904bcbeebea37e01cd343a7e8ecfd67",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:a1a1fadc:0343d92b:a93d1cfe:690029b1",
+      "hdc_16k": "hdc16k:f07bb040:e6c2f559:f52a09ca:fc21d68f",
       "spectral_4d": {
-        "coord4D": "240.56.61:236",
-        "rgbaStr": "{240}{56}{61}{236}",
-        "carrier_freq_hz": 340,
+        "coord4D": "72.252.176:248",
+        "rgbaStr": "{72}{252}{176}{248}",
+        "carrier_freq_hz": 420,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_8c0e8f87c5b00e54",
+        "receipt_id": "R_san_yin_7d5b4f593f74ffec",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T04:16:35.684Z"
+        "verified_at": "2026-10-27T04:23:45.634Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T04:16:31.152Z",
+    "harvested_at": "2026-10-27T04:23:44.566Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
+        "url": "https://huggingface.co/papers/2610.33845",
+        "summary": "Can LLM agents carry a hard real-world problem from raw data to a system that holds its own against people? We study this in Hearthstone Battlegrounds, an eight-player auto-battler with stochastic shops and battles, hidden information and nearly a thousand interacting cards. We present AutoTavern, a self-improving rese",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
+        "url": "https://huggingface.co/papers/2610.34356",
+        "summary": "Scaling vision-language-action (VLA) models is constrained by scarce action-labeled demonstrations and incompatible control spaces across robot embodiments. We present RynnVLA-Latent, a framework that turns heterogeneous interaction videos into scalable supervision for robot policy pretraining. At its core, RynnLAM lea",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
         "url": "https://huggingface.co/papers/2610.35193",
         "summary": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reu",
-        "metric": "5 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -114,24 +132,6 @@
         "url": "https://huggingface.co/papers/2610.34467",
         "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and gene",
         "metric": "6 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
-        "url": "https://huggingface.co/papers/2610.34238",
-        "summary": "In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems. In Δτ-Bench, independently evolving services continually reshape how tasks can be accomplished: familiar tools may disappear or be replaced, while more efficient alternatives emerge amid ov",
-        "metric": "11 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents",
-        "url": "https://huggingface.co/papers/2610.34634",
-        "summary": "Reusable Web-agent verification requires a rule to follow changing requirements and support subsequent execution. We introduce AgentProofBench, which connects paired tests of a frozen acceptance rule to execution from identical saved openings. The resource spans 97 tasks, 79 families, and four Web services. Experiments",
-        "metric": "2 upvotes",
         "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
-        "source_url": "https://huggingface.co/papers/2610.35193",
+        "source_anchor": "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
+        "source_url": "https://huggingface.co/papers/2610.33845",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "8c0e8f87c5b00e54"
+      "receipt_hash": "7d5b4f593f74ffec"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_8c0e8f87c5b0"
+      "receipt_hash": "arm_7d5b4f593f74"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
