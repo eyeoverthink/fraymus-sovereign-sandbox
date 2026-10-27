@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T04:39:06.916Z",
-  "packet_sha256": "d939a0218a82c80442e13a21f4d5e8cfeb13e9f056a1b88636a41e68dbb76caf",
+  "updated_at": "2026-10-27T05:44:40.802Z",
+  "packet_sha256": "2ca732d6f68528b165f5619f78d34cbe030a5751daccbccc9301f823d104ed59",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,43 +52,79 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "3d9f7b46c5eee97e",
+    "merkle_root_hex": "e17fdbc9642145ce",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "3d9f7b46c5eee97e",
-      "frame_sha256": "e39a6853b957ffd89e78273bc56fde4e324f943d2ef843c550d244269d76530b",
+      "merkle_root_hex": "e17fdbc9642145ce",
+      "frame_sha256": "eb8f874af19339a41033ca89d7254e04a1b750b3b319a8c56500542959e859d6",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:f21d5af1:da036eb1:35a8c18d:d4db6927",
+      "hdc_16k": "hdc16k:0e628dc8:b4b6fb0e:2b4f60b6:7e4bfa4e",
       "spectral_4d": {
-        "coord4D": "227.154.104:83",
-        "rgbaStr": "{227}{154}{104}{83}",
-        "carrier_freq_hz": 412,
+        "coord4D": "235.143.135:74",
+        "rgbaStr": "{235}{143}{135}{74}",
+        "carrier_freq_hz": 428,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_3d9f7b46c5eee97e",
+        "receipt_id": "R_san_yin_e17fdbc9642145ce",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T04:39:08.493Z"
+        "verified_at": "2026-10-27T05:44:42.259Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T04:39:07.248Z",
+    "harvested_at": "2026-10-27T05:44:41.284Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
+        "url": "https://huggingface.co/papers/2610.31635",
+        "summary": "Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational and memory costs prevent direct inference on sequences containing thousands of frames. Long videos must therefore be processed as overlapping chunks. This division produces independent local reconstruc",
+        "metric": "3 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Skill^{infty}: Recursive Self-Improvement for Agent Skill Optimization",
+        "url": "https://huggingface.co/papers/2610.35434",
+        "summary": "Recursive self-improvement (RSI), in which a system also improves the way it improves, is a long-standing aspiration on the path to AGI. Language agents increasingly store procedural knowledge in reusable skills. Optimizing skills offers a direct way to achieve RSI, because the optimization procedure itself can be enco",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+        "url": "https://huggingface.co/papers/2610.34415",
+        "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contribu",
+        "metric": "12 upvotes",
+        "published_at": "2026-10-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
+        "url": "https://huggingface.co/papers/2610.33512",
+        "summary": "Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a result, RL-trained models produce responses that are more complete but al",
+        "metric": "14 upvotes",
+        "published_at": "2026-10-24T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -99,48 +135,57 @@
         "published_at": "2026-10-24T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
-        "url": "https://huggingface.co/papers/2610.34356",
-        "summary": "Scaling vision-language-action (VLA) models is constrained by scarce action-labeled demonstrations and incompatible control spaces across robot embodiments. We present RynnVLA-Latent, a framework that turns heterogeneous interaction videos into scalable supervision for robot policy pretraining. At its core, RynnLAM lea",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+        "url": "http://arxiv.org/abs/2610.35866v1",
+        "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research ",
+        "metric": "Published 2026-10-26",
+        "published_at": "2026-10-26T17:59:33Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
-        "url": "https://huggingface.co/papers/2610.35193",
-        "summary": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reu",
-        "metric": "8 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
+        "url": "http://arxiv.org/abs/2610.35864v1",
+        "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideo",
+        "metric": "Published 2026-10-26",
+        "published_at": "2026-10-26T17:59:32Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
-        "url": "https://huggingface.co/papers/2610.23928",
-        "summary": "Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable learning across separate training and sampling engines remains challenging. We show that matching model weights and numerical formats is insufficient to ensure consistent policy evaluation, highlightin",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-07T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+        "url": "http://arxiv.org/abs/2610.35850v1",
+        "summary": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality, incurring substanti",
+        "metric": "Published 2026-10-26",
+        "published_at": "2026-10-26T17:57:09Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
-        "url": "https://huggingface.co/papers/2610.34467",
-        "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and gene",
-        "metric": "12 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+        "url": "http://arxiv.org/abs/2610.35847v1",
+        "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clini",
+        "metric": "Published 2026-10-26",
+        "published_at": "2026-10-26T17:56:26Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
+        "url": "http://arxiv.org/abs/2610.35846v1",
+        "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language mode",
+        "metric": "Published 2026-10-26",
+        "published_at": "2026-10-26T17:56:22Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
-        "source_url": "https://huggingface.co/papers/2610.33845",
+        "source_anchor": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
+        "source_url": "https://huggingface.co/papers/2610.31635",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
+        "source_url": "http://arxiv.org/abs/2610.35864v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "3d9f7b46c5eee97e"
+      "receipt_hash": "e17fdbc9642145ce"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_3d9f7b46c5ee"
+      "receipt_hash": "arm_e17fdbc96421"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
