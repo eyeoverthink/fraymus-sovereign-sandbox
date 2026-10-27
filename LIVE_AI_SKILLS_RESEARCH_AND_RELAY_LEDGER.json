@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T04:34:21.230Z",
-  "packet_sha256": "7fcecd3952158691889755f3cebbead4cede914f4dd391905cc8adeb95623a56",
+  "updated_at": "2026-10-27T04:39:06.916Z",
+  "packet_sha256": "d939a0218a82c80442e13a21f4d5e8cfeb13e9f056a1b88636a41e68dbb76caf",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "ea5afa71434fc153",
+    "merkle_root_hex": "3d9f7b46c5eee97e",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "ea5afa71434fc153",
-      "frame_sha256": "19fa2e0bd0c920da860e7975d7b803fe6643779f3bf837ce4e7b49e837485c5f",
+      "merkle_root_hex": "3d9f7b46c5eee97e",
+      "frame_sha256": "e39a6853b957ffd89e78273bc56fde4e324f943d2ef843c550d244269d76530b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:30ea1c95:2e535cbe:9ca8d12d:929cae61",
+      "hdc_16k": "hdc16k:f21d5af1:da036eb1:35a8c18d:d4db6927",
       "spectral_4d": {
-        "coord4D": "25.250.46:11",
-        "rgbaStr": "{25}{250}{46}{11}",
-        "carrier_freq_hz": 319,
+        "coord4D": "227.154.104:83",
+        "rgbaStr": "{227}{154}{104}{83}",
+        "carrier_freq_hz": 412,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_ea5afa71434fc153",
+        "receipt_id": "R_san_yin_3d9f7b46c5eee97e",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T04:34:22.487Z"
+        "verified_at": "2026-10-27T04:39:08.493Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T04:34:21.613Z",
+    "harvested_at": "2026-10-27T04:39:07.248Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -131,53 +131,8 @@
         "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
         "url": "https://huggingface.co/papers/2610.34467",
         "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and gene",
-        "metric": "9 upvotes",
+        "metric": "12 upvotes",
         "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Generative AI in Turbulence: Foundations, Applications, Validations and Benchmarks",
-        "url": "http://arxiv.org/abs/2610.35123v1",
-        "summary": "Generative AI offers new approaches to turbulence problems in which incomplete observations or unresolved d.o.f. admit multiple physically plausible solutions. Potential applications include stochastic closures, super-resolution, data assimilation, uncertainty quantification, and the generation of Eulerian and Lagrangi",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T10:00:04Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Rethinking Evaluation for Principled Generalization Using a Kripkean Challenge to Meaning as Use",
-        "url": "http://arxiv.org/abs/2610.35111v1",
-        "summary": "Large language models operationalize an intuitive, view of meaning as use. We argue that it faces a rule-following challenge. Using Kripke's interpretation of Wittgenstein, we argue that finite histories of use do not determine a unique rule for future extension. This reframes the debate about OOD generalization but al",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T09:52:01Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Improving Instruction Hierarchy by Learning from Goal-Goal Conflicts",
-        "url": "http://arxiv.org/abs/2610.35093v1",
-        "summary": "The recent incident in which OpenAI agents autonomously compromised Hugging Face's infrastructure illustrates the importance of instruction hierarchy (IH): an LLM should follow lower-priority instructions, such as user requests, only when they do not conflict with higher-priority instructions, such as system policies. ",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T09:33:17Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Learning to Remember: Advances in Memory Mechanisms for Large Language Models",
-        "url": "http://arxiv.org/abs/2610.35089v1",
-        "summary": "Memory has become a central mechanism for extending large language models (LLMs) beyond fixed context windows, stateless interaction, and static parametric knowledge. This survey organizes the literature around three complementary dimensions: the life cycle of memory, the storage substrate, and the system role that mem",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T09:31:04Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Moving bits instead of watts: Accelerating global AI data-centre deployment at the energy-digital-water-land nexus",
-        "url": "http://arxiv.org/abs/2610.35088v1",
-        "summary": "Artificial intelligence is driving an unprecedented expansion of data centres. However, this growth is increasingly stalled by grid transmission constraints that trap new data centres in years-long connection queues. Unlike electricity, computation can be moved across the globe through fibre-optic networks, but whether",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T09:30:16Z"
       }
     ],
     "curve_augmentations": [
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Rethinking Evaluation for Principled Generalization Using a Kripkean Challenge to Meaning as Use",
-        "source_url": "http://arxiv.org/abs/2610.35111v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "ea5afa71434fc153"
+      "receipt_hash": "3d9f7b46c5eee97e"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_ea5afa71434f"
+      "receipt_hash": "arm_3d9f7b46c5ee"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
