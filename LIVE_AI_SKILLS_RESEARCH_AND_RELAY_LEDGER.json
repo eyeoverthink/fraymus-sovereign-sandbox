@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T01:28:59.982Z",
-  "packet_sha256": "b67483f552f347b069d2d2d3046fc9497bcfd6b375e67bf1d398add046c17434",
+  "updated_at": "2026-10-27T02:04:21.572Z",
+  "packet_sha256": "a08b018ef8489eb47df44a26f07475e3dd8d8da52b8b45e279293a664010bb40",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9d4f6489cabe3595",
+    "merkle_root_hex": "ddadbc0bd81a6952",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9d4f6489cabe3595",
-      "frame_sha256": "e551cb47bcade6a28d43b72cdc969f727b9fb22b7b159d5482fbedc5ac35db8e",
+      "merkle_root_hex": "ddadbc0bd81a6952",
+      "frame_sha256": "b11e7112bb4a8115d0574647e7b278f3356b21843f12500e142e7a14baa25c4a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ed856d14:862c7bac:b553727e:60ef15d5",
+      "hdc_16k": "hdc16k:ce6e654a:35e3a1a4:6e0cbad0:d0ec43e9",
       "spectral_4d": {
-        "coord4D": "229.81.203:71",
-        "rgbaStr": "{229}{81}{203}{71}",
-        "carrier_freq_hz": 428,
+        "coord4D": "177.30.113:18",
+        "rgbaStr": "{177}{30}{113}{18}",
+        "carrier_freq_hz": 319,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9d4f6489cabe3595",
+        "receipt_id": "R_san_yin_ddadbc0bd81a6952",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T01:29:01.990Z"
+        "verified_at": "2026-10-27T02:04:24.030Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T01:29:00.358Z",
+    "harvested_at": "2026-10-27T02:04:22.378Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
-        "url": "https://huggingface.co/papers/2610.32093",
-        "summary": "Behavior cloning for robotic manipulation is highly sensitive to the coverage of its training data, yet collecting diverse successful demonstrations remains costly. We study reinforcement learning (RL) not as a deployable controller, but as a data generator for downstream visuomotor imitation learning. Our key premise ",
-        "metric": "6 upvotes",
+        "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+        "url": "https://huggingface.co/papers/2610.32285",
+        "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harn",
+        "metric": "1 upvotes",
         "published_at": "2026-10-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Function-Space Temporal Self-Distillation for Policy Optimization",
-        "url": "https://huggingface.co/papers/2610.19687",
-        "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) improves reasoning in language models, but scalar outcomes provide coarse supervision over response trajectories. Self-distillation offers denser token-level guidance by comparing an unassisted policy with a feedback-informed self-teacher, yet the teacher evolves wi",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-14T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "How Much Feedback Is Needed to Break Template Protection? The Geometric Vulnerability of Biometric Authentication",
-        "url": "https://huggingface.co/papers/2610.25118",
-        "summary": "Biometric authentication systems increasingly use privacy-preserving mechanisms to protect sensitive templates. However, the authentication interface itself may still leak information that enables reconstruction attacks. Prior attacks exploit released similarity scores, whereas more advanced systems reveal only the bin",
+        "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+        "url": "https://huggingface.co/papers/2610.29139",
+        "summary": "Frontier black-box Large Language Model (LLM) agents are proficient at long-horizon reasoning and precise action generation. However, when it comes to a specific agentic task, they have no internalized knowledge of how that particular environment unfolds. A world model offers a natural remedy, providing the agent with ",
         "metric": "1 upvotes",
-        "published_at": "2026-10-18T00:00:00.000Z"
+        "published_at": "2026-10-21T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
-        "url": "https://huggingface.co/papers/2610.21109",
-        "summary": "When humans collaborate with AI agents on long-horizon tasks, what happens to the agents' contributions? For solving long-horizon tasks, humans place greater importance on ongoing interaction with AI agents (e.g., revising plans) than on an agent's ability to complete the task in a single attempt. However, most agentic",
-        "metric": "5 upvotes",
-        "published_at": "2026-10-15T00:00:00.000Z"
+        "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+        "url": "https://huggingface.co/papers/2610.33135",
+        "summary": "Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow large-angle trajectories with combined rotation, translation, and radius variation from arbitrary initial azimuths. Such viewpoint changes also reveal character regions unseen in the initial frame, caus",
+        "metric": "19 upvotes",
+        "published_at": "2026-10-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection",
-        "url": "https://huggingface.co/papers/2610.27364",
-        "summary": "In joint-embedding predictive architectures (JEPA), an encoder and a predictor are trained together to produce a representation that minimizes the error in predicting the representation of the next observation. Because the representations of both the current and the next observation are learned, it is unclear which fea",
+        "title": "WORTH Benchmark: Evidence Discovery under Not-Fully-Cooperative Information -- A Two-Episode Pilot",
+        "url": "https://huggingface.co/papers/2610.27597",
+        "summary": "Existing reasoning evaluations typically provide task-relevant information to models as available premises, rarely examining concurrently how models discover evidence autonomously and how information presentation within narratives guides or obscures judgment. This paper proposes the WORTH Benchmark: models read origina",
         "metric": "0 upvotes",
-        "published_at": "2026-10-19T00:00:00.000Z"
+        "published_at": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
+        "url": "https://huggingface.co/papers/2610.32093",
+        "summary": "Behavior cloning for robotic manipulation is highly sensitive to the coverage of its training data, yet collecting diverse successful demonstrations remains costly. We study reinforcement learning (RL) not as a deployable controller, but as a data generator for downstream visuomotor imitation learning. Our key premise ",
+        "metric": "8 upvotes",
+        "published_at": "2026-10-23T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
-        "source_url": "https://huggingface.co/papers/2610.32093",
+        "source_anchor": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+        "source_url": "https://huggingface.co/papers/2610.32285",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9d4f6489cabe3595"
+      "receipt_hash": "ddadbc0bd81a6952"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9d4f6489cabe"
+      "receipt_hash": "arm_ddadbc0bd81a"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
