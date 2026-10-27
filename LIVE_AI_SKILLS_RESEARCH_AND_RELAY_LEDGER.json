@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T12:51:58.533Z",
-  "packet_sha256": "ce50db0047c7c7c0efa432ff2f6690a9f276a93299cd7044214be638341939ba",
+  "updated_at": "2026-10-27T14:14:51.757Z",
+  "packet_sha256": "6c75d1592ea50d876eb1a40d8b0e31a5ac58165d2e8ab1b4e87a532325d55bb2",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "cf9ffb0698e7405b",
+    "merkle_root_hex": "d2bd8018b2322ddb",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "cf9ffb0698e7405b",
-      "frame_sha256": "9eba578b97534c278138da8b0c39e5f9f62e5e5170720bf0562a7393caca4c61",
+      "merkle_root_hex": "d2bd8018b2322ddb",
+      "frame_sha256": "0c97958d187c46bf2547edef774928966a0f1294c57fe8f71b06a49c11b21606",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:9d060ebd:a181bda4:b7311d01:788697e3",
+      "hdc_16k": "hdc16k:57f3255f:bc0b9f16:c679d4fb:bac92420",
       "spectral_4d": {
-        "coord4D": "158.186.87:139",
-        "rgbaStr": "{158}{186}{87}{139}",
-        "carrier_freq_hz": 381,
+        "coord4D": "12.151.149:141",
+        "rgbaStr": "{12}{151}{149}{141}",
+        "carrier_freq_hz": 314,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_cf9ffb0698e7405b",
+        "receipt_id": "R_san_yin_d2bd8018b2322ddb",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T12:52:01.522Z"
+        "verified_at": "2026-10-27T14:14:54.221Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T12:51:59.290Z",
+    "harvested_at": "2026-10-27T14:14:52.526Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
         "url": "https://huggingface.co/papers/2610.35450",
         "summary": "Referring expression grounding in overhead imagery requires oriented bounding boxes rather than horizontal ones, since aerial objects appear at arbitrary orientations. Most grounding models emit box coordinates sequentially; Parallel Box Decoding (PBD) instead predicts all geometry slots in one forward pass, but only f",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -113,7 +113,7 @@
         "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
         "url": "https://huggingface.co/papers/2610.33024",
         "summary": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters. Its effectiveness depends on whether models can successfully act on the guidance provided by their harnesses. However, we find that harness benefits are not uniform across model capabil",
-        "metric": "9 upvotes",
+        "metric": "10 upvotes",
         "published_at": "2026-10-10T00:00:00.000Z"
       },
       {
@@ -131,7 +131,7 @@
         "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
         "url": "https://huggingface.co/papers/2610.21561",
         "summary": "Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. While factual hallucination has received extensive attention, a different failure mode has been overlooked: procedural hallucination, in which an agent produces individually fluent and factually plausibl",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-15T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "cf9ffb0698e7405b"
+      "receipt_hash": "d2bd8018b2322ddb"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_cf9ffb0698e7"
+      "receipt_hash": "arm_d2bd8018b232"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
