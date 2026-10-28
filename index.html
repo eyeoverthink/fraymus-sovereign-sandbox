@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always decouple raw input coordinates from audio output via an interpolation buffer to ensure sensory fluidity in multi-dimensional mappings.
+          <strong>Retained Instinct:</strong> In high-dimensional audio mapping, logarithmic normalization of velocity inputs is mandatory to prevent signal fatigue and preserve the structural integrity of harmonic transitions.
         </div>
       </div>
 
@@ -94,16 +94,23 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut"># 4D Spectral Voxel Instrument (Refined) 
+        <pre id="consoleOut"># 4D Spectral Voxel Micro-Instrument (Refined v2.0)
 
-## Implementation Logic 
-1. **Smoothing**: Added `lerp(target, current, factor)` to stabilize frequency shifts. 
-2. **Synchronization**: Linked the `CanvasRenderingContext2D` fillStyle to the `AudioContext` current time, ensuring the color shifts from deep violet (E-minor) to amber (G-major) exactly at the note onset. 
+## Harmonic Engine Logic
+```javascript
+function mapVoxel(x, y, z, w) {
+  const baseFreq = (z > 50) ? 329.63 * 2 : 329.63;
+  const targetGain = Math.pow(w / 100, 2);
+  oscillator.frequency.setTargetAtTime(baseFreq + (x * 2), audioCtx.currentTime, 0.05);
+  gainNode.gain.setTargetAtTime(targetGain, audioCtx.currentTime, 0.1);
+}
+```
 
-```javascript 
-const smoothedFreq = lerp(targetFreq, currentFreq, 0.1); 
-ctx.fillStyle = chordState === 'E-minor' ? '#4b0082' : '#ffbf00'; 
-```</pre>
+## Spatial Interaction Guide
+1. **X-Axis:** Frequency modulation within the E-minor scale.
+2. **Y-Axis:** Texture density via filter Q-factor.
+3. **Z-Axis:** Octave shift between primary and harmonic registers.
+4. **W-Axis:** Logarithmic amplitude depth for immersive spectral presence.</pre>
       </div>
     </div>
   </div>
