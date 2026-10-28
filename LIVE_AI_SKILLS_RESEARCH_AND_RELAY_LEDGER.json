@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T06:33:37.888Z",
-  "packet_sha256": "e0646734cdd9db79195138ec73179fa2ad34959313cc80868742cfe894b2123a",
+  "updated_at": "2026-10-28T06:44:21.945Z",
+  "packet_sha256": "21b6ae586b3f37e208b0634adb0720923bda3e41d1f450cd86779cc0cfabb200",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "2ccd82abb4a9188a",
+    "merkle_root_hex": "dd0abb791ca22b8d",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "2ccd82abb4a9188a",
-      "frame_sha256": "097cb64a327ac19a4af144bb6ab412abe288ff6804232b32b0d6f5ca48fb29e6",
+      "merkle_root_hex": "dd0abb791ca22b8d",
+      "frame_sha256": "06f67b3bb0fc8352ecfc4f09bb1895e1ca8772aa6f89a25ee0bfee45b211f376",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:b1309311:521e24d7:4f12fea9:a21f3233",
+      "hdc_16k": "hdc16k:34b3894b:7c3a2424:1150d04b:8768a31d",
       "spectral_4d": {
-        "coord4D": "9.124.182:74",
-        "rgbaStr": "{9}{124}{182}{74}",
-        "carrier_freq_hz": 316,
+        "coord4D": "6.246.123:59",
+        "rgbaStr": "{6}{246}{123}{59}",
+        "carrier_freq_hz": 350,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_2ccd82abb4a9188a",
+        "receipt_id": "R_san_yin_dd0abb791ca22b8d",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T06:33:39.926Z"
+        "verified_at": "2026-10-28T06:44:24.034Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T06:33:38.457Z",
+    "harvested_at": "2026-10-28T06:44:22.179Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
         "url": "https://huggingface.co/papers/2610.35864",
         "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVide",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
         "url": "https://huggingface.co/papers/2610.36791",
         "summary": "Learning controllable world dynamics from heterogeneous interaction videos is challenging because robot embodiments use incompatible action spaces, while human videos lack native control labels. We present RynnWorld-Latent, a cross-embodiment video world model that uses the 3D-grounded latent actions introduced by Rynn",
-        "metric": "4 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
@@ -113,7 +113,7 @@
         "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
         "url": "https://huggingface.co/papers/2610.37381",
         "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, w",
-        "metric": "29 upvotes",
+        "metric": "37 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "2ccd82abb4a9188a"
+      "receipt_hash": "dd0abb791ca22b8d"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_2ccd82abb4a9"
+      "receipt_hash": "arm_dd0abb791ca2"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
