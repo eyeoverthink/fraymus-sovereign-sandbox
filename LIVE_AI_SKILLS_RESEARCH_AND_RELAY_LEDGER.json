@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T17:58:22.233Z",
-  "packet_sha256": "44f25155c5ef66c9552155ff5bdf26ae303e42b74c3ed80fdc816d6aa1b720cd",
+  "updated_at": "2026-10-28T19:55:40.285Z",
+  "packet_sha256": "48817c0585f69c7d3409cee6622a364e63748f12e486600aa6f896776f3e9189",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "929cfa018b935fb9",
+    "merkle_root_hex": "810511a9ad526cc5",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "929cfa018b935fb9",
-      "frame_sha256": "055c7dda08aec740e89209a944f45a7ffbf6203677b575add0a17f5c48f1a95d",
+      "merkle_root_hex": "810511a9ad526cc5",
+      "frame_sha256": "b0f2319503ca41516ebcd1c0d72e95b19fefc1d41aea9dc20aa5631b08c1397c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:7e6f05a6:e19511ad:f7c93016:988f2248",
+      "hdc_16k": "hdc16k:189a9a28:539cfabb:3f1c7d60:7bfce0c8",
       "spectral_4d": {
-        "coord4D": "5.92.125:218",
-        "rgbaStr": "{5}{92}{125}{218}",
-        "carrier_freq_hz": 263,
+        "coord4D": "176.242.49:149",
+        "rgbaStr": "{176}{242}{49}{149}",
+        "carrier_freq_hz": 402,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_929cfa018b935fb9",
+        "receipt_id": "R_san_yin_810511a9ad526cc5",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T17:58:27.609Z"
+        "verified_at": "2026-10-28T19:55:42.058Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T17:58:22.475Z",
+    "harvested_at": "2026-10-28T19:55:41.573Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Sub-monolayer tracking of molecular states at buried interfaces",
+        "url": "https://huggingface.co/papers/2610.31924",
+        "summary": "Phenomena responsible for emerging technologies originate from novel molecular states at buried interfaces. Yet quantitatively resolving these features is out of reach in most cases. Resonant scattering has demonstrated sensitivity to these local states but is limited due to a lack of accurate interpretive models. We l",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +113,7 @@
         "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
         "url": "https://huggingface.co/papers/2610.36192",
         "summary": "Learning velocity fields directly in pixel space is difficult and slow. We show that coarse second-order image statistics can ease this task: frozen Wiener estimates improve velocity learning, with gains extending beyond the linear predictions they explicitly provide. Moreover, we observe similar but complementary gain",
-        "metric": "7 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
         "url": "https://huggingface.co/papers/2610.34894",
         "summary": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025). But every pass@1 is scored under a token budget. Every recipe also trains under one. On physics and math problems at fixed token budgets, we compare the pass@1 of 20 released RL models (1.5B to 32B) with that of the thinking models they started from",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to locally host, which trail frontier systems on multi-step quantitative reasoning. On-policy distillation narrows such gaps by supervising a student on its own rollouts, but traditional OPD requires a st",
         "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
-        "url": "https://huggingface.co/papers/2610.37364",
-        "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensur",
-        "metric": "9 upvotes",
-        "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
-        "source_url": "https://huggingface.co/papers/2610.36184",
+        "source_anchor": "Sub-monolayer tracking of molecular states at buried interfaces",
+        "source_url": "https://huggingface.co/papers/2610.31924",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "929cfa018b935fb9"
+      "receipt_hash": "810511a9ad526cc5"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_929cfa018b93"
+      "receipt_hash": "arm_810511a9ad52"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
