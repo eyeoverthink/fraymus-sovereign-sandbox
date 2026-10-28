@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T00:57:11.358Z",
-  "packet_sha256": "044847032edfb0708caaa9317a0e6e743924b6caa40389cfe4462c3c646aa541",
+  "updated_at": "2026-10-28T01:17:16.065Z",
+  "packet_sha256": "fe341d626f9ac3ae386dde09882031612f698b7ce0f5f6d2afd04b54ecb331f7",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b0f9da9e044683e5",
+    "merkle_root_hex": "5650f6abcfb7d8ae",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b0f9da9e044683e5",
-      "frame_sha256": "128db9996ecdae369f6bd177bb1eacc7753175509c50b55c6c4f4f9bc6ffc321",
+      "merkle_root_hex": "5650f6abcfb7d8ae",
+      "frame_sha256": "11da2997994000294bd1356861eda33d757309d6b938932c302c7f00d7c1ac22",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:fb76b733:084389ee:2dbacc9d:b24815cb",
+      "hdc_16k": "hdc16k:fe599005:1c79ae42:ee83938d:1a38d7f2",
       "spectral_4d": {
-        "coord4D": "18.141.185:153",
-        "rgbaStr": "{18}{141}{185}{153}",
-        "carrier_freq_hz": 332,
+        "coord4D": "17.218.41:151",
+        "rgbaStr": "{17}{218}{41}{151}",
+        "carrier_freq_hz": 294,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b0f9da9e044683e5",
+        "receipt_id": "R_san_yin_5650f6abcfb7d8ae",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T00:57:13.393Z"
+        "verified_at": "2026-10-28T01:17:17.886Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T00:57:11.597Z",
+    "harvested_at": "2026-10-28T01:17:16.399Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
+        "url": "https://huggingface.co/papers/2610.33005",
+        "summary": "Energy-based models have shown promising properties for domain-specific tasks but remain challenging in modeling general-purpose scenarios. To bridge this gap, we design energy-steered models (ESMs) for foundational language modeling. ESMs integrate energy steering and token generation within a single architecture to l",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-07T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models",
+        "url": "https://huggingface.co/papers/2610.31566",
+        "summary": "Large language models have shown outstanding performance on text-first tasks such as coding, math, and writing. Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images. However, in these scenar",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "SO-101 Bench: Accessible Spatial Manipulation",
         "url": "https://huggingface.co/papers/2610.36420",
         "summary": "Low-cost arms such as the SO-101 have become the most common entry point to robot learning, yet no released policy performs spatially constrained, language-conditioned tasks on them out of the box, and existing SO-101 benchmarks run only on physical hardware with simple tasks and few held-out objects. We introduce SO-1",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?",
         "url": "https://huggingface.co/papers/2610.34386",
         "summary": "Recursive self-improvement (RSI) requires an agentic system to design, train, and evaluate its own successor. Data-driven post-training is a central part of that loop, yet existing evaluations measure it on a single benchmark, where an agent selects from a static pool or distills a stronger model to push one score up i",
-        "metric": "8 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "How Far Can Coding Agents Go in Visual Generation?",
-        "url": "https://huggingface.co/papers/2610.19025",
-        "summary": "Modern image generation largely relies on specialized generative models that leave the process of image construction implicit in learned parameters. We explore an alternative: general-purpose coding agents that construct images through executable programs. Our study of zero-shot drawing on AgentDrawBench, a 200-prompt ",
         "metric": "9 upvotes",
-        "published_at": "2026-10-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Representation Redistribution in Sparse Autoencoders",
-        "url": "https://huggingface.co/papers/2610.21240",
-        "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream",
-        "metric": "8 upvotes",
-        "published_at": "2026-10-15T00:00:00.000Z"
+        "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "SO-101 Bench: Accessible Spatial Manipulation",
-        "source_url": "https://huggingface.co/papers/2610.36420",
+        "source_anchor": "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
+        "source_url": "https://huggingface.co/papers/2610.33005",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b0f9da9e044683e5"
+      "receipt_hash": "5650f6abcfb7d8ae"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b0f9da9e0446"
+      "receipt_hash": "arm_5650f6abcfb7"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
