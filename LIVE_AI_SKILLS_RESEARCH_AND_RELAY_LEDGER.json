@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T01:17:16.065Z",
-  "packet_sha256": "fe341d626f9ac3ae386dde09882031612f698b7ce0f5f6d2afd04b54ecb331f7",
+  "updated_at": "2026-10-28T01:29:05.148Z",
+  "packet_sha256": "e006a570bf2e9ce7ce7960b654523f32fb9ba697bd5969dc77c3dd6c01081665",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "5650f6abcfb7d8ae",
+    "merkle_root_hex": "fc2bdb010dfda813",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "5650f6abcfb7d8ae",
-      "frame_sha256": "11da2997994000294bd1356861eda33d757309d6b938932c302c7f00d7c1ac22",
+      "merkle_root_hex": "fc2bdb010dfda813",
+      "frame_sha256": "ef3c2d26d83eb2314b07b9f627919690c78927da0b3c6e8705e6c90522c720c3",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:fe599005:1c79ae42:ee83938d:1a38d7f2",
+      "hdc_16k": "hdc16k:70dea57a:f04dd529:0f2d9b4c:843999c8",
       "spectral_4d": {
-        "coord4D": "17.218.41:151",
-        "rgbaStr": "{17}{218}{41}{151}",
-        "carrier_freq_hz": 294,
+        "coord4D": "239.60.45:38",
+        "rgbaStr": "{239}{60}{45}{38}",
+        "carrier_freq_hz": 332,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_5650f6abcfb7d8ae",
+        "receipt_id": "R_san_yin_fc2bdb010dfda813",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T01:17:17.886Z"
+        "verified_at": "2026-10-28T01:29:07.636Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T01:17:16.399Z",
+    "harvested_at": "2026-10-28T01:29:05.718Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -104,7 +104,7 @@
         "title": "CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models",
         "url": "https://huggingface.co/papers/2610.31566",
         "summary": "Large language models have shown outstanding performance on text-first tasks such as coding, math, and writing. Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images. However, in these scenar",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
       },
       {
@@ -137,47 +137,47 @@
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
-        "url": "http://arxiv.org/abs/2610.35866v1",
-        "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research ",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:59:33Z"
+        "title": "Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance",
+        "url": "http://arxiv.org/abs/2610.36947v1",
+        "summary": "Can additional specialist language-model contexts improve software assurance when deterministic tool evidence is already available? We study this question through five experiments spanning authored Java warning controls, OWASP Benchmark assessment, Defects4J test generation, SV-COMP assertion verdicts, and deliberately",
+        "metric": "Published 2026-10-27",
+        "published_at": "2026-10-27T10:06:26Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
-        "url": "http://arxiv.org/abs/2610.35864v1",
-        "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideo",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:59:32Z"
+        "title": "DocXEval: A Systematic Evaluation of Explainability in Multimodal Document Understanding",
+        "url": "http://arxiv.org/abs/2610.36929v1",
+        "summary": "Multimodal transformer models have driven unprecedented performance breakthroughs in modern document understanding. However, the inherent black-box nature of these models remains a major obstacle to their safe deployment in high-stakes sectors. Despite significant progress in explainability for vision and language task",
+        "metric": "Published 2026-10-27",
+        "published_at": "2026-10-27T09:53:21Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
-        "url": "http://arxiv.org/abs/2610.35850v1",
-        "summary": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality, incurring substanti",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:57:09Z"
+        "title": "Developing a Dynamic Multi-factor Authentication System for Securing Smart Organizations",
+        "url": "http://arxiv.org/abs/2610.36926v1",
+        "summary": "As smart organizations increasingly rely on technologies like AI, big data, and IoT, securing these systems is crucial. This research introduces a dynamic multi-factor authentication (MFA) system within the Zero Trust Architecture (ZTA) framework, which enforces continuous verification. The system randomly selects biom",
+        "metric": "Published 2026-10-27",
+        "published_at": "2026-10-27T09:52:02Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
-        "url": "http://arxiv.org/abs/2610.35847v1",
-        "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clini",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:56:26Z"
+        "title": "Vision-Language Agents Can Learn in Their Own Latent Worlds",
+        "url": "http://arxiv.org/abs/2610.36925v1",
+        "summary": "Learning from experience is essential for building the next generation of agents that continually expand their capabilities. Pretrained vision-language models (VLMs) already internalize rich world knowledge, yet this knowledge is rarely leveraged to drive policy improvement through online interaction. Realizing this po",
+        "metric": "Published 2026-10-27",
+        "published_at": "2026-10-27T09:51:08Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
-        "url": "http://arxiv.org/abs/2610.35846v1",
-        "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language mode",
-        "metric": "Published 2026-10-26",
-        "published_at": "2026-10-26T17:56:22Z"
+        "title": "TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces",
+        "url": "http://arxiv.org/abs/2610.36918v1",
+        "summary": "Large language model (LLM) agents rely on memory systems to leverage long-term interactions, yet existing systems typically retrieve memories based on their relevance to the current query and use them as contextual evidence. However, relevance alone does not characterize how a memory contributes to task solving: the sa",
+        "metric": "Published 2026-10-27",
+        "published_at": "2026-10-27T09:46:15Z"
       }
     ],
     "curve_augmentations": [
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
-        "source_url": "http://arxiv.org/abs/2610.35864v1",
+        "source_anchor": "DocXEval: A Systematic Evaluation of Explainability in Multimodal Document Understanding",
+        "source_url": "http://arxiv.org/abs/2610.36929v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "5650f6abcfb7d8ae"
+      "receipt_hash": "fc2bdb010dfda813"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_5650f6abcfb7"
+      "receipt_hash": "arm_fc2bdb010dfd"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
