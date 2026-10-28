@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T03:03:11.096Z",
-  "packet_sha256": "87e8191c9519b6ec8b7908434e1d455ba8732fde33a3d4150dbeb14620143b19",
+  "updated_at": "2026-10-28T03:21:35.259Z",
+  "packet_sha256": "a3b90cbde12fc699988357fff78df492fa6bf6ee23b23ad893abfd7332efcec0",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "305ffd7a22006bb",
+    "merkle_root_hex": "eb0fc81023f3ee91",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "305ffd7a22006bb",
-      "frame_sha256": "2541811f703af6f4e07d2bbb3786cca7750ef6cc374c7aa35bc29762dd596f5e",
+      "merkle_root_hex": "eb0fc81023f3ee91",
+      "frame_sha256": "eb4449c35fb6cb53ed098567f6827fc1fc06d9724786bd143d9f3dc686d143fd",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ecdd7a47:ff5bc32c:11697957:6651e523",
+      "hdc_16k": "hdc16k:3a4b9c34:66e845a7:bc46ab1c:72432c02",
       "spectral_4d": {
-        "coord4D": "37.65.129:31",
-        "rgbaStr": "{37}{65}{129}{31}",
-        "carrier_freq_hz": 268,
+        "coord4D": "235.68.73:195",
+        "rgbaStr": "{235}{68}{73}{195}",
+        "carrier_freq_hz": 350,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_305ffd7a22006bb",
+        "receipt_id": "R_san_yin_eb0fc81023f3ee91",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T03:03:18.064Z"
+        "verified_at": "2026-10-28T03:21:43.259Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T03:03:11.431Z",
+    "harvested_at": "2026-10-28T03:21:43.259Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 5,
@@ -92,55 +92,55 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "OvisOCR3 Technical Report",
-        "url": "https://huggingface.co/papers/2610.33066",
-        "summary": "We introduce OvisOCR3, a 0.8B model for a broad range of OCR-related tasks. OvisOCR3 unifies document parsing, general OCR, key information extraction (KIE), document figure captioning, and cross-page table reconstruction in a single model. We train the model on real and synthetic data through continued pretraining and",
-        "metric": "24 upvotes",
-        "published_at": "2026-10-20T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
-        "url": "https://huggingface.co/papers/2610.37341",
-        "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-27T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
-        "url": "https://huggingface.co/papers/2610.34073",
-        "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating",
+        "title": "MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model",
+        "url": "https://huggingface.co/papers/2610.37175",
+        "summary": "AI research agents can propose, execute, and improve programs that solve machine learning tasks. However, executing each candidate program requires training and evaluating ML models, limiting how many candidates an agent can explore at each step. We introduce MLE-World, a world model finetuned from Qwen3.5-4B that pred",
         "metric": "1 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-        "url": "https://huggingface.co/papers/2610.37666",
-        "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a funda",
-        "metric": "16 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "MatAnyone-E: Sparse Memory Propagation for Efficient High-Resolution Video Matting",
-        "url": "https://huggingface.co/papers/2610.35724",
-        "summary": "High-resolution video matting requires preserving fine details, such as hair strands and soft transparency, while maintaining consistency across frames. Memory-based methods achieve strong matting quality by matching current-frame features with information stored from earlier frames, but this process becomes increasing",
-        "metric": "5 upvotes",
+        "title": "Vision-Language-Action or World-Action? Just Action Models",
+        "url": "https://huggingface.co/papers/2610.37219",
+        "summary": "The vision-language-action (VLA) and world-action model (WAM) communities debate whether control policies should inherit pretrained knowledge from vision-language models or from visual generators. The debate, however, bundles three separable choices: backbone initialization, the objective applied to future observations",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Timestral",
+        "url": "https://huggingface.co/papers/2610.37585",
+        "summary": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with th",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Learning and Reasoning with Geometry: How Generation Helps Spatial Understanding",
+        "url": "https://huggingface.co/papers/2610.36022",
+        "summary": "Image and video generators can produce spatially consistent visual content, but how to use this capability to improve spatial understanding remains underexplored. We study this problem from two perspectives: geometric supervision during training and explicit geometric evidence during inference. To this end, we introduc",
+        "metric": "1 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data",
+        "url": "https://huggingface.co/papers/2610.37386",
+        "summary": "Mixture-of-Experts (MoE) models are bottlenecked by loading routed-expert weights from memory during interactive decoding at small batch sizes. Because most intermediate channels in a routed expert contribute little to any single token, channel selectors predict which channels matter and read only their weights, typica",
+        "metric": "8 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "OvisOCR3 Technical Report",
-        "source_url": "https://huggingface.co/papers/2610.33066",
+        "source_anchor": "MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model",
+        "source_url": "https://huggingface.co/papers/2610.37175",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -178,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "305ffd7a22006bb"
+      "receipt_hash": "eb0fc81023f3ee91"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_305ffd7a2200"
+      "receipt_hash": "arm_eb0fc81023f3"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
