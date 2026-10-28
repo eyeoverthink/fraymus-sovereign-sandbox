@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T13:44:24.213Z",
-  "packet_sha256": "d32ec109042616a1af750c7d99860d662e23298a2f59a7fa671ad9d7acb681fe",
+  "updated_at": "2026-10-28T15:44:08.746Z",
+  "packet_sha256": "91e2790106d6204685ee8205dd1d27d7fa5caf0c667e382b40348563ed701a38",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "49303a63b35f0d1",
+    "merkle_root_hex": "b17c4eb9f2af0b10",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "49303a63b35f0d1",
-      "frame_sha256": "3d9e8a13d151ff95808ee8abcdaae04a6b5ec3ae374dd06363c3bb5d67cc5644",
+      "merkle_root_hex": "b17c4eb9f2af0b10",
+      "frame_sha256": "37a80399b5187423a88cafac11f24f3ae566851e8081d031118e752ba6bed889",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:996d797b:2c97675d:cc9155f9:e36b550e",
+      "hdc_16k": "hdc16k:0e4b2d48:80a73ef6:499279ca:dad3c460",
       "spectral_4d": {
-        "coord4D": "61.158.138:19",
-        "rgbaStr": "{61}{158}{138}{19}",
-        "carrier_freq_hz": 340,
+        "coord4D": "55.168.3:153",
+        "rgbaStr": "{55}{168}{3}{153}",
+        "carrier_freq_hz": 266,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_49303a63b35f0d1",
+        "receipt_id": "R_san_yin_b17c4eb9f2af0b10",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T13:44:26.012Z"
+        "verified_at": "2026-10-28T15:44:11.571Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T13:44:24.423Z",
+    "harvested_at": "2026-10-28T15:44:09.177Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
+        "url": "https://huggingface.co/papers/2610.36082",
+        "summary": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to locally host, which trail frontier systems on multi-step quantitative reasoning. On-policy distillation narrows such gaps by supervising a student on its own rollouts, but traditional OPD requires a st",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+        "url": "https://huggingface.co/papers/2610.37364",
+        "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensur",
+        "metric": "6 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +122,7 @@
         "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
         "url": "https://huggingface.co/papers/2610.35013",
         "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization",
-        "metric": "9 upvotes",
+        "metric": "52 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
         "url": "https://huggingface.co/papers/2610.35962",
         "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating specialized provers. This raises",
-        "metric": "10 upvotes",
+        "metric": "11 upvotes",
         "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "The Lexical Imprint of Pre-training Data",
-        "url": "https://huggingface.co/papers/2602.10657",
-        "summary": "How much of zero-shot benchmark accuracy is captured by word-level alignment between a pre-training corpus and the benchmark target? We study this question through word-level unigram cross-entropy (UCE), a tokenizer-agnostic, model-free measure of lexical alignment between a reference corpus and a target benchmark. Lik",
-        "metric": "7 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
-        "url": "https://huggingface.co/papers/2610.37037",
-        "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costl",
-        "metric": "18 upvotes",
-        "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "T-DIG: Text-Conditioned Diversity for Image Generation",
-        "source_url": "https://huggingface.co/papers/2610.29003",
+        "source_anchor": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
+        "source_url": "https://huggingface.co/papers/2610.36082",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "49303a63b35f0d1"
+      "receipt_hash": "b17c4eb9f2af0b10"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_49303a63b35f"
+      "receipt_hash": "arm_b17c4eb9f2af"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
