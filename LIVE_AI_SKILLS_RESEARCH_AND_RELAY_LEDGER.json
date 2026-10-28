@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T06:44:23.462Z",
-  "packet_sha256": "aad4bcffbf5ea36b759ad5374a12233d6fa50a6ac6cbd00f24ead2b7a5aa8922",
+  "updated_at": "2026-10-28T07:30:55.521Z",
+  "packet_sha256": "7541343661a1bbfb17708b678a9db004bff5ba8c07b4b34de514f10ef6771879",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "e5627f80497039a7",
+    "merkle_root_hex": "36bdf21e1e8aba1a",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "e5627f80497039a7",
-      "frame_sha256": "8fff62903afd59cc8a15ef1f5962d3030f200581d09f035e377b6a6e30011d6b",
+      "merkle_root_hex": "36bdf21e1e8aba1a",
+      "frame_sha256": "96f46323d0c70cc3d9055196eb792e82e69254b371d00fe176c08e20d4310518",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:026f1b3d:208aa9de:7d184e47:bbfd666c",
+      "hdc_16k": "hdc16k:b7b7038e:0246b76c:800dd8e2:123d810c",
       "spectral_4d": {
-        "coord4D": "143.255.98:144",
-        "rgbaStr": "{143}{255}{98}{144}",
-        "carrier_freq_hz": 418,
+        "coord4D": "150.244.99:35",
+        "rgbaStr": "{150}{244}{99}{35}",
+        "carrier_freq_hz": 416,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_e5627f80497039a7",
+        "receipt_id": "R_san_yin_36bdf21e1e8aba1a",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T06:44:25.449Z"
+        "verified_at": "2026-10-28T07:30:57.292Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T06:44:23.662Z",
+    "harvested_at": "2026-10-28T07:30:56.950Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation",
+        "url": "https://huggingface.co/papers/2610.26030",
+        "summary": "Looped transformers reuse a shared block of layers to increase computational depth without increasing the number of trainable parameters. They are trained with backpropagation through time (BPTT). To save training compute, BPTT is often truncated to the last few loops, but truncation yields biased gradients that may we",
+        "metric": "25 upvotes",
+        "published_at": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+        "url": "https://huggingface.co/papers/2610.37624",
+        "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with whet",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
         "url": "https://huggingface.co/papers/2610.35864",
         "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVide",
-        "metric": "4 upvotes",
+        "metric": "11 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
         "url": "https://huggingface.co/papers/2610.37381",
         "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, w",
-        "metric": "37 upvotes",
+        "metric": "69 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces",
-        "url": "https://huggingface.co/papers/2610.37255",
-        "summary": "Language model agents are post-trained and deployed through a harness, the prompts, tools, and control logic that present a task to the model and execute its outputs. Harnesses are often revised and judged by how an already trained model performs under them, which assumes that what the model learned under one harness c",
-        "metric": "5 upvotes",
-        "published_at": "2026-10-27T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation",
-        "url": "https://huggingface.co/papers/2610.34674",
-        "summary": "Safe household navigation requires robots to regulate clearance and speed according to what an obstacle is and how close it is, without unnecessary conservatism. Yet existing evaluations do not test whether semantic safety distinctions are reflected in continuous motion. To that end, we introduce OSMA-Bench, an Obstacl",
-        "metric": "4 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
-        "source_url": "https://huggingface.co/papers/2610.35864",
+        "source_anchor": "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation",
+        "source_url": "https://huggingface.co/papers/2610.26030",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "e5627f80497039a7"
+      "receipt_hash": "36bdf21e1e8aba1a"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_e5627f804970"
+      "receipt_hash": "arm_36bdf21e1e8a"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
