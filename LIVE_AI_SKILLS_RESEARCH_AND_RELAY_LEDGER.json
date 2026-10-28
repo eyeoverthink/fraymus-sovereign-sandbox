@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-27T23:17:26.330Z",
-  "packet_sha256": "dd749f0886775ed9ef3b8b34849a5bbd63b3c8ff614dbf82cb01f904f17fff28",
+  "updated_at": "2026-10-28T00:22:39.596Z",
+  "packet_sha256": "857e7f391ae6a9420475fff5b3b02e4107d9d4c4bbf4ddd1586a6b3026cb5f7e",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "7d824f2af1248d14",
+    "merkle_root_hex": "4d79b3a5d1f13b50",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "7d824f2af1248d14",
-      "frame_sha256": "69d0cf828ec13541fa915e584e00f63e25afa3f6a9644cb11d38e51a8361bdfe",
+      "merkle_root_hex": "4d79b3a5d1f13b50",
+      "frame_sha256": "742f23703514fe3badd37e1fd4eadad63aab3465fd03f81c1ab48019f0af5e69",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:f0c08813:028889af:9b284521:c6df1e59",
+      "hdc_16k": "hdc16k:60141bf9:fa0fc698:7c78c8b9:a9dbbcc6",
       "spectral_4d": {
-        "coord4D": "105.208.207:130",
-        "rgbaStr": "{105}{208}{207}{130}",
-        "carrier_freq_hz": 432,
+        "coord4D": "116.47.35:112",
+        "rgbaStr": "{116}{47}{35}{112}",
+        "carrier_freq_hz": 250,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_7d824f2af1248d14",
+        "receipt_id": "R_san_yin_4d79b3a5d1f13b50",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-27T23:17:35.330Z"
+        "verified_at": "2026-10-28T00:22:41.508Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-27T23:17:26.543Z",
+    "harvested_at": "2026-10-28T00:22:39.811Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "How Far Can Coding Agents Go in Visual Generation?",
+        "url": "https://huggingface.co/papers/2610.19025",
+        "summary": "Modern image generation largely relies on specialized generative models that leave the process of image construction implicit in learned parameters. We explore an alternative: general-purpose coding agents that construct images through executable programs. Our study of zero-shot drawing on AgentDrawBench, a 200-prompt ",
+        "metric": "4 upvotes",
+        "published_at": "2026-10-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Representation Redistribution in Sparse Autoencoders",
         "url": "https://huggingface.co/papers/2610.21240",
         "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-15T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
         "url": "https://huggingface.co/papers/2610.32046",
         "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computat",
-        "metric": "4 upvotes",
+        "metric": "10 upvotes",
         "published_at": "2026-10-23T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "A fundamental challenge for explainable and accountable language models is revealing how external information influences their answers. This paper examines whether models are self-attributive: that is, whether they indicate when -- and only when -- their responses to questions are influenced by information provided alo",
         "metric": "0 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Rethinking Verification in Agent Harnesses",
-        "url": "https://huggingface.co/papers/2610.34577",
-        "summary": "Agent harnesses enable large language models to act through tools, observe the results, and iteratively work toward a task goal. Verification checks and revises agents' work to improve output quality. Yet there is limited guidance on how harnesses should organize this effort. We study verification as an axis of test-ti",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Representation Redistribution in Sparse Autoencoders",
-        "source_url": "https://huggingface.co/papers/2610.21240",
+        "source_anchor": "How Far Can Coding Agents Go in Visual Generation?",
+        "source_url": "https://huggingface.co/papers/2610.19025",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "7d824f2af1248d14"
+      "receipt_hash": "4d79b3a5d1f13b50"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_7d824f2af124"
+      "receipt_hash": "arm_4d79b3a5d1f1"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
