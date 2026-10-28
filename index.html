@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Linear mapping in multi-dimensional synthesis always requires non-linear interpolation to prevent harmonic interference at the threshold of state transitions.
+          <strong>Retained Instinct:</strong> Always decouple raw input coordinates from audio output via an interpolation buffer to ensure sensory fluidity in multi-dimensional mappings.
         </div>
       </div>
 
@@ -94,11 +94,16 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut"># 4D Spectral Voxel Instrument V2
+        <pre id="consoleOut"># 4D Spectral Voxel Instrument (Refined) 
 
-- **Coordinate Mapping**: Utilizes `Math.log2()` to smooth the W-axis spectral drift.
-- **Audio Engine**: Employs an `AudioWorkletNode` with cubic-bezier smoothing to sustain the transition from E-minor [329.63Hz] to G-major [392.00Hz].
-- **Visuals**: A 4D-projection matrix maps (X,Y,Z,W) to (x,y) canvas coordinates using depth-culling for voxel transparency.</pre>
+## Implementation Logic 
+1. **Smoothing**: Added `lerp(target, current, factor)` to stabilize frequency shifts. 
+2. **Synchronization**: Linked the `CanvasRenderingContext2D` fillStyle to the `AudioContext` current time, ensuring the color shifts from deep violet (E-minor) to amber (G-major) exactly at the note onset. 
+
+```javascript 
+const smoothedFreq = lerp(targetFreq, currentFreq, 0.1); 
+ctx.fillStyle = chordState === 'E-minor' ? '#4b0082' : '#ffbf00'; 
+```</pre>
       </div>
     </div>
   </div>
