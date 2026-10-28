@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T01:29:05.148Z",
-  "packet_sha256": "e006a570bf2e9ce7ce7960b654523f32fb9ba697bd5969dc77c3dd6c01081665",
+  "updated_at": "2026-10-28T03:03:11.096Z",
+  "packet_sha256": "87e8191c9519b6ec8b7908434e1d455ba8732fde33a3d4150dbeb14620143b19",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "fc2bdb010dfda813",
+    "merkle_root_hex": "305ffd7a22006bb",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "fc2bdb010dfda813",
-      "frame_sha256": "ef3c2d26d83eb2314b07b9f627919690c78927da0b3c6e8705e6c90522c720c3",
+      "merkle_root_hex": "305ffd7a22006bb",
+      "frame_sha256": "2541811f703af6f4e07d2bbb3786cca7750ef6cc374c7aa35bc29762dd596f5e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:70dea57a:f04dd529:0f2d9b4c:843999c8",
+      "hdc_16k": "hdc16k:ecdd7a47:ff5bc32c:11697957:6651e523",
       "spectral_4d": {
-        "coord4D": "239.60.45:38",
-        "rgbaStr": "{239}{60}{45}{38}",
-        "carrier_freq_hz": 332,
+        "coord4D": "37.65.129:31",
+        "rgbaStr": "{37}{65}{129}{31}",
+        "carrier_freq_hz": 268,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_fc2bdb010dfda813",
+        "receipt_id": "R_san_yin_305ffd7a22006bb",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T01:29:07.636Z"
+        "verified_at": "2026-10-28T03:03:18.064Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T01:29:05.718Z",
+    "harvested_at": "2026-10-28T03:03:11.431Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,100 +92,55 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
-        "url": "https://huggingface.co/papers/2610.33005",
-        "summary": "Energy-based models have shown promising properties for domain-specific tasks but remain challenging in modeling general-purpose scenarios. To bridge this gap, we design energy-steered models (ESMs) for foundational language modeling. ESMs integrate energy steering and token generation within a single architecture to l",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-07T00:00:00.000Z"
+        "title": "OvisOCR3 Technical Report",
+        "url": "https://huggingface.co/papers/2610.33066",
+        "summary": "We introduce OvisOCR3, a 0.8B model for a broad range of OCR-related tasks. OvisOCR3 unifies document parsing, general OCR, key information extraction (KIE), document figure captioning, and cross-page table reconstruction in a single model. We train the model on real and synthetic data through continued pretraining and",
+        "metric": "24 upvotes",
+        "published_at": "2026-10-20T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models",
-        "url": "https://huggingface.co/papers/2610.31566",
-        "summary": "Large language models have shown outstanding performance on text-first tasks such as coding, math, and writing. Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images. However, in these scenar",
+        "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
+        "url": "https://huggingface.co/papers/2610.37341",
+        "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as",
         "metric": "2 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "SO-101 Bench: Accessible Spatial Manipulation",
-        "url": "https://huggingface.co/papers/2610.36420",
-        "summary": "Low-cost arms such as the SO-101 have become the most common entry point to robot learning, yet no released policy performs spatially constrained, language-conditioned tasks on them out of the box, and existing SO-101 benchmarks run only on physical hardware with simple tasks and few held-out objects. We introduce SO-1",
-        "metric": "1 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model",
-        "url": "https://huggingface.co/papers/2610.32177",
-        "summary": "Humans reason about the physical world by flexibly combining different forms of inference as a problem unfolds. Achieving this flexibility is a major open challenge in AI: capabilities often remain separated across specialized models, limiting how they can be composed and jointly adapted to a task. We introduce Ψ-0.6, ",
-        "metric": "5 upvotes",
-        "published_at": "2026-10-23T00:00:00.000Z"
+        "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+        "url": "https://huggingface.co/papers/2610.34073",
+        "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?",
-        "url": "https://huggingface.co/papers/2610.34386",
-        "summary": "Recursive self-improvement (RSI) requires an agentic system to design, train, and evaluate its own successor. Data-driven post-training is a central part of that loop, yet existing evaluations measure it on a single benchmark, where an agent selects from a static pool or distills a stronger model to push one score up i",
-        "metric": "9 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
+        "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+        "url": "https://huggingface.co/papers/2610.37666",
+        "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a funda",
+        "metric": "16 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance",
-        "url": "http://arxiv.org/abs/2610.36947v1",
-        "summary": "Can additional specialist language-model contexts improve software assurance when deterministic tool evidence is already available? We study this question through five experiments spanning authored Java warning controls, OWASP Benchmark assessment, Defects4J test generation, SV-COMP assertion verdicts, and deliberately",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T10:06:26Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "DocXEval: A Systematic Evaluation of Explainability in Multimodal Document Understanding",
-        "url": "http://arxiv.org/abs/2610.36929v1",
-        "summary": "Multimodal transformer models have driven unprecedented performance breakthroughs in modern document understanding. However, the inherent black-box nature of these models remains a major obstacle to their safe deployment in high-stakes sectors. Despite significant progress in explainability for vision and language task",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T09:53:21Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Developing a Dynamic Multi-factor Authentication System for Securing Smart Organizations",
-        "url": "http://arxiv.org/abs/2610.36926v1",
-        "summary": "As smart organizations increasingly rely on technologies like AI, big data, and IoT, securing these systems is crucial. This research introduces a dynamic multi-factor authentication (MFA) system within the Zero Trust Architecture (ZTA) framework, which enforces continuous verification. The system randomly selects biom",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T09:52:02Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Vision-Language Agents Can Learn in Their Own Latent Worlds",
-        "url": "http://arxiv.org/abs/2610.36925v1",
-        "summary": "Learning from experience is essential for building the next generation of agents that continually expand their capabilities. Pretrained vision-language models (VLMs) already internalize rich world knowledge, yet this knowledge is rarely leveraged to drive policy improvement through online interaction. Realizing this po",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T09:51:08Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces",
-        "url": "http://arxiv.org/abs/2610.36918v1",
-        "summary": "Large language model (LLM) agents rely on memory systems to leverage long-term interactions, yet existing systems typically retrieve memories based on their relevance to the current query and use them as contextual evidence. However, relevance alone does not characterize how a memory contributes to task solving: the sa",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T09:46:15Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "MatAnyone-E: Sparse Memory Propagation for Efficient High-Resolution Video Matting",
+        "url": "https://huggingface.co/papers/2610.35724",
+        "summary": "High-resolution video matting requires preserving fine details, such as hair strands and soft transparency, while maintaining consistency across frames. Memory-based methods achieve strong matting quality by matching current-frame features with information stored from earlier frames, but this process becomes increasing",
+        "metric": "5 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
-        "source_url": "https://huggingface.co/papers/2610.33005",
+        "source_anchor": "OvisOCR3 Technical Report",
+        "source_url": "https://huggingface.co/papers/2610.33066",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "DocXEval: A Systematic Evaluation of Explainability in Multimodal Document Understanding",
-        "source_url": "http://arxiv.org/abs/2610.36929v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "fc2bdb010dfda813"
+      "receipt_hash": "305ffd7a22006bb"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_fc2bdb010dfd"
+      "receipt_hash": "arm_305ffd7a2200"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
