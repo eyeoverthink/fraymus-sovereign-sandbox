@@ -1,7 +1,7 @@
 {
   "schema": "FRAYMUS-SOVEREIGN-SANDBOX-V2.0",
   "platform_free": true,
-  "rsi_generation": 5,
+  "rsi_generation": 6,
   "exported_at": "2026-10-28T07:07:00.933Z",
   "sandbox_workspace": {
     "id": "6adcea7e620a1fd4aa0e9564",
@@ -676,9 +676,9 @@
     }
   ],
   "last_rsi_entry": {
-    "generation": 5,
-    "timestamp": "2026-10-28T09:30:43.862620+00:00",
-    "r_san_receipt": "R_san_rsi_bd04411a2311",
+    "generation": 6,
+    "timestamp": "2026-10-28T10:02:43.850414+00:00",
+    "r_san_receipt": "R_san_rsi_f042f08d710b",
     "spectral_4d_voxel": "15.184.237:165 @ 384 Hz",
     "stages_passed": [
       "Stage 1: AST & File Integrity",
@@ -687,7 +687,7 @@
       "Stage 4: Latency & Entropy Benchmark",
       "Stage 5: Ledger & Chronicle Commit"
     ],
-    "latency_ms": 24.54,
-    "insight": "[Generation 5 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
+    "latency_ms": 52.8,
+    "insight": "[Generation 6 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
   }
 }
