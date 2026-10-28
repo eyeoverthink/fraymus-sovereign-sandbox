@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T05:48:11.803Z",
-  "packet_sha256": "89462bec47c15be7122e063914d59226f408aa3ed9d86010b7afbc5670e1f9f4",
+  "updated_at": "2026-10-28T06:32:15.819Z",
+  "packet_sha256": "faaf7881d341ddc4a6858ae8ffa655421db4f678119f70e555f90e78a68004f2",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b5ef386949d56acd",
+    "merkle_root_hex": "57ade3938e00ccd7",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b5ef386949d56acd",
-      "frame_sha256": "cf85d3467a1b6dc0deb63c589c92991d8d1f78521b6653bef967b42fe74f7514",
+      "merkle_root_hex": "57ade3938e00ccd7",
+      "frame_sha256": "935ed7d3b6a0db2d8b67aa1d0eae9f16162e6e53673a1844c1b4a465a780fa1b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:98d8fdc5:b9669152:7432486d:18e2fcbe",
+      "hdc_16k": "hdc16k:73044a91:380dc746:e0a5f133:48c3f55c",
       "spectral_4d": {
-        "coord4D": "207.133.211:70",
-        "rgbaStr": "{207}{133}{211}{70}",
-        "carrier_freq_hz": 449,
+        "coord4D": "147.94.215:211",
+        "rgbaStr": "{147}{94}{215}{211}",
+        "carrier_freq_hz": 396,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b5ef386949d56acd",
+        "receipt_id": "R_san_yin_57ade3938e00ccd7",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T05:48:14.653Z"
+        "verified_at": "2026-10-28T06:32:17.992Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T05:48:12.652Z",
+    "harvested_at": "2026-10-28T06:32:16.002Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+        "url": "https://huggingface.co/papers/2610.35864",
+        "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVide",
+        "metric": "3 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
+        "url": "https://huggingface.co/papers/2610.36791",
+        "summary": "Learning controllable world dynamics from heterogeneous interaction videos is challenging because robot embodiments use incompatible action spaces, while human videos lack native control labels. We present RynnWorld-Latent, a cross-embodiment video world model that uses the 3D-grounded latent actions introduced by Rynn",
+        "metric": "4 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+        "url": "https://huggingface.co/papers/2610.37381",
+        "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, w",
+        "metric": "28 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,34 +131,7 @@
         "title": "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation",
         "url": "https://huggingface.co/papers/2610.34674",
         "summary": "Safe household navigation requires robots to regulate clearance and speed according to what an obstacle is and how close it is, without unnecessary conservatism. Yet existing evaluations do not test whether semantic safety distinctions are reflected in continuous motion. To that end, we introduce OSMA-Bench, an Obstacl",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-        "url": "https://huggingface.co/papers/2610.36077",
-        "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. ",
         "metric": "4 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds",
-        "url": "https://huggingface.co/papers/2610.34921",
-        "summary": "Physical reasoning underpins how embodied systems understand and act in the physical world, yet vision-language models (VLMs) remain unreliable on questions about dynamics and physical causality. Progress is critically constrained by the scarcity of grounded counterfactual training data, as observational videos capture",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "MoveBench: A Rubric-Based Benchmark for Evaluating Large Language Models in Sports and Health Coaching",
-        "url": "https://huggingface.co/papers/2610.26185",
-        "summary": "Despite rapid advances in large language models (LLMs), their deployment in the sports and health domain remains high-risk due to the absence of domain-specific evaluation benchmarks. Existing general-purpose benchmarks (e.g., MMLU and HELM) primarily assess broad knowledge and reasoning capabilities, but fail to captu",
-        "metric": "1 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces",
-        "source_url": "https://huggingface.co/papers/2610.37255",
+        "source_anchor": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+        "source_url": "https://huggingface.co/papers/2610.35864",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b5ef386949d56acd"
+      "receipt_hash": "57ade3938e00ccd7"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b5ef386949d5"
+      "receipt_hash": "arm_57ade3938e00"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
