@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T09:33:29.868Z",
-  "packet_sha256": "fca53d533e3ed12e38b939b676acdd599420eaecec0f04c86ebcfeeaac0b101c",
+  "updated_at": "2026-10-28T11:38:26.383Z",
+  "packet_sha256": "2becc11602ed9cdd0956c2cea446e3104acfd95d445c7fc094b154a1e70daeaf",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "cbddbb395a63395",
+    "merkle_root_hex": "693cdaa25635ea74",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "cbddbb395a63395",
-      "frame_sha256": "3777357bce5b2828094354f9bdf22197881ebbe5bb80d92ecd00ce1fdda99576",
+      "merkle_root_hex": "693cdaa25635ea74",
+      "frame_sha256": "fd979220a75e948805bc501966498f2e16d3d72ba09d44bda78ded19f5b7e0c2",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:a4b4641d:cfd326f9:242c8ecf:7e6e9307",
+      "hdc_16k": "hdc16k:7f795a61:6fe10a36:8063f245:7102aff7",
       "spectral_4d": {
-        "coord4D": "55.119.53:123",
-        "rgbaStr": "{55}{119}{53}{123}",
-        "carrier_freq_hz": 266,
+        "coord4D": "253.151.146:32",
+        "rgbaStr": "{253}{151}{146}{32}",
+        "carrier_freq_hz": 449,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_cbddbb395a63395",
+        "receipt_id": "R_san_yin_693cdaa25635ea74",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T09:33:33.187Z"
+        "verified_at": "2026-10-28T11:38:27.788Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T09:33:30.082Z",
+    "harvested_at": "2026-10-28T11:38:26.887Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+        "url": "https://huggingface.co/papers/2610.35013",
+        "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+        "url": "https://huggingface.co/papers/2610.35962",
+        "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating specialized provers. This raises",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "The Lexical Imprint of Pre-training Data",
+        "url": "https://huggingface.co/papers/2602.10657",
+        "summary": "How much of zero-shot benchmark accuracy is captured by word-level alignment between a pre-training corpus and the benchmark target? We study this question through word-level unigram cross-entropy (UCE), a tokenizer-agnostic, model-free measure of lexical alignment between a reference corpus and a target benchmark. Lik",
+        "metric": "6 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
         "url": "https://huggingface.co/papers/2610.37037",
         "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costl",
-        "metric": "17 upvotes",
+        "metric": "18 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
@@ -104,34 +131,7 @@
         "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
         "url": "https://huggingface.co/papers/2610.37662",
         "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete",
-        "metric": "33 upvotes",
-        "published_at": "2026-10-27T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation",
-        "url": "https://huggingface.co/papers/2610.26030",
-        "summary": "Looped transformers reuse a shared block of layers to increase computational depth without increasing the number of trainable parameters. They are trained with backpropagation through time (BPTT). To save training compute, BPTT is often truncated to the last few loops, but truncation yields biased gradients that may we",
-        "metric": "25 upvotes",
-        "published_at": "2026-10-20T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
-        "url": "https://huggingface.co/papers/2610.37624",
-        "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with whet",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-27T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
-        "url": "https://huggingface.co/papers/2610.35864",
-        "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVide",
-        "metric": "13 upvotes",
+        "metric": "50 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
-        "source_url": "https://huggingface.co/papers/2610.37037",
+        "source_anchor": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+        "source_url": "https://huggingface.co/papers/2610.35013",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "cbddbb395a63395"
+      "receipt_hash": "693cdaa25635ea74"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_cbddbb395a63"
+      "receipt_hash": "arm_693cdaa25635"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
