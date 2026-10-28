@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always bind the fourth dimensional variable to the temporal envelope or gain structure rather than static frequency to prevent aliasing and phase-cancellation in multi-axis audio synthesis.
+          <strong>Retained Instinct:</strong> Linear mapping in multi-dimensional synthesis always requires non-linear interpolation to prevent harmonic interference at the threshold of state transitions.
         </div>
       </div>
 
@@ -94,12 +94,11 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut">### Method III: 4D Spectral Voxel Instrument (Refined)
+        <pre id="consoleOut"># 4D Spectral Voxel Instrument V2
 
-#### Audio-Visual Logic
-- **Coordinate Mapping:** (x,y,z) map to MIDI pitch, while the (w) scalar modulates the ADSR envelope.
-- **Harmonic Bridge:** Transitions from E-minor (0.2w) to G-major (0.8w) are interpolated via a Sine-Ease transition.
-- **Implementation:** `osc.frequency.setTargetAtTime(targetFreq, ctx.currentTime, 0.05);` ensures smooth transitions between voxel vertex transformations.</pre>
+- **Coordinate Mapping**: Utilizes `Math.log2()` to smooth the W-axis spectral drift.
+- **Audio Engine**: Employs an `AudioWorkletNode` with cubic-bezier smoothing to sustain the transition from E-minor [329.63Hz] to G-major [392.00Hz].
+- **Visuals**: A 4D-projection matrix maps (X,Y,Z,W) to (x,y) canvas coordinates using depth-culling for voxel transparency.</pre>
       </div>
     </div>
   </div>
