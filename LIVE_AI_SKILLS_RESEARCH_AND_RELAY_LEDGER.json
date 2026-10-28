@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-28T15:51:31.957Z",
-  "packet_sha256": "db469d5807948e5fdd6195b59426d55e76673803bcc74d4c6041e88e40bc0962",
+  "updated_at": "2026-10-28T17:50:25.899Z",
+  "packet_sha256": "55baaa96b4dd6841c8cd52ef296162e4bd8f930a30a6d3e3430c98ccc55d90d2",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "de41b3e999900ff2",
+    "merkle_root_hex": "890cf2e4abb900a8",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "de41b3e999900ff2",
-      "frame_sha256": "4a1d71a997b983947474257ab37a3aa91536ddde2070001b25682df774736fb2",
+      "merkle_root_hex": "890cf2e4abb900a8",
+      "frame_sha256": "6fbe2a999f7ee27fb0450029dce93ac779e99b59cd1c4289ea8b0d36a3688131",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:47b56ca2:f6c01c62:62c28bb2:c137a538",
+      "hdc_16k": "hdc16k:653953cc:a51018b0:7c9fbc66:87ac1a29",
       "spectral_4d": {
-        "coord4D": "74.29.113:169",
-        "rgbaStr": "{74}{29}{113}{169}",
-        "carrier_freq_hz": 260,
+        "coord4D": "111.190.42:153",
+        "rgbaStr": "{111}{190}{42}{153}",
+        "carrier_freq_hz": 332,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_de41b3e999900ff2",
+        "receipt_id": "R_san_yin_890cf2e4abb900a8",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-28T15:51:34.348Z"
+        "verified_at": "2026-10-28T17:50:27.437Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-28T15:51:32.257Z",
+    "harvested_at": "2026-10-28T17:50:26.084Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
+        "url": "https://huggingface.co/papers/2610.36184",
+        "summary": "Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research. Existing open Bengali ASR corpora are confined to short, read or crowd-sourced speech and lack speaker diarization and long-form audio. We present Lipi-Ghor, a large-scale weakly-supervised Bengali speech corpus co",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
+        "url": "https://huggingface.co/papers/2610.36192",
+        "summary": "Learning velocity fields directly in pixel space is difficult and slow. We show that coarse second-order image statistics can ease this task: frozen Wiener estimates improve velocity learning, with gains extending beyond the linear predictions they explicitly provide. Moreover, we observe similar but complementary gain",
+        "metric": "7 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
+        "url": "https://huggingface.co/papers/2610.34894",
+        "summary": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025). But every pass@1 is scored under a token budget. Every recipe also trains under one. On physics and math problems at fixed token budgets, we compare the pass@1 of 20 released RL models (1.5B to 32B) with that of the thinking models they started from",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
         "url": "https://huggingface.co/papers/2610.36082",
         "summary": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to locally host, which trail frontier systems on multi-step quantitative reasoning. On-policy distillation narrows such gaps by supervising a student on its own rollouts, but traditional OPD requires a st",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -104,35 +131,8 @@
         "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
         "url": "https://huggingface.co/papers/2610.37364",
         "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensur",
-        "metric": "6 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "T-DIG: Text-Conditioned Diversity for Image Generation",
-        "url": "https://huggingface.co/papers/2610.29003",
-        "summary": "Text-to-image (T2I) platforms typically return several images per prompt so users can explore different visual interpretations and choose one that matches their intent. However, T2I models are usually optimized for single-image quality which comes at a cost of multi-image diversity, limiting this exploration. Diversity",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-21T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
-        "url": "https://huggingface.co/papers/2610.35013",
-        "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization",
-        "metric": "55 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
-        "url": "https://huggingface.co/papers/2610.35962",
-        "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating specialized provers. This raises",
-        "metric": "11 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
-        "source_url": "https://huggingface.co/papers/2610.36082",
+        "source_anchor": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
+        "source_url": "https://huggingface.co/papers/2610.36184",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "de41b3e999900ff2"
+      "receipt_hash": "890cf2e4abb900a8"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_de41b3e99990"
+      "receipt_hash": "arm_890cf2e4abb9"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
