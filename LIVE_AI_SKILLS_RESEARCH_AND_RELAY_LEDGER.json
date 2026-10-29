@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-29T10:52:34.191Z",
-  "packet_sha256": "b262dc2bbbee274f5467c8cfe29863b01d85a5c4552f6f657b10b8c440358210",
+  "updated_at": "2026-10-29T11:24:32.133Z",
+  "packet_sha256": "428cccc63006837719f8e9a0fa1776598efb3cdbb02a489022b4ca45523cf80a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "3ff7311b21ca0cf2",
+    "merkle_root_hex": "cc0bb02e9510b114",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "3ff7311b21ca0cf2",
-      "frame_sha256": "a2ea17946f2269d657cda42115b4443cfaaf3d7fd0d49863d68967c61accce16",
+      "merkle_root_hex": "cc0bb02e9510b114",
+      "frame_sha256": "02d35c88023e1341135b672d8033f27cd48c4da4af92bffb573639571453290e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:32ccb693:f1423b7c:1fc219ef:0f13368c",
+      "hdc_16k": "hdc16k:10ad4d64:728f5826:84b272ca:893dd20b",
       "spectral_4d": {
-        "coord4D": "162.234.23:148",
-        "rgbaStr": "{162}{234}{23}{148}",
-        "carrier_freq_hz": 375,
+        "coord4D": "2.211.92:136",
+        "rgbaStr": "{2}{211}{92}{136}",
+        "carrier_freq_hz": 310,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_3ff7311b21ca0cf2",
+        "receipt_id": "R_san_yin_cc0bb02e9510b114",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-29T10:52:35.906Z"
+        "verified_at": "2026-10-29T11:24:33.649Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-29T10:52:34.804Z",
+    "harvested_at": "2026-10-29T11:24:32.472Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
+        "url": "https://huggingface.co/papers/2610.30161",
+        "summary": "Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe a procedure, a set of required steps, such as o",
+        "metric": "1 upvotes",
+        "published_at": "2026-09-30T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reali",
         "metric": "33 upvotes",
         "published_at": "2026-10-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
-        "url": "https://huggingface.co/papers/2610.37230",
-        "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in su",
-        "metric": "12 upvotes",
-        "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "CausGround: Causal Interaction Grounding for Adaptive Embodied Planning",
-        "source_url": "https://huggingface.co/papers/2610.29702",
+        "source_anchor": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
+        "source_url": "https://huggingface.co/papers/2610.30161",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "3ff7311b21ca0cf2"
+      "receipt_hash": "cc0bb02e9510b114"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_3ff7311b21ca"
+      "receipt_hash": "arm_cc0bb02e9510"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
