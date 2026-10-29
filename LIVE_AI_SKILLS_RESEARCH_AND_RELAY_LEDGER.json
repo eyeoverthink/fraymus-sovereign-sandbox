@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-29T15:06:53.238Z",
-  "packet_sha256": "a8454dadd0e2ffd2691f730319280842ebbd4ccd4333e7a290f2e1c844a151cc",
+  "updated_at": "2026-10-29T15:39:45.613Z",
+  "packet_sha256": "0a016674bc0bc52f2ae15201c02a315c30a90d2e649d1417fcae3d00616e190a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "66d951539ca91561",
+    "merkle_root_hex": "6675fa55426eb82b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "66d951539ca91561",
-      "frame_sha256": "a95c08471b5aefc59c7d630160404eab14c40d5ffee9f35e746692eebe17ff4d",
+      "merkle_root_hex": "6675fa55426eb82b",
+      "frame_sha256": "f555ecdc17cd025fb7e2fb071a38aa28d5e128574461ce9a9ce13bbf91e4ce1b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:cc796c6f:b06c8ca7:5a904955:2b8d50d8",
+      "hdc_16k": "hdc16k:33ee5e68:171ded8d:84dbdd56:8b10c81c",
       "spectral_4d": {
-        "coord4D": "169.92.8:71",
-        "rgbaStr": "{169}{92}{8}{71}",
-        "carrier_freq_hz": 290,
+        "coord4D": "245.85.236:220",
+        "rgbaStr": "{245}{85}{236}{220}",
+        "carrier_freq_hz": 458,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_66d951539ca91561",
+        "receipt_id": "R_san_yin_6675fa55426eb82b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-29T15:06:55.272Z"
+        "verified_at": "2026-10-29T15:39:49.065Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-29T15:06:53.665Z",
+    "harvested_at": "2026-10-29T15:39:45.862Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
         "url": "https://huggingface.co/papers/2610.35671",
         "summary": "As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks. While closed-source releases are routinely accompanied by comprehensive system cards, open-weight models receive less scrutiny regarding frontier risks. ",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "Amortizing Sequential Experimental Design in Reasoning LLMs",
         "url": "https://huggingface.co/papers/2610.20832",
         "summary": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks. We study how to amortize sequential Bayesian experimental design (BED) into an LLM by explicitly training the reasoning that guides action",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-10-14T00:00:00.000Z"
       },
       {
@@ -113,7 +113,7 @@
         "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
         "url": "https://huggingface.co/papers/2610.22507",
         "summary": "Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchmark that unifies the ",
-        "metric": "14 upvotes",
+        "metric": "15 upvotes",
         "published_at": "2026-10-15T00:00:00.000Z"
       },
       {
@@ -131,7 +131,7 @@
         "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
         "url": "https://huggingface.co/papers/2610.30161",
         "summary": "Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe a procedure, a set of required steps, such as o",
-        "metric": "8 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-09-30T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "66d951539ca91561"
+      "receipt_hash": "6675fa55426eb82b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_66d951539ca9"
+      "receipt_hash": "arm_6675fa55426e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
