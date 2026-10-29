@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-29T19:55:40.614Z",
-  "packet_sha256": "982467b44d9fae5f4cadd76afc1a3a47e639b35b70c31e09c983558b6c3f8dd6",
+  "updated_at": "2026-10-29T21:34:56.189Z",
+  "packet_sha256": "3fff0fa47118d8b8283ec4e4c78d628a9247222a2a95df0853ae53b85f38c0bb",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "e50a48412f3bf4f7",
+    "merkle_root_hex": "497285d796cfdddd",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "e50a48412f3bf4f7",
-      "frame_sha256": "cbf16c946f35a386080b3cbe0b11f9d67d65a93303058639a75670e8dd9aaa95",
+      "merkle_root_hex": "497285d796cfdddd",
+      "frame_sha256": "e0aed2557bc00a33d3c6aebd76601d340d7591e09301da3b48b727005cbeac85",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:b1e58a75:e0423aa1:78ac26df:2b5f617f",
+      "hdc_16k": "hdc16k:403e3fcd:0152cf77:351e6adf:5248d0f4",
       "spectral_4d": {
-        "coord4D": "203.241.108:148",
-        "rgbaStr": "{203}{241}{108}{148}",
-        "carrier_freq_hz": 450,
+        "coord4D": "224.174.210:85",
+        "rgbaStr": "{224}{174}{210}{85}",
+        "carrier_freq_hz": 481,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_e50a48412f3bf4f7",
+        "receipt_id": "R_san_yin_497285d796cfdddd",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-29T19:55:42.376Z"
+        "verified_at": "2026-10-29T21:34:58.048Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-29T19:55:40.985Z",
+    "harvested_at": "2026-10-29T21:34:56.799Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Instruction Capacity: Behavior and Degradation of Language Models under Controlled Load",
+        "url": "https://huggingface.co/papers/2610.36095",
+        "summary": "The quality with which language models follow instructions falls as the load grows, yet there is still no quantity that expresses the limit of a model in units of load with an uncertainty. We propose an instrument in which the load consists of rules that replace single-token words in a text without meaning: such an ins",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL, and existing synthe",
         "metric": "3 upvotes",
         "published_at": "2026-10-21T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
-        "url": "https://huggingface.co/papers/2610.30161",
-        "summary": "Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe a procedure, a set of required steps, such as o",
-        "metric": "9 upvotes",
-        "published_at": "2026-09-30T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
-        "source_url": "https://huggingface.co/papers/2610.35671",
+        "source_anchor": "Instruction Capacity: Behavior and Degradation of Language Models under Controlled Load",
+        "source_url": "https://huggingface.co/papers/2610.36095",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "e50a48412f3bf4f7"
+      "receipt_hash": "497285d796cfdddd"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_e50a48412f3b"
+      "receipt_hash": "arm_497285d796cf"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
