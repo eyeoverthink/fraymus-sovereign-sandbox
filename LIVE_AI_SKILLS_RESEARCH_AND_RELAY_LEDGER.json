@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-29T00:20:10.840Z",
-  "packet_sha256": "e66868ed58c6c066913ae2e438c95db1d1fc45432e4ff9206a8d0a71fcf23f06",
+  "updated_at": "2026-10-29T00:50:11.946Z",
+  "packet_sha256": "10b2dcee1f24645f1ebd5286a8f0c6125b07571127d4f5f99c47969886cd23b6",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "711284f13b27ff49",
+    "merkle_root_hex": "c37c8d021c84a986",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "711284f13b27ff49",
-      "frame_sha256": "de37e97b4205be94462dedac51615ea6677b42828d5e811597ebcfab9a431bbd",
+      "merkle_root_hex": "c37c8d021c84a986",
+      "frame_sha256": "a4fc56df02b241d665e5dfe35274d7c6fce3c544ab56b3cd271faaabf48bf649",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:50e830e3:90ddfcdb:9130dc85:05c726dd",
+      "hdc_16k": "hdc16k:5d007000:8f6ec49f:056ba96c:37b884dd",
       "spectral_4d": {
-        "coord4D": "222.55.233:123",
-        "rgbaStr": "{222}{55}{233}{123}",
-        "carrier_freq_hz": 426,
+        "coord4D": "164.252.86:223",
+        "rgbaStr": "{164}{252}{86}{223}",
+        "carrier_freq_hz": 421,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_711284f13b27ff49",
+        "receipt_id": "R_san_yin_c37c8d021c84a986",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-29T00:20:12.952Z"
+        "verified_at": "2026-10-29T00:50:13.924Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-29T00:20:11.398Z",
+    "harvested_at": "2026-10-29T00:50:12.255Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
+        "url": "https://huggingface.co/papers/2610.33245",
+        "summary": "Data science agents can automate end-to-end machine learning workflows, yet they remain far from competitive on human leaderboards. Agents make process errors such as insufficient exploration, unsound validation, coding bugs, and poor use of a fixed budget (re-running the same exploratory data analysis and baseline mod",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
+        "url": "https://huggingface.co/papers/2610.30435",
+        "summary": "Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack search-state awareness, i.e., the ability to recognize what information has been obtained and what remains missing, leading to hallu",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-21T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Phenomena responsible for emerging technologies originate from novel molecular states at buried interfaces. Yet quantitatively resolving these features is out of reach in most cases. Resonant scattering has demonstrated sensitivity to these local states but is limited due to a lack of accurate interpretive models. We l",
         "metric": "2 upvotes",
         "published_at": "2026-10-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
-        "url": "https://huggingface.co/papers/2610.36184",
-        "summary": "Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research. Existing open Bengali ASR corpora are confined to short, read or crowd-sourced speech and lack speaker diarization and long-form audio. We present Lipi-Ghor, a large-scale weakly-supervised Bengali speech corpus co",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
-        "url": "https://huggingface.co/papers/2610.36192",
-        "summary": "Learning velocity fields directly in pixel space is difficult and slow. We show that coarse second-order image statistics can ease this task: frozen Wiener estimates improve velocity learning, with gains extending beyond the linear predictions they explicitly provide. Moreover, we observe similar but complementary gain",
-        "metric": "9 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
-        "source_url": "https://huggingface.co/papers/2509.05512",
+        "source_anchor": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
+        "source_url": "https://huggingface.co/papers/2610.33245",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "711284f13b27ff49"
+      "receipt_hash": "c37c8d021c84a986"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_711284f13b27"
+      "receipt_hash": "arm_c37c8d021c84"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
