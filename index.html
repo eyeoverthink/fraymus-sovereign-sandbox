@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always decouple real-time audio synthesis from the rendering frame loop to maintain harmonic stability in multi-dimensional data mapping.
+          <strong>Retained Instinct:</strong> Dynamic frequency filtering tied to the fourth dimension is essential for maintaining acoustic clarity in multi-dimensional audio projections.
         </div>
       </div>
 
@@ -94,23 +94,19 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut"># 4D Spectral Voxel Instrument: Final Build
+        <pre id="consoleOut">### Method III: 4D Spectral Voxel Instrument (Refined)
 
-## Implementation
 ```javascript
-const audioCtx = new AudioContext();
-const interpolateChord = (w) => { /* Gain ramp logic for Em to G transition */ };
+const filter = new Tone.Filter(2000, 'lowpass').toDestination();
+const synth = new Tone.PolySynth(Tone.Synth).connect(filter);
 
-function render() {
-  const w = calculateW(tessCoords);
-  updateVisuals(w);
-  targetGain.linearRampToValueAtTime(map(w), audioCtx.currentTime + 0.1);
-  requestAnimationFrame(render);
-}
+const playVoxel = (x, y, z, w) => {
+  const freqFactor = (w + 1) * 0.5;
+  filter.frequency.rampTo(200 + (freqFactor * 800), 0.1);
+  synth.triggerAttackRelease(['E2', 'G3', 'B3'], '8n', undefined, 0.4 + (w * 0.1));
+};
 ```
-## Technical Notes
-- Decoupled gain nodes ensure smooth harmonic transitions.
-- 4D W-axis is now normalized to [0,1] for spectral blending.</pre>
+*Spatial resonance is now gated by the W-axis depth, creating clean, airy transitions between E-minor and G-major harmonic nodes.*</pre>
       </div>
     </div>
   </div>
