@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-29T00:50:11.946Z",
-  "packet_sha256": "10b2dcee1f24645f1ebd5286a8f0c6125b07571127d4f5f99c47969886cd23b6",
+  "updated_at": "2026-10-29T02:25:22.250Z",
+  "packet_sha256": "9fcc48bcdc101ee88af749b198c670ae51eec9f77efa9398293f3572912acb97",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "c37c8d021c84a986",
+    "merkle_root_hex": "4cb1232fbabf8c01",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "c37c8d021c84a986",
-      "frame_sha256": "a4fc56df02b241d665e5dfe35274d7c6fce3c544ab56b3cd271faaabf48bf649",
+      "merkle_root_hex": "4cb1232fbabf8c01",
+      "frame_sha256": "c16886d8a5b93ac758bc1a73e3c1d10def9be7413314501c4278635f201fdf0c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:5d007000:8f6ec49f:056ba96c:37b884dd",
+      "hdc_16k": "hdc16k:dfa3e211:b131f3a9:d00101f3:391030d9",
       "spectral_4d": {
-        "coord4D": "164.252.86:223",
-        "rgbaStr": "{164}{252}{86}{223}",
-        "carrier_freq_hz": 421,
+        "coord4D": "193.104.134:216",
+        "rgbaStr": "{193}{104}{134}{216}",
+        "carrier_freq_hz": 381,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_c37c8d021c84a986",
+        "receipt_id": "R_san_yin_4cb1232fbabf8c01",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-29T00:50:13.924Z"
+        "verified_at": "2026-10-29T02:25:23.676Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-29T00:50:12.255Z",
+    "harvested_at": "2026-10-29T02:25:22.968Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+        "url": "https://huggingface.co/papers/2610.35201",
+        "summary": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment mo",
+        "metric": "249 upvotes",
+        "published_at": "2026-10-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
         "url": "https://huggingface.co/papers/2610.33245",
         "summary": "Data science agents can automate end-to-end machine learning workflows, yet they remain far from competitive on human leaderboards. Agents make process errors such as insufficient exploration, unsound validation, coding bugs, and poor use of a fixed budget (re-running the same exploratory data analysis and baseline mod",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-10-23T00:00:00.000Z"
       },
       {
@@ -104,7 +113,7 @@
         "title": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
         "url": "https://huggingface.co/papers/2610.30435",
         "summary": "Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack search-state awareness, i.e., the ability to recognize what information has been obtained and what remains missing, leading to hallu",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-21T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
         "url": "https://huggingface.co/papers/2509.05512",
         "summary": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection. Unlike conventional quaternion neural networks attempting to operate entirely in the quaternion domain, QUAN approximates qu",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
@@ -122,17 +131,8 @@
         "title": "AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents",
         "url": "https://huggingface.co/papers/2610.22684",
         "summary": "Forecasting an unresolved event requires finding relevant evidence and deciding how strongly it supports each outcome. Yet outcome-based training of Large Language Model (LLM) forecasters often begins with preassembled evidence at a single prediction date, leaving evidence acquisition outside the learning loop. We intr",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Sub-monolayer tracking of molecular states at buried interfaces",
-        "url": "https://huggingface.co/papers/2610.31924",
-        "summary": "Phenomena responsible for emerging technologies originate from novel molecular states at buried interfaces. Yet quantitatively resolving these features is out of reach in most cases. Resonant scattering has demonstrated sensitivity to these local states but is limited due to a lack of accurate interpretive models. We l",
         "metric": "2 upvotes",
-        "published_at": "2026-10-22T00:00:00.000Z"
+        "published_at": "2026-10-15T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
-        "source_url": "https://huggingface.co/papers/2610.33245",
+        "source_anchor": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+        "source_url": "https://huggingface.co/papers/2610.35201",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "c37c8d021c84a986"
+      "receipt_hash": "4cb1232fbabf8c01"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_c37c8d021c84"
+      "receipt_hash": "arm_4cb1232fbabf"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
