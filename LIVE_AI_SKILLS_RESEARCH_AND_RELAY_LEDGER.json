@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-30T17:18:40.304Z",
-  "packet_sha256": "d098e58ac0991776726f93e2d75dbfa7d71e5502e2a1937aaab54d783b87d18c",
+  "updated_at": "2026-10-30T18:53:29.551Z",
+  "packet_sha256": "6f252b01fa4779e8804d4e9663dcad2a37eb16e3c7e3d745c4721f50c02bd4db",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "ea81c6fa01823e41",
+    "merkle_root_hex": "e0960e21086e74f0",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "ea81c6fa01823e41",
-      "frame_sha256": "1809fc6ee81593fb4704174e9159469a77dcb1a886f51fc2d540776fa864e484",
+      "merkle_root_hex": "e0960e21086e74f0",
+      "frame_sha256": "70ceda1bdb48e4a2407813567095afc627d21c4fc08d1e1acea023eb3ed97c28",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:063ebbae:cd455460:d52681c0:2066a268",
+      "hdc_16k": "hdc16k:d12af48c:d0beefb1:8971966e:6cd54beb",
       "spectral_4d": {
-        "coord4D": "24.9.252:110",
-        "rgbaStr": "{24}{9}{252}{110}",
-        "carrier_freq_hz": 299,
+        "coord4D": "112.206.218:27",
+        "rgbaStr": "{112}{206}{218}{27}",
+        "carrier_freq_hz": 441,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_ea81c6fa01823e41",
+        "receipt_id": "R_san_yin_e0960e21086e74f0",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-30T17:18:43.966Z"
+        "verified_at": "2026-10-30T18:53:31.909Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-30T17:18:40.554Z",
+    "harvested_at": "2026-10-30T18:53:29.893Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -104,7 +104,7 @@
         "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
         "url": "https://huggingface.co/papers/2610.34298",
         "summary": "Language agents increasingly act through external tools and interactive environments, making the interface between the model and its executable capabilities part of the decision process. Model Context Protocol (MCP) and command-line interfaces (CLI) can expose the same semantic operations through markedly different mod",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-25T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "ea81c6fa01823e41"
+      "receipt_hash": "e0960e21086e74f0"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_ea81c6fa0182"
+      "receipt_hash": "arm_e0960e21086e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
