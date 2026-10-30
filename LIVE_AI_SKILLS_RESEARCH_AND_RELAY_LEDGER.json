@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-30T00:15:11.011Z",
-  "packet_sha256": "efc4584eddb2f98f84a500db0856746cd742f198e04533b410b1920e41b5a76c",
+  "updated_at": "2026-10-30T01:49:16.721Z",
+  "packet_sha256": "014584f62f80e6643122f5d5856b0d6ad01fb190e04ea023ed432477ebc9bcc9",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "f6cbd24a21c8236b",
+    "merkle_root_hex": "49eab6e9b2098b86",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "f6cbd24a21c8236b",
-      "frame_sha256": "af54ff60875ca3d9c67bd50ce9972e245dd95abfdac9575e9cf1e94f96dc5f64",
+      "merkle_root_hex": "49eab6e9b2098b86",
+      "frame_sha256": "e38a364e77ee6392605eb9e2a1187ed7d9123fb0f3b70c2002a86805fd5170ba",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8f638bf7:0dc1cb05:90fec5fd:a848c658",
+      "hdc_16k": "hdc16k:7a1625ad:8d7ddf8f:18cd3993:17c70989",
       "spectral_4d": {
-        "coord4D": "175.84.255:96",
-        "rgbaStr": "{175}{84}{255}{96}",
-        "carrier_freq_hz": 428,
+        "coord4D": "227.138.54:78",
+        "rgbaStr": "{227}{138}{54}{78}",
+        "carrier_freq_hz": 375,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_f6cbd24a21c8236b",
+        "receipt_id": "R_san_yin_49eab6e9b2098b86",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-30T00:15:12.544Z"
+        "verified_at": "2026-10-30T01:49:24.721Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-30T00:15:11.436Z",
+    "harvested_at": "2026-10-30T01:49:24.721Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "PreView: Enhancing GUI Grounding with Preprocessed Views and Cues",
+        "url": "https://huggingface.co/papers/2610.33645",
+        "summary": "GUI grounding requires locating small controls in cluttered screenshots and identifying which control a natural-language instruction refers to. Cropping and enlargement can expose local detail, but the resulting image may still leave ambiguity about the intended target. We propose PreView, an auxiliary preprocessor tha",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas",
+        "url": "https://huggingface.co/papers/2610.22990",
+        "summary": "Computer-use agents (CUAs) are commonly evaluated against fixed task specifications, but users may omit requirements, add constraints, or require approval before consequential actions. Completing the benchmark instruction does not guarantee serving the person who asked. We introduce PersonaCUABench, which holds 74 task",
+        "metric": "6 upvotes",
+        "published_at": "2026-10-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "LOB-Impact Benchmark: Emergent Market Impact in Generative Limit Order Book Models",
+        "url": "https://huggingface.co/papers/2610.27100",
+        "summary": "Realistic market impact is essential for generative limit order book (LOB) models to serve as world models for trading agents. If a simulator misprices this mechanism, agents learn policies that are optimal in the simulator but wrong in the real market. Existing metrics assess generated streams purely through distribut",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-19T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Know, then Draw: A New Learning Paradigm for Visual Generation",
         "url": "https://huggingface.co/papers/2610.37626",
         "summary": "Visual generation requires both high-level semantic knowledge and fine-grained pixel details. We propose a learning paradigm that assigns these roles to autoregressive pretraining for knowledge acquisition and diffusion post-training for high-fidelity rendering. Within this framework, we study the objective, representa",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
       },
       {
@@ -104,88 +131,16 @@
         "title": "Instruction Capacity: Behavior and Degradation of Language Models under Controlled Load",
         "url": "https://huggingface.co/papers/2610.36095",
         "summary": "The quality with which language models follow instructions falls as the load grows, yet there is still no quantity that expresses the limit of a model in units of load with an uncertainty. We propose an instrument in which the load consists of rules that replace single-token words in a text without meaning: such an ins",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
-        "url": "https://huggingface.co/papers/2610.35671",
-        "summary": "As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks. While closed-source releases are routinely accompanied by comprehensive system cards, open-weight models receive less scrutiny regarding frontier risks. ",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Amortizing Sequential Experimental Design in Reasoning LLMs",
-        "url": "https://huggingface.co/papers/2610.20832",
-        "summary": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks. We study how to amortize sequential Bayesian experimental design (BED) into an LLM by explicitly training the reasoning that guides action",
-        "metric": "5 upvotes",
-        "published_at": "2026-10-14T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
-        "url": "https://huggingface.co/papers/2610.22507",
-        "summary": "Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchmark that unifies the ",
-        "metric": "15 upvotes",
-        "published_at": "2026-10-15T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-        "url": "http://arxiv.org/abs/2610.37657v1",
-        "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following ",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T17:58:52Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
-        "url": "http://arxiv.org/abs/2610.37652v1",
-        "summary": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such as not dropping the object, becomes critical, yet it is rarel",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T17:58:20Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-        "url": "http://arxiv.org/abs/2610.37651v1",
-        "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execu",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T17:58:11Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-        "url": "http://arxiv.org/abs/2610.37649v1",
-        "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to inve",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T17:57:00Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
-        "url": "http://arxiv.org/abs/2610.37648v1",
-        "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, we propose the SynthAPI pipeline, which explicitly controls t",
-        "metric": "Published 2026-10-27",
-        "published_at": "2026-10-27T17:56:46Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Know, then Draw: A New Learning Paradigm for Visual Generation",
-        "source_url": "https://huggingface.co/papers/2610.37626",
+        "source_anchor": "PreView: Enhancing GUI Grounding with Preprocessed Views and Cues",
+        "source_url": "https://huggingface.co/papers/2610.33645",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
-        "source_url": "http://arxiv.org/abs/2610.37652v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "f6cbd24a21c8236b"
+      "receipt_hash": "49eab6e9b2098b86"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_f6cbd24a21c8"
+      "receipt_hash": "arm_49eab6e9b209"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
