@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-30T19:26:27.837Z",
-  "packet_sha256": "92e064df282416406b86a334cd4348ca3b871f0894dc7e9d7e7f6eb4d8358c3b",
+  "updated_at": "2026-10-30T21:01:49.686Z",
+  "packet_sha256": "e0f7280f561491347eb33a54fb6dfffec87c0bd0c65ac6c787aaffd98a40f743",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "176150bfb315a296",
+    "merkle_root_hex": "d915e031260b3bc4",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "176150bfb315a296",
-      "frame_sha256": "34d1caf819dd7756c6c9ca1f9518c57985d9155b929d5e601430889c0067503f",
+      "merkle_root_hex": "d915e031260b3bc4",
+      "frame_sha256": "9949a24a0e01eb0f1c113dfa5b6550917c0a8f31b63256e50a089eee5183dca9",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:585c4b15:bf4eb71d:ed3b9b71:055311f4",
+      "hdc_16k": "hdc16k:16c59275:72abd9fc:567df8e1:eabb88bb",
       "spectral_4d": {
-        "coord4D": "52.209.202:248",
-        "rgbaStr": "{52}{209}{202}{248}",
-        "carrier_freq_hz": 399,
+        "coord4D": "153.73.162:74",
+        "rgbaStr": "{153}{73}{162}{74}",
+        "carrier_freq_hz": 357,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_176150bfb315a296",
+        "receipt_id": "R_san_yin_d915e031260b3bc4",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-30T19:26:29.474Z"
+        "verified_at": "2026-10-30T21:01:51.792Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-30T19:26:28.216Z",
+    "harvested_at": "2026-10-30T21:01:50.212Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
+        "url": "https://huggingface.co/papers/2610.38681",
+        "summary": "Self-distillation offers a way to improve reasoning models when a suitable external teacher is unavailable. However, common approaches rely on privileged information to construct a stronger self-teacher, limiting their use when only unlabeled prompts are available. In this paper, we introduce Weakening-Induced On-Polic",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-28T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic separation is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to ",
         "metric": "2 upvotes",
         "published_at": "2026-10-29T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
-        "url": "https://huggingface.co/papers/2610.23656",
-        "summary": "Blockchain forensics is adversarial and open-ended: money launderers split, swap, and bridge funds, cut their trail at mixers or custodial services, and change tactics from one incident to the next. Investigators must keep adapting their tracing in response. Yet the immutability of public ledgers preserves every record",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-16T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Unlocking Any-Order Generation in Pretrained Autoregressive Image Models",
-        "source_url": "https://huggingface.co/papers/2610.39293",
+        "source_anchor": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
+        "source_url": "https://huggingface.co/papers/2610.38681",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "176150bfb315a296"
+      "receipt_hash": "d915e031260b3bc4"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_176150bfb315"
+      "receipt_hash": "arm_d915e031260b"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
