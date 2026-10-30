@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-30T08:47:32.505Z",
-  "packet_sha256": "922e0f9692023006f145c4e9e8fb484fe46a0abe032a0187f9e24aa9e8faea70",
+  "updated_at": "2026-10-30T10:23:40.497Z",
+  "packet_sha256": "d4a7c283a96319be5bf7b7f9ff1ee39485746ab4adcc54f86709b41471d2f52a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "2c1c97fe27ca1173",
+    "merkle_root_hex": "591d94c9e49784a2",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "2c1c97fe27ca1173",
-      "frame_sha256": "28a989329a22af113ad7dbb836ce1ee7f1bad1fcc92cab104be2bd8800414d99",
+      "merkle_root_hex": "591d94c9e49784a2",
+      "frame_sha256": "ba1caac2b8e7a52991f35a2ed72408008baea77567a50c39688c3183723b251e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:85a064bd:102cf7f7:f71756bf:4dfa38fc",
+      "hdc_16k": "hdc16k:fa78db00:3472b7f6:8c2c8b08:843cedbd",
       "spectral_4d": {
-        "coord4D": "40.169.137:50",
-        "rgbaStr": "{40}{169}{137}{50}",
-        "carrier_freq_hz": 333,
+        "coord4D": "186.28.170:194",
+        "rgbaStr": "{186}{28}{170}{194}",
+        "carrier_freq_hz": 355,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_2c1c97fe27ca1173",
+        "receipt_id": "R_san_yin_591d94c9e49784a2",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-30T08:47:34.022Z"
+        "verified_at": "2026-10-30T10:23:41.918Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-30T08:47:33.024Z",
+    "harvested_at": "2026-10-30T10:23:41.293Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+        "url": "https://huggingface.co/papers/2610.39301",
+        "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for ",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-29T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +113,7 @@
         "title": "PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions",
         "url": "https://huggingface.co/papers/2610.40453",
         "summary": "We present PhysInsert, a framework for physically plausible reference-based object insertion that jointly adapts objects and their surrounding scenes. Existing methods often rely on masked inputs, generation-based pairs, or training pairs with limited viewpoint variation, leaving pose and illumination adaptation and bi",
-        "metric": "6 upvotes",
+        "metric": "10 upvotes",
         "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
         "url": "https://huggingface.co/papers/2610.39663",
         "summary": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/value blocks selected from current activations. However, its fidelity degrades under aggressive spar",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient interferes with both next-token and mult",
         "metric": "2 upvotes",
         "published_at": "2026-10-28T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-        "url": "https://huggingface.co/papers/2610.40647",
-        "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while",
-        "metric": "10 upvotes",
-        "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
-        "source_url": "https://huggingface.co/papers/2610.39287",
+        "source_anchor": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+        "source_url": "https://huggingface.co/papers/2610.39301",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "2c1c97fe27ca1173"
+      "receipt_hash": "591d94c9e49784a2"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_2c1c97fe27ca"
+      "receipt_hash": "arm_591d94c9e497"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
