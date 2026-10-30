@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-30T06:06:29.281Z",
-  "packet_sha256": "d4c3754eb21b368026965fff39e87af4f428ca55b0274f19931ae01f3f5dbfa5",
+  "updated_at": "2026-10-30T06:39:28.702Z",
+  "packet_sha256": "ebbe9728a1b1a1f83cd018a8fa786bde468df7784b0862c72897383a32d84a22",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "dcd5871459df857b",
+    "merkle_root_hex": "994e6841c931d0e3",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "dcd5871459df857b",
-      "frame_sha256": "4fede32c96ab4d356f45cda2cf961b19dbaed29aa2ad349ff02969d46ba59271",
+      "merkle_root_hex": "994e6841c931d0e3",
+      "frame_sha256": "60855e380bd70c5d06782d7938f4d423b519d0c563362bdf87cd7802ad0cfed1",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:f553da27:2da9566b:e78918d7:b3c2f5ba",
+      "hdc_16k": "hdc16k:83bf7f14:536b83d7:f471697c:b2302afc",
       "spectral_4d": {
-        "coord4D": "79.237.227:44",
-        "rgbaStr": "{79}{237}{227}{44}",
-        "carrier_freq_hz": 445,
+        "coord4D": "96.133.94:56",
+        "rgbaStr": "{96}{133}{94}{56}",
+        "carrier_freq_hz": 320,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_dcd5871459df857b",
+        "receipt_id": "R_san_yin_994e6841c931d0e3",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-30T06:06:30.811Z"
+        "verified_at": "2026-10-30T06:39:30.144Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-30T06:06:29.622Z",
+    "harvested_at": "2026-10-30T06:39:29.250Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
+        "url": "https://huggingface.co/papers/2610.38342",
+        "summary": "Financial agents must form forecasts and investment judgments from decision-time evidence, with predictions evaluated against subsequent outcomes. Existing benchmarks assess financial knowledge, research workflows, or forecasting, but evaluating the full research process requires a strictly frozen information set and p",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-28T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
+        "url": "https://huggingface.co/papers/2610.39264",
+        "summary": "While frontier vision-language models demonstrate strong capabilities in user interface (UI) navigation, their high inference costs prohibit everyday use. Conversely, smaller models trained via supervised fine-tuning (SFT) or offline reinforcement learning often memorize static trajectories, leading to brittle executio",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-29T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Glance: The Generator Is Its Own Reranker",
+        "url": "https://huggingface.co/papers/2610.40454",
+        "summary": "Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency and passage processing. We introduce Glance, which equips the generator with a lightweight decision adapter and pointer head to score candidate passages from a shared prefill. Short relevance probes b",
+        "metric": "6 upvotes",
+        "published_at": "2026-10-29T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
         "url": "https://huggingface.co/papers/2610.38568",
         "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also cons",
-        "metric": "18 upvotes",
+        "metric": "33 upvotes",
         "published_at": "2026-10-28T00:00:00.000Z"
       },
       {
@@ -104,35 +131,8 @@
         "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
         "url": "https://huggingface.co/papers/2610.36671",
         "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing",
-        "metric": "1 upvotes",
+        "metric": "18 upvotes",
         "published_at": "2026-10-27T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "CoSTA: Compressed Speech Token Adaptation for Efficient Spoken Dialogue Models",
-        "url": "https://huggingface.co/papers/2610.21143",
-        "summary": "Spoken Dialogue Models (SDMs) typically share a speech-token space for generation and synthesis, leading to long autoregressive sequences and costly inference. Lower-rate speech tokenizers shorten sequences but may introduce compression-quality trade-offs and costly replacement without breaking this coupling. To addres",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Your LR Schedule May Not Be Principled: Effective Learning Rate Scheduling in Weight-Normalized Training",
-        "url": "https://huggingface.co/papers/2610.40362",
-        "summary": "Weight-normalized (WN) training is emerging as a compelling alternative to conventional weight decay (WD), with recent studies reporting substantial pretraining loss gains. We show that these gains are driven primarily by the induced effective learning rate (ELR) trajectory rather than by normalization alone. Matching ",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-29T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
-        "url": "https://huggingface.co/papers/2610.40599",
-        "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autor",
-        "metric": "5 upvotes",
-        "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
-        "source_url": "https://huggingface.co/papers/2610.38568",
+        "source_anchor": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
+        "source_url": "https://huggingface.co/papers/2610.38342",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "dcd5871459df857b"
+      "receipt_hash": "994e6841c931d0e3"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_dcd5871459df"
+      "receipt_hash": "arm_994e6841c931"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
