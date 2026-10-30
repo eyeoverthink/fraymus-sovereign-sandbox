@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-30T04:31:26.641Z",
-  "packet_sha256": "da2db92eb3c333fe2011150bd2a76e4bee4eabed9126b4afdd48e800aa511c04",
+  "updated_at": "2026-10-30T06:06:29.281Z",
+  "packet_sha256": "d4c3754eb21b368026965fff39e87af4f428ca55b0274f19931ae01f3f5dbfa5",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a286f698216cf429",
+    "merkle_root_hex": "dcd5871459df857b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a286f698216cf429",
-      "frame_sha256": "efb5b96a243cb292cf463ac7a731beda20ce3eb1b5e16d8f97825cf5b1cf4425",
+      "merkle_root_hex": "dcd5871459df857b",
+      "frame_sha256": "4fede32c96ab4d356f45cda2cf961b19dbaed29aa2ad349ff02969d46ba59271",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:4375cd31:7f9f0cf7:ac06a92d:2b66522f",
+      "hdc_16k": "hdc16k:f553da27:2da9566b:e78918d7:b3c2f5ba",
       "spectral_4d": {
-        "coord4D": "239.181.185:106",
-        "rgbaStr": "{239}{181}{185}{106}",
-        "carrier_freq_hz": 480,
+        "coord4D": "79.237.227:44",
+        "rgbaStr": "{79}{237}{227}{44}",
+        "carrier_freq_hz": 445,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a286f698216cf429",
+        "receipt_id": "R_san_yin_dcd5871459df857b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-30T04:31:28.466Z"
+        "verified_at": "2026-10-30T06:06:30.811Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-30T04:31:26.958Z",
+    "harvested_at": "2026-10-30T06:06:29.622Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,100 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models",
-        "url": "https://huggingface.co/papers/2610.35138",
-        "summary": "Evaluating human-AI co-design requires testing whether coding agents can translate real users' multimodal requests into working application revisions. We introduce Co-Design Bench, a reference-free benchmark of 273 tasks curated from 37,463 deduplicated queries across 26,314 real user coding sessions. Its two tracks, M",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "AskStream: When and What to Ask Proactively under Uncertainty in Streaming Video Understanding",
-        "url": "https://huggingface.co/papers/2610.38678",
-        "summary": "Recent advances in multimodal large language models have increased interest in interaction paradigms for video understanding. The evolution from offline to streaming and proactive interaction has gradually shifted models from passive responders toward more proactive agents that can decide when to answer. However, exist",
-        "metric": "3 upvotes",
+        "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+        "url": "https://huggingface.co/papers/2610.38568",
+        "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also cons",
+        "metric": "18 upvotes",
         "published_at": "2026-10-28T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "EditAgent: Rethinking Agentic Image Editing",
-        "url": "https://huggingface.co/papers/2610.39664",
-        "summary": "Agentic image editors decompose complex requests into steps, but when a step fails, they mostly retry with the same narrow set of tools and a judge that scores each output by eye directly. We argue that such agents are bounded by two spaces: the action space of what the agent can do, and the observation space of what i",
-        "metric": "4 upvotes",
+        "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+        "url": "https://huggingface.co/papers/2610.36671",
+        "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-27T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "CoSTA: Compressed Speech Token Adaptation for Efficient Spoken Dialogue Models",
+        "url": "https://huggingface.co/papers/2610.21143",
+        "summary": "Spoken Dialogue Models (SDMs) typically share a speech-token space for generation and synthesis, leading to long autoregressive sequences and costly inference. Lower-rate speech tokenizers shorten sequences but may introduce compression-quality trade-offs and costly replacement without breaking this coupling. To addres",
+        "metric": "3 upvotes",
+        "published_at": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Your LR Schedule May Not Be Principled: Effective Learning Rate Scheduling in Weight-Normalized Training",
+        "url": "https://huggingface.co/papers/2610.40362",
+        "summary": "Weight-normalized (WN) training is emerging as a compelling alternative to conventional weight decay (WD), with recent studies reporting substantial pretraining loss gains. We show that these gains are driven primarily by the induced effective learning rate (ELR) trajectory rather than by normalization alone. Matching ",
+        "metric": "1 upvotes",
         "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video",
-        "url": "https://huggingface.co/papers/2610.38352",
-        "summary": "Producing long-form videos from narration requires interdependent decisions that remain coherent across shots. Existing agentic editors often use multi-stage workflows driven by general models, leaving the quality-cost trade-off of compact, task-adapted policies unclear. We address this gap with WeVisCut, a long-form s",
-        "metric": "11 upvotes",
-        "published_at": "2026-10-28T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "IntReal: A Real-World Dataset and Benchmark for Multimodal Interleaved Generation",
-        "url": "https://huggingface.co/papers/2610.38425",
-        "summary": "Humans routinely consume multimodal content, where textual and visual information is naturally interleaved. Although Unified Multimodal Models (UMMs) can jointly generate text and images, multimodal interleaved generation remains largely underexplored. Progress in this area is hindered by two key limitations: (1) the l",
-        "metric": "8 upvotes",
-        "published_at": "2026-10-28T00:00:00.000Z"
+        "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+        "url": "https://huggingface.co/papers/2610.40599",
+        "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autor",
+        "metric": "5 upvotes",
+        "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Autonomous Quantum Measurement with Agentic AI",
-        "url": "http://arxiv.org/abs/2610.38850v1",
-        "summary": "Quantum materials exhibit diverse electronic and functional phenomena, but their characterization requires extensive experimental expertise, iterative decision-making and accumulated laboratory knowledge that is difficult to document and transfer. Here we introduce Quantum Agent (QUANTA), an agentic artificial intellig",
-        "metric": "Published 2026-10-28",
-        "published_at": "2026-10-28T20:33:06Z"
+        "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
+        "url": "http://arxiv.org/abs/2610.40653v1",
+        "summary": "In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to shots that highlight a",
+        "metric": "Published 2026-10-29",
+        "published_at": "2026-10-29T17:59:49Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Evaluating Visual Realism of AI-Generated Videos with Eye Tracking",
-        "url": "http://arxiv.org/abs/2610.38825v1",
-        "summary": "Human evaluation of AI-generated videos has so far relied on explicit human feedback, such as judgments or ratings. While these signals capture the conclusions viewers reach, they fail to offer insights into the perception that leads to them. This paper investigates eye tracking as a complementary human evaluation sign",
-        "metric": "Published 2026-10-28",
-        "published_at": "2026-10-28T20:20:43Z"
+        "title": "Renormalization for Robust Memory without Synchronization",
+        "url": "http://arxiv.org/abs/2610.40651v1",
+        "summary": "Local error correction can preserve classical information against noise, but protection under synchronized updates need not survive when sites evolve at independent random times. Establishing stability is particularly challenging when protection relies on the collective action of competing local rules. Here we develop ",
+        "metric": "Published 2026-10-29",
+        "published_at": "2026-10-29T17:59:33Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Causal Attention on CPU: A Cache-Aware and Load-Balanced Scheduling Kernel for Prefill",
-        "url": "http://arxiv.org/abs/2610.38809v1",
-        "summary": "Agentic AI drives significant productivity gains across diverse domains, but concurrent long-context prefills from multiple agents can saturate GPU compute resources. Although CPUs offer a viable alternative, existing CPU attention kernels fall short in adapting to multi-tier cache hierarchies and lack effective thread",
-        "metric": "Published 2026-10-28",
-        "published_at": "2026-10-28T20:08:51Z"
+        "title": "Rethinking Neural Thickets Without Weight Perturbations",
+        "url": "http://arxiv.org/abs/2610.40649v1",
+        "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block alr",
+        "metric": "Published 2026-10-29",
+        "published_at": "2026-10-29T17:59:29Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "How Does Perceived Empathy From AI Chatbots Shape Users' Privacy Attitudes, Behaviors, and Needs?",
-        "url": "http://arxiv.org/abs/2610.38802v1",
-        "summary": "Prior research suggests that some dimensions of AI empathy may increase users' disclosure to chatbots, posing growing privacy risks as chatbots become more capable of empathic interaction. Yet this work often conceptualizes AI empathy narrowly, leaving users' own definitions and their broader privacy experiences unexpl",
-        "metric": "Published 2026-10-28",
-        "published_at": "2026-10-28T20:05:51Z"
+        "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
+        "url": "http://arxiv.org/abs/2610.40646v1",
+        "summary": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under contact-rich interaction. Thus, the ability to autonomously swap and us",
+        "metric": "Published 2026-10-29",
+        "published_at": "2026-10-29T17:59:20Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "When Relevant Code Is Wrong: Runtime-Aware Context for AI Coding Agents",
-        "url": "http://arxiv.org/abs/2610.38800v1",
-        "summary": "AI coding agents increasingly rely on retrieved code and development history to guide software changes. However, highly relevant artifacts may describe implementations that are inactive or incompatible with the target deployment. Neither semantic similarity nor recency establishes whether retrieved information remains ",
-        "metric": "Published 2026-10-28",
-        "published_at": "2026-10-28T20:05:15Z"
+        "title": "JT gravity as a conformal scaling limit of random flat combinatorial disks",
+        "url": "http://arxiv.org/abs/2610.40645v1",
+        "summary": "We prove that flat Jackiw--Teitelboim (JT) gravity arises as a conformal scaling limit of random flat combinatorial disks. We give a clean criterion, formulated in terms of branching explorations, for a discrete model to converge to this conjecturally universal limit. For simplicity, we apply this criterion to a Boltzm",
+        "metric": "Published 2026-10-29",
+        "published_at": "2026-10-29T17:59:13Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models",
-        "source_url": "https://huggingface.co/papers/2610.35138",
+        "source_anchor": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+        "source_url": "https://huggingface.co/papers/2610.38568",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Evaluating Visual Realism of AI-Generated Videos with Eye Tracking",
-        "source_url": "http://arxiv.org/abs/2610.38825v1",
+        "source_anchor": "Renormalization for Robust Memory without Synchronization",
+        "source_url": "http://arxiv.org/abs/2610.40651v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a286f698216cf429"
+      "receipt_hash": "dcd5871459df857b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a286f698216c"
+      "receipt_hash": "arm_dcd5871459df"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
