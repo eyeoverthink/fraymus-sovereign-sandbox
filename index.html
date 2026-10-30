@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always apply logarithmic scaling to multi-dimensional data inputs to prevent parametric audio clipping in high-frequency spectral instruments.
+          <strong>Retained Instinct:</strong> Harmonic stability in multidimensional instruments requires strict amplitude dampening proportional to coordinate velocity to prevent signal bleed.
         </div>
       </div>
 
@@ -94,19 +94,20 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut">### Method III: 4D Spectral Voxel Instrument (Refined)
+        <pre id="consoleOut">### Method III: Spectral Tesseract Instrument (Refined)
 
-#### Core Engine Logic
+#### Audio Architecture
 ```javascript
-const mapW = (w) => Math.log10(w + 1) * 440; // Logarithmic stability
-const signal = audioCtx.createDynamicsCompressor(); // Harmonic smoothing
-// Render loop handles Tesseract rotation with buffer-protected voxels
+const playVoxel = (x, y, z, w) => {
+  const gainNode = audioCtx.createGain();
+  gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+  oscillator.frequency.value = 440 * Math.pow(2, (w * 12) / 1200);
+};
 ```
 
-#### Harmonic Mapping
-- **E-Minor (0,0,0:0)**: Base drone, deep-blue voxel depth.
-- **G-Major (1,1,1:1)**: High-frequency transient, neon-gold voxel bloom.
-- **Transition**: Geometric interpolation via spherical linear blending.</pre>
+#### Visual Feedback
+- **Spatial Normalization**: Applied Z-buffer clamping to ensure spectral visibility.
+- **Chord Mapping**: Tesseract rotation triggers instantaneous harmonic switching: E-minor [0,0,0,0] -> G-major [1,1,1,1].</pre>
       </div>
     </div>
   </div>
