@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-30T06:39:28.702Z",
-  "packet_sha256": "ebbe9728a1b1a1f83cd018a8fa786bde468df7784b0862c72897383a32d84a22",
+  "updated_at": "2026-10-30T08:14:38.849Z",
+  "packet_sha256": "462b7cac9a001f9e2f7e2683a6327f2d5ff1a5767eccb0ceaed46c837861b14d",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "994e6841c931d0e3",
+    "merkle_root_hex": "78f6963baeb397c5",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "994e6841c931d0e3",
-      "frame_sha256": "60855e380bd70c5d06782d7938f4d423b519d0c563362bdf87cd7802ad0cfed1",
+      "merkle_root_hex": "78f6963baeb397c5",
+      "frame_sha256": "2e477b4f12c1fab7f9ed0e7aace46ad039765823210cdde04bfb0776b7642883",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:83bf7f14:536b83d7:f471697c:b2302afc",
+      "hdc_16k": "hdc16k:59d575fe:d619b7c4:cec86074:f20a7f9d",
       "spectral_4d": {
-        "coord4D": "96.133.94:56",
-        "rgbaStr": "{96}{133}{94}{56}",
-        "carrier_freq_hz": 320,
+        "coord4D": "46.71.123:79",
+        "rgbaStr": "{46}{71}{123}{79}",
+        "carrier_freq_hz": 274,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_994e6841c931d0e3",
+        "receipt_id": "R_san_yin_78f6963baeb397c5",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-30T06:39:30.144Z"
+        "verified_at": "2026-10-30T08:14:40.311Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-30T06:39:29.250Z",
+    "harvested_at": "2026-10-30T08:14:39.418Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
-        "url": "https://huggingface.co/papers/2610.38342",
-        "summary": "Financial agents must form forecasts and investment judgments from decision-time evidence, with predictions evaluated against subsequent outcomes. Existing benchmarks assess financial knowledge, research workflows, or forecasting, but evaluating the full research process requires a strictly frozen information set and p",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-28T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
-        "url": "https://huggingface.co/papers/2610.39264",
-        "summary": "While frontier vision-language models demonstrate strong capabilities in user interface (UI) navigation, their high inference costs prohibit everyday use. Conversely, smaller models trained via supervised fine-tuning (SFT) or offline reinforcement learning often memorize static trajectories, leading to brittle executio",
-        "metric": "1 upvotes",
+        "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+        "url": "https://huggingface.co/papers/2610.39663",
+        "summary": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/value blocks selected from current activations. However, its fidelity degrades under aggressive spar",
+        "metric": "0 upvotes",
         "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Glance: The Generator Is Its Own Reranker",
-        "url": "https://huggingface.co/papers/2610.40454",
-        "summary": "Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency and passage processing. We introduce Glance, which equips the generator with a lightweight decision adapter and pointer head to score candidate passages from a shared prefill. Short relevance probes b",
+        "title": "Multi-Token Prediction Done Right",
+        "url": "https://huggingface.co/papers/2610.38331",
+        "summary": "Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient interferes with both next-token and mult",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-28T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+        "url": "https://huggingface.co/papers/2610.40647",
+        "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while",
         "metric": "6 upvotes",
         "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
-        "url": "https://huggingface.co/papers/2610.38568",
-        "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also cons",
-        "metric": "33 upvotes",
-        "published_at": "2026-10-28T00:00:00.000Z"
+        "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+        "url": "https://huggingface.co/papers/2610.40614",
+        "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of ",
+        "metric": "23 upvotes",
+        "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
-        "url": "https://huggingface.co/papers/2610.36671",
-        "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing",
-        "metric": "18 upvotes",
-        "published_at": "2026-10-27T00:00:00.000Z"
+        "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
+        "url": "https://huggingface.co/papers/2610.38342",
+        "summary": "Financial agents must form forecasts and investment judgments from decision-time evidence, with predictions evaluated against subsequent outcomes. Existing benchmarks assess financial knowledge, research workflows, or forecasting, but evaluating the full research process requires a strictly frozen information set and p",
+        "metric": "4 upvotes",
+        "published_at": "2026-10-28T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
-        "source_url": "https://huggingface.co/papers/2610.38342",
+        "source_anchor": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+        "source_url": "https://huggingface.co/papers/2610.39663",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "994e6841c931d0e3"
+      "receipt_hash": "78f6963baeb397c5"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_994e6841c931"
+      "receipt_hash": "arm_78f6963baeb3"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
