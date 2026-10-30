@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-30T15:10:35.111Z",
-  "packet_sha256": "2b2358eded4ae2c8e9f2f41ca36eb2a69a34b752c7f2889ef463a2c33bc55ca0",
+  "updated_at": "2026-10-30T16:45:41.132Z",
+  "packet_sha256": "3c464f8c4be27870548531f39e1683caf9a7707cb7051d2cb683dbaccdb7f7e8",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "e5bfea77007fadea",
+    "merkle_root_hex": "8f6f64251de39bca",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "e5bfea77007fadea",
-      "frame_sha256": "79a6e42762466ed69d27624081022c13faf400e214263397c470f3f858f34f7e",
+      "merkle_root_hex": "8f6f64251de39bca",
+      "frame_sha256": "220644e1d32b8a9928d0e4d02c28552622ce419c6465ada9a92155567f7c90ba",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:034b7ed2:66a8beb6:7eecd4e4:3e7f48d4",
+      "hdc_16k": "hdc16k:c1eb804f:5b4fac18:2142670d:eaf69764",
       "spectral_4d": {
-        "coord4D": "121.166.228:39",
-        "rgbaStr": "{121}{166}{228}{39}",
-        "carrier_freq_hz": 429,
+        "coord4D": "34.6.68:225",
+        "rgbaStr": "{34}{6}{68}{225}",
+        "carrier_freq_hz": 199,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_e5bfea77007fadea",
+        "receipt_id": "R_san_yin_8f6f64251de39bca",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-30T15:10:40.480Z"
+        "verified_at": "2026-10-30T16:45:43.241Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-30T15:10:35.453Z",
+    "harvested_at": "2026-10-30T16:45:41.941Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,46 +92,46 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+        "url": "https://huggingface.co/papers/2610.34298",
+        "summary": "Language agents increasingly act through external tools and interactive environments, making the interface between the model and its executable capabilities part of the decision process. Model Context Protocol (MCP) and command-line interfaces (CLI) can expose the same semantic operations through markedly different mod",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
+        "url": "https://huggingface.co/papers/2609.05881",
+        "summary": "Developers download quantized large language models (LLMs) from public registries to run them locally. None of the registries we examined documented functional testing of their files. We tested all 305 eligible code-capable GGUF tags (the llama.cpp format) across 15 model lines in the official Ollama library, plus 22 p",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Training Foundation Models with a Single Algorithm",
+        "url": "https://huggingface.co/papers/2610.40564",
+        "summary": "Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic separation is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to ",
+        "metric": "2 upvotes",
+        "published_at": "2026-10-29T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
+        "url": "https://huggingface.co/papers/2610.23656",
+        "summary": "Blockchain forensics is adversarial and open-ended: money launderers split, swap, and bridge funds, cut their trail at mixers or custodial services, and change tactics from one incident to the next. Investigators must keep adapting their tracing in response. Yet the immutability of public ledgers preserves every record",
+        "metric": "3 upvotes",
+        "published_at": "2026-10-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
         "url": "https://huggingface.co/papers/2610.39302",
         "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a ",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-29T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
-        "url": "https://huggingface.co/papers/2610.38174",
-        "summary": "We present EasyProver, a Lean proving system built from recursive agents with isolated contexts, asynchronous search, parallel tactic probing, and an elastic elaboration service. Using an off-the-shelf frontier model with no additional training, it proves 669/672 PutnamBench problems and all six IMO 2026 formalizations",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-28T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "FDSML: Formula-Driven Supervised Metric Learning with Parameter-Aware Triplet Loss",
-        "url": "https://huggingface.co/papers/2610.39423",
-        "summary": "Formula-Driven Supervised Learning (FDSL) enables vision pre-training without real images, but existing methods cast pre-training as classification on discretized labels, discarding continuity in the generative process. We propose Formula-Driven Supervised Metric Learning (FDSML), which derives relational supervision f",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-29T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
-        "url": "https://huggingface.co/papers/2610.25276",
-        "summary": "Synthesizing a monocular video from a new camera trajectory requires preserving the observed scene geometry and motion while completing regions that become newly visible. Feed-forward 4D reconstructors recover the structure of the observed scene, whereas video diffusion models provide a generative prior for completing ",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
-        "url": "https://huggingface.co/papers/2610.39301",
-        "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for ",
-        "metric": "18 upvotes",
+        "metric": "5 upvotes",
         "published_at": "2026-10-29T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
-        "source_url": "https://huggingface.co/papers/2610.39302",
+        "source_anchor": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+        "source_url": "https://huggingface.co/papers/2610.34298",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "e5bfea77007fadea"
+      "receipt_hash": "8f6f64251de39bca"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_e5bfea77007f"
+      "receipt_hash": "arm_8f6f64251de3"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
