@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always map multi-dimensional coordinate transitions through an easing function to preserve harmonic and visual continuity.
+          <strong>Retained Instinct:</strong> Always apply logarithmic scaling to multi-dimensional data inputs to prevent parametric audio clipping in high-frequency spectral instruments.
         </div>
       </div>
 
@@ -94,7 +94,19 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut">### Method III: 4D Spectral Voxel Instrument (Refined) ### The engine now utilizes `lerp(prevW, targetW, 0.12)` to stabilize the W-dimension flux, ensuring the E-minor to G-major shift occurs over a 400ms sine-wave fade rather than a hard interrupt. Voxel persistence is mapped to the current frequency amplitude, creating a glowing 'spectral trail' that mirrors the harmonic resonance of the G-major scale.</pre>
+        <pre id="consoleOut">### Method III: 4D Spectral Voxel Instrument (Refined)
+
+#### Core Engine Logic
+```javascript
+const mapW = (w) => Math.log10(w + 1) * 440; // Logarithmic stability
+const signal = audioCtx.createDynamicsCompressor(); // Harmonic smoothing
+// Render loop handles Tesseract rotation with buffer-protected voxels
+```
+
+#### Harmonic Mapping
+- **E-Minor (0,0,0:0)**: Base drone, deep-blue voxel depth.
+- **G-Major (1,1,1:1)**: High-frequency transient, neon-gold voxel bloom.
+- **Transition**: Geometric interpolation via spherical linear blending.</pre>
       </div>
     </div>
   </div>
