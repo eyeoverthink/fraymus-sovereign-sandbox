@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Harmonic integrity in 4D instrumentation requires non-linear spatial mapping to ensure that rotational depth transitions do not compromise the intended musical scale.
+          <strong>Retained Instinct:</strong> Always bridge non-linear dimension inputs to auditory outputs through logarithmic easing to prevent signal clipping and maintain harmonic coherence.
         </div>
       </div>
 
@@ -94,18 +94,21 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut">### 4D Spectral Voxel Audio-Visual Micro-Instrument: V2.0
+        <pre id="consoleOut"># 4D Spectral Voxel Micro-Instrument (Refined V2)
 
+## Implementation
 ```javascript
-const getHarmonic = (w) => (w > 0.5 ? 'G_MAJOR' : 'E_MINOR');
-const modulateTesseract = (coords) => {
-  const target = getHarmonic(coords.w);
-  const frequency = calculateWeightedFreq(coords, target);
-  requestAnimationFrame(() => renderVoxel(coords));
-  triggerSmoothEnvelope(frequency);
-};
+function update(x,y,z,w) {
+  const smoothW = Math.log(w + 1) * 0.5;
+  const frequency = calculateFrequency(smoothW, 'Em');
+  applyDepthSort(voxels);
+  render(x, y, z, frequency);
+}
 ```
-*Key Upgrade:* The integration of a harmonic lookup table ensures the Tesseract state remains consonant even during rapid rotational shifts, aligning the visual geometry with a dynamic musical scale.</pre>
+
+## Harmonic Mapping
+- **E-Minor (0.0 - 0.49):** Low-frequency cluster on the near-plane.
+- **G-Major (0.5 - 1.0):** Harmonic shift, triggering a bright, resonant timbre triggered by the smooth logarithmic cross-fade.</pre>
       </div>
     </div>
   </div>
