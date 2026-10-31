@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-31T03:58:53.273Z",
-  "packet_sha256": "9c316bd6599e9909240fcac7ca73bbc13a9ad14e687eaa7e438c6bcd6727cdb6",
+  "updated_at": "2026-10-31T04:35:33.761Z",
+  "packet_sha256": "2ba76fe8de00391897dbf511637193cf8c06f463bdfc16e90dcab42800c82a9d",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9302ae35fef33ce0",
+    "merkle_root_hex": "d402ffbfde961f58",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9302ae35fef33ce0",
-      "frame_sha256": "a4cdbc60fbeced3f4bb658c24c4c14a9032e0ecd374a0f14ce611d2ca4d7aa42",
+      "merkle_root_hex": "d402ffbfde961f58",
+      "frame_sha256": "01005a341efbddaa6e05b0a886780098f94275e83edda7c16291f0312bd77e1a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:08b537d1:8d731446:c7a22317:bb3b2e8a",
+      "hdc_16k": "hdc16k:053f38a2:3c63c41a:12901bbc:73086897",
       "spectral_4d": {
-        "coord4D": "164.205.188:96",
-        "rgbaStr": "{164}{205}{188}{96}",
-        "carrier_freq_hz": 453,
+        "coord4D": "1.138.90:52",
+        "rgbaStr": "{1}{138}{90}{52}",
+        "carrier_freq_hz": 267,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9302ae35fef33ce0",
+        "receipt_id": "R_san_yin_d402ffbfde961f58",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-31T03:58:55.993Z"
+        "verified_at": "2026-10-31T04:35:41.761Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-31T03:58:53.506Z",
+    "harvested_at": "2026-10-31T04:35:41.761Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -133,51 +133,6 @@
         "summary": "Developers download quantized large language models (LLMs) from public registries to run them locally. None of the registries we examined documented functional testing of their files. We tested all 305 eligible code-capable GGUF tags (the llama.cpp format) across 15 model lines in the official Ollama library, plus 22 p",
         "metric": "3 upvotes",
         "published_at": "2026-10-25T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
-        "url": "http://arxiv.org/abs/2610.40653v1",
-        "summary": "In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to shots that highlight a",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:49Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Renormalization for Robust Memory without Synchronization",
-        "url": "http://arxiv.org/abs/2610.40651v1",
-        "summary": "Local error correction can preserve classical information against noise, but protection under synchronized updates need not survive when sites evolve at independent random times. Establishing stability is particularly challenging when protection relies on the collective action of competing local rules. Here we develop ",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:33Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Rethinking Neural Thickets Without Weight Perturbations",
-        "url": "http://arxiv.org/abs/2610.40649v1",
-        "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block alr",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:29Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
-        "url": "http://arxiv.org/abs/2610.40646v1",
-        "summary": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under contact-rich interaction. Thus, the ability to autonomously swap and us",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:20Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "JT gravity as a conformal scaling limit of random flat combinatorial disks",
-        "url": "http://arxiv.org/abs/2610.40645v1",
-        "summary": "We prove that flat Jackiw--Teitelboim (JT) gravity arises as a conformal scaling limit of random flat combinatorial disks. We give a clean criterion, formulated in terms of branching explorations, for a discrete model to converge to this conjecturally universal limit. For simplicity, we apply this criterion to a Boltzm",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:13Z"
       }
     ],
     "curve_augmentations": [
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Renormalization for Robust Memory without Synchronization",
-        "source_url": "http://arxiv.org/abs/2610.40651v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9302ae35fef33ce0"
+      "receipt_hash": "d402ffbfde961f58"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9302ae35fef3"
+      "receipt_hash": "arm_d402ffbfde96"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
