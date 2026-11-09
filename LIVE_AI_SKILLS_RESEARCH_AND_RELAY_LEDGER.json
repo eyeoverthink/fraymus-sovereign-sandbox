@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-10-31T07:48:00.926Z",
-  "packet_sha256": "3bc3656ea7b6e7056ee4e5bad469900d201101cc7cd4f858e09e3c6ffdb32f40",
+  "updated_at": "2026-11-09T08:59:30.933Z",
+  "packet_sha256": "be6a3f9c59a42d8ad7b73048a11e27f69da57aaeed43c8e1c9a77dd81618e31f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "339a8606fc130ad0",
+    "merkle_root_hex": "3488896747e6b2ae",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "339a8606fc130ad0",
-      "frame_sha256": "6fdb559596b3621e902881fe3299687b2a62abecd41fa6c1dca404162591ec2a",
+      "merkle_root_hex": "3488896747e6b2ae",
+      "frame_sha256": "525b1f49fc7ea1490c11bfa852b51f159e635a37121bdfd46793cef0f16dfd3a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:52ac8dc8:a32b124e:7b9be362:f8ccd4dc",
+      "hdc_16k": "hdc16k:f76be199:c81fdf1f:8a4f0a41:b48a7ece",
       "spectral_4d": {
-        "coord4D": "111.219.85:149",
-        "rgbaStr": "{111}{219}{85}{149}",
-        "carrier_freq_hz": 372,
+        "coord4D": "82.91.31:73",
+        "rgbaStr": "{82}{91}{31}{73}",
+        "carrier_freq_hz": 253,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_339a8606fc130ad0",
+        "receipt_id": "R_san_yin_3488896747e6b2ae",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-10-31T07:48:02.452Z"
+        "verified_at": "2026-11-09T08:59:39.933Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-10-31T07:48:01.453Z",
+    "harvested_at": "2026-11-09T08:59:31.354Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,100 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting",
-        "url": "https://huggingface.co/papers/2610.38293",
-        "summary": "Quarterly earnings forecasting requires an agent to connect financial evidence to the income-statement line items that produce a company's reported earnings. We introduce EPSBench, a benchmark for studying this ability across 149 firm-quarters from 86 US companies. Agents read a fixed collection of filings, earnings-ca",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-28T05:24:11.000Z"
+        "title": "AutoCompress: Automated Hardware-Guided Model Compression",
+        "url": "https://huggingface.co/papers/2611.08290",
+        "summary": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-05T16:53:48.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
-        "url": "https://huggingface.co/papers/2610.38681",
-        "summary": "Self-distillation offers a way to improve reasoning models when a suitable external teacher is unavailable. However, common approaches rely on privileged information to construct a stronger self-teacher, limiting their use when only unlabeled prompts are available. In this paper, we introduce Weakening-Induced On-Polic",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-28T00:00:00.000Z"
+        "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+        "url": "https://huggingface.co/papers/2611.06856",
+        "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one",
+        "metric": "21 upvotes",
+        "published_at": "2026-11-04T18:11:56.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Unlocking Any-Order Generation in Pretrained Autoregressive Image Models",
-        "url": "https://huggingface.co/papers/2610.39293",
-        "summary": "Autoregressive (AR) image generators are powerful in principle but inflexible in practice: training with a fixed raster-scan order hardcodes a single factorization of the image distribution into the model, leaving it unable to inpaint, outpaint, or edit at inference time. Existing solutions, including the modern discre",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-29T00:00:00.000Z"
+        "title": "Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding",
+        "url": "https://huggingface.co/papers/2611.07723",
+        "summary": "Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important residues. Their conclusions depend on which motifs are tested and which criteria define success. Existing benchmarks typically use small hand-curated motif sets and static refolding criteria, but prot",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-05T09:38:23.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
-        "url": "https://huggingface.co/papers/2610.34298",
-        "summary": "Language agents increasingly act through external tools and interactive environments, making the interface between the model and its executable capabilities part of the decision process. Model Context Protocol (MCP) and command-line interfaces (CLI) can expose the same semantic operations through markedly different mod",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
+        "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+        "url": "https://huggingface.co/papers/2611.03953",
+        "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and prop",
+        "metric": "10 upvotes",
+        "published_at": "2026-11-02T20:53:15.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
-        "url": "https://huggingface.co/papers/2609.05881",
-        "summary": "Developers download quantized large language models (LLMs) from public registries to run them locally. None of the registries we examined documented functional testing of their files. We tested all 305 eligible code-capable GGUF tags (the llama.cpp format) across 15 model lines in the official Ollama library, plus 22 p",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-25T00:00:00.000Z"
+        "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+        "url": "https://huggingface.co/papers/2611.08264",
+        "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across sce",
+        "metric": "54 upvotes",
+        "published_at": "2026-11-05T16:37:29.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
-        "url": "http://arxiv.org/abs/2610.40653v1",
-        "summary": "In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to shots that highlight a",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:49Z"
+        "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+        "url": "http://arxiv.org/abs/2611.09894v1",
+        "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt",
+        "metric": "Published 2026-11-06",
+        "published_at": "2026-11-06T18:59:57Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Renormalization for Robust Memory without Synchronization",
-        "url": "http://arxiv.org/abs/2610.40651v1",
-        "summary": "Local error correction can preserve classical information against noise, but protection under synchronized updates need not survive when sites evolve at independent random times. Establishing stability is particularly challenging when protection relies on the collective action of competing local rules. Here we develop ",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:33Z"
+        "title": "On Agentic Manipulation Policies",
+        "url": "http://arxiv.org/abs/2611.09892v1",
+        "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation po",
+        "metric": "Published 2026-11-06",
+        "published_at": "2026-11-06T18:59:34Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Rethinking Neural Thickets Without Weight Perturbations",
-        "url": "http://arxiv.org/abs/2610.40649v1",
-        "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block alr",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:29Z"
+        "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+        "url": "http://arxiv.org/abs/2611.09891v1",
+        "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and wit",
+        "metric": "Published 2026-11-06",
+        "published_at": "2026-11-06T18:58:50Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
-        "url": "http://arxiv.org/abs/2610.40646v1",
-        "summary": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under contact-rich interaction. Thus, the ability to autonomously swap and us",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:20Z"
+        "title": "Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving",
+        "url": "http://arxiv.org/abs/2611.09888v1",
+        "summary": "Scenario-based simulation is central to evaluating autonomous-driving policies, but a scenario scripted before execution (i.e., with predetermined, fixed actor routes and speeds) may not preserve its intended interaction once the tested ego policy responds in closed loop. Scripted scenarios cannot adapt to unanticipate",
+        "metric": "Published 2026-11-06",
+        "published_at": "2026-11-06T18:58:27Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "JT gravity as a conformal scaling limit of random flat combinatorial disks",
-        "url": "http://arxiv.org/abs/2610.40645v1",
-        "summary": "We prove that flat Jackiw--Teitelboim (JT) gravity arises as a conformal scaling limit of random flat combinatorial disks. We give a clean criterion, formulated in terms of branching explorations, for a discrete model to converge to this conjecturally universal limit. For simplicity, we apply this criterion to a Boltzm",
-        "metric": "Published 2026-10-29",
-        "published_at": "2026-10-29T17:59:13Z"
+        "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+        "url": "http://arxiv.org/abs/2611.09882v1",
+        "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed num",
+        "metric": "Published 2026-11-06",
+        "published_at": "2026-11-06T18:56:41Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting",
-        "source_url": "https://huggingface.co/papers/2610.38293",
+        "source_anchor": "AutoCompress: Automated Hardware-Guided Model Compression",
+        "source_url": "https://huggingface.co/papers/2611.08290",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Renormalization for Robust Memory without Synchronization",
-        "source_url": "http://arxiv.org/abs/2610.40651v1",
+        "source_anchor": "On Agentic Manipulation Policies",
+        "source_url": "http://arxiv.org/abs/2611.09892v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "339a8606fc130ad0"
+      "receipt_hash": "3488896747e6b2ae"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_339a8606fc13"
+      "receipt_hash": "arm_3488896747e6"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
