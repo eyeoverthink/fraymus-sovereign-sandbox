@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-09T19:07:25.468Z",
-  "packet_sha256": "a125ddeea29c395652db109b70045296da45be868d1339ebd677943b63b5319c",
+  "updated_at": "2026-11-09T19:40:33.913Z",
+  "packet_sha256": "b932426e8e04c2d1d321dde8842eb19f614d6d901c896400d55be17c8d6bcb7a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "e0690c1437bf1df2",
+    "merkle_root_hex": "1f26104322c744f1",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "e0690c1437bf1df2",
-      "frame_sha256": "bbbd85b585f9db156a019ef081a5408e729bb19cefa8f4b68d1d6aa007364128",
+      "merkle_root_hex": "1f26104322c744f1",
+      "frame_sha256": "b65d0da0045317fb397f8e7200ed2637ea7a13d601595795932327f38ea650be",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8fab7f5e:3f9dddc4:b149e8e4:380301cc",
+      "hdc_16k": "hdc16k:4f42002a:1b28bf7d:10e9cf86:e496f0df",
       "spectral_4d": {
-        "coord4D": "187.189.133:181",
-        "rgbaStr": "{187}{189}{133}{181}",
-        "carrier_freq_hz": 425,
+        "coord4D": "182.93.13:160",
+        "rgbaStr": "{182}{93}{13}{160}",
+        "carrier_freq_hz": 301,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_e0690c1437bf1df2",
+        "receipt_id": "R_san_yin_1f26104322c744f1",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-09T19:07:33.587Z"
+        "verified_at": "2026-11-09T19:40:42.913Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-09T19:07:26.018Z",
+    "harvested_at": "2026-11-09T19:40:34.164Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -113,7 +113,7 @@
         "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
         "url": "https://huggingface.co/papers/2611.08647",
         "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been no systematic way to ",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-05T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
         "url": "https://huggingface.co/papers/2611.02775",
         "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not express whether a system preserves the financial facts on which people and organisations act. This paper develops a human-centred, risk-constrained framework for evaluating financial document recognition",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-02T08:51:01.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "e0690c1437bf1df2"
+      "receipt_hash": "1f26104322c744f1"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_e0690c1437bf"
+      "receipt_hash": "arm_1f26104322c7"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
