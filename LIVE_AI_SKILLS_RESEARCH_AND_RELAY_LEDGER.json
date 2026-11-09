@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-09T13:15:29.349Z",
-  "packet_sha256": "f32a91d48f4c9294424e4e365df30594723d4796e3388c66e5a675119d28242b",
+  "updated_at": "2026-11-09T14:51:32.614Z",
+  "packet_sha256": "4573696a84b94af16159234775fc1c469524bceabaa50ad1faa1e8fbc6994cb8",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "1c337fc776eff0be",
+    "merkle_root_hex": "465406a48833eee6",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "1c337fc776eff0be",
-      "frame_sha256": "ef2302ff7f9b62d83e3c02f14d159c130e6277adf88c89d85be8d2c6d27f0719",
+      "merkle_root_hex": "465406a48833eee6",
+      "frame_sha256": "8d3031557f7497372c8061b29c5436223270a33876305a3b188af65403c6db50",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:e1fb1a35:1f0a3dc2:ab5ecaf9:70942476",
+      "hdc_16k": "hdc16k:ef23b14b:c131be49:8286c5f3:75eb1da3",
       "spectral_4d": {
-        "coord4D": "239.35.2:255",
-        "rgbaStr": "{239}{35}{2}{255}",
-        "carrier_freq_hz": 294,
+        "coord4D": "141.48.49:85",
+        "rgbaStr": "{141}{48}{49}{85}",
+        "carrier_freq_hz": 272,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_1c337fc776eff0be",
+        "receipt_id": "R_san_yin_465406a48833eee6",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-09T13:15:38.349Z"
+        "verified_at": "2026-11-09T14:51:40.738Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-09T13:15:29.698Z",
+    "harvested_at": "2026-11-09T14:51:33.290Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
+        "url": "https://huggingface.co/papers/2611.02775",
+        "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not express whether a system preserves the financial facts on which people and organisations act. This paper develops a human-centred, risk-constrained framework for evaluating financial document recognition",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-02T08:51:01.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
+        "url": "https://huggingface.co/papers/2611.09634",
+        "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting. We introduce LambdaMix, a new parameter efficient method for learning a preference conditioned fami",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-06T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+        "url": "https://huggingface.co/papers/2611.07025",
+        "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each atten",
+        "metric": "27 upvotes",
+        "published_at": "2026-11-04T19:00:06.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,35 +131,8 @@
         "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
         "url": "https://huggingface.co/papers/2610.41711",
         "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer co",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-10-30T13:18:22.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
-        "url": "https://huggingface.co/papers/2611.01182",
-        "summary": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, delivering superior performance in domains such as audio. These mechanisms typically modify attention scores by adding content-position or bias-position terms. Unlike RoPE, which encodes position via p",
-        "metric": "13 upvotes",
-        "published_at": "2026-10-31T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
-        "url": "https://huggingface.co/papers/2611.09113",
-        "summary": "LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization Drift Benchmark (ADB): 648 samples across seven domains, each pairing a sufficient compliant path w",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-06T07:47:25.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Learning to evolve by matching velocities",
-        "url": "https://huggingface.co/papers/2611.00448",
-        "summary": "Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which require simulating the learned dynamics during training and backpropagating through the numerical scheme, at a cost that grows with the rollout horizon. We show that trajectory-based objectives degenerate ",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-30T23:03:28.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
-        "source_url": "https://huggingface.co/papers/2611.08179",
+        "source_anchor": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
+        "source_url": "https://huggingface.co/papers/2611.02775",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "1c337fc776eff0be"
+      "receipt_hash": "465406a48833eee6"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_1c337fc776ef"
+      "receipt_hash": "arm_465406a48833"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
