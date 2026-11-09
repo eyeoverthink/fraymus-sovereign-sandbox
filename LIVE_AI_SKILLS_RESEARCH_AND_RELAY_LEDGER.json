@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-09T19:40:33.913Z",
-  "packet_sha256": "b932426e8e04c2d1d321dde8842eb19f614d6d901c896400d55be17c8d6bcb7a",
+  "updated_at": "2026-11-09T21:16:30.281Z",
+  "packet_sha256": "217117d9db42e463aaa2be80991a3ecc10cfa1015664c2e951f0e6b87a7b0c78",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "1f26104322c744f1",
+    "merkle_root_hex": "fecd23d3a635aba2",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "1f26104322c744f1",
-      "frame_sha256": "b65d0da0045317fb397f8e7200ed2637ea7a13d601595795932327f38ea650be",
+      "merkle_root_hex": "fecd23d3a635aba2",
+      "frame_sha256": "57dcdc696014b2f8e8b6107ffb47fde7519f2dc562e100a2e71441a5b4909860",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:4f42002a:1b28bf7d:10e9cf86:e496f0df",
+      "hdc_16k": "hdc16k:04a3e6f9:24677d22:9ab7c13b:d6fad7d3",
       "spectral_4d": {
-        "coord4D": "182.93.13:160",
-        "rgbaStr": "{182}{93}{13}{160}",
-        "carrier_freq_hz": 301,
+        "coord4D": "87.220.220:105",
+        "rgbaStr": "{87}{220}{220}{105}",
+        "carrier_freq_hz": 436,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_1f26104322c744f1",
+        "receipt_id": "R_san_yin_fecd23d3a635aba2",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-09T19:40:42.913Z"
+        "verified_at": "2026-11-09T21:16:38.683Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-09T19:40:34.164Z",
+    "harvested_at": "2026-11-09T21:16:30.886Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
         "url": "https://huggingface.co/papers/2611.08175",
         "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB ro",
-        "metric": "12 upvotes",
+        "metric": "19 upvotes",
         "published_at": "2026-11-05T15:31:15.000Z"
       },
       {
@@ -113,7 +113,7 @@
         "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
         "url": "https://huggingface.co/papers/2611.08647",
         "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been no systematic way to ",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-05T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
         "url": "https://huggingface.co/papers/2611.02775",
         "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not express whether a system preserves the financial facts on which people and organisations act. This paper develops a human-centred, risk-constrained framework for evaluating financial document recognition",
-        "metric": "4 upvotes",
+        "metric": "5 upvotes",
         "published_at": "2026-11-02T08:51:01.000Z"
       },
       {
@@ -131,7 +131,7 @@
         "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
         "url": "https://huggingface.co/papers/2611.09634",
         "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting. We introduce LambdaMix, a new parameter efficient method for learning a preference conditioned fami",
-        "metric": "4 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "1f26104322c744f1"
+      "receipt_hash": "fecd23d3a635aba2"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_1f26104322c7"
+      "receipt_hash": "arm_fecd23d3a635"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
