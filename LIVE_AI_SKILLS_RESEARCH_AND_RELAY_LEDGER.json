@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-09T11:07:28.194Z",
-  "packet_sha256": "3a07ff6dc69ba2c84588a28f312b49d616f8ea3695e968cd8c15847e1e5278c6",
+  "updated_at": "2026-11-09T12:42:27.656Z",
+  "packet_sha256": "041353f37d686f88684f146a9d5f610fafe19df8fd6900127503a7ef46dfb3ef",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "44b00f3000b80516",
+    "merkle_root_hex": "fa5491ac28c89af4",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "44b00f3000b80516",
-      "frame_sha256": "fa6c02ab6466f3ce35681d1ce7eb9b5e1c4f4e897e1f3f1e1628a02ede250fd2",
+      "merkle_root_hex": "fa5491ac28c89af4",
+      "frame_sha256": "71e6fc89c18008bb73c9badf68dec46432e914019d3aaa8e4051ecabcc022570",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:7285fd00:ac65914f:c0ec7574:6c43d6de",
+      "hdc_16k": "hdc16k:0ec67523:90786ae8:15fe6d87:5460d906",
       "spectral_4d": {
-        "coord4D": "250.108.2:171",
-        "rgbaStr": "{250}{108}{2}{171}",
-        "carrier_freq_hz": 341,
+        "coord4D": "113.230.252:137",
+        "rgbaStr": "{113}{230}{252}{137}",
+        "carrier_freq_hz": 474,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_44b00f3000b80516",
+        "receipt_id": "R_san_yin_fa5491ac28c89af4",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-09T11:07:37.194Z"
+        "verified_at": "2026-11-09T12:42:36.656Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-09T11:07:28.419Z",
+    "harvested_at": "2026-11-09T12:42:28.123Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
+        "url": "https://huggingface.co/papers/2611.08179",
+        "summary": "On-Policy Self-Distillation (OPSD) improves reasoning by training a student on its own reasoning, using the same model conditioned on reference solutions as a teacher. Applying OPSD to multilingual reasoning requires the teacher to provide useful feedback across languages, even when the student makes mistakes in interm",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-05T15:34:23.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
         "url": "https://huggingface.co/papers/2610.41711",
         "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer co",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-10-30T13:18:22.000Z"
       },
       {
@@ -104,7 +113,7 @@
         "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
         "url": "https://huggingface.co/papers/2611.01182",
         "summary": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, delivering superior performance in domains such as audio. These mechanisms typically modify attention scores by adding content-position or bias-position terms. Unlike RoPE, which encodes position via p",
-        "metric": "11 upvotes",
+        "metric": "13 upvotes",
         "published_at": "2026-10-31T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
         "url": "https://huggingface.co/papers/2611.09113",
         "summary": "LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization Drift Benchmark (ADB): 648 samples across seven domains, each pairing a sufficient compliant path w",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-06T07:47:25.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which require simulating the learned dynamics during training and backpropagating through the numerical scheme, at a cost that grows with the rollout horizon. We show that trajectory-based objectives degenerate ",
         "metric": "0 upvotes",
         "published_at": "2026-10-30T23:03:28.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
-        "url": "https://huggingface.co/papers/2611.06844",
-        "summary": "A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual information from a hierarchical vision encoder should be wired into the layer-wise semantics of a large language model. Mainstream MLLMs inject a fixed single-layer visual representation into the LLM and t",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-04T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
-        "source_url": "https://huggingface.co/papers/2610.41711",
+        "source_anchor": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
+        "source_url": "https://huggingface.co/papers/2611.08179",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "44b00f3000b80516"
+      "receipt_hash": "fa5491ac28c89af4"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_44b00f3000b8"
+      "receipt_hash": "arm_fa5491ac28c8"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
