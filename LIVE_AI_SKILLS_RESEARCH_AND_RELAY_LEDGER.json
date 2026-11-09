@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-09T14:51:32.614Z",
-  "packet_sha256": "4573696a84b94af16159234775fc1c469524bceabaa50ad1faa1e8fbc6994cb8",
+  "updated_at": "2026-11-09T16:58:23.905Z",
+  "packet_sha256": "ba45ec3ce4a233a6c754bb7ed58f19d88aef52b1230e50100d11e34fa22f6681",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "465406a48833eee6",
+    "merkle_root_hex": "5774f2516eebb66b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "465406a48833eee6",
-      "frame_sha256": "8d3031557f7497372c8061b29c5436223270a33876305a3b188af65403c6db50",
+      "merkle_root_hex": "5774f2516eebb66b",
+      "frame_sha256": "b2ea073322205102fbef6f25e6e8cc12ffeeb99e7012dddb93162c5914b69cf4",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ef23b14b:c131be49:8286c5f3:75eb1da3",
+      "hdc_16k": "hdc16k:b0f1996c:23f7b92d:2cc6c73e:fb76ce58",
       "spectral_4d": {
-        "coord4D": "141.48.49:85",
-        "rgbaStr": "{141}{48}{49}{85}",
-        "carrier_freq_hz": 272,
+        "coord4D": "178.234.7:51",
+        "rgbaStr": "{178}{234}{7}{51}",
+        "carrier_freq_hz": 375,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_465406a48833eee6",
+        "receipt_id": "R_san_yin_5774f2516eebb66b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-09T14:51:40.738Z"
+        "verified_at": "2026-11-09T16:58:32.005Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-09T14:51:33.290Z",
+    "harvested_at": "2026-11-09T16:58:24.529Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+        "url": "https://huggingface.co/papers/2611.08647",
+        "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been no systematic way to ",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-05T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
         "url": "https://huggingface.co/papers/2611.02775",
         "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not express whether a system preserves the financial facts on which people and organisations act. This paper develops a human-centred, risk-constrained framework for evaluating financial document recognition",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-02T08:51:01.000Z"
       },
       {
@@ -104,7 +113,7 @@
         "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
         "url": "https://huggingface.co/papers/2611.09634",
         "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting. We introduce LambdaMix, a new parameter efficient method for learning a preference conditioned fami",
-        "metric": "1 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
         "url": "https://huggingface.co/papers/2611.07025",
         "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each atten",
-        "metric": "27 upvotes",
+        "metric": "28 upvotes",
         "published_at": "2026-11-04T19:00:06.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "On-Policy Self-Distillation (OPSD) improves reasoning by training a student on its own reasoning, using the same model conditioned on reference solutions as a teacher. Applying OPSD to multilingual reasoning requires the teacher to provide useful feedback across languages, even when the student makes mistakes in interm",
         "metric": "1 upvotes",
         "published_at": "2026-11-05T15:34:23.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
-        "url": "https://huggingface.co/papers/2610.41711",
-        "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer co",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-30T13:18:22.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
-        "source_url": "https://huggingface.co/papers/2611.02775",
+        "source_anchor": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+        "source_url": "https://huggingface.co/papers/2611.08647",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "465406a48833eee6"
+      "receipt_hash": "5774f2516eebb66b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_465406a48833"
+      "receipt_hash": "arm_5774f2516eeb"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
