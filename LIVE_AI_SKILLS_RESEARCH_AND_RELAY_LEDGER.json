@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-09T08:59:30.933Z",
-  "packet_sha256": "be6a3f9c59a42d8ad7b73048a11e27f69da57aaeed43c8e1c9a77dd81618e31f",
+  "updated_at": "2026-11-09T10:34:28.079Z",
+  "packet_sha256": "af339d82aacb8f4923488de53522e2d6c2cc345a8a6165cb72efc7890165faa7",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "3488896747e6b2ae",
+    "merkle_root_hex": "ecb36c4b6de8b3e3",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "3488896747e6b2ae",
-      "frame_sha256": "525b1f49fc7ea1490c11bfa852b51f159e635a37121bdfd46793cef0f16dfd3a",
+      "merkle_root_hex": "ecb36c4b6de8b3e3",
+      "frame_sha256": "2ecc5bcca9d1ab86266942cd9d45df0dcc5d5a18c6f608544164a37884018cba",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:f76be199:c81fdf1f:8a4f0a41:b48a7ece",
+      "hdc_16k": "hdc16k:27a54429:f5e77831:fd09dfe1:0712caca",
       "spectral_4d": {
-        "coord4D": "82.91.31:73",
-        "rgbaStr": "{82}{91}{31}{73}",
-        "carrier_freq_hz": 253,
+        "coord4D": "46.204.91:204",
+        "rgbaStr": "{46}{204}{91}{204}",
+        "carrier_freq_hz": 331,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_3488896747e6b2ae",
+        "receipt_id": "R_san_yin_ecb36c4b6de8b3e3",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-09T08:59:39.933Z"
+        "verified_at": "2026-11-09T10:34:36.567Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-09T08:59:31.354Z",
+    "harvested_at": "2026-11-09T10:34:28.573Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
+        "url": "https://huggingface.co/papers/2611.01182",
+        "summary": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, delivering superior performance in domains such as audio. These mechanisms typically modify attention scores by adding content-position or bias-position terms. Unlike RoPE, which encodes position via p",
+        "metric": "8 upvotes",
+        "published_at": "2026-10-31T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
+        "url": "https://huggingface.co/papers/2611.09113",
+        "summary": "LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization Drift Benchmark (ADB): 648 samples across seven domains, each pairing a sufficient compliant path w",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-06T07:47:25.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Learning to evolve by matching velocities",
+        "url": "https://huggingface.co/papers/2611.00448",
+        "summary": "Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which require simulating the learned dynamics during training and backpropagating through the numerical scheme, at a cost that grows with the rollout horizon. We show that trajectory-based objectives degenerate ",
+        "metric": "0 upvotes",
+        "published_at": "2026-10-30T23:03:28.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
+        "url": "https://huggingface.co/papers/2611.06844",
+        "summary": "A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual information from a hierarchical vision encoder should be wired into the layer-wise semantics of a large language model. Mainstream MLLMs inject a fixed single-layer visual representation into the LLM and t",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-04T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "AutoCompress: Automated Hardware-Guided Model Compression",
         "url": "https://huggingface.co/papers/2611.08290",
         "summary": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count ",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-05T16:53:48.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
-        "url": "https://huggingface.co/papers/2611.06856",
-        "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one",
-        "metric": "21 upvotes",
-        "published_at": "2026-11-04T18:11:56.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding",
-        "url": "https://huggingface.co/papers/2611.07723",
-        "summary": "Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important residues. Their conclusions depend on which motifs are tested and which criteria define success. Existing benchmarks typically use small hand-curated motif sets and static refolding criteria, but prot",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-05T09:38:23.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
-        "url": "https://huggingface.co/papers/2611.03953",
-        "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and prop",
-        "metric": "10 upvotes",
-        "published_at": "2026-11-02T20:53:15.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
-        "url": "https://huggingface.co/papers/2611.08264",
-        "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across sce",
-        "metric": "54 upvotes",
-        "published_at": "2026-11-05T16:37:29.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "AutoCompress: Automated Hardware-Guided Model Compression",
-        "source_url": "https://huggingface.co/papers/2611.08290",
+        "source_anchor": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
+        "source_url": "https://huggingface.co/papers/2611.01182",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "3488896747e6b2ae"
+      "receipt_hash": "ecb36c4b6de8b3e3"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_3488896747e6"
+      "receipt_hash": "arm_ecb36c4b6de8"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
