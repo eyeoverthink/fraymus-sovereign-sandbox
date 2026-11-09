@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-09T16:58:23.905Z",
-  "packet_sha256": "ba45ec3ce4a233a6c754bb7ed58f19d88aef52b1230e50100d11e34fa22f6681",
+  "updated_at": "2026-11-09T17:31:30.199Z",
+  "packet_sha256": "448e7b6c6f0718968e242ec333e504cc0d5f15132569d932472bdb70da874240",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "5774f2516eebb66b",
+    "merkle_root_hex": "322eaf274a1ef90e",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "5774f2516eebb66b",
-      "frame_sha256": "b2ea073322205102fbef6f25e6e8cc12ffeeb99e7012dddb93162c5914b69cf4",
+      "merkle_root_hex": "322eaf274a1ef90e",
+      "frame_sha256": "47be529c41bb1ed1298f068abc67930b41c28f3b220e47ef7dcce1c4520e776b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:b0f1996c:23f7b92d:2cc6c73e:fb76ce58",
+      "hdc_16k": "hdc16k:171bbf97:6f143dfc:21ae0b45:27935cd2",
       "spectral_4d": {
-        "coord4D": "178.234.7:51",
-        "rgbaStr": "{178}{234}{7}{51}",
-        "carrier_freq_hz": 375,
+        "coord4D": "71.190.82:156",
+        "rgbaStr": "{71}{190}{82}{156}",
+        "carrier_freq_hz": 332,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_5774f2516eebb66b",
+        "receipt_id": "R_san_yin_322eaf274a1ef90e",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-09T16:58:32.005Z"
+        "verified_at": "2026-11-09T17:31:38.704Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-09T16:58:24.529Z",
+    "harvested_at": "2026-11-09T17:31:31.139Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+        "url": "https://huggingface.co/papers/2611.08175",
+        "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB ro",
+        "metric": "7 upvotes",
+        "published_at": "2026-11-05T15:31:15.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+        "url": "https://huggingface.co/papers/2611.09891",
+        "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and wit",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-06T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting. We introduce LambdaMix, a new parameter efficient method for learning a preference conditioned fami",
         "metric": "4 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
-        "url": "https://huggingface.co/papers/2611.07025",
-        "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each atten",
-        "metric": "28 upvotes",
-        "published_at": "2026-11-04T19:00:06.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
-        "url": "https://huggingface.co/papers/2611.08179",
-        "summary": "On-Policy Self-Distillation (OPSD) improves reasoning by training a student on its own reasoning, using the same model conditioned on reference solutions as a teacher. Applying OPSD to multilingual reasoning requires the teacher to provide useful feedback across languages, even when the student makes mistakes in interm",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-05T15:34:23.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
-        "source_url": "https://huggingface.co/papers/2611.08647",
+        "source_anchor": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+        "source_url": "https://huggingface.co/papers/2611.08175",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "5774f2516eebb66b"
+      "receipt_hash": "322eaf274a1ef90e"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_5774f2516eeb"
+      "receipt_hash": "arm_322eaf274a1e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
