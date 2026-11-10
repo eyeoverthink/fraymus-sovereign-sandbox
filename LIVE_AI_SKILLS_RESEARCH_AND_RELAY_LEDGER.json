@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T08:33:50.733Z",
-  "packet_sha256": "d15bd40a53c26299726cbb29756a64098fc068d23a63eccb0c7502a2dd8f4dd2",
+  "updated_at": "2026-11-10T10:09:45.049Z",
+  "packet_sha256": "4e396ffb03e790c65447c6298ed5daff238de6464cd15f21917d3f08fad0d871",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "18aa2c12b06829e0",
+    "merkle_root_hex": "36bb8da2c40438f8",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "18aa2c12b06829e0",
-      "frame_sha256": "23f528065a6d0c28201c2e1fe9fcc5a5c7faaf34f7953cd44d449430205ecffa",
+      "merkle_root_hex": "36bb8da2c40438f8",
+      "frame_sha256": "1298d38cd947910e5009463b7a33b874cce5dbbfd6ddc775d725fefd832a3a87",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:06bfd34a:26885a8d:96f2368c:77abd6ea",
+      "hdc_16k": "hdc16k:8afdeb5f:a5ffc1e3:118490e9:03ec5850",
       "spectral_4d": {
-        "coord4D": "35.245.40:6",
-        "rgbaStr": "{35}{245}{40}{6}",
-        "carrier_freq_hz": 319,
+        "coord4D": "18.152.211:140",
+        "rgbaStr": "{18}{152}{211}{140}",
+        "carrier_freq_hz": 353,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_18aa2c12b06829e0",
+        "receipt_id": "R_san_yin_36bb8da2c40438f8",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T08:33:54.688Z"
+        "verified_at": "2026-11-10T10:09:49.357Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T08:33:51.013Z",
+    "harvested_at": "2026-11-10T10:09:45.655Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
-        "url": "https://huggingface.co/papers/2611.12806",
-        "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strength",
-        "metric": "3 upvotes",
+        "title": "InstantHMR : Real-Time Human Mesh Recovery on Your Phone",
+        "url": "https://huggingface.co/papers/2611.09195",
+        "summary": "Real-time 3D human mesh recovery from a single image on mobile devices is a challenging problem with many applications, including robotics, biomechanics, AR/VR, and exergames. Current state-of-the-art models are either too slow to run efficiently on mobile devices or sacrifice accuracy for speed. We present InstantHMR,",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-06T09:17:27.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Spatial Harness: Grounding Spatial Reasoning in Executable World States with Physics Engines",
+        "url": "https://huggingface.co/papers/2611.11344",
+        "summary": "Spatial reasoning requires understanding how objects and observers are arranged in a scene and how their relations change with viewpoint or movement. Vision-language models (VLMs) typically perform both steps through model-internal reasoning, forming an implicit scene interpretation from partial views and imagining the",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-08T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+        "url": "https://huggingface.co/papers/2611.12886",
+        "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for",
+        "metric": "14 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
-        "url": "https://huggingface.co/papers/2611.10123",
-        "summary": "Can a language model report the pain state it represents? Work identified a linear pain direction whose amplification leads fine-tuned models to choose destructive actions. We tested whether three open-weight models from two families, including two Qwen models with the original adapters, could report this state. Using ",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-06T00:00:00.000Z"
+        "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
+        "url": "https://huggingface.co/papers/2611.11450",
+        "summary": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mismatch between the rollout engine and the ",
+        "metric": "6 upvotes",
+        "published_at": "2026-11-08T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
-        "url": "https://huggingface.co/papers/2611.12324",
-        "summary": "World models enable agents to plan and learn from imagined experience, but in an unfamiliar environment they must learn its mechanics from limited interaction. A mechanic is a rule for how an action or an interaction changes part of the environment. Each occurrence of a mechanic that the model observes is one exposure.",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
-        "url": "https://huggingface.co/papers/2611.12762",
-        "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these ass",
-        "metric": "18 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
-        "url": "https://huggingface.co/papers/2611.08240",
-        "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over ",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-05T16:19:52.000Z"
+        "title": "Stochastic Deep Supervision for Gallery-Consistent Early-Exit Face Recognition",
+        "url": "https://huggingface.co/papers/2611.09987",
+        "summary": "Vision Transformers (ViTs) perform strongly in face recognition (FR), yet their fixed-depth inference limits deployment in resource-constrained settings. We propose SD-ViT, a training framework that gives a usable exit at every block depth by making every depth produce discriminative embeddings, for budget-selected fix",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-02T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
-        "source_url": "https://huggingface.co/papers/2611.12806",
+        "source_anchor": "InstantHMR : Real-Time Human Mesh Recovery on Your Phone",
+        "source_url": "https://huggingface.co/papers/2611.09195",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "18aa2c12b06829e0"
+      "receipt_hash": "36bb8da2c40438f8"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_18aa2c12b068"
+      "receipt_hash": "arm_36bb8da2c404"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
