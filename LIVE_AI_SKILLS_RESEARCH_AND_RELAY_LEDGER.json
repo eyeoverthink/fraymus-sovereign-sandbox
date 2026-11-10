@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T14:24:47.892Z",
-  "packet_sha256": "d5fa79894b4c113c4553b44aead56d2552484867a9c1541f8cfe9dd2527222d4",
+  "updated_at": "2026-11-10T14:57:45.495Z",
+  "packet_sha256": "3e261b81ae724e5b1757b572bf3bf0aeb42f4e8f9bc95d6aaad6b70ffb5f668c",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9564e139b49c7979",
+    "merkle_root_hex": "8d19bedf65ddf3bc",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9564e139b49c7979",
-      "frame_sha256": "7eee176e7c1ecedcf433510ede2107d539ec812c67ca6e9e27f44f6a58bc0b56",
+      "merkle_root_hex": "8d19bedf65ddf3bc",
+      "frame_sha256": "4d3ae6105b76c6214d3d53c77816fc29d7b7113a4471f852fc600b4bf8ab1a72",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:12f0b0b8:5970e888:3e3a146a:97696da6",
+      "hdc_16k": "hdc16k:5e24f8bb:7b2e1698:658ea9df:f2b7986e",
       "spectral_4d": {
-        "coord4D": "126.238.23:110",
-        "rgbaStr": "{126}{238}{23}{110}",
-        "carrier_freq_hz": 357,
+        "coord4D": "77.58.230:16",
+        "rgbaStr": "{77}{58}{230}{16}",
+        "carrier_freq_hz": 344,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9564e139b49c7979",
+        "receipt_id": "R_san_yin_8d19bedf65ddf3bc",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T14:24:55.941Z"
+        "verified_at": "2026-11-10T14:57:53.593Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T14:24:48.593Z",
+    "harvested_at": "2026-11-10T14:57:45.853Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks",
+        "url": "https://huggingface.co/papers/2611.12875",
+        "summary": "Despite impressive progress, existing feed-forward large 3D reconstruction models produce a single, irrevocable prediction. When these models fail, there is no mechanism to correct their mistakes. To address this limitation, we introduce Click3R, a framework for interactive geometric correction of feed-forward models u",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
         "url": "https://huggingface.co/papers/2610.37570",
         "summary": "We present LCM-Promo, an LLM-based uplift model for promotion allocation. LCM-Promo is a task-specific Large Commerce Model (LCM): a finetuned LLM trained on transactional commerce data to predict user intent and promotion response. It learns monotonic promotion-response curves from production logs by interpreting sing",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-10-27T17:15:15.000Z"
       },
       {
@@ -104,7 +113,7 @@
         "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
         "url": "https://huggingface.co/papers/2611.12870",
         "summary": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alig",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Traditional similarity-based schema matching methods fail to resolve semantic ambiguities and conflicts in complex, domain-specific mappings due to a lack of commonsense and domain-specific knowledge. In parallel, large language models (LLMs) without sufficient background knowledge tend to hallucinate, further complica",
         "metric": "0 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Energy-Tweedie: Score meets Score, Energy meets Energy",
-        "url": "https://huggingface.co/papers/2512.23818",
-        "summary": "Denoising and score estimation are classically linked through Tweedie's formula, which relates the posterior mean under Gaussian noise to the Stein score of the noisy marginal. In this work, we extend this perspective beyond Gaussian noise to a broad class of Gibbs (energy-based) noise distributions, with the generaliz",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-07T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
-        "source_url": "https://huggingface.co/papers/2610.37570",
+        "source_anchor": "Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks",
+        "source_url": "https://huggingface.co/papers/2611.12875",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9564e139b49c7979"
+      "receipt_hash": "8d19bedf65ddf3bc"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9564e139b49c"
+      "receipt_hash": "arm_8d19bedf65dd"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
