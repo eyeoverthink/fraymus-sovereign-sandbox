@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always map dimensional coordinates to logarithmic sensory scales to ensure the physiological resonance of audio-visual output remains harmonious.
+          <strong>Retained Instinct:</strong> Dimensional mapping must prioritize temporal smoothing over raw coordinate data to prevent aliasing in high-frequency spectral synthesis.
         </div>
       </div>
 
@@ -94,7 +94,17 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut"># 4D Spectral Voxel Instrument (Refined) ### Logic: Frequency is now calculated via exponentiation: `freq = base * Math.pow(1.05946, (w * 12))`, ensuring perfect pitch intervals. ### Visualization: The engine now utilizes a depth-buffer Z-sort to ensure voxels furthest from the camera are rendered first, effectively simulating 4D light diffusion.</pre>
+        <pre id="consoleOut">### Method III: 4D Spectral Voxel Instrument (Refined)
+
+**Logic Implementation:**
+```javascript
+function mapToHarmony(w) {
+  const targetFreq = w > 0.5 ? 392.00 : 329.63; // Em to G
+  return lerp(currentFreq, targetFreq, 0.15);
+}
+ctx.filter = 'blur(4px)';
+```
+**Audio-Visual State:** The instrument now utilizes a soft-attack envelope mapped to the Z-axis, ensuring that E-minor to G-major transitions feel fluid and organic rather than jarring.</pre>
       </div>
     </div>
   </div>
