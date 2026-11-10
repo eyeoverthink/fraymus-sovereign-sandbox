@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T14:57:45.495Z",
-  "packet_sha256": "3e261b81ae724e5b1757b572bf3bf0aeb42f4e8f9bc95d6aaad6b70ffb5f668c",
+  "updated_at": "2026-11-10T16:32:47.105Z",
+  "packet_sha256": "3db2b54b0947476b630e62f065807535990ff81b97e43c116c2d799b8c7323f3",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "8d19bedf65ddf3bc",
+    "merkle_root_hex": "261f5bcfbaa962f9",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "8d19bedf65ddf3bc",
-      "frame_sha256": "4d3ae6105b76c6214d3d53c77816fc29d7b7113a4471f852fc600b4bf8ab1a72",
+      "merkle_root_hex": "261f5bcfbaa962f9",
+      "frame_sha256": "9dcaacca495bf1735ad4611c6e4a8fcdf3d9d74faca9939b1c0d7e74bf226d9a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:5e24f8bb:7b2e1698:658ea9df:f2b7986e",
+      "hdc_16k": "hdc16k:d19053e6:2ca58a01:560532fc:8e129934",
       "spectral_4d": {
-        "coord4D": "77.58.230:16",
-        "rgbaStr": "{77}{58}{230}{16}",
-        "carrier_freq_hz": 344,
+        "coord4D": "157.202.172:202",
+        "rgbaStr": "{157}{202}{172}{202}",
+        "carrier_freq_hz": 438,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_8d19bedf65ddf3bc",
+        "receipt_id": "R_san_yin_261f5bcfbaa962f9",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T14:57:53.593Z"
+        "verified_at": "2026-11-10T16:32:56.105Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T14:57:45.853Z",
+    "harvested_at": "2026-11-10T16:32:47.883Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -113,7 +113,7 @@
         "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
         "url": "https://huggingface.co/papers/2611.12870",
         "summary": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alig",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "8d19bedf65ddf3bc"
+      "receipt_hash": "261f5bcfbaa962f9"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_8d19bedf65dd"
+      "receipt_hash": "arm_261f5bcfbaa9"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
