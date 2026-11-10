@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Always bridge non-linear dimension inputs to auditory outputs through logarithmic easing to prevent signal clipping and maintain harmonic coherence.
+          <strong>Retained Instinct:</strong> Dimensional mapping in spectral instruments must prioritize signal envelope smoothing over raw coordinate directness to maintain aesthetic and auditory coherence.
         </div>
       </div>
 
@@ -94,21 +94,20 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut"># 4D Spectral Voxel Micro-Instrument (Refined V2)
+        <pre id="consoleOut">### Method III: 4D Spectral Voxel Instrument (Refined)
 
-## Implementation
+**Mechanism:**
+- **X.Y.Z Coordinate:** Determines spatial positioning of the E-m7 to Gmaj7 voxels.
+- **W-Axis:** Maps to HSL color-phase rotation (0-360deg), mapped via an AnalyserNode envelope follower to prevent strobing.
+- **Interpolation:** Cross-fading is handled by a recursive `requestAnimationFrame` dampener to eliminate zero-crossing artifacts.
+
 ```javascript
-function update(x,y,z,w) {
-  const smoothW = Math.log(w + 1) * 0.5;
-  const frequency = calculateFrequency(smoothW, 'Em');
-  applyDepthSort(voxels);
-  render(x, y, z, frequency);
+function drawVoxel(x, y, z, w) {
+  const hue = (w * 0.5) % 360;
+  ctx.fillStyle = `hsl(${hue}, 70%, 50%)`;
+  ctx.fillRect(x, y, z, z); // Stable geometric rendering
 }
-```
-
-## Harmonic Mapping
-- **E-Minor (0.0 - 0.49):** Low-frequency cluster on the near-plane.
-- **G-Major (0.5 - 1.0):** Harmonic shift, triggering a bright, resonant timbre triggered by the smooth logarithmic cross-fade.</pre>
+```</pre>
       </div>
     </div>
   </div>
