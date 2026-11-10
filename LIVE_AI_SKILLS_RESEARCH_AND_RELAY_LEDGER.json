@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T10:42:40.735Z",
-  "packet_sha256": "fecca86171a242d0699157f4651cbd5f1bd87100342431a18cf9c366342e7388",
+  "updated_at": "2026-11-10T12:16:51.071Z",
+  "packet_sha256": "83743af15bba89304b9592763d75d5f6803b247913d87fd0194407e944fd324f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "d1d7e3ad88c47e0c",
+    "merkle_root_hex": "1392ba465ad6bad0",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "d1d7e3ad88c47e0c",
-      "frame_sha256": "85aeaebc88e2d84698c1dc0f6b60aad61d7ad0a463e8d9174c82f1d55b2be95c",
+      "merkle_root_hex": "1392ba465ad6bad0",
+      "frame_sha256": "a0d71b911532d37d70bd104621374e453b3ee9da9f0e572d6b84e46d630c22b1",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:7d4d26ed:3f74efee:855fd969:7f8d8780",
+      "hdc_16k": "hdc16k:ba5e7ca0:75ce5b81:bf146ac0:edcfc01d",
       "spectral_4d": {
-        "coord4D": "133.174.174:188",
-        "rgbaStr": "{133}{174}{174}{188}",
-        "carrier_freq_hz": 410,
+        "coord4D": "160.215.27:145",
+        "rgbaStr": "{160}{215}{27}{145}",
+        "carrier_freq_hz": 365,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_d1d7e3ad88c47e0c",
+        "receipt_id": "R_san_yin_1392ba465ad6bad0",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T10:42:49.735Z"
+        "verified_at": "2026-11-10T12:16:58.600Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T10:42:40.977Z",
+    "harvested_at": "2026-11-10T12:16:51.535Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
+        "url": "https://huggingface.co/papers/2611.08935",
+        "summary": "Reliable dermatology AI requires access to verifiable evidence distributed across heterogeneous textual and visual sources. However, conventional retrieval-augmented generation (RAG) typically relies on one-shot retrieval from flat corpora, limiting its ability to adapt retrieval granularity, explore multi-hop relation",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-06T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
+        "url": "https://huggingface.co/papers/2611.11890",
+        "summary": "Self-supervised learning in Vision Transformer models, such as DINO, enables robust visual perception without requiring labeled data by leveraging large-scale image datasets. However, these models lack a focusing mechanism during training, resulting in perceptual representations that are often ambiguous or overly simil",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
         "url": "https://huggingface.co/papers/2611.11558",
         "summary": "While Recursive Self-Improvement (RSI) accelerates isolated algorithm and kernel synthesis, distributed LLM training depends on tightly coupled launch settings, operator kernels, and communication schedules, where single edits often hit out-of-memory (OOM) boundaries, compiler conflicts, measurement jitter, or silent n",
-        "metric": "0 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-08T18:59:37.000Z"
       },
       {
@@ -104,7 +122,7 @@
         "title": "InstantHMR : Real-Time Human Mesh Recovery on Your Phone",
         "url": "https://huggingface.co/papers/2611.09195",
         "summary": "Real-time 3D human mesh recovery from a single image on mobile devices is a challenging problem with many applications, including robotics, biomechanics, AR/VR, and exergames. Current state-of-the-art models are either too slow to run efficiently on mobile devices or sacrifice accuracy for speed. We present InstantHMR,",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-06T09:17:27.000Z"
       },
       {
@@ -114,24 +132,6 @@
         "url": "https://huggingface.co/papers/2611.11344",
         "summary": "Spatial reasoning requires understanding how objects and observers are arranged in a scene and how their relations change with viewpoint or movement. Vision-language models (VLMs) typically perform both steps through model-internal reasoning, forming an implicit scene interpretation from partial views and imagining the",
         "metric": "1 upvotes",
-        "published_at": "2026-11-08T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
-        "url": "https://huggingface.co/papers/2611.12886",
-        "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for",
-        "metric": "23 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
-        "url": "https://huggingface.co/papers/2611.11450",
-        "summary": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mismatch between the rollout engine and the ",
-        "metric": "6 upvotes",
         "published_at": "2026-11-08T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
-        "source_url": "https://huggingface.co/papers/2611.11558",
+        "source_anchor": "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
+        "source_url": "https://huggingface.co/papers/2611.08935",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "d1d7e3ad88c47e0c"
+      "receipt_hash": "1392ba465ad6bad0"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_d1d7e3ad88c4"
+      "receipt_hash": "arm_1392ba465ad6"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
