@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T01:31:33.837Z",
-  "packet_sha256": "b9ae72ec2d2505e2f74aa856685894ce2b858865a076e467c7d62c2c410e914f",
+  "updated_at": "2026-11-10T02:08:35.962Z",
+  "packet_sha256": "1ad67c5aea25ddddaa27728c657045a676c5319691df4a34f6c6d6a18b69a21e",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "f11101a568cf06f2",
+    "merkle_root_hex": "83f249018f4cd850",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "f11101a568cf06f2",
-      "frame_sha256": "b1d3b02cb5c342a9c5477e44c64f5bb0515640eddeb55c3543d8f98f16c0b208",
+      "merkle_root_hex": "83f249018f4cd850",
+      "frame_sha256": "3838c2f4aebee59ab3c009fbdfaf3c711c51bbdda261cd2c2164ab73e52722ef",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:0c7d5469:43670db2:396b5341:7dc1b5f7",
+      "hdc_16k": "hdc16k:2e54b086:14fc80af:0490769e:3c1dacc6",
       "spectral_4d": {
-        "coord4D": "177.211.176:44",
-        "rgbaStr": "{177}{211}{176}{44}",
-        "carrier_freq_hz": 456,
+        "coord4D": "56.56.194:244",
+        "rgbaStr": "{56}{56}{194}{244}",
+        "carrier_freq_hz": 311,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_f11101a568cf06f2",
+        "receipt_id": "R_san_yin_83f249018f4cd850",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T01:31:40.059Z"
+        "verified_at": "2026-11-10T02:08:37.798Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T01:31:36.956Z",
+    "harvested_at": "2026-11-10T02:08:36.197Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Coding or Cheating? An Investigation of Frontier Coding LLMs",
+        "url": "https://huggingface.co/papers/2611.10404",
+        "summary": "Frontier agentic LLMs are trained on verifiable rewards in reinforcement learning (RL) environments built from real software repositories. A passing test suite is treated as the reward for solving the task. We show that, on hard problems, frontier models often satisfy these rewards by obtaining the answer instead of de",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-07T02:29:54.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and wit",
         "metric": "6 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
-        "url": "https://huggingface.co/papers/2611.08647",
-        "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been no systematic way to ",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-05T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "ODE Policy: Robot Learning via Action Dynamics, Not Actions",
-        "source_url": "https://huggingface.co/papers/2611.01729",
+        "source_anchor": "Coding or Cheating? An Investigation of Frontier Coding LLMs",
+        "source_url": "https://huggingface.co/papers/2611.10404",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "f11101a568cf06f2"
+      "receipt_hash": "83f249018f4cd850"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_f11101a568cf"
+      "receipt_hash": "arm_83f249018f4c"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
