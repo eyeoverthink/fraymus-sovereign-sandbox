@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T19:16:51.979Z",
-  "packet_sha256": "f320dc14d4b557501c81b6fdca9a0fefb6cc48a7337544f5192c2619a7cd451d",
+  "updated_at": "2026-11-10T20:51:50.604Z",
+  "packet_sha256": "1ff205e5b5720bddc13bfeaaf21d5c9ee92601adcd881bf17c415f98a56e2df7",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "f5df633e0514311c",
+    "merkle_root_hex": "77b4bd4e580301ff",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "f5df633e0514311c",
-      "frame_sha256": "1c65d2c9dfbda52c86e4855e0d13347b2a30824881d908d07dab9694c128bca0",
+      "merkle_root_hex": "77b4bd4e580301ff",
+      "frame_sha256": "4ef78495099fda7a91b4a72760c58fb6ca63accd5ad506ce77f02704edd0a479",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:9be69626:151dcb8e:02b67c68:bba7f58d",
+      "hdc_16k": "hdc16k:51157cef:0c084d7a:64eff467:69149d1b",
       "spectral_4d": {
-        "coord4D": "28.101.210:201",
-        "rgbaStr": "{28}{101}{210}{201}",
-        "carrier_freq_hz": 329,
+        "coord4D": "78.247.132:149",
+        "rgbaStr": "{78}{247}{132}{149}",
+        "carrier_freq_hz": 396,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_f5df633e0514311c",
+        "receipt_id": "R_san_yin_77b4bd4e580301ff",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T19:17:00.979Z"
+        "verified_at": "2026-11-10T20:51:59.261Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T19:16:52.218Z",
+    "harvested_at": "2026-11-10T20:51:51.178Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification",
+        "url": "https://huggingface.co/papers/2611.10592",
+        "summary": "Large language models can generate motion graphics from static images and natural language requests, but it remains difficult to evaluate how well models can follow requests that combine spatial, appearance, and temporal requirements. We introduce MotionGraphicsBench, an expert-curated benchmark of 100 instances for an",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-07T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "FraudBench: A Legal Evaluation of AI Deception",
+        "url": "https://huggingface.co/papers/2611.12167",
+        "summary": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and validated by legal experts. We present each sc",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "onóna: Twin Embeddings with Tied Unembeddings",
         "url": "https://huggingface.co/papers/2611.10556",
         "summary": "Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softmax. We introduce onóna, a two-table parameterization that increases output expressiveness while preserving input-output weight sharing. The Transformer takes the average of two embedding tables as inpu",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-07T00:00:00.000Z"
       },
       {
@@ -104,7 +122,7 @@
         "title": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
         "url": "https://huggingface.co/papers/2611.09709",
         "summary": "RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YOCO and DeepSeek-V4.1-Fla",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
       },
       {
@@ -115,24 +133,6 @@
         "summary": "Many of the most consequential advances promised by AI, from curing diseases and inventing new technologies to formulating new scientific theories, are fundamentally creative acts. Yet creativity is uniquely difficult to learn because it faces a creative paradox: learning to repeat past examples of creative success mak",
         "metric": "1 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks",
-        "url": "https://huggingface.co/papers/2611.12875",
-        "summary": "Despite impressive progress, existing feed-forward large 3D reconstruction models produce a single, irrevocable prediction. When these models fail, there is no mechanism to correct their mistakes. To address this limitation, we introduce Click3R, a framework for interactive geometric correction of feed-forward models u",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
-        "url": "https://huggingface.co/papers/2610.37570",
-        "summary": "We present LCM-Promo, an LLM-based uplift model for promotion allocation. LCM-Promo is a task-specific Large Commerce Model (LCM): a finetuned LLM trained on transactional commerce data to predict user intent and promotion response. It learns monotonic promotion-response curves from production logs by interpreting sing",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-27T17:15:15.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "onóna: Twin Embeddings with Tied Unembeddings",
-        "source_url": "https://huggingface.co/papers/2611.10556",
+        "source_anchor": "MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification",
+        "source_url": "https://huggingface.co/papers/2611.10592",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "f5df633e0514311c"
+      "receipt_hash": "77b4bd4e580301ff"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_f5df633e0514"
+      "receipt_hash": "arm_77b4bd4e5803"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
