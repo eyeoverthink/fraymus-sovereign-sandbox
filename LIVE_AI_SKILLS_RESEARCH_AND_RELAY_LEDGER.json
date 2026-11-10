@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T03:45:31.113Z",
-  "packet_sha256": "cec551695718d55551f97048a0a00fd56a373c298afa63d66d766bf1bd5d92f0",
+  "updated_at": "2026-11-10T04:18:26.983Z",
+  "packet_sha256": "9498748975025645f7edc31aad8d41371dd36069490a156172bd37016447f41e",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "671cdecce9e9a6bc",
+    "merkle_root_hex": "7d2b1826f7096559",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "671cdecce9e9a6bc",
-      "frame_sha256": "5848f6b2640f914921557a0a183f67f2739703ce0c2bbc831ab56fc1b95abe1e",
+      "merkle_root_hex": "7d2b1826f7096559",
+      "frame_sha256": "33ea7eadaa67993a768726d8c66b45352d4fd8682ccbac66a5a4d11076a0789a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:77c21960:fc24bf7a:c8225988:8f246967",
+      "hdc_16k": "hdc16k:186abeb1:b2057c74:bebe4ae5:0ce480bc",
       "spectral_4d": {
-        "coord4D": "88.72.246:178",
-        "rgbaStr": "{88}{72}{246}{178}",
-        "carrier_freq_hz": 367,
+        "coord4D": "51.234.126:173",
+        "rgbaStr": "{51}{234}{126}{173}",
+        "carrier_freq_hz": 370,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_671cdecce9e9a6bc",
+        "receipt_id": "R_san_yin_7d2b1826f7096559",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T03:45:40.113Z"
+        "verified_at": "2026-11-10T04:18:28.351Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T03:45:31.733Z",
+    "harvested_at": "2026-11-10T04:18:27.232Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
+        "url": "https://huggingface.co/papers/2611.10690",
+        "summary": "Generating high-fidelity voxels while keeping their lightweight nature remains an open problem in computer vision. Current generators are either high-fidelity but computationally heavy, or lightweight but of lower fidelity. Hierarchical methods keep the lightweight nature of voxels. However, their coarse levels, which ",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-07T12:21:25.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+        "url": "https://huggingface.co/papers/2611.08452",
+        "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whe",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-05T18:45:36.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+        "url": "https://huggingface.co/papers/2610.42148",
+        "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomp",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-30T17:59:38.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
         "url": "https://huggingface.co/papers/2611.10771",
         "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a g",
-        "metric": "3 upvotes",
+        "metric": "8 upvotes",
         "published_at": "2026-11-07T14:59:22.000Z"
       },
       {
@@ -106,33 +133,6 @@
         "summary": "Frontier agentic LLMs are trained on verifiable rewards in reinforcement learning (RL) environments built from real software repositories. A passing test suite is treated as the reward for solving the task. We show that, on hard problems, frontier models often satisfy these rewards by obtaining the answer instead of de",
         "metric": "2 upvotes",
         "published_at": "2026-11-07T02:29:54.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "ODE Policy: Robot Learning via Action Dynamics, Not Actions",
-        "url": "https://huggingface.co/papers/2611.01729",
-        "summary": "Most robot policies, whether trained by imitation learning (IL) or reinforcement learning (RL), map observations to action values at discrete control steps and leave the continuity of physical motion to be learned implicitly. We propose ODE policy, which learns the dynamics of the action rather than the action itself. ",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-01T09:25:12.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Toward the Era of Agentic Embodied Intelligence",
-        "url": "https://huggingface.co/papers/2611.09124",
-        "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and act",
-        "metric": "24 upvotes",
-        "published_at": "2026-11-06T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
-        "url": "https://huggingface.co/papers/2611.08175",
-        "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB ro",
-        "metric": "33 upvotes",
-        "published_at": "2026-11-05T15:31:15.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-        "source_url": "https://huggingface.co/papers/2611.10771",
+        "source_anchor": "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
+        "source_url": "https://huggingface.co/papers/2611.10690",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "671cdecce9e9a6bc"
+      "receipt_hash": "7d2b1826f7096559"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_671cdecce9e9"
+      "receipt_hash": "arm_7d2b1826f709"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
