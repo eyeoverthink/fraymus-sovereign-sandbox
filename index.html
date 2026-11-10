@@ -86,7 +86,7 @@
           <button class="alt" id="btnPractice">↻ Run Local 3-Pass Agent RSI Refinement</button>
         </div>
         <div style="font-size:11px;color:var(--muted)">
-          <strong>Retained Instinct:</strong> Dimensional mapping must prioritize temporal smoothing over raw coordinate data to prevent aliasing in high-frequency spectral synthesis.
+          <strong>Retained Instinct:</strong> Always map raw 4D spatial data through a harmonic quantization filter before feeding it into frequency-based synthesis to ensure tonal stability during rapid coordinate shifting.
         </div>
       </div>
 
@@ -94,17 +94,15 @@
         <strong style="font-size:12px;color:var(--green)">LOCAL OLLAMA / HERMES / COPILOT 3-PASS RSI CONSOLE</strong>
         <input id="ollamaUrl" value="http://127.0.0.1:11434/api/generate" placeholder="Local Ollama or OpenAI-compatible endpoint" />
         <input id="topicInput" value="Refine 4D Tesseract Polyrhythmic Counterpoint with Provenance Light" />
-        <pre id="consoleOut">### Method III: 4D Spectral Voxel Instrument (Refined)
+        <pre id="consoleOut">### Method III: Refined Spectral Voxel Instrument
 
-**Logic Implementation:**
 ```javascript
-function mapToHarmony(w) {
-  const targetFreq = w > 0.5 ? 392.00 : 329.63; // Em to G
-  return lerp(currentFreq, targetFreq, 0.15);
-}
-ctx.filter = 'blur(4px)';
+const quantizeFreq = (val) => { const scale = [329.63, 369.99, 392.00, 440.00, 493.88, 523.25, 587.33, 659.25]; return scale[Math.floor(val * scale.length)]; };
+function updateAudio(coords) { const smoothedW = lerp(prevW, coords.w, 0.1); oscillator.frequency.setTargetAtTime(quantizeFreq(smoothedW), audioCtx.currentTime, 0.05); }
 ```
-**Audio-Visual State:** The instrument now utilizes a soft-attack envelope mapped to the Z-axis, ensuring that E-minor to G-major transitions feel fluid and organic rather than jarring.</pre>
+
+*   **Visuals:** Voxel density now follows a soft-bloom gradient, pulsing only on chord-strike events.
+*   **Harmony:** Harmonic gate active; all W-axis inputs are now snapped to the E-minor/G-major resonant peaks, eliminating aliasing.</pre>
       </div>
     </div>
   </div>
