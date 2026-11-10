@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-09T23:56:31.933Z",
-  "packet_sha256": "9e18422e04d2006d1c6ef8e82a5ca7f750978f8d850f95855140582a826c97a7",
+  "updated_at": "2026-11-10T01:31:33.837Z",
+  "packet_sha256": "b9ae72ec2d2505e2f74aa856685894ce2b858865a076e467c7d62c2c410e914f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "f1e14d6c60fca7cd",
+    "merkle_root_hex": "f11101a568cf06f2",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "f1e14d6c60fca7cd",
-      "frame_sha256": "3b3a4fdcdc3190975e06e223ea251b31ad7b65a8c7c92479eb70148787f34ac1",
+      "merkle_root_hex": "f11101a568cf06f2",
+      "frame_sha256": "b1d3b02cb5c342a9c5477e44c64f5bb0515640eddeb55c3543d8f98f16c0b208",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:00f67af1:4669662b:faa13acf:a8fcf78e",
+      "hdc_16k": "hdc16k:0c7d5469:43670db2:396b5341:7dc1b5f7",
       "spectral_4d": {
-        "coord4D": "59.58.79:220",
-        "rgbaStr": "{59}{58}{79}{220}",
-        "carrier_freq_hz": 249,
+        "coord4D": "177.211.176:44",
+        "rgbaStr": "{177}{211}{176}{44}",
+        "carrier_freq_hz": 456,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_f1e14d6c60fca7cd",
+        "receipt_id": "R_san_yin_f11101a568cf06f2",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-09T23:56:33.748Z"
+        "verified_at": "2026-11-10T01:31:40.059Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-09T23:56:32.181Z",
+    "harvested_at": "2026-11-10T01:31:36.956Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "ODE Policy: Robot Learning via Action Dynamics, Not Actions",
+        "url": "https://huggingface.co/papers/2611.01729",
+        "summary": "Most robot policies, whether trained by imitation learning (IL) or reinforcement learning (RL), map observations to action values at discrete control steps and leave the continuity of physical motion to be learned implicitly. We propose ODE policy, which learns the dynamics of the action rather than the action itself. ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-01T09:25:12.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Toward the Era of Agentic Embodied Intelligence",
+        "url": "https://huggingface.co/papers/2611.09124",
+        "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and act",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-06T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
         "url": "https://huggingface.co/papers/2611.08175",
         "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB ro",
-        "metric": "24 upvotes",
+        "metric": "30 upvotes",
         "published_at": "2026-11-05T15:31:15.000Z"
       },
       {
@@ -115,24 +133,6 @@
         "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been no systematic way to ",
         "metric": "4 upvotes",
         "published_at": "2026-11-05T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
-        "url": "https://huggingface.co/papers/2611.02775",
-        "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not express whether a system preserves the financial facts on which people and organisations act. This paper develops a human-centred, risk-constrained framework for evaluating financial document recognition",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-02T08:51:01.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
-        "url": "https://huggingface.co/papers/2611.09634",
-        "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting. We introduce LambdaMix, a new parameter efficient method for learning a preference conditioned fami",
-        "metric": "7 upvotes",
-        "published_at": "2026-11-06T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
-        "source_url": "https://huggingface.co/papers/2611.08175",
+        "source_anchor": "ODE Policy: Robot Learning via Action Dynamics, Not Actions",
+        "source_url": "https://huggingface.co/papers/2611.01729",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "f1e14d6c60fca7cd"
+      "receipt_hash": "f11101a568cf06f2"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_f1e14d6c60fc"
+      "receipt_hash": "arm_f11101a568cf"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
