@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T12:16:51.071Z",
-  "packet_sha256": "83743af15bba89304b9592763d75d5f6803b247913d87fd0194407e944fd324f",
+  "updated_at": "2026-11-10T12:49:47.845Z",
+  "packet_sha256": "335713ad45756d5b4515791055f74fc5f3e73ac94ef60399a94d2eba717ac021",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "1392ba465ad6bad0",
+    "merkle_root_hex": "f3aead0403b4718c",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "1392ba465ad6bad0",
-      "frame_sha256": "a0d71b911532d37d70bd104621374e453b3ee9da9f0e572d6b84e46d630c22b1",
+      "merkle_root_hex": "f3aead0403b4718c",
+      "frame_sha256": "831145e5a8970bbec17d5cbde07354b246428314f0465d5a796c2d235f3e551e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ba5e7ca0:75ce5b81:bf146ac0:edcfc01d",
+      "hdc_16k": "hdc16k:e08fbff0:ab5a5ea7:003ab32e:29a24198",
       "spectral_4d": {
-        "coord4D": "160.215.27:145",
-        "rgbaStr": "{160}{215}{27}{145}",
-        "carrier_freq_hz": 365,
+        "coord4D": "131.17.69:229",
+        "rgbaStr": "{131}{17}{69}{229}",
+        "carrier_freq_hz": 261,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_1392ba465ad6bad0",
+        "receipt_id": "R_san_yin_f3aead0403b4718c",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T12:16:58.600Z"
+        "verified_at": "2026-11-10T12:49:55.616Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T12:16:51.535Z",
+    "harvested_at": "2026-11-10T12:49:48.173Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -104,7 +104,7 @@
         "title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
         "url": "https://huggingface.co/papers/2611.11890",
         "summary": "Self-supervised learning in Vision Transformer models, such as DINO, enables robust visual perception without requiring labeled data by leveraging large-scale image datasets. However, these models lack a focusing mechanism during training, resulting in perceptual representations that are often ambiguous or overly simil",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "InstantHMR : Real-Time Human Mesh Recovery on Your Phone",
         "url": "https://huggingface.co/papers/2611.09195",
         "summary": "Real-time 3D human mesh recovery from a single image on mobile devices is a challenging problem with many applications, including robotics, biomechanics, AR/VR, and exergames. Current state-of-the-art models are either too slow to run efficiently on mobile devices or sacrifice accuracy for speed. We present InstantHMR,",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-06T09:17:27.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "1392ba465ad6bad0"
+      "receipt_hash": "f3aead0403b4718c"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_1392ba465ad6"
+      "receipt_hash": "arm_f3aead0403b4"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
