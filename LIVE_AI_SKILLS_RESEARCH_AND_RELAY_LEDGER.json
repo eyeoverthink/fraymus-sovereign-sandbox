@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T02:08:35.962Z",
-  "packet_sha256": "1ad67c5aea25ddddaa27728c657045a676c5319691df4a34f6c6d6a18b69a21e",
+  "updated_at": "2026-11-10T03:45:31.113Z",
+  "packet_sha256": "cec551695718d55551f97048a0a00fd56a373c298afa63d66d766bf1bd5d92f0",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "83f249018f4cd850",
+    "merkle_root_hex": "671cdecce9e9a6bc",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "83f249018f4cd850",
-      "frame_sha256": "3838c2f4aebee59ab3c009fbdfaf3c711c51bbdda261cd2c2164ab73e52722ef",
+      "merkle_root_hex": "671cdecce9e9a6bc",
+      "frame_sha256": "5848f6b2640f914921557a0a183f67f2739703ce0c2bbc831ab56fc1b95abe1e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:2e54b086:14fc80af:0490769e:3c1dacc6",
+      "hdc_16k": "hdc16k:77c21960:fc24bf7a:c8225988:8f246967",
       "spectral_4d": {
-        "coord4D": "56.56.194:244",
-        "rgbaStr": "{56}{56}{194}{244}",
-        "carrier_freq_hz": 311,
+        "coord4D": "88.72.246:178",
+        "rgbaStr": "{88}{72}{246}{178}",
+        "carrier_freq_hz": 367,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_83f249018f4cd850",
+        "receipt_id": "R_san_yin_671cdecce9e9a6bc",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T02:08:37.798Z"
+        "verified_at": "2026-11-10T03:45:40.113Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T02:08:36.197Z",
+    "harvested_at": "2026-11-10T03:45:31.733Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+        "url": "https://huggingface.co/papers/2611.10771",
+        "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a g",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-07T14:59:22.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Coding or Cheating? An Investigation of Frontier Coding LLMs",
         "url": "https://huggingface.co/papers/2611.10404",
         "summary": "Frontier agentic LLMs are trained on verifiable rewards in reinforcement learning (RL) environments built from real software repositories. A passing test suite is treated as the reward for solving the task. We show that, on hard problems, frontier models often satisfy these rewards by obtaining the answer instead of de",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-07T02:29:54.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "Toward the Era of Agentic Embodied Intelligence",
         "url": "https://huggingface.co/papers/2611.09124",
         "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and act",
-        "metric": "1 upvotes",
+        "metric": "24 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
       },
       {
@@ -122,70 +131,61 @@
         "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
         "url": "https://huggingface.co/papers/2611.08175",
         "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB ro",
-        "metric": "30 upvotes",
+        "metric": "33 upvotes",
         "published_at": "2026-11-05T15:31:15.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
-        "url": "https://huggingface.co/papers/2611.09891",
-        "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and wit",
-        "metric": "6 upvotes",
-        "published_at": "2026-11-06T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Hybrid Source Code Change Impact Analysis",
+        "url": "http://arxiv.org/abs/2611.10958v1",
+        "summary": "Change impact analysis (CIA) helps developers identify code entities impacted by their initial changes. While several approaches for CIA were proposed, they still struggle with either low precision or low recall, thereby increasing manual effort for developers to verify the results. Furthermore, limitations in the used",
+        "metric": "Published 2026-11-07",
+        "published_at": "2026-11-07T20:42:00Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
-        "url": "http://arxiv.org/abs/2611.09894v1",
-        "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt",
-        "metric": "Published 2026-11-06",
-        "published_at": "2026-11-06T18:59:57Z"
+        "title": "Risk-Sensitive Reinforcement Learning for an Options Market Maker: An Empirical Study with Real S&P 500 Options",
+        "url": "http://arxiv.org/abs/2611.10956v1",
+        "summary": "Options market makers absorb client order flow and must hedge the resulting inventory risk under trading frictions. We study whether an option hedging reinforcement learning (RL) agent trained on historical market data outperforms three alternatives in tail-risk protection: (i) traditional delta hedging, (ii) simple he",
+        "metric": "Published 2026-11-07",
+        "published_at": "2026-11-07T20:41:35Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "On Agentic Manipulation Policies",
-        "url": "http://arxiv.org/abs/2611.09892v1",
-        "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation po",
-        "metric": "Published 2026-11-06",
-        "published_at": "2026-11-06T18:59:34Z"
+        "title": "Validating AI-Discovered Cloud Threats on Live Infrastructure: A Multi-Model, Multi-Cloud Study",
+        "url": "http://arxiv.org/abs/2611.10947v1",
+        "summary": "Cloud infrastructure threat modeling lacks empirical validation of AI-discovered threats. We present a three-phase methodology of multi-agent threat discovery, automated exploit synthesis, and non-destructive live validation, and apply it to three commercial foundation models on two cloud architectures, validating each",
+        "metric": "Published 2026-11-07",
+        "published_at": "2026-11-07T20:23:15Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
-        "url": "http://arxiv.org/abs/2611.09891v1",
-        "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and wit",
-        "metric": "Published 2026-11-06",
-        "published_at": "2026-11-06T18:58:50Z"
+        "title": "BRACE: Belief-guided Residual Adaptive Control for Safe Navigation under Unknown Disturbances",
+        "url": "http://arxiv.org/abs/2611.10938v1",
+        "summary": "Disturbances encountered during autonomous navigation generally vary across space, often discontinuously, as obstacles redirect wind and changing terrain alters traction. Tracking controllers typically assume sufficient control authority to mitigate disturbances and maintain safety; the regime where this assumption fai",
+        "metric": "Published 2026-11-07",
+        "published_at": "2026-11-07T20:05:20Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving",
-        "url": "http://arxiv.org/abs/2611.09888v1",
-        "summary": "Scenario-based simulation is central to evaluating autonomous-driving policies, but a scenario scripted before execution (i.e., with predetermined, fixed actor routes and speeds) may not preserve its intended interaction once the tested ego policy responds in closed loop. Scripted scenarios cannot adapt to unanticipate",
-        "metric": "Published 2026-11-06",
-        "published_at": "2026-11-06T18:58:27Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
-        "url": "http://arxiv.org/abs/2611.09882v1",
-        "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed num",
-        "metric": "Published 2026-11-06",
-        "published_at": "2026-11-06T18:56:41Z"
+        "title": "Can small transformers learn the language of Coxeter groups?",
+        "url": "http://arxiv.org/abs/2611.10936v1",
+        "summary": "The field of mechanistic interpretability is well-suited to collaborative projects between mathematicians and AI researchers. This work describes one such project. We trained a small transformer to learn the language of the Coxeter group affine A2, best known as the symmetries of the tiling of the Euclidean plane by eq",
+        "metric": "Published 2026-11-07",
+        "published_at": "2026-11-07T19:56:09Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Coding or Cheating? An Investigation of Frontier Coding LLMs",
-        "source_url": "https://huggingface.co/papers/2611.10404",
+        "source_anchor": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+        "source_url": "https://huggingface.co/papers/2611.10771",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "On Agentic Manipulation Policies",
-        "source_url": "http://arxiv.org/abs/2611.09892v1",
+        "source_anchor": "Risk-Sensitive Reinforcement Learning for an Options Market Maker: An Empirical Study with Real S&P 500 Options",
+        "source_url": "http://arxiv.org/abs/2611.10956v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "83f249018f4cd850"
+      "receipt_hash": "671cdecce9e9a6bc"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_83f249018f4c"
+      "receipt_hash": "arm_671cdecce9e9"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
