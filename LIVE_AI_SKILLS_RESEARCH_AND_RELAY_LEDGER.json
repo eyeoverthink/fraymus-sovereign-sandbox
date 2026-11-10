@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T18:39:48.899Z",
-  "packet_sha256": "9dcd052b9fc395ed74ca6ed0d2384416320683e23245accdb6a68a3ec9c81be0",
+  "updated_at": "2026-11-10T19:16:51.979Z",
+  "packet_sha256": "f320dc14d4b557501c81b6fdca9a0fefb6cc48a7337544f5192c2619a7cd451d",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "22841a97854f1e3a",
+    "merkle_root_hex": "f5df633e0514311c",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "22841a97854f1e3a",
-      "frame_sha256": "4bf6b1e3261feb8dd13a2836410814aa77c0b95c3c4cfb3039a2c6a493ec602d",
+      "merkle_root_hex": "f5df633e0514311c",
+      "frame_sha256": "1c65d2c9dfbda52c86e4855e0d13347b2a30824881d908d07dab9694c128bca0",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:48a49df1:e1257503:f4cf5c99:f5b0802b",
+      "hdc_16k": "hdc16k:9be69626:151dcb8e:02b67c68:bba7f58d",
       "spectral_4d": {
-        "coord4D": "75.246.177:227",
-        "rgbaStr": "{75}{246}{177}{227}",
-        "carrier_freq_hz": 419,
+        "coord4D": "28.101.210:201",
+        "rgbaStr": "{28}{101}{210}{201}",
+        "carrier_freq_hz": 329,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_22841a97854f1e3a",
+        "receipt_id": "R_san_yin_f5df633e0514311c",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T18:39:57.899Z"
+        "verified_at": "2026-11-10T19:17:00.979Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T18:39:49.501Z",
+    "harvested_at": "2026-11-10T19:16:52.218Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "onóna: Twin Embeddings with Tied Unembeddings",
+        "url": "https://huggingface.co/papers/2611.10556",
+        "summary": "Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softmax. We introduce onóna, a two-table parameterization that increases output expressiveness while preserving input-output weight sharing. The Transformer takes the average of two embedding tables as inpu",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-07T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
+        "url": "https://huggingface.co/papers/2611.09709",
+        "summary": "RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YOCO and DeepSeek-V4.1-Fla",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-06T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "We present LCM-Promo, an LLM-based uplift model for promotion allocation. LCM-Promo is a task-specific Large Commerce Model (LCM): a finetuned LLM trained on transactional commerce data to predict user intent and promotion response. It learns monotonic promotion-response curves from production logs by interpreting sing",
         "metric": "3 upvotes",
         "published_at": "2026-10-27T17:15:15.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
-        "url": "https://huggingface.co/papers/2611.12870",
-        "summary": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alig",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
-        "url": "https://huggingface.co/papers/2611.01112",
-        "summary": "Vision-language models can interpret instructions and plan manipulation tasks, yet struggle when acting directly as robot policies. On RoboDojo, a large planning-execution gap separates high-level task decisions from physical execution: removing arm execution raises GPT-6 Astra's success rate from 22.5% under the refer",
-        "metric": "3 upvotes",
-        "published_at": "2026-10-31T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Creative Priming: Decoupling Process from Product to Escape the Creative Paradox",
-        "source_url": "https://huggingface.co/papers/2611.11740",
+        "source_anchor": "onóna: Twin Embeddings with Tied Unembeddings",
+        "source_url": "https://huggingface.co/papers/2611.10556",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "22841a97854f1e3a"
+      "receipt_hash": "f5df633e0514311c"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_22841a97854f"
+      "receipt_hash": "arm_f5df633e0514"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
