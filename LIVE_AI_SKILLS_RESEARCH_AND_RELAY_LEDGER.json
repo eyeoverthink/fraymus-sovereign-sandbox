@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-10T04:18:26.983Z",
-  "packet_sha256": "9498748975025645f7edc31aad8d41371dd36069490a156172bd37016447f41e",
+  "updated_at": "2026-11-10T05:52:36.311Z",
+  "packet_sha256": "934c715e1156dfec681a67624288276cfd02f4fda55602d7c91975c71fb75a1f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "7d2b1826f7096559",
+    "merkle_root_hex": "3ba612cbc5009799",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "7d2b1826f7096559",
-      "frame_sha256": "33ea7eadaa67993a768726d8c66b45352d4fd8682ccbac66a5a4d11076a0789a",
+      "merkle_root_hex": "3ba612cbc5009799",
+      "frame_sha256": "c095768a22d28e9b288b5c2dd6ce6636b1cb013e0d5df2463d5a9eefdb32923c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:186abeb1:b2057c74:bebe4ae5:0ce480bc",
+      "hdc_16k": "hdc16k:a2841a8c:a61b25f3:58ff455e:35e7cb19",
       "spectral_4d": {
-        "coord4D": "51.234.126:173",
-        "rgbaStr": "{51}{234}{126}{173}",
-        "carrier_freq_hz": 370,
+        "coord4D": "192.149.118:138",
+        "rgbaStr": "{192}{149}{118}{138}",
+        "carrier_freq_hz": 397,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_7d2b1826f7096559",
+        "receipt_id": "R_san_yin_3ba612cbc5009799",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-10T04:18:28.351Z"
+        "verified_at": "2026-11-10T05:52:45.311Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-10T04:18:27.232Z",
+    "harvested_at": "2026-11-10T05:52:36.536Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+        "url": "https://huggingface.co/papers/2611.08969",
+        "summary": "We present PhysioWave-T, a token-efficient wavelet foundation model family for EEG, ECG, and sEMG. Dynamic scale folding recombines J+1 wavelet subbands prior to tokenization, compressing sequence length from (J+1)CS to CS tokens for J levels, C channels, and S temporal patches. Route-specific front ends and learned ch",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-06T04:30:15.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+        "url": "https://huggingface.co/papers/2610.36980",
+        "summary": "Large language model (LLM) agents are extending agent-mediated commerce on the Web from shopping for consumers to operating businesses for sellers. In online-to-offline (O2O) commerce, decisions are issued through Web-based platforms but realized through costly physical execution. Evaluating such agents requires going ",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-27T10:33:06.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
         "url": "https://huggingface.co/papers/2611.10690",
         "summary": "Generating high-fidelity voxels while keeping their lightweight nature remains an open problem in computer vision. Current generators are either high-fidelity but computationally heavy, or lightweight but of lower fidelity. Hierarchical methods keep the lightweight nature of voxels. However, their coarse levels, which ",
-        "metric": "0 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-07T12:21:25.000Z"
       },
       {
@@ -104,7 +122,7 @@
         "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
         "url": "https://huggingface.co/papers/2611.08452",
         "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whe",
-        "metric": "0 upvotes",
+        "metric": "12 upvotes",
         "published_at": "2026-11-05T18:45:36.000Z"
       },
       {
@@ -113,79 +131,16 @@
         "title": "Flide: Accelerating Decision Inference with Exact State Forking",
         "url": "https://huggingface.co/papers/2610.42148",
         "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomp",
-        "metric": "1 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-10-30T17:59:38.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-        "url": "https://huggingface.co/papers/2611.10771",
-        "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a g",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-07T14:59:22.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Coding or Cheating? An Investigation of Frontier Coding LLMs",
-        "url": "https://huggingface.co/papers/2611.10404",
-        "summary": "Frontier agentic LLMs are trained on verifiable rewards in reinforcement learning (RL) environments built from real software repositories. A passing test suite is treated as the reward for solving the task. We show that, on hard problems, frontier models often satisfy these rewards by obtaining the answer instead of de",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-07T02:29:54.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Hybrid Source Code Change Impact Analysis",
-        "url": "http://arxiv.org/abs/2611.10958v1",
-        "summary": "Change impact analysis (CIA) helps developers identify code entities impacted by their initial changes. While several approaches for CIA were proposed, they still struggle with either low precision or low recall, thereby increasing manual effort for developers to verify the results. Furthermore, limitations in the used",
-        "metric": "Published 2026-11-07",
-        "published_at": "2026-11-07T20:42:00Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Risk-Sensitive Reinforcement Learning for an Options Market Maker: An Empirical Study with Real S&P 500 Options",
-        "url": "http://arxiv.org/abs/2611.10956v1",
-        "summary": "Options market makers absorb client order flow and must hedge the resulting inventory risk under trading frictions. We study whether an option hedging reinforcement learning (RL) agent trained on historical market data outperforms three alternatives in tail-risk protection: (i) traditional delta hedging, (ii) simple he",
-        "metric": "Published 2026-11-07",
-        "published_at": "2026-11-07T20:41:35Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Validating AI-Discovered Cloud Threats on Live Infrastructure: A Multi-Model, Multi-Cloud Study",
-        "url": "http://arxiv.org/abs/2611.10947v1",
-        "summary": "Cloud infrastructure threat modeling lacks empirical validation of AI-discovered threats. We present a three-phase methodology of multi-agent threat discovery, automated exploit synthesis, and non-destructive live validation, and apply it to three commercial foundation models on two cloud architectures, validating each",
-        "metric": "Published 2026-11-07",
-        "published_at": "2026-11-07T20:23:15Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "BRACE: Belief-guided Residual Adaptive Control for Safe Navigation under Unknown Disturbances",
-        "url": "http://arxiv.org/abs/2611.10938v1",
-        "summary": "Disturbances encountered during autonomous navigation generally vary across space, often discontinuously, as obstacles redirect wind and changing terrain alters traction. Tracking controllers typically assume sufficient control authority to mitigate disturbances and maintain safety; the regime where this assumption fai",
-        "metric": "Published 2026-11-07",
-        "published_at": "2026-11-07T20:05:20Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Can small transformers learn the language of Coxeter groups?",
-        "url": "http://arxiv.org/abs/2611.10936v1",
-        "summary": "The field of mechanistic interpretability is well-suited to collaborative projects between mathematicians and AI researchers. This work describes one such project. We trained a small transformer to learn the language of the Coxeter group affine A2, best known as the symmetries of the tiling of the Euclidean plane by eq",
-        "metric": "Published 2026-11-07",
-        "published_at": "2026-11-07T19:56:09Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
-        "source_url": "https://huggingface.co/papers/2611.10690",
+        "source_anchor": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+        "source_url": "https://huggingface.co/papers/2611.08969",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Risk-Sensitive Reinforcement Learning for an Options Market Maker: An Empirical Study with Real S&P 500 Options",
-        "source_url": "http://arxiv.org/abs/2611.10956v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "7d2b1826f7096559"
+      "receipt_hash": "3ba612cbc5009799"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_7d2b1826f709"
+      "receipt_hash": "arm_3ba612cbc500"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
