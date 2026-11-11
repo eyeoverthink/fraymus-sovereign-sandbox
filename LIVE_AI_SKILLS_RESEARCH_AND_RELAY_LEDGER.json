@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T11:44:08.962Z",
-  "packet_sha256": "fe35dee88e208c77a5214c68fb4dbfa1d83a61c29fe681bece61ef510fe0a2db",
+  "updated_at": "2026-11-11T12:17:16.079Z",
+  "packet_sha256": "355e500ddbcf682399fc639c381cacfd3037bd577a312fb9775151873522acc9",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b220da1fdc733c6",
+    "merkle_root_hex": "94fedbbff9e3f0ef",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b220da1fdc733c6",
-      "frame_sha256": "b1cbd817f35637f0f5fbebb3bd722d4e0c93e911724df1c164dc38f6ba8dec43",
+      "merkle_root_hex": "94fedbbff9e3f0ef",
+      "frame_sha256": "a372dd6dcd920c5e889a79df5991182e390653f480f2330167c9719dbe680b38",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:e95d86cd:4f6f50ef:8779840d:8f0c9fec",
+      "hdc_16k": "hdc16k:cc7ba575:02d337be:05ed0eaf:947c5496",
       "spectral_4d": {
-        "coord4D": "177.203.216:23",
-        "rgbaStr": "{177}{203}{216}{23}",
-        "carrier_freq_hz": 475,
+        "coord4D": "163.114.221:109",
+        "rgbaStr": "{163}{114}{221}{109}",
+        "carrier_freq_hz": 419,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b220da1fdc733c6",
+        "receipt_id": "R_san_yin_94fedbbff9e3f0ef",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T11:44:16.723Z"
+        "verified_at": "2026-11-11T12:17:25.079Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T11:44:09.551Z",
+    "harvested_at": "2026-11-11T12:17:16.986Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
+        "url": "https://huggingface.co/papers/2611.10649",
+        "summary": "Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods often require expensive optimization and architecture-specific propagation of basis transforms across layers. We introduce MACaQ, an MXFP4 W4A4 post-training quantization method that treats every linear",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-07T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -123,15 +132,6 @@
         "url": "https://huggingface.co/papers/2611.14320",
         "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or mis",
         "metric": "41 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Lipschitz-Controlled Flow Matching for Robust Image Restoration",
-        "url": "https://huggingface.co/papers/2611.13995",
-        "summary": "Flow-matching models can produce high-quality image restorations, but their learned dynamics may amplify small input perturbations and make reconstructions unstable. We introduce LipsFlower to reduce this amplification. We derive stability bounds for Flow-from-Y, which initializes the ordinary differential equation fro",
-        "metric": "1 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists",
-        "source_url": "https://huggingface.co/papers/2611.12184",
+        "source_anchor": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
+        "source_url": "https://huggingface.co/papers/2611.10649",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b220da1fdc733c6"
+      "receipt_hash": "94fedbbff9e3f0ef"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b220da1fdc73"
+      "receipt_hash": "arm_94fedbbff9e3"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
