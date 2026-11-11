@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T12:17:16.079Z",
-  "packet_sha256": "355e500ddbcf682399fc639c381cacfd3037bd577a312fb9775151873522acc9",
+  "updated_at": "2026-11-11T13:52:18.526Z",
+  "packet_sha256": "ec03792c3b7caaa928dd3862c1b4ea7ba6160b0cf377299c4c1378fea72ccd28",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "94fedbbff9e3f0ef",
+    "merkle_root_hex": "ca55e0e4463d617b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "94fedbbff9e3f0ef",
-      "frame_sha256": "a372dd6dcd920c5e889a79df5991182e390653f480f2330167c9719dbe680b38",
+      "merkle_root_hex": "ca55e0e4463d617b",
+      "frame_sha256": "8b30246f13e22ace7576407266b6c9c4c425827974c2606e1896565922cff463",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:cc7ba575:02d337be:05ed0eaf:947c5496",
+      "hdc_16k": "hdc16k:7a8b5414:90cb40f2:9ae66a9a:0202e455",
       "spectral_4d": {
-        "coord4D": "163.114.221:109",
-        "rgbaStr": "{163}{114}{221}{109}",
-        "carrier_freq_hz": 419,
+        "coord4D": "139.48.36:111",
+        "rgbaStr": "{139}{48}{36}{111}",
+        "carrier_freq_hz": 264,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_94fedbbff9e3f0ef",
+        "receipt_id": "R_san_yin_ca55e0e4463d617b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T12:17:25.079Z"
+        "verified_at": "2026-11-11T13:52:26.539Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T12:17:16.986Z",
+    "harvested_at": "2026-11-11T13:52:19.234Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "TorchCurves: Differentiable Parametric Curves",
+        "url": "https://huggingface.co/papers/2611.14516",
+        "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can b",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+        "url": "https://huggingface.co/papers/2611.10866",
+        "summary": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifiable rewards, superv",
+        "metric": "7 upvotes",
+        "published_at": "2026-11-07T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Micius-Flash: Lightweight Agentic Intelligence for Engineering",
+        "url": "https://huggingface.co/papers/2611.10015",
+        "summary": "We introduce Micius-Flash, a 27-billion-parameter model for engineering with native multimodal input, deep reasoning and a 256K-token context window. We design the Micius data pipeline as a knowledge-tree-driven data flywheel comprising three stages: knowledge tree construction and expansion, data synthesis, and qualit",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-04T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,35 +131,8 @@
         "title": "Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists",
         "url": "https://huggingface.co/papers/2611.12184",
         "summary": "Scientific discovery requires ideas that are original, useful, and non-obvious. Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches. Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR)",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Are Causal Neuron Circuits Unique and Transferable?",
-        "url": "https://huggingface.co/papers/2611.13885",
-        "summary": "Interpretability demonstrations often show that intervening on a group of neurons changes a model's answer. A recent example removes an 18-neuron group in Qwen3-32B and the model answers \"Simba\" instead of \"Scar\" to a two-hop Lion King riddle. Such a demonstration establishes that the group matters, but not how much of",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
-        "url": "https://huggingface.co/papers/2611.14083",
-        "summary": "We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit. Sable fixes an integer function F_O with no floating-point step, in which every rounding, normalization, softmax and sampling dec",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
-        "url": "https://huggingface.co/papers/2611.14320",
-        "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or mis",
-        "metric": "41 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
-        "source_url": "https://huggingface.co/papers/2611.10649",
+        "source_anchor": "TorchCurves: Differentiable Parametric Curves",
+        "source_url": "https://huggingface.co/papers/2611.14516",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "94fedbbff9e3f0ef"
+      "receipt_hash": "ca55e0e4463d617b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_94fedbbff9e3"
+      "receipt_hash": "arm_ca55e0e4463d"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
