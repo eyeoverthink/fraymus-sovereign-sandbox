@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T16:33:14.172Z",
-  "packet_sha256": "a7a159a90c68b3d2fc1a9fd3de14faab5b539e900b395f9dddc2ea939f078359",
+  "updated_at": "2026-11-11T18:08:18.939Z",
+  "packet_sha256": "7cfee95629f62ab2de241cd7557eb27a386389b3bf41e33b6f5caf2175a739a0",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "962c8c6ff27ba069",
+    "merkle_root_hex": "ec014247b990cd4d",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "962c8c6ff27ba069",
-      "frame_sha256": "907846f35ecfc3d99acc3ba60e4ec893164610373f1aa772f4d832f5cb5327f7",
+      "merkle_root_hex": "ec014247b990cd4d",
+      "frame_sha256": "21327f517684ee8d3f1a17260b81ab7c31374005c43173a2cba0a44e29544941",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:62894d5b:0b1790fd:effd44b9:b5db63c0",
+      "hdc_16k": "hdc16k:984d36ef:294bbba1:60a9542f:a7d386fb",
       "spectral_4d": {
-        "coord4D": "144.120.70:243",
-        "rgbaStr": "{144}{120}{70}{243}",
-        "carrier_freq_hz": 327,
+        "coord4D": "33.50.127:81",
+        "rgbaStr": "{33}{50}{127}{81}",
+        "carrier_freq_hz": 257,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_962c8c6ff27ba069",
+        "receipt_id": "R_san_yin_ec014247b990cd4d",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T16:33:23.172Z"
+        "verified_at": "2026-11-11T18:08:27.939Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T16:33:14.580Z",
+    "harvested_at": "2026-11-11T18:08:19.547Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Embodied First Exam",
+        "url": "https://huggingface.co/papers/2611.12177",
+        "summary": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introdu",
+        "metric": "7 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "LEASH: Stay Safe in Agentic Robotics",
+        "url": "https://huggingface.co/papers/2611.14115",
+        "summary": "Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence. These advances make agentic robotics a promising path toward artificial general intelligence in robotics. However, we find that using foundation models to control robots poses serious safety risks",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
+        "url": "https://huggingface.co/papers/2611.13576",
+        "summary": "As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense. However, existing benchmarks rely on annotators who rate each video with a single score based on intuition, yielding ratings that are subjective and do not tel",
+        "metric": "7 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,35 +131,8 @@
         "title": "From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical Research Agents",
         "url": "https://huggingface.co/papers/2611.01527",
         "summary": "A scientific agent can give the same verdict while reading and citing different evidence. BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site. It restores or transplants those values at their original coordinates, then runs the agent on healthy har",
-        "metric": "7 upvotes",
+        "metric": "8 upvotes",
         "published_at": "2026-11-01T03:58:26.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "TorchCurves: Differentiable Parametric Curves",
-        "url": "https://huggingface.co/papers/2611.14516",
-        "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can b",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
-        "url": "https://huggingface.co/papers/2611.10866",
-        "summary": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifiable rewards, superv",
-        "metric": "11 upvotes",
-        "published_at": "2026-11-07T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Micius-Flash: Lightweight Agentic Intelligence for Engineering",
-        "url": "https://huggingface.co/papers/2611.10015",
-        "summary": "We introduce Micius-Flash, a 27-billion-parameter model for engineering with native multimodal input, deep reasoning and a 256K-token context window. We design the Micius data pipeline as a knowledge-tree-driven data flywheel comprising three stages: knowledge tree construction and expansion, data synthesis, and qualit",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-04T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "DyCraft: An Agentic System for Long-Horizon 4D Scene Generation",
-        "source_url": "https://huggingface.co/papers/2610.40754",
+        "source_anchor": "Embodied First Exam",
+        "source_url": "https://huggingface.co/papers/2611.12177",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "962c8c6ff27ba069"
+      "receipt_hash": "ec014247b990cd4d"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_962c8c6ff27b"
+      "receipt_hash": "arm_ec014247b990"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
