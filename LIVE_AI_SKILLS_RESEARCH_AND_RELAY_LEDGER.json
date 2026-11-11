@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T05:20:44.983Z",
-  "packet_sha256": "d757349feddc0ad8fb5ae84bbbb4ac2658cd0be4a96b933723aeb3e6129e84d4",
+  "updated_at": "2026-11-11T05:53:42.029Z",
+  "packet_sha256": "e88588c1fb0e15823eaf555fd3ba06b6b3ec72a307315e582fde5263f3ffc849",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "4cfd791f5c7daf58",
+    "merkle_root_hex": "f0ef53ce0170f6df",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "4cfd791f5c7daf58",
-      "frame_sha256": "c65ce6c745862df4af2a0187ffd765f450b4eb0d33ba432dd9d17b0295924378",
+      "merkle_root_hex": "f0ef53ce0170f6df",
+      "frame_sha256": "cf8a4a8beae5c926544b31274e1e3c896d9d63bc15e345b8c05c16718d38fd26",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:71add544:62ee8637:0f60665e:aece971c",
+      "hdc_16k": "hdc16k:ec957721:9a9ee5a5:9aa52d85:c38fe40a",
       "spectral_4d": {
-        "coord4D": "198.92.230:199",
-        "rgbaStr": "{198}{92}{230}{199}",
-        "carrier_freq_hz": 432,
+        "coord4D": "207.138.74:139",
+        "rgbaStr": "{207}{138}{74}{139}",
+        "carrier_freq_hz": 375,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_4cfd791f5c7daf58",
+        "receipt_id": "R_san_yin_f0ef53ce0170f6df",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T05:20:53.983Z"
+        "verified_at": "2026-11-11T05:53:50.010Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T05:20:45.800Z",
+    "harvested_at": "2026-11-11T05:53:42.261Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+        "url": "https://huggingface.co/papers/2611.12865",
+        "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some exe",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Are Dense Rewards Worth Their Tokens in GRPO?",
+        "url": "https://huggingface.co/papers/2611.13560",
+        "summary": "RLVR trains language models to reason by rewarding correct final answers. A widely used algorithm, group-relative policy optimization (GRPO), gives every token of a solution the same credit, so dense process rewards have been proposed to credit intermediate steps, for example with a Monte-Carlo reward that scores each ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Market-Conditioned JEPA: Learning from Unpredictable Market Shocks",
+        "url": "https://huggingface.co/papers/2611.13572",
+        "summary": "Much of the variation in financial time series is driven by market-wide shocks that cannot be predicted from an asset's own history. Per-asset self-supervised learning treats this variation as irreducible noise. Under a latent factor model, we show that conditioning prediction on the realized market factor makes the as",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
         "url": "https://huggingface.co/papers/2611.14210",
         "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our me",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -104,34 +131,7 @@
         "title": "MMDM: Measuring Massive Multitask Decision Making",
         "url": "https://huggingface.co/papers/2611.14309",
         "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposu",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "EVAThink: Evidence Sufficiency-Guided Training for Adaptive Thinking in Video Understanding",
-        "url": "https://huggingface.co/papers/2611.13907",
-        "summary": "Under a fixed frame budget, video understanding with vision-language models (VLMs) depends on whether the sampled frames provide sufficient evidence for the question. Sufficient frame evidence supports direct answering, whereas less informative observations may benefit from reasoning that connects the available cues. W",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Learning to Act with World Models by Valuing What Comes Next",
-        "url": "https://huggingface.co/papers/2611.12200",
-        "summary": "A sparse terminal reward tells an agent little about its steps. Much of the missing information is implicit in the environment's dynamics, because each state transition can change the conditions for success long before the reward arrives. A world model trained on real transitions can learn to predict what each action c",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-09T10:59:19.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
-        "url": "https://huggingface.co/papers/2611.11166",
-        "summary": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware ",
-        "metric": "3 upvotes",
+        "metric": "14 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
-        "source_url": "https://huggingface.co/papers/2611.14210",
+        "source_anchor": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+        "source_url": "https://huggingface.co/papers/2611.12865",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "4cfd791f5c7daf58"
+      "receipt_hash": "f0ef53ce0170f6df"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_4cfd791f5c7d"
+      "receipt_hash": "arm_f0ef53ce0170"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
