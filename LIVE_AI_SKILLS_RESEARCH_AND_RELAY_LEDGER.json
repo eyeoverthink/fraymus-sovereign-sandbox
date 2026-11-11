@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T03:13:49.887Z",
-  "packet_sha256": "7e3b4f93cce3f5c05dca24cc64019aaf2e9c2835991fbdb4a60d175ed6074a3f",
+  "updated_at": "2026-11-11T05:20:44.983Z",
+  "packet_sha256": "d757349feddc0ad8fb5ae84bbbb4ac2658cd0be4a96b933723aeb3e6129e84d4",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a413d9bc729cc492",
+    "merkle_root_hex": "4cfd791f5c7daf58",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a413d9bc729cc492",
-      "frame_sha256": "d79c20a9abbea90dd1f14cb6bc4683efa6be5f54789e0cd27efbfc13840327b3",
+      "merkle_root_hex": "4cfd791f5c7daf58",
+      "frame_sha256": "c65ce6c745862df4af2a0187ffd765f450b4eb0d33ba432dd9d17b0295924378",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:9fe5a4d7:5452e4fc:4840b15f:60ac0c96",
+      "hdc_16k": "hdc16k:71add544:62ee8637:0f60665e:aece971c",
       "spectral_4d": {
-        "coord4D": "215.156.32:169",
-        "rgbaStr": "{215}{156}{32}{169}",
-        "carrier_freq_hz": 366,
+        "coord4D": "198.92.230:199",
+        "rgbaStr": "{198}{92}{230}{199}",
+        "carrier_freq_hz": 432,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a413d9bc729cc492",
+        "receipt_id": "R_san_yin_4cfd791f5c7daf58",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T03:13:58.887Z"
+        "verified_at": "2026-11-11T05:20:53.983Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T03:13:50.377Z",
+    "harvested_at": "2026-11-11T05:20:45.800Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,100 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Few-Step Streaming Video Generation via Condition Shifting",
-        "url": "https://huggingface.co/papers/2611.14033",
-        "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to",
-        "metric": "4 upvotes",
+        "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+        "url": "https://huggingface.co/papers/2611.14210",
+        "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our me",
+        "metric": "0 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "PhysOPSD: Code as Privilege for Physically Plausible Video Generation",
-        "url": "https://huggingface.co/papers/2611.12411",
-        "summary": "While modern video generative models achieve remarkable visual fidelity, they remain noticeably brittle when generating physically plausible dynamics and complex interactions. Targeted post-training is crucial, yet supervised fine-tuning suffers from offline state mismatch, and reinforcement learning is hindered by spa",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "World In-Context Learning for Agentic Robot Manipulation",
-        "url": "https://huggingface.co/papers/2611.12885",
-        "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot current",
-        "metric": "11 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series",
-        "url": "https://huggingface.co/papers/2611.12955",
-        "summary": "Time-series classifiers deployed in risk-sensitive domains must be (1) accurate, (2) interpretable, and (3) able to abstain when evidence is weak. Existing methods do not deliver all 3 at once, and the obstacle is structural, rather than logistical. Meaningful temporal patterns cannot be defined without knowing segment",
+        "title": "MMDM: Measuring Massive Multitask Decision Making",
+        "url": "https://huggingface.co/papers/2611.14309",
+        "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposu",
         "metric": "1 upvotes",
-        "published_at": "2026-11-07T00:00:00.000Z"
+        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models",
-        "url": "https://huggingface.co/papers/2611.05927",
-        "summary": "Mixture-of-Experts (MoE) enables multimodal large language models (MLLMs) to scale capacity efficiently, but expert parameters dominate memory even though only a few experts are activated per token: they account for over 90% of model size in modern MoE-MLLMs (e.g., 54 GB out of about 58 GB in BF16 for InternVL3.5-30B-A",
+        "title": "EVAThink: Evidence Sufficiency-Guided Training for Adaptive Thinking in Video Understanding",
+        "url": "https://huggingface.co/papers/2611.13907",
+        "summary": "Under a fixed frame budget, video understanding with vision-language models (VLMs) depends on whether the sampled frames provide sufficient evidence for the question. Sufficient frame evidence supports direct answering, whereas less informative observations may benefit from reasoning that connects the available cues. W",
         "metric": "1 upvotes",
-        "published_at": "2026-11-04T00:00:00.000Z"
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Learning to Act with World Models by Valuing What Comes Next",
+        "url": "https://huggingface.co/papers/2611.12200",
+        "summary": "A sparse terminal reward tells an agent little about its steps. Much of the missing information is implicit in the environment's dynamics, because each state transition can change the conditions for success long before the reward arrives. A world model trained on real transitions can learn to predict what each action c",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-09T10:59:19.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+        "url": "https://huggingface.co/papers/2611.11166",
+        "summary": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware ",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "A human-in-the-loop Control Paradigm for Construction Robotics: From VR-Guided Teleoperation to Semi-Autonomous Dual-Arm Operation",
-        "url": "http://arxiv.org/abs/2611.14062v1",
-        "summary": "Construction tasks in hazardous and unstructured environments require both human adaptability and robotic precision, yet existing approaches often treat teleoperation and autonomy as separate control modes. This paper presents a human-in-the-loop control paradigm that enables structured transitions among VR-guided tele",
+        "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+        "url": "http://arxiv.org/abs/2611.14515v1",
+        "summary": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this inform",
         "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T13:27:23Z"
+        "published_at": "2026-11-10T18:58:46Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Complete self-shrinkers with scalar curvature bounded below",
-        "url": "http://arxiv.org/abs/2611.14047v1",
-        "summary": "Let $X:M^n\\to\\mathbb R^{n+1}$ be a complete self-shrinker with constant squared norm of the second fundamental form. We prove that up to an orthogonal transformation, the image $X(M^n)$ is a sphere $S^n(\\sqrt n)$, or a hyperplane $\\mathbb R^n$ or a generalized cylinder $ S^k(\\sqrt{k})\\times\\R^{n-k},\\ 1\\le k\\le n-1$ if ",
+        "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+        "url": "http://arxiv.org/abs/2611.14514v1",
+        "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supp",
         "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T13:13:59Z"
+        "published_at": "2026-11-10T18:58:43Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
-        "url": "http://arxiv.org/abs/2611.14035v1",
-        "summary": "Foundation models pre-trained on large unlabeled electroencephalography (EEG) corpora have emerged as a transformative paradigm for Brain-Computer Interface (BCI) applications. Recent EEG foundation models have shown that multi-scale representations derived from fixed-length patches can improve EEG representation learn",
+        "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+        "url": "http://arxiv.org/abs/2611.14511v1",
+        "summary": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-liga",
         "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T13:03:41Z"
+        "published_at": "2026-11-10T18:56:32Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Program-Aided Patchable Skill Evolution",
-        "url": "http://arxiv.org/abs/2611.14019v1",
-        "summary": "Agent skills have emerged as an effective means of enabling LLM agents to solve complex, interactive tasks by encoding reusable knowledge without modifying model parameters. Recent approaches further improve skill adaptation by distilling reusable experience from agent execution trajectories and evolving skills based o",
+        "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+        "url": "http://arxiv.org/abs/2611.14505v1",
+        "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weig",
         "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T12:53:12Z"
+        "published_at": "2026-11-10T18:55:01Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Personalized Memory Rubrics: Learning What to Remember per User via Rubric-Guided Credit Assignment",
-        "url": "http://arxiv.org/abs/2611.14017v1",
-        "summary": "Long-horizon personalized agents maintain an evolving memory by continuously deciding what to add, modify, or discard. However, learning an optimal update policy remains challenging. Conventional training relies solely on terminal question-answering accuracy, yielding a coarse feedback signal that treats all intermedia",
+        "title": "$G_2'$-Slodowy Slices II: Anosov Representations",
+        "url": "http://arxiv.org/abs/2611.14503v1",
+        "summary": "We find \\emph{exotic} connected components of Anosov representations of surface groups in the higher rank group $G=G_2'$ that are neither $ι$-Fuchsian deformations nor higher rank Teichmüller spaces. These representations are found through the non-abelian Hodge correspondence via $G_2'$-Higgs bundles that we call \\emph",
         "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T12:52:13Z"
+        "published_at": "2026-11-10T18:52:47Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Few-Step Streaming Video Generation via Condition Shifting",
-        "source_url": "https://huggingface.co/papers/2611.14033",
+        "source_anchor": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+        "source_url": "https://huggingface.co/papers/2611.14210",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Complete self-shrinkers with scalar curvature bounded below",
-        "source_url": "http://arxiv.org/abs/2611.14047v1",
+        "source_anchor": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+        "source_url": "http://arxiv.org/abs/2611.14514v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a413d9bc729cc492"
+      "receipt_hash": "4cfd791f5c7daf58"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a413d9bc729c"
+      "receipt_hash": "arm_4cfd791f5c7d"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
