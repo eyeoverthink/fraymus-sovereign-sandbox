@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T10:09:04.169Z",
-  "packet_sha256": "0679586c6266f04dc6fec2a41ccfdc783e8f4fa6d53c6cb2108fa42a72478775",
+  "updated_at": "2026-11-11T11:44:08.962Z",
+  "packet_sha256": "fe35dee88e208c77a5214c68fb4dbfa1d83a61c29fe681bece61ef510fe0a2db",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "e814f8335804fbd7",
+    "merkle_root_hex": "b220da1fdc733c6",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "e814f8335804fbd7",
-      "frame_sha256": "81b36587a20309f0ff717f34ff5289db325688b53a8b36a3b5f3392a3512079e",
+      "merkle_root_hex": "b220da1fdc733c6",
+      "frame_sha256": "b1cbd817f35637f0f5fbebb3bd722d4e0c93e911724df1c164dc38f6ba8dec43",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:678beb0e:26aacb09:8e8ed310:ca2183c1",
+      "hdc_16k": "hdc16k:e95d86cd:4f6f50ef:8779840d:8f0c9fec",
       "spectral_4d": {
-        "coord4D": "129.179.101:135",
-        "rgbaStr": "{129}{179}{101}{135}",
-        "carrier_freq_hz": 369,
+        "coord4D": "177.203.216:23",
+        "rgbaStr": "{177}{203}{216}{23}",
+        "carrier_freq_hz": 475,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_e814f8335804fbd7",
+        "receipt_id": "R_san_yin_b220da1fdc733c6",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T10:09:13.169Z"
+        "verified_at": "2026-11-11T11:44:16.723Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T10:09:04.452Z",
+    "harvested_at": "2026-11-11T11:44:09.551Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists",
+        "url": "https://huggingface.co/papers/2611.12184",
+        "summary": "Scientific discovery requires ideas that are original, useful, and non-obvious. Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches. Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR)",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Are Causal Neuron Circuits Unique and Transferable?",
+        "url": "https://huggingface.co/papers/2611.13885",
+        "summary": "Interpretability demonstrations often show that intervening on a group of neurons changes a model's answer. A recent example removes an 18-neuron group in Qwen3-32B and the model answers \"Simba\" instead of \"Scar\" to a two-hop Lion King riddle. Such a demonstration establishes that the group matters, but not how much of",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Flow-matching models can produce high-quality image restorations, but their learned dynamics may amplify small input perturbations and make reconstructions unstable. We introduce LipsFlower to reduce this amplification. We derive stability bounds for Flow-from-Y, which initializes the ordinary differential equation fro",
         "metric": "1 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
-        "url": "https://huggingface.co/papers/2611.07464",
-        "summary": "Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that use",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-05T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
-        "url": "https://huggingface.co/papers/2611.12527",
-        "summary": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-09T15:02:29.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
-        "source_url": "https://huggingface.co/papers/2611.14083",
+        "source_anchor": "Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists",
+        "source_url": "https://huggingface.co/papers/2611.12184",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "e814f8335804fbd7"
+      "receipt_hash": "b220da1fdc733c6"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_e814f8335804"
+      "receipt_hash": "arm_b220da1fdc73"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
