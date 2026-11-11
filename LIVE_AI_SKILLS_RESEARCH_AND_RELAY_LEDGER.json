@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T09:36:13.288Z",
-  "packet_sha256": "ca276aa7660fdb7f9de55d69d1afa712b4a0cfa6b2177e3f7ce063eebfb70387",
+  "updated_at": "2026-11-11T10:09:04.169Z",
+  "packet_sha256": "0679586c6266f04dc6fec2a41ccfdc783e8f4fa6d53c6cb2108fa42a72478775",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "363529305104aa9",
+    "merkle_root_hex": "e814f8335804fbd7",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "363529305104aa9",
-      "frame_sha256": "8902dfea144b30f997e81376f1c185e4245a068cbfc89de60833dee1a0823b15",
+      "merkle_root_hex": "e814f8335804fbd7",
+      "frame_sha256": "81b36587a20309f0ff717f34ff5289db325688b53a8b36a3b5f3392a3512079e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:dbdd16cf:26a7c22e:93835b5f:48562378",
+      "hdc_16k": "hdc16k:678beb0e:26aacb09:8e8ed310:ca2183c1",
       "spectral_4d": {
-        "coord4D": "137.2.223:234",
-        "rgbaStr": "{137}{2}{223}{234}",
-        "carrier_freq_hz": 342,
+        "coord4D": "129.179.101:135",
+        "rgbaStr": "{129}{179}{101}{135}",
+        "carrier_freq_hz": 369,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_363529305104aa9",
+        "receipt_id": "R_san_yin_e814f8335804fbd7",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T09:36:22.288Z"
+        "verified_at": "2026-11-11T10:09:13.169Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T09:36:13.710Z",
+    "harvested_at": "2026-11-11T10:09:04.452Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
+        "url": "https://huggingface.co/papers/2611.14083",
+        "summary": "We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit. Sable fixes an integer function F_O with no floating-point step, in which every rounding, normalization, softmax and sampling dec",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
         "url": "https://huggingface.co/papers/2611.14320",
         "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or mis",
-        "metric": "37 upvotes",
+        "metric": "41 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen",
         "metric": "4 upvotes",
         "published_at": "2026-11-09T15:02:29.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
-        "url": "https://huggingface.co/papers/2611.12934",
-        "summary": "While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inpu",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-06T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
-        "source_url": "https://huggingface.co/papers/2611.14320",
+        "source_anchor": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
+        "source_url": "https://huggingface.co/papers/2611.14083",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "363529305104aa9"
+      "receipt_hash": "e814f8335804fbd7"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_363529305104"
+      "receipt_hash": "arm_e814f8335804"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
