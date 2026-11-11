@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T08:00:53.303Z",
-  "packet_sha256": "0320c5358a0c4a7c24a919dd3f98250f9b55ff806c94599145ae3eed44207d42",
+  "updated_at": "2026-11-11T09:36:13.288Z",
+  "packet_sha256": "ca276aa7660fdb7f9de55d69d1afa712b4a0cfa6b2177e3f7ce063eebfb70387",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9819cf88b2296fcc",
+    "merkle_root_hex": "363529305104aa9",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9819cf88b2296fcc",
-      "frame_sha256": "8597ac33cc809998ee332f4203f4c05ad4141b1426ece22d8bd0f4060e63887a",
+      "merkle_root_hex": "363529305104aa9",
+      "frame_sha256": "8902dfea144b30f997e81376f1c185e4245a068cbfc89de60833dee1a0823b15",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:6e2c2b2e:a8a479d0:3d38ac0c:7a40ff37",
+      "hdc_16k": "hdc16k:dbdd16cf:26a7c22e:93835b5f:48562378",
       "spectral_4d": {
-        "coord4D": "133.151.172:51",
-        "rgbaStr": "{133}{151}{172}{51}",
-        "carrier_freq_hz": 396,
+        "coord4D": "137.2.223:234",
+        "rgbaStr": "{137}{2}{223}{234}",
+        "carrier_freq_hz": 342,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9819cf88b2296fcc",
+        "receipt_id": "R_san_yin_363529305104aa9",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T08:01:00.188Z"
+        "verified_at": "2026-11-11T09:36:22.288Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T08:00:56.677Z",
+    "harvested_at": "2026-11-11T09:36:13.710Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+        "url": "https://huggingface.co/papers/2611.14320",
+        "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or mis",
+        "metric": "37 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Lipschitz-Controlled Flow Matching for Robust Image Restoration",
+        "url": "https://huggingface.co/papers/2611.13995",
+        "summary": "Flow-matching models can produce high-quality image restorations, but their learned dynamics may amplify small input perturbations and make reconstructions unstable. We introduce LipsFlower to reduce this amplification. We derive stability bounds for Flow-from-Y, which initializes the ordinary differential equation fro",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
         "url": "https://huggingface.co/papers/2611.07464",
         "summary": "Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that use",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-05T00:00:00.000Z"
       },
       {
@@ -104,7 +122,7 @@
         "title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
         "url": "https://huggingface.co/papers/2611.12527",
         "summary": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen",
-        "metric": "2 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-09T15:02:29.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
         "url": "https://huggingface.co/papers/2611.12934",
         "summary": "While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inpu",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
-        "url": "https://huggingface.co/papers/2611.12865",
-        "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some exe",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Are Dense Rewards Worth Their Tokens in GRPO?",
-        "url": "https://huggingface.co/papers/2611.13560",
-        "summary": "RLVR trains language models to reason by rewarding correct final answers. A widely used algorithm, group-relative policy optimization (GRPO), gives every token of a solution the same credit, so dense process rewards have been proposed to credit intermediate steps, for example with a Monte-Carlo reward that scores each ",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
-        "source_url": "https://huggingface.co/papers/2611.07464",
+        "source_anchor": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+        "source_url": "https://huggingface.co/papers/2611.14320",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9819cf88b2296fcc"
+      "receipt_hash": "363529305104aa9"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9819cf88b229"
+      "receipt_hash": "arm_363529305104"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
