@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T01:06:46.248Z",
-  "packet_sha256": "5c3ccefb0cc40962b29e17e9ea8d044d72da58cb9f07691385b12960212f3c72",
+  "updated_at": "2026-11-11T01:39:40.804Z",
+  "packet_sha256": "a0e03cf5c08e7c2c54dbb43fd16d43640a37e904eaeee05b9c2db15d4bb74c26",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "3c4a381f3bb82372",
+    "merkle_root_hex": "2d717a60ffd148dc",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "3c4a381f3bb82372",
-      "frame_sha256": "031e38b5ebae579d0567e92468d39c5dd9e446adce652a5ed05d59cce211cd69",
+      "merkle_root_hex": "2d717a60ffd148dc",
+      "frame_sha256": "80e02a03d192467e8531affeaa83afdd6a7a6fd9b228e96bb91ea2351f129f94",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:de60cfa6:284cdfbf:7f84576a:aee2b2fc",
+      "hdc_16k": "hdc16k:0af53133:39d5ce0f:05f7404d:391d0857",
       "spectral_4d": {
-        "coord4D": "3.30.56:181",
-        "rgbaStr": "{3}{30}{56}{181}",
-        "carrier_freq_hz": 188,
+        "coord4D": "128.224.42:3",
+        "rgbaStr": "{128}{224}{42}{3}",
+        "carrier_freq_hz": 360,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_3c4a381f3bb82372",
+        "receipt_id": "R_san_yin_2d717a60ffd148dc",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T01:06:54.248Z"
+        "verified_at": "2026-11-11T01:39:47.953Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T01:06:54.248Z",
+    "harvested_at": "2026-11-11T01:39:41.047Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -133,6 +133,51 @@
         "summary": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and validated by legal experts. We present each sc",
         "metric": "2 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+        "url": "http://arxiv.org/abs/2611.12886v1",
+        "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for",
+        "metric": "Published 2026-11-09",
+        "published_at": "2026-11-09T18:59:54Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "World In-Context Learning for Agentic Robot Manipulation",
+        "url": "http://arxiv.org/abs/2611.12885v1",
+        "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot current",
+        "metric": "Published 2026-11-09",
+        "published_at": "2026-11-09T18:59:45Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels",
+        "url": "http://arxiv.org/abs/2611.12878v1",
+        "summary": "Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent interacting with an unknown environment (modeled as a Markov Decision Process) transmits quantized estimates of a temporal",
+        "metric": "Published 2026-11-09",
+        "published_at": "2026-11-09T18:58:41Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+        "url": "http://arxiv.org/abs/2611.12872v1",
+        "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant ",
+        "metric": "Published 2026-11-09",
+        "published_at": "2026-11-09T18:57:00Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+        "url": "http://arxiv.org/abs/2611.12865v1",
+        "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some exe",
+        "metric": "Published 2026-11-09",
+        "published_at": "2026-11-09T18:52:20Z"
       }
     ],
     "curve_augmentations": [
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "World In-Context Learning for Agentic Robot Manipulation",
+        "source_url": "http://arxiv.org/abs/2611.12885v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "3c4a381f3bb82372"
+      "receipt_hash": "2d717a60ffd148dc"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_3c4a381f3bb8"
+      "receipt_hash": "arm_2d717a60ffd1"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
