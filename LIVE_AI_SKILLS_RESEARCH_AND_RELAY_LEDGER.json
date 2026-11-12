@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-12T15:17:57.790Z",
-  "packet_sha256": "798395c167cd4c61e205f128a7793b455d7fc8dd0ad0a134fc4d085a9227c8d5",
+  "updated_at": "2026-11-12T15:50:58.830Z",
+  "packet_sha256": "f3b4dbda463da857e3421179787b1f58a6eb3434b3760b3d762adbec0ebdf603",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "e2757a82a1624d06",
+    "merkle_root_hex": "1fb0e65f7c76df46",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "e2757a82a1624d06",
-      "frame_sha256": "6624466620ba5036b3bbf752c63947c26349fde169b01bd2c3d1a8bcc7ee6a58",
+      "merkle_root_hex": "1fb0e65f7c76df46",
+      "frame_sha256": "f66adc54dd893c2f79545e79faef806c0ea865c3c8abda4b59dc9c94bd9ae51b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:7f2eb664:b0dfc070:8cd15be2:c53e7295",
+      "hdc_16k": "hdc16k:76f59360:946b83fb:658be594:f057e1ec",
       "spectral_4d": {
-        "coord4D": "102.36.70:102",
-        "rgbaStr": "{102}{36}{70}{102}",
-        "carrier_freq_hz": 255,
+        "coord4D": "246.106.220:84",
+        "rgbaStr": "{246}{106}{220}{84}",
+        "carrier_freq_hz": 461,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_e2757a82a1624d06",
+        "receipt_id": "R_san_yin_1fb0e65f7c76df46",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-12T15:18:05.111Z"
+        "verified_at": "2026-11-12T15:51:05.952Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-12T15:17:58.274Z",
+    "harvested_at": "2026-11-12T15:50:59.090Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+        "url": "https://huggingface.co/papers/2611.11306",
+        "summary": "AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisions and violate computer security laws. In this paper, we introduce ScrapeBench, the first agentic benchmark for empirically evaluating the legal compliance of AI agents with website scraping policies, ",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligning with those of vision models. However, recent work has questioned whether this trend continues to hold for newer langu",
         "metric": "3 upvotes",
         "published_at": "2026-11-09T18:53:57.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
-        "url": "https://huggingface.co/papers/2611.14418",
-        "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two margin). Quantization is",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
-        "source_url": "https://huggingface.co/papers/2611.13766",
+        "source_anchor": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+        "source_url": "https://huggingface.co/papers/2611.11306",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "e2757a82a1624d06"
+      "receipt_hash": "1fb0e65f7c76df46"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_e2757a82a162"
+      "receipt_hash": "arm_1fb0e65f7c76"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
