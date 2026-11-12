@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-12T01:02:30.086Z",
-  "packet_sha256": "e5ab44abc765a033593270d527492f4f6e48f031405e18f20aeb3f09f18ffd49",
+  "updated_at": "2026-11-12T02:37:35.009Z",
+  "packet_sha256": "6353350009a2a79f2f96df94787e8dcc491849006858725b7256ea852a6d7a40",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "7ff6c6ab2f4349f7",
+    "merkle_root_hex": "69c7468a66bdb766",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "7ff6c6ab2f4349f7",
-      "frame_sha256": "72082354486389475fc12849fa6e201f2b4c7caed58b2ebb6ca99464e13e89fe",
+      "merkle_root_hex": "69c7468a66bdb766",
+      "frame_sha256": "0e9c5081e0b3629e1727d72b406f68f7125ea3e2385781de3a0abf2923a37dc1",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:eb81f823:56bcdcf5:f8cc872f:adf78df5",
+      "hdc_16k": "hdc16k:52ca5a77:22741f3a:583d73eb:fb1eb13a",
       "spectral_4d": {
-        "coord4D": "114.8.35:84",
-        "rgbaStr": "{114}{8}{35}{84}",
-        "carrier_freq_hz": 227,
+        "coord4D": "14.156.80:129",
+        "rgbaStr": "{14}{156}{80}{129}",
+        "carrier_freq_hz": 279,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_7ff6c6ab2f4349f7",
+        "receipt_id": "R_san_yin_69c7468a66bdb766",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-12T01:02:37.351Z"
+        "verified_at": "2026-11-12T02:37:44.009Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-12T01:02:30.624Z",
+    "harvested_at": "2026-11-12T02:37:35.831Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
+        "url": "https://huggingface.co/papers/2611.11912",
+        "summary": "LiDAR point clouds and 3D semantic occupancy represent two distinct modalities capturing fine-grained metric geometry and dense volumetric semantics, respectively, holding natural potential for mutual complementarity. However, existing world models typically forecast these modalities independently or cascade them heuri",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+        "url": "https://huggingface.co/papers/2611.13001",
+        "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spa",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-08T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality. Existing certainty-aware strategies rely on instantaneous confidence or entropy, but these local signals can be misleading on difficult reasoning problems. W",
         "metric": "8 upvotes",
         "published_at": "2026-11-07T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Embodied First Exam",
-        "url": "https://huggingface.co/papers/2611.12177",
-        "summary": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introdu",
-        "metric": "19 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "LEASH: Stay Safe in Agentic Robotics",
-        "url": "https://huggingface.co/papers/2611.14115",
-        "summary": "Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence. These advances make agentic robotics a promising path toward artificial general intelligence in robotics. However, we find that using foundation models to control robots poses serious safety risks",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Visual Similarity in Adult Word Extension and Artificial Word Learning",
-        "source_url": "https://huggingface.co/papers/2611.14116",
+        "source_anchor": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
+        "source_url": "https://huggingface.co/papers/2611.11912",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "7ff6c6ab2f4349f7"
+      "receipt_hash": "69c7468a66bdb766"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_7ff6c6ab2f43"
+      "receipt_hash": "arm_69c7468a66bd"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
