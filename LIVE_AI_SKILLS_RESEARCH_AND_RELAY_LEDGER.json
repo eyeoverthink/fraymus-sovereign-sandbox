@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-11T22:22:32.369Z",
-  "packet_sha256": "8ad96d1dd33d3b8b91dfc4f26bf59afda61c3d135d47f6288eeb2d5066725e1d",
+  "updated_at": "2026-11-12T00:29:36.206Z",
+  "packet_sha256": "48f40e3fec24f775531f5a89dd20cb3b9bc87b5efebbbf7e4aa9841ea96c5d4f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "57f0b0a23d26211d",
+    "merkle_root_hex": "1a6417d0de312695",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "57f0b0a23d26211d",
-      "frame_sha256": "c59dd91551224878b37e5d32fe6ac5dfd3bcba79710f82933bdf855e14e7770c",
+      "merkle_root_hex": "1a6417d0de312695",
+      "frame_sha256": "a8b28c0b72546c658006768677f6d8315050424b78299dbf9a8ab05924d2449b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:f02e7900:a6c45285:7520788c:a2d320e1",
+      "hdc_16k": "hdc16k:2d4c51ff:24b54bc5:db28189f:e5f56752",
       "spectral_4d": {
-        "coord4D": "197.157.217:21",
-        "rgbaStr": "{197}{157}{217}{21}",
-        "carrier_freq_hz": 460,
+        "coord4D": "168.178.140:11",
+        "rgbaStr": "{168}{178}{140}{11}",
+        "carrier_freq_hz": 412,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_57f0b0a23d26211d",
+        "receipt_id": "R_san_yin_1a6417d0de312695",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-11T22:22:41.369Z"
+        "verified_at": "2026-11-12T00:29:44.793Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-11T22:22:32.984Z",
+    "harvested_at": "2026-11-12T00:29:36.767Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "Visual Similarity in Adult Word Extension and Artificial Word Learning",
         "url": "https://huggingface.co/papers/2611.14116",
         "summary": "When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? First, we reanalyzed trial-level data from a large adult word-extension study (Lewis & Frank, 2018), computing each test image's distance to the examples shown in the space of a frozen self-supervised vi",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "Prompt2Echo (P2Echo): Text-Prompted Multi-View Echocardiography Segmentation with One Model",
         "url": "https://huggingface.co/papers/2611.13425",
         "summary": "Automated segmentation in multi-view echocardiography is essential for comprehensive cardiac assessment, yet remains challenging due to substantial anatomical and appearance variability across standard acoustic windows. In this paper, we present P2Echo, a unified framework capable of segmenting diverse cardiac structur",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -113,7 +113,7 @@
         "title": "Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking",
         "url": "https://huggingface.co/papers/2611.10486",
         "summary": "Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality. Existing certainty-aware strategies rely on instantaneous confidence or entropy, but these local signals can be misleading on difficult reasoning problems. W",
-        "metric": "7 upvotes",
+        "metric": "8 upvotes",
         "published_at": "2026-11-07T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "Embodied First Exam",
         "url": "https://huggingface.co/papers/2611.12177",
         "summary": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introdu",
-        "metric": "15 upvotes",
+        "metric": "19 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "57f0b0a23d26211d"
+      "receipt_hash": "1a6417d0de312695"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_57f0b0a23d26"
+      "receipt_hash": "arm_1a6417d0de31"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
