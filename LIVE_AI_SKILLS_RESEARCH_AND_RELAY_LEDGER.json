@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-12T13:10:54.723Z",
-  "packet_sha256": "d4822192f1ed00053fbf6df6c62dc62929338030a33d7d23843fa299f8d1cdb1",
+  "updated_at": "2026-11-12T15:17:57.790Z",
+  "packet_sha256": "798395c167cd4c61e205f128a7793b455d7fc8dd0ad0a134fc4d085a9227c8d5",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a4d329dbe1dee3cf",
+    "merkle_root_hex": "e2757a82a1624d06",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a4d329dbe1dee3cf",
-      "frame_sha256": "009672ffe288994d9a910b6e674f90b1a5cf68751ba29050b355b040d8604819",
+      "merkle_root_hex": "e2757a82a1624d06",
+      "frame_sha256": "6624466620ba5036b3bbf752c63947c26349fde169b01bd2c3d1a8bcc7ee6a58",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:6715dccb:39dca689:031348a9:22266e86",
+      "hdc_16k": "hdc16k:7f2eb664:b0dfc070:8cd15be2:c53e7295",
       "spectral_4d": {
-        "coord4D": "108.150.114:255",
-        "rgbaStr": "{108}{150}{114}{255}",
-        "carrier_freq_hz": 348,
+        "coord4D": "102.36.70:102",
+        "rgbaStr": "{102}{36}{70}{102}",
+        "carrier_freq_hz": 255,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a4d329dbe1dee3cf",
+        "receipt_id": "R_san_yin_e2757a82a1624d06",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-12T13:11:03.723Z"
+        "verified_at": "2026-11-12T15:18:05.111Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-12T13:10:56.378Z",
+    "harvested_at": "2026-11-12T15:17:58.274Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+        "url": "https://huggingface.co/papers/2611.13766",
+        "summary": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through devi",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
         "url": "https://huggingface.co/papers/2611.12304",
         "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limi",
-        "metric": "5 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -123,15 +132,6 @@
         "url": "https://huggingface.co/papers/2611.14418",
         "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two margin). Quantization is",
         "metric": "1 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
-        "url": "https://huggingface.co/papers/2611.14413",
-        "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and which is the cheaper way to spend a fixed budget. On Qwen3-0.6B and Qwen3-1.7B with simulated round-",
-        "metric": "0 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
-        "source_url": "https://huggingface.co/papers/2611.12304",
+        "source_anchor": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+        "source_url": "https://huggingface.co/papers/2611.13766",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a4d329dbe1dee3cf"
+      "receipt_hash": "e2757a82a1624d06"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a4d329dbe1de"
+      "receipt_hash": "arm_e2757a82a162"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
