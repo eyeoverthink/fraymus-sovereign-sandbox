@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-12T11:02:58.115Z",
-  "packet_sha256": "f03d77eea862c8bc31fbb11b420bf9bef5dbde67482e99104744a2bb7a8d108e",
+  "updated_at": "2026-11-12T13:10:54.723Z",
+  "packet_sha256": "d4822192f1ed00053fbf6df6c62dc62929338030a33d7d23843fa299f8d1cdb1",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "434c08852361493b",
+    "merkle_root_hex": "a4d329dbe1dee3cf",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "434c08852361493b",
-      "frame_sha256": "e53b5d584015b830c0e1c9d8f586740caa0524a2a89d3cb6471173cb3b7e94a3",
+      "merkle_root_hex": "a4d329dbe1dee3cf",
+      "frame_sha256": "009672ffe288994d9a910b6e674f90b1a5cf68751ba29050b355b040d8604819",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8df0aef1:7cda5903:f8094289:cfd717eb",
+      "hdc_16k": "hdc16k:6715dccb:39dca689:031348a9:22266e86",
       "spectral_4d": {
-        "coord4D": "229.59.93:88",
-        "rgbaStr": "{229}{59}{93}{88}",
-        "carrier_freq_hz": 353,
+        "coord4D": "108.150.114:255",
+        "rgbaStr": "{108}{150}{114}{255}",
+        "carrier_freq_hz": 348,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_434c08852361493b",
+        "receipt_id": "R_san_yin_a4d329dbe1dee3cf",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-12T11:03:04.939Z"
+        "verified_at": "2026-11-12T13:11:03.723Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-12T11:02:58.689Z",
+    "harvested_at": "2026-11-12T13:10:56.378Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+        "url": "https://huggingface.co/papers/2611.12304",
+        "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limi",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -122,15 +131,6 @@
         "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
         "url": "https://huggingface.co/papers/2611.14413",
         "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and which is the cheaper way to spend a fixed budget. On Qwen3-0.6B and Qwen3-1.7B with simulated round-",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard",
-        "url": "https://huggingface.co/papers/2611.13843",
-        "summary": "Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rarely measured on a fixed yardstick. We release PolyRoute: 322 native-language support messages in 12 languages and 9 writing systems, 156 code-mixed or romanised messages (Hinglish, Spanglish, Arabizi), ",
         "metric": "0 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
-        "source_url": "https://huggingface.co/papers/2611.05862",
+        "source_anchor": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+        "source_url": "https://huggingface.co/papers/2611.12304",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "434c08852361493b"
+      "receipt_hash": "a4d329dbe1dee3cf"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_434c08852361"
+      "receipt_hash": "arm_a4d329dbe1de"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
