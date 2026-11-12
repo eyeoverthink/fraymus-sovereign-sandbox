@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-12T06:51:33.757Z",
-  "packet_sha256": "5f38364d13127d80f8e17cf8868422ccc4ef186157a0efff2e048e0ce9aeb73f",
+  "updated_at": "2026-11-12T08:58:49.393Z",
+  "packet_sha256": "2d9ded7cf47859052392e9d265bd44f7154320e75757f79bdf1113e8787413ed",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9a70a11cc1ff24c0",
+    "merkle_root_hex": "27563d6e2d19bfca",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9a70a11cc1ff24c0",
-      "frame_sha256": "39589532052bfc348fb3f81d908864b8643572d5f488d1f03627ec943565aa44",
+      "merkle_root_hex": "27563d6e2d19bfca",
+      "frame_sha256": "ee37684bfc94e0e455ab1b58a7c6de8adcc7879c3ddb105a1f5d89d3daefc43a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:6bc3970e:b7a58537:d7ff32c6:f8c2fff2",
+      "hdc_16k": "hdc16k:0796a4e3:4d5d8360:a1985637:77834d29",
       "spectral_4d": {
-        "coord4D": "57.88.149:50",
-        "rgbaStr": "{57}{88}{149}{50}",
-        "carrier_freq_hz": 304,
+        "coord4D": "238.55.104:75",
+        "rgbaStr": "{238}{55}{104}{75}",
+        "carrier_freq_hz": 362,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9a70a11cc1ff24c0",
+        "receipt_id": "R_san_yin_27563d6e2d19bfca",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-12T06:51:39.732Z"
+        "verified_at": "2026-11-12T08:58:56.367Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-12T06:51:34.222Z",
+    "harvested_at": "2026-11-12T08:58:49.735Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
-        "url": "https://huggingface.co/papers/2610.40394",
-        "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning",
-        "metric": "9 upvotes",
-        "published_at": "2026-10-29T00:00:00.000Z"
+        "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+        "url": "https://huggingface.co/papers/2611.14418",
+        "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two margin). Quantization is",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models",
-        "url": "https://huggingface.co/papers/2607.24999",
-        "summary": "Human cognitive tasks let us compare language models with humans under controlled conditions. Yet a model can reproduce the direction of a human effect while making different errors. CogBattery evaluates 54 open-weight language models on text adaptations of 13 cognitive paradigms, comparing each with human data from it",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-30T00:00:00.000Z"
+        "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+        "url": "https://huggingface.co/papers/2611.14413",
+        "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and which is the cheaper way to spend a fixed budget. On Qwen3-0.6B and Qwen3-1.7B with simulated round-",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models",
-        "url": "https://huggingface.co/papers/2603.27343",
-        "summary": "Human working memory lets people maintain and update information. Large language models (LLMs) face a related demand when tracking updates within a single prompt without writing out intermediate states, yet existing tests differ in their constraints on written steps. We introduce a working-memory-inspired probe of cumu",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-30T00:00:00.000Z"
+        "title": "PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard",
+        "url": "https://huggingface.co/papers/2611.13843",
+        "summary": "Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rarely measured on a fixed yardstick. We release PolyRoute: 322 native-language support messages in 12 languages and 9 writing systems, 156 code-mixed or romanised messages (Hinglish, Spanglish, Arabizi), ",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
-        "url": "https://huggingface.co/papers/2611.10193",
-        "summary": "Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introduce PISA, a prompt-a",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-06T00:00:00.000Z"
+        "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+        "url": "https://huggingface.co/papers/2611.13410",
+        "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behav",
+        "metric": "13 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
-        "url": "https://huggingface.co/papers/2610.39671",
-        "summary": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled ",
-        "metric": "14 upvotes",
-        "published_at": "2026-10-29T00:00:00.000Z"
+        "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
+        "url": "https://huggingface.co/papers/2611.13758",
+        "summary": "Weight-space programming allows language models to read a trained neural network's weights and edit them. This opens the door to ``training'' by reasoning rather than through gradient descent. Prior work has demonstrated its functionality and promise for game-playing networks and fixing specific failures in language mo",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Scaling Mathematical Proof Supervision from Structured Textbooks",
-        "source_url": "https://huggingface.co/papers/2610.40394",
+        "source_anchor": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+        "source_url": "https://huggingface.co/papers/2611.14418",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9a70a11cc1ff24c0"
+      "receipt_hash": "27563d6e2d19bfca"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9a70a11cc1ff"
+      "receipt_hash": "arm_27563d6e2d19"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
