@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-12T00:29:36.206Z",
-  "packet_sha256": "48f40e3fec24f775531f5a89dd20cb3b9bc87b5efebbbf7e4aa9841ea96c5d4f",
+  "updated_at": "2026-11-12T01:02:30.086Z",
+  "packet_sha256": "e5ab44abc765a033593270d527492f4f6e48f031405e18f20aeb3f09f18ffd49",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "1a6417d0de312695",
+    "merkle_root_hex": "7ff6c6ab2f4349f7",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "1a6417d0de312695",
-      "frame_sha256": "a8b28c0b72546c658006768677f6d8315050424b78299dbf9a8ab05924d2449b",
+      "merkle_root_hex": "7ff6c6ab2f4349f7",
+      "frame_sha256": "72082354486389475fc12849fa6e201f2b4c7caed58b2ebb6ca99464e13e89fe",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:2d4c51ff:24b54bc5:db28189f:e5f56752",
+      "hdc_16k": "hdc16k:eb81f823:56bcdcf5:f8cc872f:adf78df5",
       "spectral_4d": {
-        "coord4D": "168.178.140:11",
-        "rgbaStr": "{168}{178}{140}{11}",
-        "carrier_freq_hz": 412,
+        "coord4D": "114.8.35:84",
+        "rgbaStr": "{114}{8}{35}{84}",
+        "carrier_freq_hz": 227,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_1a6417d0de312695",
+        "receipt_id": "R_san_yin_7ff6c6ab2f4349f7",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-12T00:29:44.793Z"
+        "verified_at": "2026-11-12T01:02:37.351Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-12T00:29:36.767Z",
+    "harvested_at": "2026-11-12T01:02:30.624Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "Visual Similarity in Adult Word Extension and Artificial Word Learning",
         "url": "https://huggingface.co/papers/2611.14116",
         "summary": "When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? First, we reanalyzed trial-level data from a large adult word-extension study (Lewis & Frank, 2018), computing each test image's distance to the examples shown in the space of a frozen self-supervised vi",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "1a6417d0de312695"
+      "receipt_hash": "7ff6c6ab2f4349f7"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_1a6417d0de31"
+      "receipt_hash": "arm_7ff6c6ab2f43"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
