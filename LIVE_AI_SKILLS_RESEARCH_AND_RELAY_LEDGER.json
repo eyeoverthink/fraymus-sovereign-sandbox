@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-12T02:37:35.009Z",
-  "packet_sha256": "6353350009a2a79f2f96df94787e8dcc491849006858725b7256ea852a6d7a40",
+  "updated_at": "2026-11-12T04:44:33.919Z",
+  "packet_sha256": "58b6b13debd38b784d1b3378823a4655bff595c202dc03c7a89dbc2429406c3e",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "69c7468a66bdb766",
+    "merkle_root_hex": "e9736b424cdc0b65",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "69c7468a66bdb766",
-      "frame_sha256": "0e9c5081e0b3629e1727d72b406f68f7125ea3e2385781de3a0abf2923a37dc1",
+      "merkle_root_hex": "e9736b424cdc0b65",
+      "frame_sha256": "944e1e195a4a899ec3d456af02ab7130c0e69d1faec59dcd066699f8cf215762",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:52ca5a77:22741f3a:583d73eb:fb1eb13a",
+      "hdc_16k": "hdc16k:81b78599:26e49d85:5e9139cf:8a4e0087",
       "spectral_4d": {
-        "coord4D": "14.156.80:129",
-        "rgbaStr": "{14}{156}{80}{129}",
-        "carrier_freq_hz": 279,
+        "coord4D": "148.78.30:25",
+        "rgbaStr": "{148}{78}{30}{25}",
+        "carrier_freq_hz": 283,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_69c7468a66bdb766",
+        "receipt_id": "R_san_yin_e9736b424cdc0b65",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-12T02:37:44.009Z"
+        "verified_at": "2026-11-12T04:44:42.919Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-12T02:37:35.831Z",
+    "harvested_at": "2026-11-12T04:44:34.577Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+        "url": "https://huggingface.co/papers/2610.39671",
+        "summary": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled ",
+        "metric": "4 upvotes",
+        "published_at": "2026-10-29T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+        "url": "https://huggingface.co/papers/2611.13028",
+        "summary": "AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult to verify automatically, let alone applying it for Reinforcement Learning (RL). We",
+        "metric": "6 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +122,7 @@
         "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
         "url": "https://huggingface.co/papers/2611.13001",
         "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spa",
-        "metric": "1 upvotes",
+        "metric": "22 upvotes",
         "published_at": "2026-11-08T00:00:00.000Z"
       },
       {
@@ -115,24 +133,6 @@
         "summary": "When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? First, we reanalyzed trial-level data from a large adult word-extension study (Lewis & Frank, 2018), computing each test image's distance to the examples shown in the space of a frozen self-supervised vi",
         "metric": "2 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Prompt2Echo (P2Echo): Text-Prompted Multi-View Echocardiography Segmentation with One Model",
-        "url": "https://huggingface.co/papers/2611.13425",
-        "summary": "Automated segmentation in multi-view echocardiography is essential for comprehensive cardiac assessment, yet remains challenging due to substantial anatomical and appearance variability across standard acoustic windows. In this paper, we present P2Echo, a unified framework capable of segmenting diverse cardiac structur",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking",
-        "url": "https://huggingface.co/papers/2611.10486",
-        "summary": "Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality. Existing certainty-aware strategies rely on instantaneous confidence or entropy, but these local signals can be misleading on difficult reasoning problems. W",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-07T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
-        "source_url": "https://huggingface.co/papers/2611.11912",
+        "source_anchor": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+        "source_url": "https://huggingface.co/papers/2610.39671",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "69c7468a66bdb766"
+      "receipt_hash": "e9736b424cdc0b65"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_69c7468a66bd"
+      "receipt_hash": "arm_e9736b424cdc"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
