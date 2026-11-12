@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-12T17:26:00.549Z",
-  "packet_sha256": "6b0c3f0bc1f2007039a82b85a7c09edeb390d842ab8a9eeb66bbf8e1ae8b563c",
+  "updated_at": "2026-11-12T19:33:01.480Z",
+  "packet_sha256": "857369b47091723eb242f3f21c0fd5e57e951c718c28b30eb7aa0e22338d0b73",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "197229a053325535",
+    "merkle_root_hex": "7528e2e79db05022",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "197229a053325535",
-      "frame_sha256": "8fb8f575bf6978cbb0d45cc078fee6a13444c541e4243b6a6fcf2bf37da580a7",
+      "merkle_root_hex": "7528e2e79db05022",
+      "frame_sha256": "ac06dcb3b77f315e2a5ee48035dacae23f4535d7c053d56848992d6a2e0e5b46",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ceaf4be6:dcec504c:d97b31c8:10898eb3",
+      "hdc_16k": "hdc16k:99cbc382:85ecd915:0da3878a:d3548478",
       "spectral_4d": {
-        "coord4D": "143.184.245:117",
-        "rgbaStr": "{143}{184}{245}{117}",
-        "carrier_freq_hz": 461,
+        "coord4D": "172.6.220:179",
+        "rgbaStr": "{172}{6}{220}{179}",
+        "carrier_freq_hz": 363,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_197229a053325535",
+        "receipt_id": "R_san_yin_7528e2e79db05022",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-12T17:26:09.549Z"
+        "verified_at": "2026-11-12T19:33:10.480Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-12T17:26:01.232Z",
+    "harvested_at": "2026-11-12T19:33:01.885Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
         "url": "https://huggingface.co/papers/2611.11306",
         "summary": "AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisions and violate computer security laws. In this paper, we introduce ScrapeBench, the first agentic benchmark for empirically evaluating the legal compliance of AI agents with website scraping policies, ",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
         "url": "https://huggingface.co/papers/2611.13766",
         "summary": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through devi",
-        "metric": "1 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -113,7 +113,7 @@
         "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
         "url": "https://huggingface.co/papers/2611.12304",
         "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limi",
-        "metric": "9 upvotes",
+        "metric": "11 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
         "url": "https://huggingface.co/papers/2611.05862",
         "summary": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable evaluation faces Data scarcity and Difficulty Standardizing Criteria. To address these obstacles, we introduce CARTBench for CART (Complex and Ambiguous Requests with Timelines). For Data scarcity, we cu",
-        "metric": "0 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-04T00:00:00.000Z"
       },
       {
@@ -131,7 +131,7 @@
         "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
         "url": "https://huggingface.co/papers/2611.12869",
         "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligning with those of vision models. However, recent work has questioned whether this trend continues to hold for newer langu",
-        "metric": "4 upvotes",
+        "metric": "5 upvotes",
         "published_at": "2026-11-09T18:53:57.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "197229a053325535"
+      "receipt_hash": "7528e2e79db05022"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_197229a05332"
+      "receipt_hash": "arm_7528e2e79db0"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
