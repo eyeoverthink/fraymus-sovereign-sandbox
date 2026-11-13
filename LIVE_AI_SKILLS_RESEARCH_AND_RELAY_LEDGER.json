@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T04:00:59.842Z",
-  "packet_sha256": "661dc1aba0fff93037fd255395f3f9f68063302b5a086a39462d9a320b1f5253",
+  "updated_at": "2026-11-13T04:31:19.134Z",
+  "packet_sha256": "4e046a5f7f8233c262ebba901e1abff9ef2cbe84df9eb020197696d6b1eb9d7a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "19f4f68c3f4a5d01",
+    "merkle_root_hex": "a1ef1bf89f534577",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "19f4f68c3f4a5d01",
-      "frame_sha256": "09f64f88ab4a9c270fe3ae9683249216cc786b0ddd049070c4f08a503ab546c2",
+      "merkle_root_hex": "a1ef1bf89f534577",
+      "frame_sha256": "0da2106e636f92649afeeaedb912cca2ecb921033b6b358dd57a294b4436f947",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:b14ea185:209bfe26:1d6bf6e1:9209e44e",
+      "hdc_16k": "hdc16k:bef02181:2a3ccb58:75968a5d:3d813594",
       "spectral_4d": {
-        "coord4D": "9.246.79:136",
-        "rgbaStr": "{9}{246}{79}{136}",
-        "carrier_freq_hz": 327,
+        "coord4D": "13.162.16:110",
+        "rgbaStr": "{13}{162}{16}{110}",
+        "carrier_freq_hz": 246,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_19f4f68c3f4a5d01",
+        "receipt_id": "R_san_yin_a1ef1bf89f534577",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T04:01:08.039Z"
+        "verified_at": "2026-11-13T04:31:26.294Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T04:01:05.414Z",
+    "harvested_at": "2026-11-13T04:31:19.428Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
         "url": "https://huggingface.co/papers/2611.15131",
         "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models la",
-        "metric": "3 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
         "url": "https://huggingface.co/papers/2611.13004",
         "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a",
-        "metric": "1 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-11-08T00:00:00.000Z"
       },
       {
@@ -113,7 +113,7 @@
         "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
         "url": "https://huggingface.co/papers/2611.14815",
         "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occl",
-        "metric": "11 upvotes",
+        "metric": "14 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
         "url": "https://huggingface.co/papers/2611.05984",
         "summary": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient des",
-        "metric": "5 upvotes",
+        "metric": "11 upvotes",
         "published_at": "2026-11-04T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "19f4f68c3f4a5d01"
+      "receipt_hash": "a1ef1bf89f534577"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_19f4f68c3f4a"
+      "receipt_hash": "arm_a1ef1bf89f53"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
