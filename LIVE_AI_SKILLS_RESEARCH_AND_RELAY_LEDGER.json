@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T01:53:58.895Z",
-  "packet_sha256": "05c978e31c6a33c31ca8f41b587fb3d2043b9f535db0d66c5c2ebc7d36baec82",
+  "updated_at": "2026-11-13T04:00:59.842Z",
+  "packet_sha256": "661dc1aba0fff93037fd255395f3f9f68063302b5a086a39462d9a320b1f5253",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "311406c6029d0e8c",
+    "merkle_root_hex": "19f4f68c3f4a5d01",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "311406c6029d0e8c",
-      "frame_sha256": "48d6c9786c09f864a617f78c01da6eb5fdf7d4efbd576a027b7f9b03fdc6887e",
+      "merkle_root_hex": "19f4f68c3f4a5d01",
+      "frame_sha256": "09f64f88ab4a9c270fe3ae9683249216cc786b0ddd049070c4f08a503ab546c2",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:839deb1f:632d92db:a0d2b3df:c7b66df1",
+      "hdc_16k": "hdc16k:b14ea185:209bfe26:1d6bf6e1:9209e44e",
       "spectral_4d": {
-        "coord4D": "72.214.201:120",
-        "rgbaStr": "{72}{214}{201}{120}",
-        "carrier_freq_hz": 413,
+        "coord4D": "9.246.79:136",
+        "rgbaStr": "{9}{246}{79}{136}",
+        "carrier_freq_hz": 327,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_311406c6029d0e8c",
+        "receipt_id": "R_san_yin_19f4f68c3f4a5d01",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T01:54:06.740Z"
+        "verified_at": "2026-11-13T04:01:08.039Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T01:53:59.405Z",
+    "harvested_at": "2026-11-13T04:01:05.414Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,6 +92,42 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+        "url": "https://huggingface.co/papers/2611.15131",
+        "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models la",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-11T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+        "url": "https://huggingface.co/papers/2611.13004",
+        "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-08T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+        "url": "https://huggingface.co/papers/2611.14815",
+        "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occl",
+        "metric": "11 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+        "url": "https://huggingface.co/papers/2611.05984",
+        "summary": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient des",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-04T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Subliminal Learning in Vision-Language Models",
         "url": "https://huggingface.co/papers/2611.08538",
         "summary": "Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a student through training data unrelated to that preference. We study whether subliminal learning also occurs in vision-language models (VLMs). We finetune a teacher VLM to prefer a specific animal or faci",
@@ -99,93 +135,57 @@
         "published_at": "2026-11-04T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Probing Transformer Representations Layer by Layer, Module by Module",
-        "url": "https://huggingface.co/papers/2611.11531",
-        "summary": "Which representation should be probed in a transformer-based foundation model? Recent work shows that the standard practice of probing the final layer is often suboptimal, as intermediate layers can provide better features. Yet, representations are still largely studied along depth alone, treating each transformer bloc",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-08T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
-        "url": "https://huggingface.co/papers/2611.11306",
-        "summary": "AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisions and violate computer security laws. In this paper, we introduce ScrapeBench, the first agentic benchmark for empirically evaluating the legal compliance of AI agents with website scraping policies, ",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
-        "url": "https://huggingface.co/papers/2611.13766",
-        "summary": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through devi",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
-        "url": "https://huggingface.co/papers/2611.12304",
-        "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limi",
-        "metric": "11 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling",
+        "url": "http://arxiv.org/abs/2611.15568v1",
+        "summary": "A benchmark score is commonly read as a proxy for model capability. We study the inverse problem: can a model be driven to a target score, and do its failures resemble those of a naturally weaker model? We operationalize believable performance reduction along three axes: target calibration, item-difficulty structure, a",
+        "metric": "Published 2026-11-11",
+        "published_at": "2026-11-11T14:53:50Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
-        "url": "http://arxiv.org/abs/2611.14515v1",
-        "summary": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this inform",
-        "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T18:58:46Z"
+        "title": "Observations Drift, Structures Remain: Structural Pretraining with Time Alignment for Electromagnetic Signals",
+        "url": "http://arxiv.org/abs/2611.15566v1",
+        "summary": "Electromagnetic signal modeling is increasingly moving toward self-supervised pretraining on heterogeneous I/Q observations. However, an observed waveform is jointly shaped by signal generation, propagation environments, and acquisition processes, which mix reusable structural regularities with observation-specific var",
+        "metric": "Published 2026-11-11",
+        "published_at": "2026-11-11T14:51:23Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
-        "url": "http://arxiv.org/abs/2611.14514v1",
-        "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supp",
-        "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T18:58:43Z"
+        "title": "Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss",
+        "url": "http://arxiv.org/abs/2611.15543v1",
+        "summary": "LLM applications increasingly rely on translators and compatibility layers to move conversations across APIs. Yet a translated request can be accepted by the target API while silently losing information about instruction roles, tool interactions, error states, or generation controls. We introduce isloss, a deterministi",
+        "metric": "Published 2026-11-11",
+        "published_at": "2026-11-11T14:28:01Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
-        "url": "http://arxiv.org/abs/2611.14511v1",
-        "summary": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-liga",
-        "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T18:56:32Z"
+        "title": "Analysis choices decide whether untrained networks beat trained ones at V1: a multiverse analysis of model-brain RSA",
+        "url": "http://arxiv.org/abs/2611.15533v1",
+        "summary": "Untrained convolutional networks have been reported to rival trained networks as models of visual cortex, and we had reported an untrained-network advantage over backpropagation at V1 in THINGS fMRI, together with a dependence on evaluation resolution. Under a pre-specified ridge readout, the untrained network scored b",
+        "metric": "Published 2026-11-11",
+        "published_at": "2026-11-11T14:18:23Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
-        "url": "http://arxiv.org/abs/2611.14505v1",
-        "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weig",
-        "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T18:55:01Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "$G_2'$-Slodowy Slices II: Anosov Representations",
-        "url": "http://arxiv.org/abs/2611.14503v1",
-        "summary": "We find \\emph{exotic} connected components of Anosov representations of surface groups in the higher rank group $G=G_2'$ that are neither $ι$-Fuchsian deformations nor higher rank Teichmüller spaces. These representations are found through the non-abelian Hodge correspondence via $G_2'$-Higgs bundles that we call \\emph",
-        "metric": "Published 2026-11-10",
-        "published_at": "2026-11-10T18:52:47Z"
+        "title": "Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game",
+        "url": "http://arxiv.org/abs/2611.15524v1",
+        "summary": "Tabletop games offer a compelling scenario to study the interaction between artificial and human agents, combining social interaction with game state tracking and physical manipulation. To assess the game state, a robot needs to precisely detect closely related game objects, such as different card designs, requiring de",
+        "metric": "Published 2026-11-11",
+        "published_at": "2026-11-11T14:14:19Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Subliminal Learning in Vision-Language Models",
-        "source_url": "https://huggingface.co/papers/2611.08538",
+        "source_anchor": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+        "source_url": "https://huggingface.co/papers/2611.15131",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
-        "source_url": "http://arxiv.org/abs/2611.14514v1",
+        "source_anchor": "Observations Drift, Structures Remain: Structural Pretraining with Time Alignment for Electromagnetic Signals",
+        "source_url": "http://arxiv.org/abs/2611.15566v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "311406c6029d0e8c"
+      "receipt_hash": "19f4f68c3f4a5d01"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_311406c6029d"
+      "receipt_hash": "arm_19f4f68c3f4a"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
