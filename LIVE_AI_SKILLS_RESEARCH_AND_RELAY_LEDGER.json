@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T19:21:45.271Z",
-  "packet_sha256": "bea1e312e7d5b4b5daf37825415e101e95e8cd5c56fa117a209c57a7e6ad37b4",
+  "updated_at": "2026-11-13T20:56:50.531Z",
+  "packet_sha256": "a243bcc9f7eda0105aaeebb3e5621b7ce035835e2a765bd5f262f515502d31ac",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "78dc9677298c45a3",
+    "merkle_root_hex": "d3cb7d56e6cda6a3",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "78dc9677298c45a3",
-      "frame_sha256": "7626b9467aa179f4c425ad3c2374a296fe59c625c9d1fc3406863590a81c025e",
+      "merkle_root_hex": "d3cb7d56e6cda6a3",
+      "frame_sha256": "5284459d0eb496ac8fe7c6990021c598783f94b5c8a0ee291b12591e50507149",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:31427fd1:18559db8:2c1b4c41:62b537d3",
+      "hdc_16k": "hdc16k:74c8dfb2:884e7196:881413b2:8bcc2763",
       "spectral_4d": {
-        "coord4D": "118.38.185:70",
-        "rgbaStr": "{118}{38}{185}{70}",
-        "carrier_freq_hz": 331,
+        "coord4D": "82.132.69:157",
+        "rgbaStr": "{82}{132}{69}{157}",
+        "carrier_freq_hz": 298,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_78dc9677298c45a3",
+        "receipt_id": "R_san_yin_d3cb7d56e6cda6a3",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T19:21:54.271Z"
+        "verified_at": "2026-11-13T20:56:58.507Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T19:21:45.620Z",
+    "harvested_at": "2026-11-13T20:56:51.144Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+        "url": "https://huggingface.co/papers/2611.17190",
+        "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving together supply mutua",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+        "url": "https://huggingface.co/papers/2611.09567",
+        "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via hig",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-06T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required ",
         "metric": "0 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Unbundling Multimodal Vision Encoding",
-        "url": "https://huggingface.co/papers/2611.17334",
-        "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretrai",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-        "url": "https://huggingface.co/papers/2611.16409",
-        "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, recent works wrap the ",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
-        "source_url": "https://huggingface.co/papers/2611.16961",
+        "source_anchor": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+        "source_url": "https://huggingface.co/papers/2611.17190",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "78dc9677298c45a3"
+      "receipt_hash": "d3cb7d56e6cda6a3"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_78dc9677298c"
+      "receipt_hash": "arm_d3cb7d56e6cd"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
