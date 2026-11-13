@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T14:31:55.895Z",
-  "packet_sha256": "4c4f4d2dee0e95578078ec2796f4515b72975dd8c607e93500cf531f5132067f",
+  "updated_at": "2026-11-13T15:04:42.492Z",
+  "packet_sha256": "2d919ce7d09b22f9017f6762b8311e9f2f34222c34b9bee788c9904c10198c72",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "18d2abbf24bf0b80",
+    "merkle_root_hex": "723070c2d3f41af2",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "18d2abbf24bf0b80",
-      "frame_sha256": "3e13117288e062c4e7f46ff2db4ca4b4de41c834fea57ba20d98b2bbdf9ab518",
+      "merkle_root_hex": "723070c2d3f41af2",
+      "frame_sha256": "c7be101d5fb0c5c3a8d9402d36f2ea4b631fc8e0ddb87fdfdf7b4479694125d6",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:6da13fe2:fb900e09:e4458d86:b4182db4",
+      "hdc_16k": "hdc16k:c4bddf24:23512d53:dd1ade74:1acaca7e",
       "spectral_4d": {
-        "coord4D": "62.19.17:114",
-        "rgbaStr": "{62}{19}{17}{114}",
-        "carrier_freq_hz": 193,
+        "coord4D": "199.190.16:29",
+        "rgbaStr": "{199}{190}{16}{29}",
+        "carrier_freq_hz": 367,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_18d2abbf24bf0b80",
+        "receipt_id": "R_san_yin_723070c2d3f41af2",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T14:32:04.303Z"
+        "verified_at": "2026-11-13T15:04:51.492Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T14:31:56.395Z",
+    "harvested_at": "2026-11-13T15:04:42.969Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -104,7 +104,7 @@
         "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
         "url": "https://huggingface.co/papers/2611.15844",
         "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open a",
-        "metric": "19 upvotes",
+        "metric": "20 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "18d2abbf24bf0b80"
+      "receipt_hash": "723070c2d3f41af2"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_18d2abbf24bf"
+      "receipt_hash": "arm_723070c2d3f4"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
