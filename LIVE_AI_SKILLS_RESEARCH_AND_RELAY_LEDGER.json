@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T10:17:49.264Z",
-  "packet_sha256": "141e63ab2566ac73119dba212b0aa1ddaa46bb0a25d487bb04ef31f9329311d6",
+  "updated_at": "2026-11-13T12:24:46.591Z",
+  "packet_sha256": "53eb8bcaf5aea7bd34219d6cc23c8ffcf15c6d277e47af3a9bcd2c20cf1152db",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "5b27d5f826e51d9b",
+    "merkle_root_hex": "102e5774b2d23d4f",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "5b27d5f826e51d9b",
-      "frame_sha256": "d2f9fa87c396c71708e79530ff51569bcb1c33b651bfea0828966faabcf675d5",
+      "merkle_root_hex": "102e5774b2d23d4f",
+      "frame_sha256": "c1e7900f52080be3036b49cad5d535d5c60c6a39382dc8be13df914febc7626c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:04c424fe:045fba6c:f67acab6:d83eb021",
+      "hdc_16k": "hdc16k:d3be26f1:a8e7e332:d8f191bb:9ed707f7",
       "spectral_4d": {
-        "coord4D": "210.249.250:135",
-        "rgbaStr": "{210}{249}{250}{135}",
-        "carrier_freq_hz": 538,
+        "coord4D": "193.231.144:15",
+        "rgbaStr": "{193}{231}{144}{15}",
+        "carrier_freq_hz": 459,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_5b27d5f826e51d9b",
+        "receipt_id": "R_san_yin_102e5774b2d23d4f",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T10:17:57.596Z"
+        "verified_at": "2026-11-13T12:24:55.591Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T10:17:49.827Z",
+    "harvested_at": "2026-11-13T12:24:47.102Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+        "url": "https://huggingface.co/papers/2611.16009",
+        "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take these designs apart an",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-11T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+        "url": "https://huggingface.co/papers/2611.15844",
+        "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open a",
+        "metric": "14 upvotes",
+        "published_at": "2026-11-11T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+        "url": "https://huggingface.co/papers/2611.14256",
+        "summary": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer. This survey investigates the structural source of asymme",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
         "url": "https://huggingface.co/papers/2611.08318",
         "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning,",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-05T00:00:00.000Z"
       },
       {
@@ -105,33 +132,6 @@
         "url": "https://huggingface.co/papers/2607.13920",
         "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects ag",
         "metric": "2 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
-        "url": "https://huggingface.co/papers/2611.14046",
-        "summary": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure. To address this, we propose two complementary approaches to directly attack and defend against confidence structure deformation. First, building u",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-        "url": "https://huggingface.co/papers/2611.12872",
-        "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant ",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
-        "url": "https://huggingface.co/papers/2611.17331",
-        "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy th",
-        "metric": "18 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
-        "source_url": "https://huggingface.co/papers/2611.08318",
+        "source_anchor": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+        "source_url": "https://huggingface.co/papers/2611.16009",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "5b27d5f826e51d9b"
+      "receipt_hash": "102e5774b2d23d4f"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_5b27d5f826e5"
+      "receipt_hash": "arm_102e5774b2d2"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
