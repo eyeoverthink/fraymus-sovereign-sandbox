@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T04:31:19.134Z",
-  "packet_sha256": "4e046a5f7f8233c262ebba901e1abff9ef2cbe84df9eb020197696d6b1eb9d7a",
+  "updated_at": "2026-11-13T06:03:51.397Z",
+  "packet_sha256": "f1c35dea9fcba2c9f6200c00b11b4380a86e75bf98fc47ed500c2e9200bf08e0",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a1ef1bf89f534577",
+    "merkle_root_hex": "1b21f8a0ce34c238",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a1ef1bf89f534577",
-      "frame_sha256": "0da2106e636f92649afeeaedb912cca2ecb921033b6b358dd57a294b4436f947",
+      "merkle_root_hex": "1b21f8a0ce34c238",
+      "frame_sha256": "f837191daeb9aeb8eb01588af4c054978967318156bb05a8e7471884ec86d5e1",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:bef02181:2a3ccb58:75968a5d:3d813594",
+      "hdc_16k": "hdc16k:b690f357:bf2d2532:b4c2550f:a710e7e9",
       "spectral_4d": {
-        "coord4D": "13.162.16:110",
-        "rgbaStr": "{13}{162}{16}{110}",
-        "carrier_freq_hz": 246,
+        "coord4D": "248.55.25:29",
+        "rgbaStr": "{248}{55}{25}{29}",
+        "carrier_freq_hz": 323,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a1ef1bf89f534577",
+        "receipt_id": "R_san_yin_1b21f8a0ce34c238",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T04:31:26.294Z"
+        "verified_at": "2026-11-13T06:03:59.335Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T04:31:19.428Z",
+    "harvested_at": "2026-11-13T06:03:51.770Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,100 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
-        "url": "https://huggingface.co/papers/2611.15131",
-        "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models la",
-        "metric": "6 upvotes",
+        "title": "Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?",
+        "url": "https://huggingface.co/papers/2611.00428",
+        "summary": "A spectrum can be given to a model as a table in nanometers or as a plot in photon energy, and the decision should not depend on which one it sees. When the data needed for an answer are missing, the model should say so. We test representation invariance and abstention on measured optical spectra of silicon metasurface",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-30T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+        "url": "https://huggingface.co/papers/2611.17167",
+        "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
+        "url": "https://huggingface.co/papers/2611.00359",
+        "summary": "AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards score evasion and embedding similarity, but not whether checkable details survive. We check whether numbers, dates, person and organization names, and quoted spans survive each rewrite, using a rule-based ",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-30T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Factored One-sided Adam-Moment for Practical and Scalable SOAP",
+        "url": "https://huggingface.co/papers/2611.16905",
+        "summary": "Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster per-step convergence than AdamW in transformer training. However, they still remain costly in practice, and even SOAP still pays substantial optimizer-state memory and eigendecomposition overhead. We a",
+        "metric": "8 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+        "url": "https://huggingface.co/papers/2611.15777",
+        "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabil",
+        "metric": "8 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
-        "url": "https://huggingface.co/papers/2611.13004",
-        "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a",
-        "metric": "6 upvotes",
-        "published_at": "2026-11-08T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
-        "url": "https://huggingface.co/papers/2611.14815",
-        "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occl",
-        "metric": "14 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
-        "url": "https://huggingface.co/papers/2611.05984",
-        "summary": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient des",
-        "metric": "11 upvotes",
-        "published_at": "2026-11-04T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Subliminal Learning in Vision-Language Models",
-        "url": "https://huggingface.co/papers/2611.08538",
-        "summary": "Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a student through training data unrelated to that preference. We study whether subliminal learning also occurs in vision-language models (VLMs). We finetune a teacher VLM to prefer a specific animal or faci",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-04T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+        "url": "http://arxiv.org/abs/2611.17329v1",
+        "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world ",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:59:37Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling",
-        "url": "http://arxiv.org/abs/2611.15568v1",
-        "summary": "A benchmark score is commonly read as a proxy for model capability. We study the inverse problem: can a model be driven to a target score, and do its failures resemble those of a naturally weaker model? We operationalize believable performance reduction along three axes: target calibration, item-difficulty structure, a",
-        "metric": "Published 2026-11-11",
-        "published_at": "2026-11-11T14:53:50Z"
+        "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+        "url": "http://arxiv.org/abs/2611.17323v1",
+        "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:59:06Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Observations Drift, Structures Remain: Structural Pretraining with Time Alignment for Electromagnetic Signals",
-        "url": "http://arxiv.org/abs/2611.15566v1",
-        "summary": "Electromagnetic signal modeling is increasingly moving toward self-supervised pretraining on heterogeneous I/Q observations. However, an observed waveform is jointly shaped by signal generation, propagation environments, and acquisition processes, which mix reusable structural regularities with observation-specific var",
-        "metric": "Published 2026-11-11",
-        "published_at": "2026-11-11T14:51:23Z"
+        "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+        "url": "http://arxiv.org/abs/2611.17316v1",
+        "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory s",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:58:22Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss",
-        "url": "http://arxiv.org/abs/2611.15543v1",
-        "summary": "LLM applications increasingly rely on translators and compatibility layers to move conversations across APIs. Yet a translated request can be accepted by the target API while silently losing information about instruction roles, tool interactions, error states, or generation controls. We introduce isloss, a deterministi",
-        "metric": "Published 2026-11-11",
-        "published_at": "2026-11-11T14:28:01Z"
+        "title": "The Tournament Equilibrium Set Is PSPACE-Complete, Even under Hereditary Uniqueness",
+        "url": "http://arxiv.org/abs/2611.17312v1",
+        "summary": "The tournament equilibrium set (TEQ), proposed by Schwartz in 1990, is a classical voting rule based on pairwise majority comparisons. Its definition is recursive: an alternative is judged by the alternatives that beat it, called its dominators, and by which of those dominators TEQ itself selects. Deciding whether a gi",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:57:05Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Analysis choices decide whether untrained networks beat trained ones at V1: a multiverse analysis of model-brain RSA",
-        "url": "http://arxiv.org/abs/2611.15533v1",
-        "summary": "Untrained convolutional networks have been reported to rival trained networks as models of visual cortex, and we had reported an untrained-network advantage over backpropagation at V1 in THINGS fMRI, together with a dependence on evaluation resolution. Under a pre-specified ridge readout, the untrained network scored b",
-        "metric": "Published 2026-11-11",
-        "published_at": "2026-11-11T14:18:23Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game",
-        "url": "http://arxiv.org/abs/2611.15524v1",
-        "summary": "Tabletop games offer a compelling scenario to study the interaction between artificial and human agents, combining social interaction with game state tracking and physical manipulation. To assess the game state, a robot needs to precisely detect closely related game objects, such as different card designs, requiring de",
-        "metric": "Published 2026-11-11",
-        "published_at": "2026-11-11T14:14:19Z"
+        "title": "Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning",
+        "url": "http://arxiv.org/abs/2611.17304v1",
+        "summary": "Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from live runtime data. We report a field observation of one such agent (Claude Code) as it diagnosed eight database incidents in a production message-dispatch engine. In every incident whose root cause d",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:56:22Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
-        "source_url": "https://huggingface.co/papers/2611.15131",
+        "source_anchor": "Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?",
+        "source_url": "https://huggingface.co/papers/2611.00428",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Observations Drift, Structures Remain: Structural Pretraining with Time Alignment for Electromagnetic Signals",
-        "source_url": "http://arxiv.org/abs/2611.15566v1",
+        "source_anchor": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+        "source_url": "http://arxiv.org/abs/2611.17323v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a1ef1bf89f534577"
+      "receipt_hash": "1b21f8a0ce34c238"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a1ef1bf89f53"
+      "receipt_hash": "arm_1b21f8a0ce34"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
