@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T15:04:42.492Z",
-  "packet_sha256": "2d919ce7d09b22f9017f6762b8311e9f2f34222c34b9bee788c9904c10198c72",
+  "updated_at": "2026-11-13T16:39:48.179Z",
+  "packet_sha256": "6c9e040325bca416627373294ee41972ac3b1e461067d198430aa03c098d268e",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "723070c2d3f41af2",
+    "merkle_root_hex": "2cb38723b19f3247",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "723070c2d3f41af2",
-      "frame_sha256": "c7be101d5fb0c5c3a8d9402d36f2ea4b631fc8e0ddb87fdfdf7b4479694125d6",
+      "merkle_root_hex": "2cb38723b19f3247",
+      "frame_sha256": "65abe69eea529f6a138f32dd71a61d19300960aeb716f8dee59af7bc21c65844",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:c4bddf24:23512d53:dd1ade74:1acaca7e",
+      "hdc_16k": "hdc16k:721c9814:a7b45180:fad0da92:8cd5197d",
       "spectral_4d": {
-        "coord4D": "199.190.16:29",
-        "rgbaStr": "{199}{190}{16}{29}",
-        "carrier_freq_hz": 367,
+        "coord4D": "101.171.230:158",
+        "rgbaStr": "{101}{171}{230}{158}",
+        "carrier_freq_hz": 421,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_723070c2d3f41af2",
+        "receipt_id": "R_san_yin_2cb38723b19f3247",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T15:04:51.492Z"
+        "verified_at": "2026-11-13T16:39:57.179Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T15:04:42.969Z",
+    "harvested_at": "2026-11-13T16:39:48.709Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+        "url": "https://huggingface.co/papers/2611.12750",
+        "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narratives across languages and information stre",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "A frontier machine intelligence for human neuroimaging",
+        "url": "https://huggingface.co/papers/2611.15094",
+        "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required ",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-11T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Unbundling Multimodal Vision Encoding",
+        "url": "https://huggingface.co/papers/2611.17334",
+        "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretrai",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+        "url": "https://huggingface.co/papers/2611.16409",
+        "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, recent works wrap the ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
         "url": "https://huggingface.co/papers/2611.16009",
         "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take these designs apart an",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-11T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
-        "url": "https://huggingface.co/papers/2611.15844",
-        "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open a",
-        "metric": "20 upvotes",
-        "published_at": "2026-11-11T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
-        "url": "https://huggingface.co/papers/2611.14256",
-        "summary": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer. This survey investigates the structural source of asymme",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
-        "url": "https://huggingface.co/papers/2611.08318",
-        "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning,",
         "metric": "3 upvotes",
-        "published_at": "2026-11-05T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "DeepStress: Stress-Testing Deep Search Agents",
-        "url": "https://huggingface.co/papers/2607.13920",
-        "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects ag",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
+        "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
-        "source_url": "https://huggingface.co/papers/2611.16009",
+        "source_anchor": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+        "source_url": "https://huggingface.co/papers/2611.12750",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "723070c2d3f41af2"
+      "receipt_hash": "2cb38723b19f3247"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_723070c2d3f4"
+      "receipt_hash": "arm_2cb38723b19f"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
