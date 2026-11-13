@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T08:10:47.923Z",
-  "packet_sha256": "c0915f363e19eaf96b7f2dbbbf90b41b3421f449cf46872976cf2f92d6a7e764",
+  "updated_at": "2026-11-13T10:17:49.264Z",
+  "packet_sha256": "141e63ab2566ac73119dba212b0aa1ddaa46bb0a25d487bb04ef31f9329311d6",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "3833b9c0ac2eb605",
+    "merkle_root_hex": "5b27d5f826e51d9b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "3833b9c0ac2eb605",
-      "frame_sha256": "cc25e9cc6a917efe220f08aef16f315e404877999b62ea9b32bd9ac1fc65998d",
+      "merkle_root_hex": "5b27d5f826e51d9b",
+      "frame_sha256": "d2f9fa87c396c71708e79530ff51569bcb1c33b651bfea0828966faabcf675d5",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ddbe8380:bf9d9b83:c059d102:407565c4",
+      "hdc_16k": "hdc16k:04c424fe:045fba6c:f67acab6:d83eb021",
       "spectral_4d": {
-        "coord4D": "204.37.233:204",
-        "rgbaStr": "{204}{37}{233}{204}",
-        "carrier_freq_hz": 406,
+        "coord4D": "210.249.250:135",
+        "rgbaStr": "{210}{249}{250}{135}",
+        "carrier_freq_hz": 538,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_3833b9c0ac2eb605",
+        "receipt_id": "R_san_yin_5b27d5f826e51d9b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T08:10:56.619Z"
+        "verified_at": "2026-11-13T10:17:57.596Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T08:10:55.923Z",
+    "harvested_at": "2026-11-13T10:17:49.827Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+        "url": "https://huggingface.co/papers/2611.08318",
+        "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning,",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-05T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "DeepStress: Stress-Testing Deep Search Agents",
+        "url": "https://huggingface.co/papers/2607.13920",
+        "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects ag",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+        "url": "https://huggingface.co/papers/2611.14046",
+        "summary": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure. To address this, we propose two complementary approaches to directly attack and defend against confidence structure deformation. First, building u",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
         "url": "https://huggingface.co/papers/2611.12872",
         "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant ",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -104,43 +131,61 @@
         "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
         "url": "https://huggingface.co/papers/2611.17331",
         "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy th",
-        "metric": "2 upvotes",
+        "metric": "18 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
-        "url": "https://huggingface.co/papers/2611.08219",
-        "summary": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding h",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-05T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+        "url": "http://arxiv.org/abs/2611.17329v1",
+        "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world ",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:59:37Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
-        "url": "https://huggingface.co/papers/2611.17060",
-        "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human",
-        "metric": "9 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+        "url": "http://arxiv.org/abs/2611.17323v1",
+        "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:59:06Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Evidence-Guided Recovery for AI Agents with Ambiguous Tool Outcomes and Partial Execution",
-        "url": "https://huggingface.co/papers/2610.41453",
-        "summary": "Tool timeouts can leave AI agents facing ambiguous tool outcomes and partial execution: an action may have failed, committed or remained in flight while other workflow steps have already completed. We formulate evidence-guided task recovery over approved obligations, provider capabilities and states compatible with pub",
-        "metric": "2 upvotes",
-        "published_at": "2026-10-30T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+        "url": "http://arxiv.org/abs/2611.17316v1",
+        "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory s",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:58:22Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "The Tournament Equilibrium Set Is PSPACE-Complete, Even under Hereditary Uniqueness",
+        "url": "http://arxiv.org/abs/2611.17312v1",
+        "summary": "The tournament equilibrium set (TEQ), proposed by Schwartz in 1990, is a classical voting rule based on pairwise majority comparisons. Its definition is recursive: an alternative is judged by the alternatives that beat it, called its dominators, and by which of those dominators TEQ itself selects. Deciding whether a gi",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:57:05Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning",
+        "url": "http://arxiv.org/abs/2611.17304v1",
+        "summary": "Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from live runtime data. We report a field observation of one such agent (Claude Code) as it diagnosed eight database incidents in a production message-dispatch engine. In every incident whose root cause d",
+        "metric": "Published 2026-11-12",
+        "published_at": "2026-11-12T18:56:22Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-        "source_url": "https://huggingface.co/papers/2611.12872",
+        "source_anchor": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+        "source_url": "https://huggingface.co/papers/2611.08318",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+        "source_url": "http://arxiv.org/abs/2611.17323v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "3833b9c0ac2eb605"
+      "receipt_hash": "5b27d5f826e51d9b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_3833b9c0ac2e"
+      "receipt_hash": "arm_5b27d5f826e5"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
