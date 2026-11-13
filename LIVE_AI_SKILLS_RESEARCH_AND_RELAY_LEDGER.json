@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T00:19:51.617Z",
-  "packet_sha256": "adb25bca1a89ffdcf994e359120fb44fc9f37fc79b340673d87017b86d27259d",
+  "updated_at": "2026-11-13T01:53:58.895Z",
+  "packet_sha256": "05c978e31c6a33c31ca8f41b587fb3d2043b9f535db0d66c5c2ebc7d36baec82",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "bca7d46599728b7e",
+    "merkle_root_hex": "311406c6029d0e8c",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "bca7d46599728b7e",
-      "frame_sha256": "37ba57d0e08b77fb4a5a58d173b495c78730b72c3e038e60de83eee9035d2edb",
+      "merkle_root_hex": "311406c6029d0e8c",
+      "frame_sha256": "48d6c9786c09f864a617f78c01da6eb5fdf7d4efbd576a027b7f9b03fdc6887e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:dde1939e:b61afe6d:8748e1ac:1231b49f",
+      "hdc_16k": "hdc16k:839deb1f:632d92db:a0d2b3df:c7b66df1",
       "spectral_4d": {
-        "coord4D": "55.186.87:208",
-        "rgbaStr": "{55}{186}{87}{208}",
-        "carrier_freq_hz": 323,
+        "coord4D": "72.214.201:120",
+        "rgbaStr": "{72}{214}{201}{120}",
+        "carrier_freq_hz": 413,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_bca7d46599728b7e",
+        "receipt_id": "R_san_yin_311406c6029d0e8c",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T00:19:59.121Z"
+        "verified_at": "2026-11-13T01:54:06.740Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T00:19:51.874Z",
+    "harvested_at": "2026-11-13T01:53:59.405Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Subliminal Learning in Vision-Language Models",
+        "url": "https://huggingface.co/papers/2611.08538",
+        "summary": "Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a student through training data unrelated to that preference. We study whether subliminal learning also occurs in vision-language models (VLMs). We finetune a teacher VLM to prefer a specific animal or faci",
+        "metric": "4 upvotes",
+        "published_at": "2026-11-04T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limi",
         "metric": "11 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
-        "url": "https://huggingface.co/papers/2611.05862",
-        "summary": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable evaluation faces Data scarcity and Difficulty Standardizing Criteria. To address these obstacles, we introduce CARTBench for CART (Complex and Ambiguous Requests with Timelines). For Data scarcity, we cu",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-04T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Probing Transformer Representations Layer by Layer, Module by Module",
-        "source_url": "https://huggingface.co/papers/2611.11531",
+        "source_anchor": "Subliminal Learning in Vision-Language Models",
+        "source_url": "https://huggingface.co/papers/2611.08538",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "bca7d46599728b7e"
+      "receipt_hash": "311406c6029d0e8c"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_bca7d4659972"
+      "receipt_hash": "arm_311406c6029d"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
