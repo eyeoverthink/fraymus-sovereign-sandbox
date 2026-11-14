@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-13T23:04:49.160Z",
-  "packet_sha256": "77be3ac4fd41e4c282e30d921e0ddba32cea0c6691e9cb0e7be3816fcf0494bf",
+  "updated_at": "2026-11-14T01:11:45.829Z",
+  "packet_sha256": "4c4c22dcf7dde4568b9eaaf02b0f8d2c5f17a622898e47c411941f1feab141d3",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "7b4e7201bcc25331",
+    "merkle_root_hex": "4907cea56a1b4f8d",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "7b4e7201bcc25331",
-      "frame_sha256": "fd5db6a869f8ae407e003ea39acd3b7a823d332a20dd3eb6212d6af17828ce53",
+      "merkle_root_hex": "4907cea56a1b4f8d",
+      "frame_sha256": "3e627d41715ad1704e21a07331731cfc0dad074930d13964aba05f9f31d75ac6",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:f67bdd3c:608c7a53:f9d4226a:91b53f19",
+      "hdc_16k": "hdc16k:ad82d124:7cc48fcd:8548c22c:0989961a",
       "spectral_4d": {
-        "coord4D": "253.93.182:168",
-        "rgbaStr": "{253}{93}{182}{168}",
-        "carrier_freq_hz": 436,
+        "coord4D": "62.98.125:65",
+        "rgbaStr": "{62}{98}{125}{65}",
+        "carrier_freq_hz": 299,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_7b4e7201bcc25331",
+        "receipt_id": "R_san_yin_4907cea56a1b4f8d",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-13T23:04:58.160Z"
+        "verified_at": "2026-11-14T01:11:54.829Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-13T23:04:49.708Z",
+    "harvested_at": "2026-11-14T01:11:53.829Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+        "url": "https://huggingface.co/papers/2611.16728",
+        "summary": "Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents. However, differences in morphology, sensing, and control interfaces make it difficult to learn effectively from their combined demonstrations. We introduce EgoX, an egocentric cross-embodiment le",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
         "url": "https://huggingface.co/papers/2611.17336",
         "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than ind",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
@@ -104,7 +113,7 @@
         "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
         "url": "https://huggingface.co/papers/2611.17190",
         "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving together supply mutua",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
         "url": "https://huggingface.co/papers/2611.09567",
         "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via hig",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
       },
       {
@@ -122,70 +131,16 @@
         "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
         "url": "https://huggingface.co/papers/2611.16961",
         "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token. Rather than deciding how much to think, we explore a different paradigm, zero-or-T thinking: a single model either answers from the implicit thinki",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
-        "url": "https://huggingface.co/papers/2611.12750",
-        "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narratives across languages and information stre",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
-        "url": "http://arxiv.org/abs/2611.17329v1",
-        "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world ",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:59:37Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
-        "url": "http://arxiv.org/abs/2611.17323v1",
-        "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:59:06Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
-        "url": "http://arxiv.org/abs/2611.17316v1",
-        "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory s",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:58:22Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "The Tournament Equilibrium Set Is PSPACE-Complete, Even under Hereditary Uniqueness",
-        "url": "http://arxiv.org/abs/2611.17312v1",
-        "summary": "The tournament equilibrium set (TEQ), proposed by Schwartz in 1990, is a classical voting rule based on pairwise majority comparisons. Its definition is recursive: an alternative is judged by the alternatives that beat it, called its dominators, and by which of those dominators TEQ itself selects. Deciding whether a gi",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:57:05Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning",
-        "url": "http://arxiv.org/abs/2611.17304v1",
-        "summary": "Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from live runtime data. We report a field observation of one such agent (Claude Code) as it diagnosed eight database incidents in a production message-dispatch engine. In every incident whose root cause d",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:56:22Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
-        "source_url": "https://huggingface.co/papers/2611.17336",
+        "source_anchor": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+        "source_url": "https://huggingface.co/papers/2611.16728",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
-        "source_url": "http://arxiv.org/abs/2611.17323v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "7b4e7201bcc25331"
+      "receipt_hash": "4907cea56a1b4f8d"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_7b4e7201bcc2"
+      "receipt_hash": "arm_4907cea56a1b"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
