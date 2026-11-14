@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-14T16:31:46.546Z",
-  "packet_sha256": "25407ce2bbde0ea8d8cc758b3fa76f2c6072b979b15a5b66ee53f7478706e64f",
+  "updated_at": "2026-11-14T18:05:52.235Z",
+  "packet_sha256": "54d60a5f8f86b8ee9c9efaf653ba7b64da6bd1288c83f1e63d55ddd5ea7ceee5",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "11f3e96ccc79cfcf",
+    "merkle_root_hex": "5625490931390d92",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "11f3e96ccc79cfcf",
-      "frame_sha256": "36814003485e077f06a1ad61aa0e30ee56fa3d33ab3a67abc25cffa65cd64921",
+      "merkle_root_hex": "5625490931390d92",
+      "frame_sha256": "31f32ae2009633f2260ed6c65beee4e8581bd8bd8e1c82ef8e937ed64708437a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:df01bb08:ea91a221:7d109c8a:c35abac8",
+      "hdc_16k": "hdc16k:8e8a74be:41a8068c:4a3d2412:38ebc8cc",
       "spectral_4d": {
-        "coord4D": "54.129.64:3",
-        "rgbaStr": "{54}{129}{64}{3}",
-        "carrier_freq_hz": 277,
+        "coord4D": "49.243.42:226",
+        "rgbaStr": "{49}{243}{42}{226}",
+        "carrier_freq_hz": 327,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_11f3e96ccc79cfcf",
+        "receipt_id": "R_san_yin_5625490931390d92",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-14T16:31:55.546Z"
+        "verified_at": "2026-11-14T18:06:01.235Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-14T16:31:46.809Z",
+    "harvested_at": "2026-11-14T18:05:52.599Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
         "url": "https://huggingface.co/papers/2611.10439",
         "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from e",
-        "metric": "6 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-11-07T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
         "url": "https://huggingface.co/papers/2611.17190",
         "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving together supply mutua",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "11f3e96ccc79cfcf"
+      "receipt_hash": "5625490931390d92"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_11f3e96ccc79"
+      "receipt_hash": "arm_562549093139"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
