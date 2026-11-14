@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-14T09:38:44.799Z",
-  "packet_sha256": "91ca00c9c35da16610b4eaf6fa71d0e05c220fa8129e17b80935a9640aa802a2",
+  "updated_at": "2026-11-14T11:44:44.918Z",
+  "packet_sha256": "d9bb465beb45deb4ed76c03741b99cb3472b278c2e520cc6c93bb3d38f8d7010",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "6ccf8ba4995c260e",
+    "merkle_root_hex": "63bd508e75167923",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "6ccf8ba4995c260e",
-      "frame_sha256": "54ab90380a7f41b50c7a5f0bf09b633beae768fb79d814c683396b69fb1d357b",
+      "merkle_root_hex": "63bd508e75167923",
+      "frame_sha256": "84f51492ea34d271f56b6bae26eafc1e5e02ef57cd4fa097f2baaf5176ef2121",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:e654e391:1237939e:f14b0531:9b226268",
+      "hdc_16k": "hdc16k:60da9b54:bac07dc9:59ac79ea:5da03867",
       "spectral_4d": {
-        "coord4D": "84.171.144:56",
-        "rgbaStr": "{84}{171}{144}{56}",
-        "carrier_freq_hz": 363,
+        "coord4D": "132.245.20:146",
+        "rgbaStr": "{132}{245}{20}{146}",
+        "carrier_freq_hz": 362,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_6ccf8ba4995c260e",
+        "receipt_id": "R_san_yin_63bd508e75167923",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-14T09:38:52.812Z"
+        "verified_at": "2026-11-14T11:44:53.918Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-14T09:38:45.158Z",
+    "harvested_at": "2026-11-14T11:44:45.289Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -113,7 +113,7 @@
         "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
         "url": "https://huggingface.co/papers/2611.17336",
         "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than ind",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "6ccf8ba4995c260e"
+      "receipt_hash": "63bd508e75167923"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_6ccf8ba4995c"
+      "receipt_hash": "arm_63bd508e7516"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
