@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-15T02:36:53.978Z",
-  "packet_sha256": "824becc4e6cc82450fed153593870ede17e5719efe082a06d1c7d29743f779bb",
+  "updated_at": "2026-11-15T04:43:51.291Z",
+  "packet_sha256": "3b6e769bee6ef3328690727d2765f8c4162deadcd4c273b6b8f8a9ecf3d5547d",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "34651aedaada190f",
+    "merkle_root_hex": "8d1ce46e0a92097",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "34651aedaada190f",
-      "frame_sha256": "0b0b9386e793fe5edf8b494b05f072884186517c1e93e1ecd0bcbfca89615071",
+      "merkle_root_hex": "8d1ce46e0a92097",
+      "frame_sha256": "29c2b8ca3e38870ceff316ce1cefad6725af42c8364db5d297652fffb1de5f1b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:f4ca37de:4e9b727f:82488e26:5eba2e11",
+      "hdc_16k": "hdc16k:c5737fb8:edc104f1:162d3670:f441e163",
       "spectral_4d": {
-        "coord4D": "11.11.147:134",
-        "rgbaStr": "{11}{11}{147}{134}",
-        "carrier_freq_hz": 233,
+        "coord4D": "41.194.184:202",
+        "rgbaStr": "{41}{194}{184}{202}",
+        "carrier_freq_hz": 375,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_34651aedaada190f",
+        "receipt_id": "R_san_yin_8d1ce46e0a92097",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-15T02:36:55.418Z"
+        "verified_at": "2026-11-15T04:43:59.291Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-15T02:36:54.381Z",
+    "harvested_at": "2026-11-15T04:43:59.291Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -133,51 +133,6 @@
         "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via hig",
         "metric": "4 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
-        "url": "http://arxiv.org/abs/2611.17329v1",
-        "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world ",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:59:37Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
-        "url": "http://arxiv.org/abs/2611.17323v1",
-        "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:59:06Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
-        "url": "http://arxiv.org/abs/2611.17316v1",
-        "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory s",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:58:22Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "The Tournament Equilibrium Set Is PSPACE-Complete, Even under Hereditary Uniqueness",
-        "url": "http://arxiv.org/abs/2611.17312v1",
-        "summary": "The tournament equilibrium set (TEQ), proposed by Schwartz in 1990, is a classical voting rule based on pairwise majority comparisons. Its definition is recursive: an alternative is judged by the alternatives that beat it, called its dominators, and by which of those dominators TEQ itself selects. Deciding whether a gi",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:57:05Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning",
-        "url": "http://arxiv.org/abs/2611.17304v1",
-        "summary": "Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from live runtime data. We report a field observation of one such agent (Claude Code) as it diagnosed eight database incidents in a production message-dispatch engine. In every incident whose root cause d",
-        "metric": "Published 2026-11-12",
-        "published_at": "2026-11-12T18:56:22Z"
       }
     ],
     "curve_augmentations": [
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
-        "source_url": "http://arxiv.org/abs/2611.17323v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "34651aedaada190f"
+      "receipt_hash": "8d1ce46e0a92097"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_34651aedaada"
+      "receipt_hash": "arm_8d1ce46e0a92"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
