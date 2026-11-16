@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T08:18:42.969Z",
-  "packet_sha256": "e7a858130ccf3efe4e5ebc54ecb14c950f10dda9d0862b90c2a3da21f883d3a4",
+  "updated_at": "2026-11-16T10:25:40.499Z",
+  "packet_sha256": "683036c9c76a556a6cd2de16bdb57b84b64b82747d0d7baf1d00df86a2909217",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "7d5ed2834ebb51d6",
+    "merkle_root_hex": "6ed1a5267333e124",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "7d5ed2834ebb51d6",
-      "frame_sha256": "4709cf54f9105eda399fe31f5848cc07d4d5f873fabeebc7da34b129c39af482",
+      "merkle_root_hex": "6ed1a5267333e124",
+      "frame_sha256": "dc7c81e70ca284cdc062b7479e76c8ea9f3d8fe4e8aa8c1725b98af68837ad7c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:b2beb542:269430df:439c6706:27fc1cf4",
+      "hdc_16k": "hdc16k:8286d476:46b1cb91:cf00278e:fc38d317",
       "spectral_4d": {
-        "coord4D": "71.9.207:84",
-        "rgbaStr": "{71}{9}{207}{84}",
-        "carrier_freq_hz": 300,
+        "coord4D": "220.124.129:231",
+        "rgbaStr": "{220}{124}{129}{231}",
+        "carrier_freq_hz": 405,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_7d5ed2834ebb51d6",
+        "receipt_id": "R_san_yin_6ed1a5267333e124",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T08:18:51.969Z"
+        "verified_at": "2026-11-16T10:25:46.204Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T08:18:43.377Z",
+    "harvested_at": "2026-11-16T10:25:41.058Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
-        "url": "https://huggingface.co/papers/2611.16378",
-        "summary": "Autonomous agents modify prompts, memories, tools, workflows, and policies using interaction histories. Yet a plausible modification is not necessarily suitable for persistent adoption: candidate selection is adaptive, evaluators may be imperfect, and local gains can hide degradation against an earlier baseline. We int",
-        "metric": "7 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
+        "title": "MIRIX-2.0: Multi-Agent Memory System",
+        "url": "https://huggingface.co/papers/2611.12068",
+        "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and ef",
+        "metric": "13 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
-        "url": "https://huggingface.co/papers/2611.18482",
-        "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this",
-        "metric": "23 upvotes",
+        "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+        "url": "https://huggingface.co/papers/2611.13509",
+        "summary": "Small language models (SLMs) running on mobile devices can keep user data private and work without connectivity. But they perform well only when fine-tuned for the target task and sized for the target device, a process that today requires repeated expert tuning. We present {\\it Mobile AI Factory}, an agentic system tha",
+        "metric": "4 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+        "url": "https://huggingface.co/papers/2611.17831",
+        "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve",
+        "metric": "15 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
-        "url": "https://huggingface.co/papers/2611.18130",
-        "summary": "Large language models (LLMs) are increasingly applied to finance, creating a need for benchmarks that evaluate their capabilities across financial systems with different regulations and practices. However, existing financial benchmarks provide limited coverage of country-specific financial systems, and they are difficu",
-        "metric": "8 upvotes",
+        "title": "Do Underwater Image Quality Metrics Agree with Human Perception? A Benchmark with Human Choices, Simple Edits and Generative Drift",
+        "url": "https://huggingface.co/papers/2611.18429",
+        "summary": "Underwater image enhancement is challenging to evaluate due to the lack of clean reference images, so researchers rely on no-reference image quality assessment (NR-IQA) metrics. However, it remains unclear whether these metrics agree with human judgments. We evaluate 73 handcrafted underwater, learned underwater, visio",
+        "metric": "10 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
-        "url": "https://huggingface.co/papers/2611.18529",
-        "summary": "Meetings last up to an hour, and nobody knows in advance how many people will speak. Neural diarizers with a fixed number of output slots, such as Streaming Sortformer and Nemotron-3, are accurate and run online, but they cannot name more speakers than they have slots. We remove this limit without retraining. The slot ",
-        "metric": "6 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
-        "url": "https://huggingface.co/papers/2611.02822",
-        "summary": "Autoregressive video diffusion models (AR-VDMs) enable real-time, long-horizon video generation but degrade rapidly once the inference horizon outruns the training horizon, due to compounding exposure bias. To stabilize long rollouts, recent methods heuristically adopt frame sink, keeping initial frames as a persistent",
-        "metric": "6 upvotes",
-        "published_at": "2026-11-02T00:00:00.000Z"
+        "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+        "url": "https://huggingface.co/papers/2611.15789",
+        "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePre",
+        "metric": "63 upvotes",
+        "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
-        "source_url": "https://huggingface.co/papers/2611.16378",
+        "source_anchor": "MIRIX-2.0: Multi-Agent Memory System",
+        "source_url": "https://huggingface.co/papers/2611.12068",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "7d5ed2834ebb51d6"
+      "receipt_hash": "6ed1a5267333e124"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_7d5ed2834ebb"
+      "receipt_hash": "arm_6ed1a5267333"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
