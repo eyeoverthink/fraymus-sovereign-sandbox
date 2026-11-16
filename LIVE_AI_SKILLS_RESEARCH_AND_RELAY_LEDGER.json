@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T04:36:38.663Z",
-  "packet_sha256": "3157aa9c6e71a34df7344dc03b5c36139f3e3c40b6a4003414524d38f60c21a7",
+  "updated_at": "2026-11-16T06:11:46.275Z",
+  "packet_sha256": "cf3a454e8bec938371bec2acfb1a86ddcdce86cc0d6841b4f3534330ee7b1593",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "ee89485ef8213652",
+    "merkle_root_hex": "3f94727e5a0298d8",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "ee89485ef8213652",
-      "frame_sha256": "59168bf2e5c4d905143c9ffe27631d0298f4427ad4129c624cbb10f1c9d05f90",
+      "merkle_root_hex": "3f94727e5a0298d8",
+      "frame_sha256": "c0cfb4293b778dedc38badd7fff254276dde9638a3b5c44a18884126c6fe4523",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:1e0c775f:9bdf671f:b88b00e7:e87a96b2",
+      "hdc_16k": "hdc16k:74761364:c828abfa:16f384aa:aaca6cea",
       "spectral_4d": {
-        "coord4D": "89.22.139:242",
-        "rgbaStr": "{89}{22}{139}{242}",
-        "carrier_freq_hz": 279,
+        "coord4D": "192.207.180:41",
+        "rgbaStr": "{192}{207}{180}{41}",
+        "carrier_freq_hz": 465,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_ee89485ef8213652",
+        "receipt_id": "R_san_yin_3f94727e5a0298d8",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T04:36:46.663Z"
+        "verified_at": "2026-11-16T06:11:51.860Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T04:36:46.663Z",
+    "harvested_at": "2026-11-16T06:11:48.203Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,55 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
-        "url": "https://huggingface.co/papers/2611.18549",
-        "summary": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detail",
-        "metric": "1 upvotes",
+        "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+        "url": "https://huggingface.co/papers/2611.18482",
+        "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this",
+        "metric": "2 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Aligning AI Teams",
-        "url": "https://huggingface.co/papers/2611.17820",
-        "summary": "Previous work has shown that alignment training on individual LLM agents can fail to transfer to multi-agent settings. We investigate the underlying mechanisms for this failure, and explore interventions to preserve alignment transfer to multi-agent LLM teams. We focus on two software-engineering tasks (sepsis triage, ",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
-        "url": "https://huggingface.co/papers/2611.18397",
-        "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces a",
-        "metric": "12 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
-        "url": "https://huggingface.co/papers/2611.18442",
-        "summary": "Open driving releases and usage-based insurance programs often claim to prevent privacy breaches by omitting GPS records when sharing or collecting vehicle data. However, removing GPS coordinates from driving logs does not erase the location information carried by vehicle signals. While prior route-inference attacks ha",
+        "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
+        "url": "https://huggingface.co/papers/2611.18130",
+        "summary": "Large language models (LLMs) are increasingly applied to finance, creating a need for benchmarks that evaluate their capabilities across financial systems with different regulations and practices. However, existing financial benchmarks provide limited coverage of country-specific financial systems, and they are difficu",
         "metric": "0 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
-        "url": "https://huggingface.co/papers/2611.18338",
-        "summary": "Text-to-SQL systems translate natural language questions into SQL queries over increasingly complex databases. However, widely used benchmarks evaluate questions independently, overlooking settings where earlier queries over the same database can supply joins or calculations for a new question. We introduce HARE (Histo",
-        "metric": "4 upvotes",
+        "title": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
+        "url": "https://huggingface.co/papers/2611.18529",
+        "summary": "Meetings last up to an hour, and nobody knows in advance how many people will speak. Neural diarizers with a fixed number of output slots, such as Streaming Sortformer and Nemotron-3, are accurate and run online, but they cannot name more speakers than they have slots. We remove this limit without retraining. The slot ",
+        "metric": "1 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
+        "url": "https://huggingface.co/papers/2611.02822",
+        "summary": "Autoregressive video diffusion models (AR-VDMs) enable real-time, long-horizon video generation but degrade rapidly once the inference horizon outruns the training horizon, due to compounding exposure bias. To stabilize long rollouts, recent methods heuristically adopt frame sink, keeping initial frames as a persistent",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-02T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+        "url": "https://huggingface.co/papers/2611.18549",
+        "summary": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detail",
+        "metric": "7 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
+        "url": "http://arxiv.org/abs/2611.18563v1",
+        "summary": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabilities. In contrast, ",
+        "metric": "Published 2026-11-13",
+        "published_at": "2026-11-13T18:59:43Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+        "url": "http://arxiv.org/abs/2611.18562v1",
+        "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B ",
+        "metric": "Published 2026-11-13",
+        "published_at": "2026-11-13T18:59:02Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+        "url": "http://arxiv.org/abs/2611.18553v1",
+        "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (",
+        "metric": "Published 2026-11-13",
+        "published_at": "2026-11-13T18:58:08Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+        "url": "http://arxiv.org/abs/2611.18543v1",
+        "summary": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behavior Cloning (R2BC) a",
+        "metric": "Published 2026-11-13",
+        "published_at": "2026-11-13T18:50:05Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+        "url": "http://arxiv.org/abs/2611.18533v1",
+        "summary": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness depends on the domain",
+        "metric": "Published 2026-11-13",
+        "published_at": "2026-11-13T18:45:49Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
-        "source_url": "https://huggingface.co/papers/2611.18549",
+        "source_anchor": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+        "source_url": "https://huggingface.co/papers/2611.18482",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+        "source_url": "http://arxiv.org/abs/2611.18562v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "ee89485ef8213652"
+      "receipt_hash": "3f94727e5a0298d8"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_ee89485ef821"
+      "receipt_hash": "arm_3f94727e5a02"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
