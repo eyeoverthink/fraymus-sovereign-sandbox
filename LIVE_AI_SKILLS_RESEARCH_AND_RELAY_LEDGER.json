@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T14:40:41.633Z",
-  "packet_sha256": "ecb421ed4f914a17fe52e9ee112ff3aa857f4c6f22f6060d758dd0fdb96f16a2",
+  "updated_at": "2026-11-16T16:47:40.742Z",
+  "packet_sha256": "15babc066bf5af39dd3549430de996ea29e499121180886bf651658386260ee8",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "e3039723f6fc0e2d",
+    "merkle_root_hex": "233dd257c3f20873",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "e3039723f6fc0e2d",
-      "frame_sha256": "bfe835f3981eaeebb46921fd9e07bef68797d5e5ae115c5fd7c785077954b115",
+      "merkle_root_hex": "233dd257c3f20873",
+      "frame_sha256": "721d3b725a75e20302b5a615e01c5fedb1037d92c2ce556881eb520c24e3c331",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:0f926772:00ded676:64d5a1f8:d01fc2d2",
+      "hdc_16k": "hdc16k:edffcbb9:3c2e16d8:de00b7b7:238c3f3c",
       "spectral_4d": {
-        "coord4D": "191.232.53:243",
-        "rgbaStr": "{191}{232}{53}{243}",
-        "carrier_freq_hz": 407,
+        "coord4D": "114.29.59:114",
+        "rgbaStr": "{114}{29}{59}{114}",
+        "carrier_freq_hz": 252,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_e3039723f6fc0e2d",
+        "receipt_id": "R_san_yin_233dd257c3f20873",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T14:40:48.410Z"
+        "verified_at": "2026-11-16T16:47:46.742Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T14:40:42.162Z",
+    "harvested_at": "2026-11-16T16:47:41.019Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
+        "url": "https://huggingface.co/papers/2610.41354",
+        "summary": "Deployment objectives often specify desired outcomes without providing revised trajectories, while parts of the original reference must still be followed. We present OneSteer, a one-step diffusion whole-body controller that combines general motion tracking with selective test-time steering. To accommodate new objective",
+        "metric": "12 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
+        "url": "https://huggingface.co/papers/2611.17440",
+        "summary": "Standard coding-agent benchmarks primarily evaluate binary task success, treating execution as a black box and obscuring the behaviors that produce those outcomes. We analyze a large corpus of 143,209 execution trajectories from 125 agent configurations spanning 117 unique models. To enable comparisons across heterogen",
+        "metric": "4 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
+        "url": "https://huggingface.co/papers/2611.17194",
+        "summary": "Distribution matching distillation (DMD) has emerged as a leading paradigm for distilling diffusion models into few-step students, where an auxiliary fake score model tracks the student's distribution and the discrepancy between the teacher and fake predictions drives the student toward the teacher. In multi-step disti",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
         "url": "https://huggingface.co/papers/2611.17878",
         "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological ga",
-        "metric": "9 upvotes",
+        "metric": "20 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -104,35 +131,8 @@
         "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
         "url": "https://huggingface.co/papers/2611.14505",
         "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weig",
-        "metric": "5 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
-        "url": "https://huggingface.co/papers/2611.17955",
-        "summary": "Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that spans heterogeneous applications, multimodal content, and stateful workflows. However, existing reproducible web-agent benchmarks cover only a small number of web applications drawn from a few softwar",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
-        "url": "https://huggingface.co/papers/2611.17814",
-        "summary": "With the rapid advancement of Large Language Models (LLMs), an increasing number of users are turning to LLM-powered agents for conversational shopping in e-commerce. However, the user needs continue to change as new product categories, procurement scenarios, and feature requests emerge. At the same time, the product's",
-        "metric": "15 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "MIRIX-2.0: Multi-Agent Memory System",
-        "url": "https://huggingface.co/papers/2611.12068",
-        "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and ef",
-        "metric": "18 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
-        "source_url": "https://huggingface.co/papers/2611.17878",
+        "source_anchor": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
+        "source_url": "https://huggingface.co/papers/2610.41354",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "e3039723f6fc0e2d"
+      "receipt_hash": "233dd257c3f20873"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_e3039723f6fc"
+      "receipt_hash": "arm_233dd257c3f2"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
