@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T17:20:39.436Z",
-  "packet_sha256": "453fa77b39077ef6b3b1e6503e0a629dab41d1712e275e2bb655afe55d07a5e6",
+  "updated_at": "2026-11-16T18:55:46.306Z",
+  "packet_sha256": "34578d5e97b92028c517943e3f3cff251ad423c0ddecd45b105b33428928c810",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b772f2af4f49654b",
+    "merkle_root_hex": "4fee57ae8c4e465c",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b772f2af4f49654b",
-      "frame_sha256": "a5ea2a8390a14b578bfd532aa91eff5b6b79abea120638ca61d92798eb074952",
+      "merkle_root_hex": "4fee57ae8c4e465c",
+      "frame_sha256": "af6437e177fea0db0c33ab90392df63fbcff7b0da0a352b81ed2e1891e1dd9a2",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:d50ba700:7ffe7d2f:f29d2ae0:ce314434",
+      "hdc_16k": "hdc16k:362723ab:2d6f374d:485c8a0b:617a5a04",
       "spectral_4d": {
-        "coord4D": "165.234.42:131",
-        "rgbaStr": "{165}{234}{42}{131}",
-        "carrier_freq_hz": 387,
+        "coord4D": "175.100.55:225",
+        "rgbaStr": "{175}{100}{55}{225}",
+        "carrier_freq_hz": 324,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b772f2af4f49654b",
+        "receipt_id": "R_san_yin_4fee57ae8c4e465c",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T17:20:46.490Z"
+        "verified_at": "2026-11-16T18:55:52.863Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T17:20:40.781Z",
+    "harvested_at": "2026-11-16T18:55:47.124Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Alloy: A Multi-Material Physics Engine for Robot Learning",
+        "url": "https://huggingface.co/papers/2611.16312",
+        "summary": "Robots handle much more than rigid objects: towels, cables, water, sand. The simulators used to train robots at scale are strongest on rigid bodies, and adding another material usually means a second engine and hand-written glue between the two. We present Alloy, an open-source physics engine for robot learning in whic",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+        "url": "https://huggingface.co/papers/2611.17169",
+        "summary": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six loss",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
         "url": "https://huggingface.co/papers/2611.15640",
         "summary": "Streaming video understanding aims to continuously process incoming visual observations, making the retention and retrieval of relevant information increasingly important as the video history grows. Although existing benchmarks include memory-related questions, question-answering accuracy alone does not reliably measur",
-        "metric": "4 upvotes",
+        "metric": "5 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
         "url": "https://huggingface.co/papers/2611.17440",
         "summary": "Standard coding-agent benchmarks primarily evaluate binary task success, treating execution as a black box and obscuring the behaviors that produce those outcomes. We analyze a large corpus of 143,209 execution trajectories from 125 agent configurations spanning 117 unique models. To enable comparisons across heterogen",
-        "metric": "5 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
-        "url": "https://huggingface.co/papers/2611.17194",
-        "summary": "Distribution matching distillation (DMD) has emerged as a leading paradigm for distilling diffusion models into few-step students, where an auxiliary fake score model tracks the student's distribution and the discrepancy between the teacher and fake predictions drives the student toward the teacher. In multi-step disti",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
-        "url": "https://huggingface.co/papers/2611.17878",
-        "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological ga",
-        "metric": "20 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
-        "source_url": "https://huggingface.co/papers/2611.15640",
+        "source_anchor": "Alloy: A Multi-Material Physics Engine for Robot Learning",
+        "source_url": "https://huggingface.co/papers/2611.16312",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b772f2af4f49654b"
+      "receipt_hash": "4fee57ae8c4e465c"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b772f2af4f49"
+      "receipt_hash": "arm_4fee57ae8c4e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
