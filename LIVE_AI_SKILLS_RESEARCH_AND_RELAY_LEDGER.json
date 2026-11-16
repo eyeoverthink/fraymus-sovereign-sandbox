@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T10:25:40.499Z",
-  "packet_sha256": "683036c9c76a556a6cd2de16bdb57b84b64b82747d0d7baf1d00df86a2909217",
+  "updated_at": "2026-11-16T10:58:42.845Z",
+  "packet_sha256": "35086e24862499ea2e83d68fe16cf93d17ecad1d75eb528c5a442a1d4e3ce62b",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "6ed1a5267333e124",
+    "merkle_root_hex": "aeb5894b1cc4b721",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "6ed1a5267333e124",
-      "frame_sha256": "dc7c81e70ca284cdc062b7479e76c8ea9f3d8fe4e8aa8c1725b98af68837ad7c",
+      "merkle_root_hex": "aeb5894b1cc4b721",
+      "frame_sha256": "5ac51bcbee271b47b25f83502468da68b0528c8497ec6438436e9b7eeb8a2c7e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8286d476:46b1cb91:cf00278e:fc38d317",
+      "hdc_16k": "hdc16k:948b3e02:9aeb39fc:95a4cdbc:2f0ce0b8",
       "spectral_4d": {
-        "coord4D": "220.124.129:231",
-        "rgbaStr": "{220}{124}{129}{231}",
-        "carrier_freq_hz": 405,
+        "coord4D": "90.197.27:203",
+        "rgbaStr": "{90}{197}{27}{203}",
+        "carrier_freq_hz": 315,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_6ed1a5267333e124",
+        "receipt_id": "R_san_yin_aeb5894b1cc4b721",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T10:25:46.204Z"
+        "verified_at": "2026-11-16T10:58:48.029Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T10:25:41.058Z",
+    "harvested_at": "2026-11-16T10:58:43.082Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "MIRIX-2.0: Multi-Agent Memory System",
         "url": "https://huggingface.co/papers/2611.12068",
         "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and ef",
-        "metric": "13 upvotes",
+        "metric": "14 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
         "url": "https://huggingface.co/papers/2611.13509",
         "summary": "Small language models (SLMs) running on mobile devices can keep user data private and work without connectivity. But they perform well only when fine-tuned for the target task and sized for the target device, a process that today requires repeated expert tuning. We present {\\it Mobile AI Factory}, an agentic system tha",
-        "metric": "4 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
@@ -122,7 +122,7 @@
         "title": "Do Underwater Image Quality Metrics Agree with Human Perception? A Benchmark with Human Choices, Simple Edits and Generative Drift",
         "url": "https://huggingface.co/papers/2611.18429",
         "summary": "Underwater image enhancement is challenging to evaluate due to the lack of clean reference images, so researchers rely on no-reference image quality assessment (NR-IQA) metrics. However, it remains unclear whether these metrics agree with human judgments. We evaluate 73 handcrafted underwater, learned underwater, visio",
-        "metric": "10 upvotes",
+        "metric": "11 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -131,7 +131,7 @@
         "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
         "url": "https://huggingface.co/papers/2611.15789",
         "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePre",
-        "metric": "63 upvotes",
+        "metric": "73 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "6ed1a5267333e124"
+      "receipt_hash": "aeb5894b1cc4b721"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_6ed1a5267333"
+      "receipt_hash": "arm_aeb5894b1cc4"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
