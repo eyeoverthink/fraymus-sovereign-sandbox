@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T21:02:47.243Z",
-  "packet_sha256": "e4e4c387f312c08555be404aa28f5c0d04a1f93e774ad3a168674d2d539335d2",
+  "updated_at": "2026-11-16T23:09:40.211Z",
+  "packet_sha256": "784b6a9bd9eae0eae2833530aa15bff3414de184b0d694ca5591d87af784680a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "907cf9cb35cc9349",
+    "merkle_root_hex": "fd3292f8d5b4f105",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "907cf9cb35cc9349",
-      "frame_sha256": "56a77125391bc2c8e48d52a4c890e74cfa72ff0f5a98e8c53364a874eeceb84c",
+      "merkle_root_hex": "fd3292f8d5b4f105",
+      "frame_sha256": "593c27b08714eccaedc74070f4b33fd478ad85db22f311fed4886b2d83248158",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:24872414:31112758:ccdfaef8:2b27884f",
+      "hdc_16k": "hdc16k:f2544c2c:454bf005:69810892:fd1084e0",
       "spectral_4d": {
-        "coord4D": "86.167.113:37",
-        "rgbaStr": "{86}{167}{113}{37}",
-        "carrier_freq_hz": 345,
+        "coord4D": "89.60.39:176",
+        "rgbaStr": "{89}{60}{39}{176}",
+        "carrier_freq_hz": 244,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_907cf9cb35cc9349",
+        "receipt_id": "R_san_yin_fd3292f8d5b4f105",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T21:02:53.813Z"
+        "verified_at": "2026-11-16T23:09:46.224Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T21:02:47.756Z",
+    "harvested_at": "2026-11-16T23:09:40.591Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
+        "url": "https://huggingface.co/papers/2611.17321",
+        "summary": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the problem combinatorial and highly sensitive ",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+        "url": "https://huggingface.co/papers/2611.18550",
+        "summary": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representations of student mod",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+        "url": "https://huggingface.co/papers/2611.14487",
+        "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty Qu",
+        "metric": "6 upvotes",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -105,33 +132,6 @@
         "url": "https://huggingface.co/papers/2611.16500",
         "summary": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia. Our dataset comprises 50,521 structured Even-Russian entries extracted from dictionary and phrasebook sources via GPT-4o Mini-based parsing, from wh",
         "metric": "1 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
-        "url": "https://huggingface.co/papers/2611.17780",
-        "summary": "Frontier LLM agents that query databases with tools are among the most accurate text-to-SQL systems, but per-query calls to a hosted model are slow, costly, and expose sensitive organizational queries to external APIs. For example, a Claude Opus 5.5 agent serving 10,000 queries a day costs over $70,000 a year at list p",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Alloy: A Multi-Material Physics Engine for Robot Learning",
-        "url": "https://huggingface.co/papers/2611.16312",
-        "summary": "Robots handle much more than rigid objects: towels, cables, water, sand. The simulators used to train robots at scale are strongest on rigid bodies, and adding another material usually means a second engine and hand-written glue between the two. We present Alloy, an open-source physics engine for robot learning in whic",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
-        "url": "https://huggingface.co/papers/2611.17169",
-        "summary": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six loss",
-        "metric": "2 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems",
-        "source_url": "https://huggingface.co/papers/2611.05843",
+        "source_anchor": "BrickFlow: Connectivity-Guided Brick Reconstruction",
+        "source_url": "https://huggingface.co/papers/2611.17321",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "907cf9cb35cc9349"
+      "receipt_hash": "fd3292f8d5b4f105"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_907cf9cb35cc"
+      "receipt_hash": "arm_fd3292f8d5b4"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
