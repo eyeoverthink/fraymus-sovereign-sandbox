@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T12:33:41.702Z",
-  "packet_sha256": "f35a8a793835cb4f488388f48ced98b41d7b05d350d3932a46b8900cb3174b8e",
+  "updated_at": "2026-11-16T14:40:41.633Z",
+  "packet_sha256": "ecb421ed4f914a17fe52e9ee112ff3aa857f4c6f22f6060d758dd0fdb96f16a2",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9dcfe7d027753eb9",
+    "merkle_root_hex": "e3039723f6fc0e2d",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9dcfe7d027753eb9",
-      "frame_sha256": "a895eed236f5ecce53106eaffb0f6d9768797bf64c0a0455be43bf050a9079b7",
+      "merkle_root_hex": "e3039723f6fc0e2d",
+      "frame_sha256": "bfe835f3981eaeebb46921fd9e07bef68797d5e5ae115c5fd7c785077954b115",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:a2e261f7:225e86d2:0800cce5:970fe0c9",
+      "hdc_16k": "hdc16k:0f926772:00ded676:64d5a1f8:d01fc2d2",
       "spectral_4d": {
-        "coord4D": "168.149.238:210",
-        "rgbaStr": "{168}{149}{238}{210}",
-        "carrier_freq_hz": 451,
+        "coord4D": "191.232.53:243",
+        "rgbaStr": "{191}{232}{53}{243}",
+        "carrier_freq_hz": 407,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9dcfe7d027753eb9",
+        "receipt_id": "R_san_yin_e3039723f6fc0e2d",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T12:33:48.326Z"
+        "verified_at": "2026-11-16T14:40:48.410Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T12:33:42.114Z",
+    "harvested_at": "2026-11-16T14:40:42.162Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+        "url": "https://huggingface.co/papers/2611.17878",
+        "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological ga",
+        "metric": "9 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+        "url": "https://huggingface.co/papers/2611.14505",
+        "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weig",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-11T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+        "url": "https://huggingface.co/papers/2611.17955",
+        "summary": "Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that spans heterogeneous applications, multimodal content, and stateful workflows. However, existing reproducible web-agent benchmarks cover only a small number of web applications drawn from a few softwar",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
         "url": "https://huggingface.co/papers/2611.17814",
         "summary": "With the rapid advancement of Large Language Models (LLMs), an increasing number of users are turning to LLM-powered agents for conversational shopping in e-commerce. However, the user needs continue to change as new product categories, procurement scenarios, and feature requests emerge. At the same time, the product's",
-        "metric": "14 upvotes",
+        "metric": "15 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -104,35 +131,8 @@
         "title": "MIRIX-2.0: Multi-Agent Memory System",
         "url": "https://huggingface.co/papers/2611.12068",
         "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and ef",
-        "metric": "17 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
-        "url": "https://huggingface.co/papers/2611.13509",
-        "summary": "Small language models (SLMs) running on mobile devices can keep user data private and work without connectivity. But they perform well only when fine-tuned for the target task and sized for the target device, a process that today requires repeated expert tuning. We present {\\it Mobile AI Factory}, an agentic system tha",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
-        "url": "https://huggingface.co/papers/2611.17831",
-        "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve",
         "metric": "18 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Do Underwater Image Quality Metrics Agree with Human Perception? A Benchmark with Human Choices, Simple Edits and Generative Drift",
-        "url": "https://huggingface.co/papers/2611.18429",
-        "summary": "Underwater image enhancement is challenging to evaluate due to the lack of clean reference images, so researchers rely on no-reference image quality assessment (NR-IQA) metrics. However, it remains unclear whether these metrics agree with human judgments. We evaluate 73 handcrafted underwater, learned underwater, visio",
-        "metric": "10 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
+        "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
-        "source_url": "https://huggingface.co/papers/2611.17814",
+        "source_anchor": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+        "source_url": "https://huggingface.co/papers/2611.17878",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9dcfe7d027753eb9"
+      "receipt_hash": "e3039723f6fc0e2d"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9dcfe7d02775"
+      "receipt_hash": "arm_e3039723f6fc"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
