@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T04:03:45.048Z",
-  "packet_sha256": "f4a1b692b918c1cec98199f4e67b2330d91839170e59be0b14e9eb87a3d87779",
+  "updated_at": "2026-11-16T04:36:38.663Z",
+  "packet_sha256": "3157aa9c6e71a34df7344dc03b5c36139f3e3c40b6a4003414524d38f60c21a7",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "da4846d5f944a98e",
+    "merkle_root_hex": "ee89485ef8213652",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "da4846d5f944a98e",
-      "frame_sha256": "4e565a04e3ae7d3cacbfda1fde63e3c773bd77e5614ae5616227773c7409b557",
+      "merkle_root_hex": "ee89485ef8213652",
+      "frame_sha256": "59168bf2e5c4d905143c9ffe27631d0298f4427ad4129c624cbb10f1c9d05f90",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:a4a1c345:b28a0d42:47aea593:8e24602f",
+      "hdc_16k": "hdc16k:1e0c775f:9bdf671f:b88b00e7:e87a96b2",
       "spectral_4d": {
-        "coord4D": "78.86.90:4",
-        "rgbaStr": "{78}{86}{90}{4}",
-        "carrier_freq_hz": 281,
+        "coord4D": "89.22.139:242",
+        "rgbaStr": "{89}{22}{139}{242}",
+        "carrier_freq_hz": 279,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_da4846d5f944a98e",
+        "receipt_id": "R_san_yin_ee89485ef8213652",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T04:03:53.048Z"
+        "verified_at": "2026-11-16T04:36:46.663Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T04:03:53.048Z",
+    "harvested_at": "2026-11-16T04:36:46.663Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 5,
@@ -92,55 +92,55 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "AI Reviews Are Biased Towards the Appendix",
-        "url": "https://huggingface.co/papers/2611.17811",
-        "summary": "Large language models (LLMs) are increasingly used by reviewers to highlight weaknesses during the reviewing process, and their outputs often shape the reviews that humans submit. Prior work studies how LLM reviews align with human ones, yet we know little about which parts of a paper these models actually criticize. I",
+        "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+        "url": "https://huggingface.co/papers/2611.18549",
+        "summary": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detail",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Aligning AI Teams",
+        "url": "https://huggingface.co/papers/2611.17820",
+        "summary": "Previous work has shown that alignment training on individual LLM agents can fail to transfer to multi-agent settings. We investigate the underlying mechanisms for this failure, and explore interventions to preserve alignment transfer to multi-agent LLM teams. We focus on two software-engineering tasks (sepsis triage, ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+        "url": "https://huggingface.co/papers/2611.18397",
+        "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces a",
+        "metric": "12 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+        "url": "https://huggingface.co/papers/2611.18442",
+        "summary": "Open driving releases and usage-based insurance programs often claim to prevent privacy breaches by omitting GPS records when sharing or collecting vehicle data. However, removing GPS coordinates from driving logs does not erase the location information carried by vehicle signals. While prior route-inference attacks ha",
         "metric": "0 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
-        "url": "https://huggingface.co/papers/2611.18359",
-        "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies ",
-        "metric": "10 upvotes",
+        "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
+        "url": "https://huggingface.co/papers/2611.18338",
+        "summary": "Text-to-SQL systems translate natural language questions into SQL queries over increasingly complex databases. However, widely used benchmarks evaluate questions independently, overlooking settings where earlier queries over the same database can supply joins or calculations for a new question. We introduce HARE (Histo",
+        "metric": "4 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
-        "url": "https://huggingface.co/papers/2611.12901",
-        "summary": "Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative denoising, while a few denoising steps exhibit localized entropy spikes closely associa",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-14T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
-        "url": "https://huggingface.co/papers/2611.06866",
-        "summary": "Agentic workflows enable AI agents to perform recurring repository tasks on schedules or in response to repository events. Existing studies examine workflow definitions and outputs, but provide limited evidence of what happens during execution. We present GH-AWTrace, a dataset linking 25,014 verified GitHub Agentic Wor",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-04T18:20:41.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
-        "url": "https://huggingface.co/papers/2611.14504",
-        "summary": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From ",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-10T00:00:00.000Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "AI Reviews Are Biased Towards the Appendix",
-        "source_url": "https://huggingface.co/papers/2611.17811",
+        "source_anchor": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+        "source_url": "https://huggingface.co/papers/2611.18549",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -178,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "da4846d5f944a98e"
+      "receipt_hash": "ee89485ef8213652"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_da4846d5f944"
+      "receipt_hash": "arm_ee89485ef821"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
