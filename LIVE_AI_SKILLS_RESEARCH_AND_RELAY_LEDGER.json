@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T06:11:46.275Z",
-  "packet_sha256": "cf3a454e8bec938371bec2acfb1a86ddcdce86cc0d6841b4f3534330ee7b1593",
+  "updated_at": "2026-11-16T08:18:42.969Z",
+  "packet_sha256": "e7a858130ccf3efe4e5ebc54ecb14c950f10dda9d0862b90c2a3da21f883d3a4",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "3f94727e5a0298d8",
+    "merkle_root_hex": "7d5ed2834ebb51d6",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "3f94727e5a0298d8",
-      "frame_sha256": "c0cfb4293b778dedc38badd7fff254276dde9638a3b5c44a18884126c6fe4523",
+      "merkle_root_hex": "7d5ed2834ebb51d6",
+      "frame_sha256": "4709cf54f9105eda399fe31f5848cc07d4d5f873fabeebc7da34b129c39af482",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:74761364:c828abfa:16f384aa:aaca6cea",
+      "hdc_16k": "hdc16k:b2beb542:269430df:439c6706:27fc1cf4",
       "spectral_4d": {
-        "coord4D": "192.207.180:41",
-        "rgbaStr": "{192}{207}{180}{41}",
-        "carrier_freq_hz": 465,
+        "coord4D": "71.9.207:84",
+        "rgbaStr": "{71}{9}{207}{84}",
+        "carrier_freq_hz": 300,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_3f94727e5a0298d8",
+        "receipt_id": "R_san_yin_7d5ed2834ebb51d6",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T06:11:51.860Z"
+        "verified_at": "2026-11-16T08:18:51.969Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T06:11:48.203Z",
+    "harvested_at": "2026-11-16T08:18:43.377Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
+        "url": "https://huggingface.co/papers/2611.16378",
+        "summary": "Autonomous agents modify prompts, memories, tools, workflows, and policies using interaction histories. Yet a plausible modification is not necessarily suitable for persistent adoption: candidate selection is adaptive, evaluators may be imperfect, and local gains can hide degradation against an earlier baseline. We int",
+        "metric": "7 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
         "url": "https://huggingface.co/papers/2611.18482",
         "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this",
-        "metric": "2 upvotes",
+        "metric": "23 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -104,7 +113,7 @@
         "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
         "url": "https://huggingface.co/papers/2611.18130",
         "summary": "Large language models (LLMs) are increasingly applied to finance, creating a need for benchmarks that evaluate their capabilities across financial systems with different regulations and practices. However, existing financial benchmarks provide limited coverage of country-specific financial systems, and they are difficu",
-        "metric": "0 upvotes",
+        "metric": "8 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
         "url": "https://huggingface.co/papers/2611.18529",
         "summary": "Meetings last up to an hour, and nobody knows in advance how many people will speak. Neural diarizers with a fixed number of output slots, such as Streaming Sortformer and Nemotron-3, are accurate and run online, but they cannot name more speakers than they have slots. We remove this limit without retraining. The slot ",
-        "metric": "1 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -122,17 +131,8 @@
         "title": "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
         "url": "https://huggingface.co/papers/2611.02822",
         "summary": "Autoregressive video diffusion models (AR-VDMs) enable real-time, long-horizon video generation but degrade rapidly once the inference horizon outruns the training horizon, due to compounding exposure bias. To stabilize long rollouts, recent methods heuristically adopt frame sink, keeping initial frames as a persistent",
-        "metric": "1 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-11-02T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
-        "url": "https://huggingface.co/papers/2611.18549",
-        "summary": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detail",
-        "metric": "7 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
-        "source_url": "https://huggingface.co/papers/2611.18482",
+        "source_anchor": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
+        "source_url": "https://huggingface.co/papers/2611.16378",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "3f94727e5a0298d8"
+      "receipt_hash": "7d5ed2834ebb51d6"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_3f94727e5a02"
+      "receipt_hash": "arm_7d5ed2834ebb"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
