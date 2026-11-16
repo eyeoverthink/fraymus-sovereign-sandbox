@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T18:55:46.306Z",
-  "packet_sha256": "34578d5e97b92028c517943e3f3cff251ad423c0ddecd45b105b33428928c810",
+  "updated_at": "2026-11-16T21:02:47.243Z",
+  "packet_sha256": "e4e4c387f312c08555be404aa28f5c0d04a1f93e774ad3a168674d2d539335d2",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "4fee57ae8c4e465c",
+    "merkle_root_hex": "907cf9cb35cc9349",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "4fee57ae8c4e465c",
-      "frame_sha256": "af6437e177fea0db0c33ab90392df63fbcff7b0da0a352b81ed2e1891e1dd9a2",
+      "merkle_root_hex": "907cf9cb35cc9349",
+      "frame_sha256": "56a77125391bc2c8e48d52a4c890e74cfa72ff0f5a98e8c53364a874eeceb84c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:362723ab:2d6f374d:485c8a0b:617a5a04",
+      "hdc_16k": "hdc16k:24872414:31112758:ccdfaef8:2b27884f",
       "spectral_4d": {
-        "coord4D": "175.100.55:225",
-        "rgbaStr": "{175}{100}{55}{225}",
-        "carrier_freq_hz": 324,
+        "coord4D": "86.167.113:37",
+        "rgbaStr": "{86}{167}{113}{37}",
+        "carrier_freq_hz": 345,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_4fee57ae8c4e465c",
+        "receipt_id": "R_san_yin_907cf9cb35cc9349",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T18:55:52.863Z"
+        "verified_at": "2026-11-16T21:02:53.813Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T18:55:47.124Z",
+    "harvested_at": "2026-11-16T21:02:47.756Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems",
+        "url": "https://huggingface.co/papers/2611.05843",
+        "summary": "Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition or guide sampling in the image domain. In this work, we introduce Dual Flow, a novel joint-flow model for solving linear inverse problems by jointly estimating the clean image and corresponding noise-f",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning",
+        "url": "https://huggingface.co/papers/2611.16500",
+        "summary": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia. Our dataset comprises 50,521 structured Even-Russian entries extracted from dictionary and phrasebook sources via GPT-4o Mini-based parsing, from wh",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
+        "url": "https://huggingface.co/papers/2611.17780",
+        "summary": "Frontier LLM agents that query databases with tools are among the most accurate text-to-SQL systems, but per-query calls to a hosted model are slow, costly, and expose sensitive organizational queries to external APIs. For example, a Claude Opus 5.5 agent serving 10,000 queries a day costs over $70,000 a year at list p",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -105,33 +132,6 @@
         "url": "https://huggingface.co/papers/2611.17169",
         "summary": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six loss",
         "metric": "2 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
-        "url": "https://huggingface.co/papers/2611.15640",
-        "summary": "Streaming video understanding aims to continuously process incoming visual observations, making the retention and retrieval of relevant information increasingly important as the video history grows. Although existing benchmarks include memory-related questions, question-answering accuracy alone does not reliably measur",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-11T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
-        "url": "https://huggingface.co/papers/2610.41354",
-        "summary": "Deployment objectives often specify desired outcomes without providing revised trajectories, while parts of the original reference must still be followed. We present OneSteer, a one-step diffusion whole-body controller that combines general motion tracking with selective test-time steering. To accommodate new objective",
-        "metric": "12 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
-        "url": "https://huggingface.co/papers/2611.17440",
-        "summary": "Standard coding-agent benchmarks primarily evaluate binary task success, treating execution as a black box and obscuring the behaviors that produce those outcomes. We analyze a large corpus of 143,209 execution trajectories from 125 agent configurations spanning 117 unique models. To enable comparisons across heterogen",
-        "metric": "6 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Alloy: A Multi-Material Physics Engine for Robot Learning",
-        "source_url": "https://huggingface.co/papers/2611.16312",
+        "source_anchor": "Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems",
+        "source_url": "https://huggingface.co/papers/2611.05843",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "4fee57ae8c4e465c"
+      "receipt_hash": "907cf9cb35cc9349"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_4fee57ae8c4e"
+      "receipt_hash": "arm_907cf9cb35cc"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
