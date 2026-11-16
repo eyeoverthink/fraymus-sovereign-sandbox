@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T16:47:40.742Z",
-  "packet_sha256": "15babc066bf5af39dd3549430de996ea29e499121180886bf651658386260ee8",
+  "updated_at": "2026-11-16T17:20:39.436Z",
+  "packet_sha256": "453fa77b39077ef6b3b1e6503e0a629dab41d1712e275e2bb655afe55d07a5e6",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "233dd257c3f20873",
+    "merkle_root_hex": "b772f2af4f49654b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "233dd257c3f20873",
-      "frame_sha256": "721d3b725a75e20302b5a615e01c5fedb1037d92c2ce556881eb520c24e3c331",
+      "merkle_root_hex": "b772f2af4f49654b",
+      "frame_sha256": "a5ea2a8390a14b578bfd532aa91eff5b6b79abea120638ca61d92798eb074952",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:edffcbb9:3c2e16d8:de00b7b7:238c3f3c",
+      "hdc_16k": "hdc16k:d50ba700:7ffe7d2f:f29d2ae0:ce314434",
       "spectral_4d": {
-        "coord4D": "114.29.59:114",
-        "rgbaStr": "{114}{29}{59}{114}",
-        "carrier_freq_hz": 252,
+        "coord4D": "165.234.42:131",
+        "rgbaStr": "{165}{234}{42}{131}",
+        "carrier_freq_hz": 387,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_233dd257c3f20873",
+        "receipt_id": "R_san_yin_b772f2af4f49654b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T16:47:46.742Z"
+        "verified_at": "2026-11-16T17:20:46.490Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T16:47:41.019Z",
+    "harvested_at": "2026-11-16T17:20:40.781Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
+        "url": "https://huggingface.co/papers/2611.15640",
+        "summary": "Streaming video understanding aims to continuously process incoming visual observations, making the retention and retrieval of relevant information increasingly important as the video history grows. Although existing benchmarks include memory-related questions, question-answering accuracy alone does not reliably measur",
+        "metric": "4 upvotes",
+        "published_at": "2026-11-11T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +113,7 @@
         "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
         "url": "https://huggingface.co/papers/2611.17440",
         "summary": "Standard coding-agent benchmarks primarily evaluate binary task success, treating execution as a black box and obscuring the behaviors that produce those outcomes. We analyze a large corpus of 143,209 execution trajectories from 125 agent configurations spanning 117 unique models. To enable comparisons across heterogen",
-        "metric": "4 upvotes",
+        "metric": "5 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological ga",
         "metric": "20 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
-        "url": "https://huggingface.co/papers/2611.14505",
-        "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weig",
-        "metric": "9 upvotes",
-        "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
-        "source_url": "https://huggingface.co/papers/2610.41354",
+        "source_anchor": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
+        "source_url": "https://huggingface.co/papers/2611.15640",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "233dd257c3f20873"
+      "receipt_hash": "b772f2af4f49654b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_233dd257c3f2"
+      "receipt_hash": "arm_b772f2af4f49"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
