@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-17T01:50:38.689Z",
-  "packet_sha256": "60d75da3aa0ffc67ed9eb926d221152945ee723901f5dbfff58d8e7232b1d5f0",
+  "updated_at": "2026-11-17T03:24:43.586Z",
+  "packet_sha256": "6a92a32b516653db06a09d26f143f0aa70d757c375536d0796b842987c78cec3",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "ad8001a4dce26337",
+    "merkle_root_hex": "de9e5abfce79fe26",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "ad8001a4dce26337",
-      "frame_sha256": "28d00a6da29bdd85f1916ae8fb08551181770f501f8ff05ea2eb217595ef3696",
+      "merkle_root_hex": "de9e5abfce79fe26",
+      "frame_sha256": "aa598703af1897ce8e29c73296bdc010e72c931ba3b8630fef0b291903246a68",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:78429158:3e7efd3e:1607def2:53967baa",
+      "hdc_16k": "hdc16k:46cb85c9:e9dc7052:e39dfa71:9ec2cd3b",
       "spectral_4d": {
-        "coord4D": "40.208.10:109",
-        "rgbaStr": "{40}{208}{10}{109}",
-        "carrier_freq_hz": 284,
+        "coord4D": "170.89.135:3",
+        "rgbaStr": "{170}{89}{135}{3}",
+        "carrier_freq_hz": 360,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_ad8001a4dce26337",
+        "receipt_id": "R_san_yin_de9e5abfce79fe26",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-17T01:50:43.136Z"
+        "verified_at": "2026-11-17T03:24:48.313Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-17T01:50:39.084Z",
+    "harvested_at": "2026-11-17T03:24:43.829Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
+        "url": "https://huggingface.co/papers/2611.16661",
+        "summary": "Efficient batch execution of agent tasks is critical to LLM training and development workflows, including benchmark evaluation, synthetic-data generation, and RL rollouts. Since these tasks alternate between LLM inference and environment interaction, we present coordinated optimizations to reduce batch makespan, the ti",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -126,66 +135,57 @@
         "published_at": "2026-11-10T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems",
-        "url": "https://huggingface.co/papers/2611.05843",
-        "summary": "Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition or guide sampling in the image domain. In this work, we introduce Dual Flow, a novel joint-flow model for solving linear inverse problems by jointly estimating the clean image and corresponding noise-f",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Site-Specific Cell Shaping: An Agentic Framework",
+        "url": "http://arxiv.org/abs/2611.19212v1",
+        "summary": "An agentic framework is proposed for cell shaping in future sixth-generation (6G) wireless network planning. Cell shaping controls the coverage and interferences of base stations (BSs) through antenna parameters configuration, providing an important means of improving coverage. In contrast to conventional approaches th",
+        "metric": "Published 2026-11-14",
+        "published_at": "2026-11-14T07:10:53Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
-        "url": "http://arxiv.org/abs/2611.18563v1",
-        "summary": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabilities. In contrast, ",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:59:43Z"
+        "title": "What Makes Good Datasets for Intelligent Multi-Modal Sensing-Communication Integration?",
+        "url": "http://arxiv.org/abs/2611.19206v1",
+        "summary": "Intelligent multi-modal sensing-communication integration, namely Synesthesia of Machines (SoM), represents an AI-native paradigm for enabling embodied intelligence and future wireless networks. Multi-modal sensing and communication foundation models developed for SoM learn cross-modal associations and generalizable en",
+        "metric": "Published 2026-11-14",
+        "published_at": "2026-11-14T06:54:55Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
-        "url": "http://arxiv.org/abs/2611.18562v1",
-        "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B ",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:59:02Z"
+        "title": "Decomposing the Associative Chain: Schema-Based Mediation Supports Expression and Understanding in Human-AI Music Co-creation",
+        "url": "http://arxiv.org/abs/2611.19203v1",
+        "summary": "Users cannot reliably translate their creative intents into AI-generated music. We contend that the root of this difficulty lies in associative divergence: associations between narratives and musical features are overly remote, and users lack a visible mediation structure to negotiate them. To address this, we introduc",
+        "metric": "Published 2026-11-14",
+        "published_at": "2026-11-14T06:51:57Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-        "url": "http://arxiv.org/abs/2611.18553v1",
-        "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:58:08Z"
+        "title": "Omni-Workspace: Benchmarking Omni-Modal AI Assistants on Multimodal Workspace Tasks",
+        "url": "http://arxiv.org/abs/2611.19202v1",
+        "summary": "Omni-modal agents are expected to move beyond multimodal understanding toward completing complex tasks in realistic multimodal environments. In these settings, information is distributed across heterogeneous files and modalities, with cross-file and cross-modal dependencies requiring agents to continually coordinate pe",
+        "metric": "Published 2026-11-14",
+        "published_at": "2026-11-14T06:49:09Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
-        "url": "http://arxiv.org/abs/2611.18543v1",
-        "summary": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behavior Cloning (R2BC) a",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:50:05Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-        "url": "http://arxiv.org/abs/2611.18533v1",
-        "summary": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness depends on the domain",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:45:49Z"
+        "title": "What Moves a LoCoMo Score? Memory Context, Answer Prompts and Judges",
+        "url": "http://arxiv.org/abs/2611.19199v1",
+        "summary": "LoCoMo is a widely reported benchmark for long-term conversational memory, but published scores mix memory quality with choices of answer prompt, judge and baseline layout that are rarely reported together. We measure how much these choices move a score, and evaluate Becos, a team memory system for coding agents, as a ",
+        "metric": "Published 2026-11-14",
+        "published_at": "2026-11-14T06:41:22Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Iris-Z: Scaling One Generative Model Past Specialist Geometry Models",
-        "source_url": "https://huggingface.co/papers/2611.16010",
+        "source_anchor": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
+        "source_url": "https://huggingface.co/papers/2611.16661",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Training Reasoning Models in Simulation to Natively Use Real Robots",
-        "source_url": "http://arxiv.org/abs/2611.18562v1",
+        "source_anchor": "What Makes Good Datasets for Intelligent Multi-Modal Sensing-Communication Integration?",
+        "source_url": "http://arxiv.org/abs/2611.19206v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "ad8001a4dce26337"
+      "receipt_hash": "de9e5abfce79fe26"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_ad8001a4dce2"
+      "receipt_hash": "arm_de9e5abfce79"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
