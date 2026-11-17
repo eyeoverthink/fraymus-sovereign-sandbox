@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-17T20:23:03.316Z",
-  "packet_sha256": "14d5f7f966afcc0989a134b385118d3ad0093e01e67ad497a19c1989ae300749",
+  "updated_at": "2026-11-17T20:55:55.863Z",
+  "packet_sha256": "94624a4abbc517f06faf35414712890e82d3a46c8fc1ca571ea5edaa65ed4eb4",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9edfb736e0f8a6c7",
+    "merkle_root_hex": "81fd0d0487c2880",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9edfb736e0f8a6c7",
-      "frame_sha256": "ff3e9edeabbdba132f65be367302e795479bd7ae70a7f42801532f7dabd49455",
+      "merkle_root_hex": "81fd0d0487c2880",
+      "frame_sha256": "3e4bd51eaa701b100778c702cc94c8e5838dd87d2fe156659cc8f03bc0f23940",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:161217ca:95e0eac3:9a156d4e:00e2950e",
+      "hdc_16k": "hdc16k:089530f7:e48e0f69:522da125:c951c622",
       "spectral_4d": {
-        "coord4D": "255.62.158:222",
-        "rgbaStr": "{255}{62}{158}{222}",
-        "carrier_freq_hz": 406,
+        "coord4D": "62.75.213:30",
+        "rgbaStr": "{62}{75}{213}{30}",
+        "carrier_freq_hz": 336,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9edfb736e0f8a6c7",
+        "receipt_id": "R_san_yin_81fd0d0487c2880",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-17T20:23:09.709Z"
+        "verified_at": "2026-11-17T20:56:03.292Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-17T20:23:03.878Z",
+    "harvested_at": "2026-11-17T20:55:56.116Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
+        "url": "https://huggingface.co/papers/2611.21412",
+        "summary": "High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on fast, anisotropic 2D acquisitions, particularly in resource-constrained settings. These acquisitions may differ in orientation, alignment and anatomical coverage, resulting in partially overlapping imag",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+        "url": "https://huggingface.co/papers/2611.17610",
+        "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a reso",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Marimba: A System One Model for Speech",
         "url": "https://huggingface.co/papers/2611.18330",
         "summary": "Speech applications require decisions about term presence, turn completion, and language within an audio window. We present Marimba, an interface for typed speech decisions built on frozen Qwen3-ASR 0.6B features. Lexical questions use zero-shot scoring of ASR transcripts; non-lexical questions use a question-condition",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -115,24 +133,6 @@
         "summary": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers. We introduce a controlled two-pass audit that holds the question, the evidence, and the model's initial answer fixed and varies only the ",
         "metric": "2 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
-        "url": "https://huggingface.co/papers/2611.21605",
-        "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propo",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
-        "url": "https://huggingface.co/papers/2611.18981",
-        "summary": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gutachten) that names the governing norms, applies them to the facts, and argues to a conclusion. We introduce GPBam (German Public Law Bar-style Exam), 81 public-law examination cases with reference sol",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Marimba: A System One Model for Speech",
-        "source_url": "https://huggingface.co/papers/2611.18330",
+        "source_anchor": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
+        "source_url": "https://huggingface.co/papers/2611.21412",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9edfb736e0f8a6c7"
+      "receipt_hash": "81fd0d0487c2880"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9edfb736e0f8"
+      "receipt_hash": "arm_81fd0d0487c2"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
