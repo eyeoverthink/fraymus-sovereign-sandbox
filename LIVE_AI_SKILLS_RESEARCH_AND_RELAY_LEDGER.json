@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-17T16:08:54.162Z",
-  "packet_sha256": "59535754425085063b880cc4bff63d879a4382ec9eb2b6db0ede162a2ba88864",
+  "updated_at": "2026-11-17T16:41:46.608Z",
+  "packet_sha256": "757079182c20768a22176fe02fbf1f5089e13a45a07344ab7377181703f597c3",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9bf530d7e2e7e60f",
+    "merkle_root_hex": "fbfb14309fe94f3e",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9bf530d7e2e7e60f",
-      "frame_sha256": "11e094a785443ea26d68bc65b3a6a0e09721aa044f3a66d88e4101f145bd304a",
+      "merkle_root_hex": "fbfb14309fe94f3e",
+      "frame_sha256": "aade00f7cb1d236608222fcefe0e65d4775c090cc1a2450ad3afbb5d8ed02cee",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:eee94b11:d7fde0b2:3b61b0d9:a17d3074",
+      "hdc_16k": "hdc16k:594524ce:e443225f:d11625ac:b46413fd",
       "spectral_4d": {
-        "coord4D": "17.224.148:167",
-        "rgbaStr": "{17}{224}{148}{167}",
-        "carrier_freq_hz": 358,
+        "coord4D": "170.222.196:247",
+        "rgbaStr": "{170}{222}{196}{247}",
+        "carrier_freq_hz": 470,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9bf530d7e2e7e60f",
+        "receipt_id": "R_san_yin_fbfb14309fe94f3e",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-17T16:09:01.085Z"
+        "verified_at": "2026-11-17T16:41:55.608Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-17T16:08:54.612Z",
+    "harvested_at": "2026-11-17T16:41:46.870Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
         "url": "https://huggingface.co/papers/2611.09825",
         "summary": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling formats (NVFP4, MXFP4) shrink the cache and run attention on FP4 Tensor Cores, a fundamental gap remains between algorithmic quantization and system-aware acceleration: existing FP4 KV systems use vani",
-        "metric": "1 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-06T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
         "url": "https://huggingface.co/papers/2611.14960",
         "summary": "Coding agents can solve a task well before they stop working on it. We characterize termination lag--the number of steps between an agent's first correct patch and the end of its run--across five models, two agent frameworks, and three SWE-bench datasets by recording and testing every distinct repository patch generate",
-        "metric": "1 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9bf530d7e2e7e60f"
+      "receipt_hash": "fbfb14309fe94f3e"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9bf530d7e2e7"
+      "receipt_hash": "arm_fbfb14309fe9"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
