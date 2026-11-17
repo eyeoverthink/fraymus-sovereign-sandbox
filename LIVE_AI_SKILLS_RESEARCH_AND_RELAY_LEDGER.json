@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-17T20:55:55.863Z",
-  "packet_sha256": "94624a4abbc517f06faf35414712890e82d3a46c8fc1ca571ea5edaa65ed4eb4",
+  "updated_at": "2026-11-17T22:30:58.863Z",
+  "packet_sha256": "57cb02eee29ca17d39b19163df0dc67eb9ab3d6d9dd153867f5eba7a8d8c6ba1",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "81fd0d0487c2880",
+    "merkle_root_hex": "6ce22629662e5099",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "81fd0d0487c2880",
-      "frame_sha256": "3e4bd51eaa701b100778c702cc94c8e5838dd87d2fe156659cc8f03bc0f23940",
+      "merkle_root_hex": "6ce22629662e5099",
+      "frame_sha256": "aa084e27c26a36548d635a3301a22aa981ba1c512cb53da563f776bd8fbfe40c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:089530f7:e48e0f69:522da125:c951c622",
+      "hdc_16k": "hdc16k:9e64f4bd:4dc08261:64d09c97:faf0af4e",
       "spectral_4d": {
-        "coord4D": "62.75.213:30",
-        "rgbaStr": "{62}{75}{213}{30}",
-        "carrier_freq_hz": 336,
+        "coord4D": "170.8.78:39",
+        "rgbaStr": "{170}{8}{78}{39}",
+        "carrier_freq_hz": 283,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_81fd0d0487c2880",
+        "receipt_id": "R_san_yin_6ce22629662e5099",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-17T20:56:03.292Z"
+        "verified_at": "2026-11-17T22:31:07.214Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-17T20:55:56.116Z",
+    "harvested_at": "2026-11-17T22:30:59.849Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+        "url": "https://huggingface.co/papers/2611.08977",
+        "summary": "Looping is a powerful inductive bias for reasoning. By repeatedly iterating a recurrent block, looped models can scale their effective depth and enable multi-step reasoning in latent space. However, existing looped models are not inherently guided by an explicit measure of progress, making it difficult to determine whe",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-06T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +113,7 @@
         "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
         "url": "https://huggingface.co/papers/2611.17610",
         "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a reso",
-        "metric": "0 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "Marimba: A System One Model for Speech",
         "url": "https://huggingface.co/papers/2611.18330",
         "summary": "Speech applications require decisions about term presence, turn completion, and language within an audio window. We present Marimba, an interface for typed speech decisions built on frozen Qwen3-ASR 0.6B features. Lexical questions use zero-shot scoring of ASR transcripts; non-lexical questions use a question-condition",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -122,17 +131,8 @@
         "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
         "url": "https://huggingface.co/papers/2611.20595",
         "summary": "LLM agents answer questions by calling APIs and trusting the results. An API can fail silently. It ignores part of a request, such as a misnamed filter, yet returns HTTP 200 and a plausible but wrong result. Current fixes, such as checklists, reviewer models and LLM judges, ask the model to catch it. But models often s",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
-        "url": "https://huggingface.co/papers/2611.16694",
-        "summary": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers. We introduce a controlled two-pass audit that holds the question, the evidence, and the model's initial answer fixed and varies only the ",
         "metric": "2 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
+        "published_at": "2026-11-16T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
-        "source_url": "https://huggingface.co/papers/2611.21412",
+        "source_anchor": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+        "source_url": "https://huggingface.co/papers/2611.08977",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "81fd0d0487c2880"
+      "receipt_hash": "6ce22629662e5099"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_81fd0d0487c2"
+      "receipt_hash": "arm_6ce22629662e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
