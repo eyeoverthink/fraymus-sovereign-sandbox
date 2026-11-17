@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-16T23:42:48.280Z",
-  "packet_sha256": "3abb88fffb8d14f94345eea9f81b5cfd7283b9a4ec7e94175a47d3cbdebf4705",
+  "updated_at": "2026-11-17T01:17:46.130Z",
+  "packet_sha256": "384621ca17ce05f167f6e3059ff59c350853fa99e9c0b73bdd5f393bfd6ae67a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,43 +52,52 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "507cfb579bce1ec4",
+    "merkle_root_hex": "d57ea9ae46383722",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "507cfb579bce1ec4",
-      "frame_sha256": "e5a47d215ad357a32ce76c2abeb632e187132345b243130a8640d9c524713afa",
+      "merkle_root_hex": "d57ea9ae46383722",
+      "frame_sha256": "e3f7f74d23081571c5b7ad34edb90640ec60793de28e79292c01b2f58779617c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:6f40633b:143de180:62958d4f:bdb736d8",
+      "hdc_16k": "hdc16k:c860f8eb:c27e5ae9:477bee8b:7df64a03",
       "spectral_4d": {
-        "coord4D": "229.164.125:33",
-        "rgbaStr": "{229}{164}{125}{33}",
-        "carrier_freq_hz": 431,
+        "coord4D": "227.247.247:77",
+        "rgbaStr": "{227}{247}{247}{77}",
+        "carrier_freq_hz": 545,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_507cfb579bce1ec4",
+        "receipt_id": "R_san_yin_d57ea9ae46383722",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-16T23:42:54.457Z"
+        "verified_at": "2026-11-17T01:17:54.130Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-16T23:42:48.561Z",
+    "harvested_at": "2026-11-17T01:17:54.130Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Iris-Z: Scaling One Generative Model Past Specialist Geometry Models",
+        "url": "https://huggingface.co/papers/2611.16010",
+        "summary": "Language moved from many task-specific models to one unified model: a single generative model with a single generative training task that handles all of them within the same backbone, and keeps improving with data, parameters and compute. We believe the bitter lesson applies just as much to computer vision, 3D and spat",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-11T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +113,7 @@
         "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
         "url": "https://huggingface.co/papers/2611.18550",
         "summary": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representations of student mod",
-        "metric": "0 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -124,68 +133,14 @@
         "summary": "Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition or guide sampling in the image domain. In this work, we introduce Dual Flow, a novel joint-flow model for solving linear inverse problems by jointly estimating the clean image and corresponding noise-f",
         "metric": "1 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning",
-        "url": "https://huggingface.co/papers/2611.16500",
-        "summary": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia. Our dataset comprises 50,521 structured Even-Russian entries extracted from dictionary and phrasebook sources via GPT-4o Mini-based parsing, from wh",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
-        "url": "http://arxiv.org/abs/2611.18563v1",
-        "summary": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabilities. In contrast, ",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:59:43Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
-        "url": "http://arxiv.org/abs/2611.18562v1",
-        "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B ",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:59:02Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-        "url": "http://arxiv.org/abs/2611.18553v1",
-        "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:58:08Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
-        "url": "http://arxiv.org/abs/2611.18543v1",
-        "summary": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behavior Cloning (R2BC) a",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:50:05Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-        "url": "http://arxiv.org/abs/2611.18533v1",
-        "summary": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness depends on the domain",
-        "metric": "Published 2026-11-13",
-        "published_at": "2026-11-13T18:45:49Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "BrickFlow: Connectivity-Guided Brick Reconstruction",
-        "source_url": "https://huggingface.co/papers/2611.17321",
+        "source_anchor": "Iris-Z: Scaling One Generative Model Past Specialist Geometry Models",
+        "source_url": "https://huggingface.co/papers/2611.16010",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Training Reasoning Models in Simulation to Natively Use Real Robots",
-        "source_url": "http://arxiv.org/abs/2611.18562v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "507cfb579bce1ec4"
+      "receipt_hash": "d57ea9ae46383722"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_507cfb579bce"
+      "receipt_hash": "arm_d57ea9ae4638"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
