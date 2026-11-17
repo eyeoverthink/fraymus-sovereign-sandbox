@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-17T16:41:46.608Z",
-  "packet_sha256": "757079182c20768a22176fe02fbf1f5089e13a45a07344ab7377181703f597c3",
+  "updated_at": "2026-11-17T18:16:00.102Z",
+  "packet_sha256": "619e4a27c0d5148a57adc1bd5696e0110e23eaf520ac844337a15fec04898c31",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "fbfb14309fe94f3e",
+    "merkle_root_hex": "239d1e2941266c6c",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "fbfb14309fe94f3e",
-      "frame_sha256": "aade00f7cb1d236608222fcefe0e65d4775c090cc1a2450ad3afbb5d8ed02cee",
+      "merkle_root_hex": "239d1e2941266c6c",
+      "frame_sha256": "22756c37e078d801b92646178e501156e800657c9305992e9d9749cfaccaf10d",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:594524ce:e443225f:d11625ac:b46413fd",
+      "hdc_16k": "hdc16k:7d406d88:b30b2949:2029bbac:876c27cf",
       "spectral_4d": {
-        "coord4D": "170.222.196:247",
-        "rgbaStr": "{170}{222}{196}{247}",
-        "carrier_freq_hz": 470,
+        "coord4D": "34.117.108:55",
+        "rgbaStr": "{34}{117}{108}{55}",
+        "carrier_freq_hz": 284,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_fbfb14309fe94f3e",
+        "receipt_id": "R_san_yin_239d1e2941266c6c",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-17T16:41:55.608Z"
+        "verified_at": "2026-11-17T18:16:07.416Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-17T16:41:46.870Z",
+    "harvested_at": "2026-11-17T18:16:00.663Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+        "url": "https://huggingface.co/papers/2611.21605",
+        "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propo",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
+        "url": "https://huggingface.co/papers/2611.18981",
+        "summary": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gutachten) that names the governing norms, applies them to the facts, and argues to a conclusion. We introduce GPBam (German Public Law Bar-style Exam), 81 public-law examination cases with reference sol",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +122,7 @@
         "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
         "url": "https://huggingface.co/papers/2611.14960",
         "summary": "Coding agents can solve a task well before they stop working on it. We characterize termination lag--the number of steps between an agent's first correct patch and the end of its run--across five models, two agent frameworks, and three SWE-bench datasets by recording and testing every distinct repository patch generate",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
         "url": "https://huggingface.co/papers/2611.19771",
         "summary": "Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in latent space. Two challenges remain: 2D images leave the metric geometry that manipulation acts on implicit and entangled with appearance, and what these models imagine stays hidden, as they are mostly ju",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Zuse: A Decision Model for European Languages",
-        "url": "https://huggingface.co/papers/2611.06238",
-        "summary": "Decision models read a document and return a probability for each of a fixed set of options instead of generating text. Several appeared in 2026, but none has published results outside English. We describe Zuse, three decision models (4B, 9B and 27B) that train a low-rank adapter and a pointer head on frozen open-weigh",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-04T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
-        "url": "https://huggingface.co/papers/2611.21479",
-        "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding ",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
-        "source_url": "https://huggingface.co/papers/2611.09825",
+        "source_anchor": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+        "source_url": "https://huggingface.co/papers/2611.21605",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "fbfb14309fe94f3e"
+      "receipt_hash": "239d1e2941266c6c"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_fbfb14309fe9"
+      "receipt_hash": "arm_239d1e294126"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
