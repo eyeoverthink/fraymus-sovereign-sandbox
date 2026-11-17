@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-17T08:12:38.470Z",
-  "packet_sha256": "7b864cfb8096cf52c79623e31038ca955613384b9356c902d8a563e142c21541",
+  "updated_at": "2026-11-17T09:46:49.589Z",
+  "packet_sha256": "4280e7a925c89df92f04d9c04de4ce553e4a6a5cfc3c785e9147c6179465cc7d",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "d5474907a427e196",
+    "merkle_root_hex": "db48e3de3005e1",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "d5474907a427e196",
-      "frame_sha256": "9153c342d4a4a27a8662000da7b5a3b892305bddea506bdd2639e930a2044f31",
+      "merkle_root_hex": "db48e3de3005e1",
+      "frame_sha256": "7e76672d71bc82a1ba7e01b3aa79766bac8288783893b69db005193f5525ac09",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8ef820c7:4f83599a:3c6cc8df:5d36b2bf",
+      "hdc_16k": "hdc16k:e719c146:a00bcb84:6b2a8e28:5bb52234",
       "spectral_4d": {
-        "coord4D": "145.83.195:66",
-        "rgbaStr": "{145}{83}{195}{66}",
-        "carrier_freq_hz": 377,
+        "coord4D": "126.118.103:45",
+        "rgbaStr": "{126}{118}{103}{45}",
+        "carrier_freq_hz": 334,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_d5474907a427e196",
+        "receipt_id": "R_san_yin_db48e3de3005e1",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-17T08:12:44.942Z"
+        "verified_at": "2026-11-17T09:46:55.865Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-17T08:12:38.975Z",
+    "harvested_at": "2026-11-17T09:46:50.053Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
+        "url": "https://huggingface.co/papers/2611.17110",
+        "summary": "Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared with world-action models (WAMs), LAMs c",
+        "metric": "9 upvotes",
+        "published_at": "2026-11-15T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
+        "url": "https://huggingface.co/papers/2611.17933",
+        "summary": "In many long-horizon settings, an agent's own choices create future constraints: committing finite capacity establishes future obligations and forecloses later opportunities. Sustaining performance therefore requires both keeping evolving plans feasible and comparing the value of resource allocations with the alternati",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Continuation-Guided LLM Evolution of Program Policies and Goal Compilers in Craftax",
+        "url": "https://huggingface.co/papers/2611.19537",
+        "summary": "Coding agents can synthesize and optimize code-based policies from simulator feedback, allowing the resulting program to act with zero inference model calls. But for long horizon tasks, two challenges arise: local improvements can hurt final success and switching to a new objective requires another expensive synthesis ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-14T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
         "url": "https://huggingface.co/papers/2611.21218",
         "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healt",
-        "metric": "12 upvotes",
+        "metric": "37 upvotes",
         "published_at": "2026-11-16T00:00:00.000Z"
       },
       {
@@ -105,33 +132,6 @@
         "url": "https://huggingface.co/papers/2611.20148",
         "summary": "Directional ablation removes a hidden state's component along a \"behaviour direction\" while a language model runs. It is the standard way to switch a behaviour such as refusal off, but it is erratic: on some models it barely fires, on others the text collapses into repetition. We show why, and fix it. At the last resid",
         "metric": "1 upvotes",
-        "published_at": "2026-11-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
-        "url": "https://huggingface.co/papers/2611.20218",
-        "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment pl",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "DominoBench: Evaluating Multi-Step Physical Reasoning from Still Images",
-        "url": "https://huggingface.co/papers/2611.20385",
-        "summary": "Can a vision-language model look at a picture of a chain reaction and tell what will happen? Recent multimodal models describe scenes fluently and solve textbook physics problems, which suggests they should also predict how a scene of ramps, ledges, pendulums, seesaws and dominoes plays out once a ball is pushed. We te",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Reflection Anchors for Propagation-Aware Visual Retention in Long-Chain Multimodal Reasoning",
-        "url": "https://huggingface.co/papers/2605.09614",
-        "summary": "Long chain-of-thought (CoT) reasoning improves large vision--language models, but visual information often fades during generation, limiting long-horizon multimodal reasoning. Existing methods either re-inject vision at inference or train policies for stronger grounding, but where to intervene relies on perception heur",
-        "metric": "0 upvotes",
         "published_at": "2026-11-15T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-        "source_url": "https://huggingface.co/papers/2611.21218",
+        "source_anchor": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
+        "source_url": "https://huggingface.co/papers/2611.17110",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "d5474907a427e196"
+      "receipt_hash": "db48e3de3005e1"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_d5474907a427"
+      "receipt_hash": "arm_db48e3de3005"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
