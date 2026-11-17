@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-17T11:53:44.938Z",
-  "packet_sha256": "bae7241713e8fc24aa1f75d93e4a5b2910ff3cfc8bab450c3953117efeebcce7",
+  "updated_at": "2026-11-17T14:00:53.271Z",
+  "packet_sha256": "4c2b030a31a8ed44a6ecbd6663b66e055f46f959a2c9e5ce28dc0e07fc6d54a3",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "e5e7081345cffdfd",
+    "merkle_root_hex": "538735066f35de0f",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "e5e7081345cffdfd",
-      "frame_sha256": "e00607379895aa79766aff1e6d1074c6a8e26f58a6ff5f1847f965c58839ea4a",
+      "merkle_root_hex": "538735066f35de0f",
+      "frame_sha256": "8a3c27841b05b3c604e36edae72092daf50d6c78ce1a8769eef9c4a672cbc766",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:eeff35c0:bdb4e412:876e5328:2a58fee1",
+      "hdc_16k": "hdc16k:9ae35798:496ac416:bbfcec32:2dd34057",
       "spectral_4d": {
-        "coord4D": "224.6.7:55",
-        "rgbaStr": "{224}{6}{7}{55}",
+        "coord4D": "138.60.39:132",
+        "rgbaStr": "{138}{60}{39}{132}",
         "carrier_freq_hz": 272,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_e5e7081345cffdfd",
+        "receipt_id": "R_san_yin_538735066f35de0f",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-17T11:53:52.253Z"
+        "verified_at": "2026-11-17T14:00:56.348Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-17T11:53:45.488Z",
+    "harvested_at": "2026-11-17T14:00:56.348Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Zuse: A Decision Model for European Languages",
+        "url": "https://huggingface.co/papers/2611.06238",
+        "summary": "Decision models read a document and return a probability for each of a fixed set of options instead of generating text. Several appeared in 2026, but none has published results outside English. We describe Zuse, three decision models (4B, 9B and 27B) that train a low-rank adapter and a pointer head on frozen open-weigh",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-04T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+        "url": "https://huggingface.co/papers/2611.21479",
+        "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality",
+        "url": "https://huggingface.co/papers/2611.18919",
+        "summary": "Robots in homes, warehouses and farms must pick up objects they have never seen, usually without a 3D model or a category label. A grasping policy that works directly on the point cloud from a depth sensor needs only the geometry the robot observes, so it applies to any new object. Offline grasp generators such as Cont",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -106,33 +133,6 @@
         "summary": "In particle physics, discrepancies between experimental measurements and Standard Model (SM) predictions are commonly interpreted within new theoretical models. In this context, the Standard Model Effective Field Theory (SMEFT) provides a general framework encompassing a broad class of models. However, exploring the en",
         "metric": "0 upvotes",
         "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Sage S2.1 Flash Technical Report",
-        "url": "https://huggingface.co/papers/2611.21072",
-        "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measureme",
-        "metric": "43 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
-        "url": "https://huggingface.co/papers/2611.17110",
-        "summary": "Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared with world-action models (WAMs), LAMs c",
-        "metric": "10 upvotes",
-        "published_at": "2026-11-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
-        "url": "https://huggingface.co/papers/2611.17933",
-        "summary": "In many long-horizon settings, an agent's own choices create future constraints: committing finite capacity establishes future obligations and forecloses later opportunities. Sustaining performance therefore requires both keeping evolving plans feasible and comparing the value of resource allocations with the alternati",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Dataset Distillation via Drifting",
-        "source_url": "https://huggingface.co/papers/2611.16642",
+        "source_anchor": "Zuse: A Decision Model for European Languages",
+        "source_url": "https://huggingface.co/papers/2611.06238",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "e5e7081345cffdfd"
+      "receipt_hash": "538735066f35de0f"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_e5e7081345cf"
+      "receipt_hash": "arm_538735066f35"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
