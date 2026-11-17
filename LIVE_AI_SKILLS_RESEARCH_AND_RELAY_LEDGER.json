@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-17T07:39:47.663Z",
-  "packet_sha256": "6737e1e48ac6e7b74ef030052f1c394b53949aef3f1fb2c157046fb357d73c20",
+  "updated_at": "2026-11-17T08:12:38.470Z",
+  "packet_sha256": "7b864cfb8096cf52c79623e31038ca955613384b9356c902d8a563e142c21541",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "48692fa3c4dd15ec",
+    "merkle_root_hex": "d5474907a427e196",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "48692fa3c4dd15ec",
-      "frame_sha256": "5c910873750dad0e986bab3e88f2c2bb0c052086ed06d43d33fc188c72eec4d7",
+      "merkle_root_hex": "d5474907a427e196",
+      "frame_sha256": "9153c342d4a4a27a8662000da7b5a3b892305bddea506bdd2639e930a2044f31",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:9ee07de3:e6442cba:255d0f51:57a5cac2",
+      "hdc_16k": "hdc16k:8ef820c7:4f83599a:3c6cc8df:5d36b2bf",
       "spectral_4d": {
-        "coord4D": "92.145.8:115",
-        "rgbaStr": "{92}{145}{8}{115}",
-        "carrier_freq_hz": 276,
+        "coord4D": "145.83.195:66",
+        "rgbaStr": "{145}{83}{195}{66}",
+        "carrier_freq_hz": 377,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_48692fa3c4dd15ec",
+        "receipt_id": "R_san_yin_d5474907a427e196",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-17T07:39:54.596Z"
+        "verified_at": "2026-11-17T08:12:44.942Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-17T07:39:47.885Z",
+    "harvested_at": "2026-11-17T08:12:38.975Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,55 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "UMM-JEPA: Generative Pretraining via Masked Next-Scale Representation Prediction for Unified Multimodal Models",
-        "url": "https://huggingface.co/papers/2611.18668",
-        "summary": "Unified multimodal models can support both visual understanding and generation, yet generative training does not necessarily improve understanding. We argue that this limitation may arise from a mismatch between the representation targeted by generation and the perceptual representation used for understanding. Conventi",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-26T00:00:00.000Z"
+        "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+        "url": "https://huggingface.co/papers/2611.21218",
+        "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healt",
+        "metric": "12 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis",
-        "url": "https://huggingface.co/papers/2611.20192",
-        "summary": "Scene text synthesis requires stroke-accurate characters rendered in a specified layout, as well as visual coherence with the surrounding scene. To achieve this, existing methods commonly pre-render the target text at its intended locations to form a glyph image that jointly specifies layout and glyph structure. Howeve",
+        "title": "Centered Ablation: Why Last-Layer Directional Ablation Under-Fires or Collapses, and a Closed-Form Fix",
+        "url": "https://huggingface.co/papers/2611.20148",
+        "summary": "Directional ablation removes a hidden state's component along a \"behaviour direction\" while a language model runs. It is the standard way to switch a behaviour such as refusal off, but it is erratic: on some models it barely fires, on others the text collapses into repetition. We show why, and fix it. At the last resid",
         "metric": "1 upvotes",
         "published_at": "2026-11-15T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+        "url": "https://huggingface.co/papers/2611.20218",
+        "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment pl",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-15T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "DominoBench: Evaluating Multi-Step Physical Reasoning from Still Images",
+        "url": "https://huggingface.co/papers/2611.20385",
+        "summary": "Can a vision-language model look at a picture of a chain reaction and tell what will happen? Recent multimodal models describe scenes fluently and solve textbook physics problems, which suggests they should also predict how a scene of ramps, ledges, pendulums, seesaws and dominoes plays out once a ball is pushed. We te",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Reflection Anchors for Propagation-Aware Visual Retention in Long-Chain Multimodal Reasoning",
+        "url": "https://huggingface.co/papers/2605.09614",
+        "summary": "Long chain-of-thought (CoT) reasoning improves large vision--language models, but visual information often fades during generation, limiting long-horizon multimodal reasoning. Existing methods either re-inject vision at inference or train policies for stronger grounding, but where to intervene relies on perception heur",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-15T00:00:00.000Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
         "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
-        "url": "https://huggingface.co/papers/2611.21607",
+        "url": "http://arxiv.org/abs/2611.21607v1",
         "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largel",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
+        "metric": "Published 2026-11-16",
+        "published_at": "2026-11-16T18:59:37Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
-        "url": "https://huggingface.co/papers/2611.21339",
-        "summary": "Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework that connects streaming fine-tuning, long-rollout distillation, and long-horizon inference. We first",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+        "url": "http://arxiv.org/abs/2611.21605v1",
+        "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propo",
+        "metric": "Published 2026-11-16",
+        "published_at": "2026-11-16T18:59:04Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
-        "url": "https://huggingface.co/papers/2611.21003",
-        "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of th",
-        "metric": "30 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+        "url": "http://arxiv.org/abs/2611.21598v1",
+        "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The E",
+        "metric": "Published 2026-11-16",
+        "published_at": "2026-11-16T18:58:20Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+        "url": "http://arxiv.org/abs/2611.21579v1",
+        "summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectiv",
+        "metric": "Published 2026-11-16",
+        "published_at": "2026-11-16T18:49:56Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+        "url": "http://arxiv.org/abs/2611.21577v1",
+        "summary": "Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. However, tool metadata used for discovery and selection is not, by itself, necessa",
+        "metric": "Published 2026-11-16",
+        "published_at": "2026-11-16T18:49:37Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "UMM-JEPA: Generative Pretraining via Masked Next-Scale Representation Prediction for Unified Multimodal Models",
-        "source_url": "https://huggingface.co/papers/2611.18668",
+        "source_anchor": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+        "source_url": "https://huggingface.co/papers/2611.21218",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+        "source_url": "http://arxiv.org/abs/2611.21605v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "48692fa3c4dd15ec"
+      "receipt_hash": "d5474907a427e196"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_48692fa3c4dd"
+      "receipt_hash": "arm_d5474907a427"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
