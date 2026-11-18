@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T11:09:43.877Z",
-  "packet_sha256": "aa13c9020b37276e644948ff37b4cd50ebb0d5d5453dad099e2f2c592c475b9b",
+  "updated_at": "2026-11-18T13:16:51.974Z",
+  "packet_sha256": "dc1a00e23d3573eac38f47e6670481190e84d3c940a3f3cbfacc149f5d401b84",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "6ceb47780c30efe1",
+    "merkle_root_hex": "8d32c512f22cd3ce",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "6ceb47780c30efe1",
-      "frame_sha256": "a7027c420ba38b2dbd54ee8e1162223a28b5c0bb6aa90c8338e4a354bb1056ca",
+      "merkle_root_hex": "8d32c512f22cd3ce",
+      "frame_sha256": "094373b948b5e57722648b3c01ff64a68a5955f47f2b52f1ebdc46c59bde476c",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:36ab69e6:3bad6634:d686375c:2094af57",
+      "hdc_16k": "hdc16k:1b9a4a54:d31c02c9:4af3f580:c6b4c76d",
       "spectral_4d": {
-        "coord4D": "167.2.124:66",
-        "rgbaStr": "{167}{2}{124}{66}",
-        "carrier_freq_hz": 303,
+        "coord4D": "9.67.115:185",
+        "rgbaStr": "{9}{67}{115}{185}",
+        "carrier_freq_hz": 246,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_6ceb47780c30efe1",
+        "receipt_id": "R_san_yin_8d32c512f22cd3ce",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T11:09:52.287Z"
+        "verified_at": "2026-11-18T13:16:58.016Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T11:09:44.364Z",
+    "harvested_at": "2026-11-18T13:16:52.462Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
+        "url": "https://huggingface.co/papers/2611.21382",
+        "summary": "Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet practical needs. Evaluation across artifact families helps distinguish broadly applicable authoring capabilities from strengths confined to a particular medium. We introduce VisualArtifactSpec 1.0 (VA",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions",
+        "url": "https://huggingface.co/papers/2611.21421",
+        "summary": "Formal specifications define intended program behavior and underpin verification, but writing them in theorem provers such as Lean is slow and expertise-intensive, making specification a major bottleneck to scaling formally correct code. Autoformalization from natural-language problems is promising, yet training specif",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +122,7 @@
         "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
         "url": "https://huggingface.co/papers/2611.17048",
         "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is",
-        "metric": "31 upvotes",
+        "metric": "32 upvotes",
         "published_at": "2026-11-15T00:00:00.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "The Noise Floor of a Quantization Comparison: Engine, restart, batch and kernel drift, measured against 8-bit and 4-bit effects in two decision models",
         "url": "https://huggingface.co/papers/2611.15671",
         "summary": "A quantized model is usually judged by comparing it with its BF16 original, but that comparison changes more than the weights. It often changes the serving engine, it always runs on a different server instance, it may change how requests are batched, and on some stacks the library selects a different kernel depending o",
-        "metric": "5 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-11T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
-        "url": "https://huggingface.co/papers/2611.21392",
-        "summary": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an answer. Even when relevant evidence is present, performing these operations within long, dense visual sequences burdens both perception and reasoning. Video agents enable selective inspection, but return",
-        "metric": "18 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation",
-        "url": "https://huggingface.co/papers/2611.23034",
-        "summary": "Multi-Teacher On-Policy Distillation (MOPD) enables a single student to absorb the skills of several domain teachers by learning from its own generated responses. We present Multimodal Model Multi-Teacher On-Policy Distillation Reasoner (M3OPD-Reasoner), a fully open recipe for post-training vision-language models (VLM",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "PanDWM: Panoramic 4D Driving World Models",
-        "source_url": "https://huggingface.co/papers/2611.19857",
+        "source_anchor": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
+        "source_url": "https://huggingface.co/papers/2611.21382",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "6ceb47780c30efe1"
+      "receipt_hash": "8d32c512f22cd3ce"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_6ceb47780c30"
+      "receipt_hash": "arm_8d32c512f22c"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
