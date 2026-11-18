@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T17:31:12.843Z",
-  "packet_sha256": "3b1de790ff9dffde366ac35a680cf040e491d04c7c6c4f68f88a9f3debe8113b",
+  "updated_at": "2026-11-18T18:04:50.867Z",
+  "packet_sha256": "c9c7dc03ce481eccb83354f18973c61955cd265da170ae85091d9ca86d330723",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "f876d54b8f0f00b6",
+    "merkle_root_hex": "3a7c1e7996423ba2",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "f876d54b8f0f00b6",
-      "frame_sha256": "dc940dd0759803ff861e98482ea696c082e1b5a37965a3f21cba5cc0fff0c774",
+      "merkle_root_hex": "3a7c1e7996423ba2",
+      "frame_sha256": "4f101b560b32519d36507c661e2d06ea1d1e9503c54b950fb7092bf95eb504e9",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:5f81794f:481afbd9:3fd7468d:5efae9e3",
+      "hdc_16k": "hdc16k:6f34963e:c78d3719:d5b2d8dc:6b45c3ee",
       "spectral_4d": {
-        "coord4D": "220.148.13:208",
-        "rgbaStr": "{220}{148}{13}{208}",
-        "carrier_freq_hz": 353,
+        "coord4D": "79.16.27:86",
+        "rgbaStr": "{79}{16}{27}{86}",
+        "carrier_freq_hz": 207,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_f876d54b8f0f00b6",
+        "receipt_id": "R_san_yin_3a7c1e7996423ba2",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T17:31:21.728Z"
+        "verified_at": "2026-11-18T18:04:56.966Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T17:31:13.359Z",
+    "harvested_at": "2026-11-18T18:04:51.129Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "GameRealm: Grounding Visual Learning in Interactive Games",
+        "url": "https://huggingface.co/papers/2611.23140",
+        "summary": "Visual foundation models are central to physical intelligence, yet their development remains constrained by fragmented training datasets, inconsistent annotation quality, and limited multimodal supervision. To address these challenges, we introduce GameRealm, a large-scale, richly annotated dataset that grounds visual ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -113,7 +122,7 @@
         "title": "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
         "url": "https://huggingface.co/papers/2611.22563",
         "summary": "CAD practitioners often work with proprietary parts that they are unwilling to share with external services. For individuals and small companies, bringing this work in-house also requires computational resources they can afford. We introduce CADMAGEDDON, an open-source agent that reconstructs editable CAD from meshes a",
-        "metric": "3 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Turning a CAD model into a machining program requires both process knowledge and geometric precision. Language models can generate such workflows by writing geometry and toolpath code for each part, but this makes numerical execution part of the model's task. We introduce MillBill, an agent that separates machining dec",
         "metric": "3 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
-        "url": "https://huggingface.co/papers/2611.21382",
-        "summary": "Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet practical needs. Evaluation across artifact families helps distinguish broadly applicable authoring capabilities from strengths confined to a particular medium. We introduce VisualArtifactSpec 1.0 (VA",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
-        "source_url": "https://huggingface.co/papers/2611.21925",
+        "source_anchor": "GameRealm: Grounding Visual Learning in Interactive Games",
+        "source_url": "https://huggingface.co/papers/2611.23140",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "f876d54b8f0f00b6"
+      "receipt_hash": "3a7c1e7996423ba2"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_f876d54b8f0f"
+      "receipt_hash": "arm_3a7c1e799642"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
