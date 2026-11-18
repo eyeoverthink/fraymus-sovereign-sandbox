@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T02:41:51.170Z",
-  "packet_sha256": "2cc3c284ec307bc35f5b3d1689b4a797f7689f2159e14d5b50fdf8913721a3fb",
+  "updated_at": "2026-11-18T04:48:48.630Z",
+  "packet_sha256": "6abf361bc01379fd1d58bcd5d9d8cf81356bf16d5c17b03570ecf6a7d3cf5946",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "5a42461737ed9f1c",
+    "merkle_root_hex": "56d3966d8113c17b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "5a42461737ed9f1c",
-      "frame_sha256": "628f161d57ddaf38136c7798bf27fa227b69d4462f6bc9a7fe435daf9492cd75",
+      "merkle_root_hex": "56d3966d8113c17b",
+      "frame_sha256": "5bb5e908398d64a9fbf009c502509f620c0dfceae5a3e79e72fcfe49e87aa6b3",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:02ee1cb6:7bb67fc8:4ad836aa:ebe27f9c",
+      "hdc_16k": "hdc16k:a6d9d49c:5fa3e36a:1742e698:1271ea36",
       "spectral_4d": {
-        "coord4D": "98.143.22:29",
-        "rgbaStr": "{98}{143}{22}{29}",
-        "carrier_freq_hz": 287,
+        "coord4D": "91.181.233:8",
+        "rgbaStr": "{91}{181}{233}{8}",
+        "carrier_freq_hz": 423,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_5a42461737ed9f1c",
+        "receipt_id": "R_san_yin_56d3966d8113c17b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T02:41:58.224Z"
+        "verified_at": "2026-11-18T04:48:55.557Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T02:41:51.655Z",
+    "harvested_at": "2026-11-18T04:48:49.610Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,100 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
-        "url": "https://huggingface.co/papers/2611.20992",
-        "summary": "Medical image understanding with vision-language models (VLMs) typically relies on autoregressively generating reasoning and answer tokens. These unnecessary tokens make the inference cost scale with the response length and force the answer to be parsed from free-form text, incurring avoidable latency and decision erro",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
-        "url": "https://huggingface.co/papers/2611.21099",
-        "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on f",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment",
-        "url": "https://huggingface.co/papers/2611.20441",
-        "summary": "Abstention, the withholding of a response by a large language model (LLM) under uncertainty or safety risks, is essential for trustworthy models. The causes of abstention fall into three perspectives: ambiguity in the Query (Q), limits of Model Knowledge (MK), and misalignment with Human Values (HV). However, prior ana",
+        "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+        "url": "https://huggingface.co/papers/2611.22275",
+        "summary": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon c",
         "metric": "1 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
+        "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Inside the Trading Loop: Markets, Models, and Moves with LLM Agents",
-        "url": "https://huggingface.co/papers/2611.11657",
-        "summary": "We built a hybrid multi-agent trading system that combines large language model (LLM) analysts with momentum-based portfolio construction and rule-based execution. Company-news and macroeconomic agents return structured reports to a coordinator that sets stock weights and cash reserves. We evaluate the portfolio engine",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-08T00:00:00.000Z"
+        "title": "π^4: A Foundation Model for 4D Scene Geometry and Motion",
+        "url": "https://huggingface.co/papers/2611.23144",
+        "summary": "π^4 is a unified foundation model for 4D scene perception. From diverse, uncalibrated RGB observations in the wild---a single image, an unordered collection, or a video sequence---it recovers dense geometry, camera poses, and metric scale, together with 2D/3D point tracks and moving-object masks for multi-image inputs.",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior",
-        "url": "https://huggingface.co/papers/2611.04395",
-        "summary": "Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label. We ask whether a model learns to rely on this metadata even when every training label is correct. We fine-tune 7-9B open-weight models from three families on multiple-choice questions in which (Rewar",
+        "title": "Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns",
+        "url": "https://huggingface.co/papers/2611.19244",
+        "summary": "On-policy distillation (OPD) transfers specialized capabilities to language-model agents, but its cross-domain effects on interaction remain unclear. We investigate how OPD reshapes ReAct interaction patterns across mathematics, ALFWorld, and τ^2-bench, focusing on reasoning, actions, and observation acquisition. Gener",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-14T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "MPEG-Diffusion: Mixed-Resolution Video Generation",
+        "url": "https://huggingface.co/papers/2611.12069",
+        "summary": "Video diffusion transformers (DiTs) generate realistic videos, but their heavy computational cost limits broader real-world applications. Mixed-resolution generation reduces this cost by generating the visually important region at high resolution (HR) and the rest at low resolution (LR), yet existing methods suffer a s",
         "metric": "2 upvotes",
-        "published_at": "2026-11-03T00:00:00.000Z"
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
+        "url": "https://huggingface.co/papers/2611.18856",
+        "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Imp",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Safely Mitigating Grid Imbalance: A Hybrid Distributional Wide-Margin Recourse Approach",
-        "url": "http://arxiv.org/abs/2611.22220v1",
-        "summary": "This paper proposes the Multi-Agent Distributional Wide-Margin Policy Gradient (MADWMPG) framework: a dual-policy hybrid imitation and safe reinforcement learning (IL-SRL) method designed for safely mitigating grid imbalance in multiphase active distribution networks with distributed soft open points (SOPs). The framew",
+        "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
+        "url": "http://arxiv.org/abs/2611.23228v1",
+        "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), ar",
         "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T05:03:43Z"
+        "published_at": "2026-11-17T18:59:27Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Emergence and Collapse of Leader-Follower Flocks through Phantom Targets: Surprise Nullification in Bayesian and Inverse Bayesian Inference",
-        "url": "http://arxiv.org/abs/2611.22190v1",
-        "summary": "In Bayesian and inverse Bayesian (BIB) inference, a large prediction error can trigger surprise nullification, which expands belief and likelihood variances by a common factor, leaving the updated variance ratio the same as in standard Bayesian updating. This can increase belief uncertainty while keeping the learning r",
+        "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+        "url": "http://arxiv.org/abs/2611.23225v1",
+        "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes",
         "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T04:24:54Z"
+        "published_at": "2026-11-17T18:58:40Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't",
-        "url": "http://arxiv.org/abs/2611.22179v1",
-        "summary": "Agentic memory research has accumulated extraction, supersession, reflection, and graph synthesis on top of retrieval-augmented generation. However, we found that almost none of those primitives earn their cost in our tested memory benchmarks: we show this with BRIDGE, a deliberately minimal RAG memory with chained obs",
+        "title": "Equilibrium Statistics and Stability in Random Two-Population and Three-Population Evolutionary Games",
+        "url": "http://arxiv.org/abs/2611.23223v1",
+        "summary": "Multi-population matrix evolutionary games provide a framework for studying adaptation and strategic interactions among heterogeneous agents. When payoffs are uncertain, however, analysing a specified game does not reveal how frequently different evolutionary outcomes occur or how their probabilities depend on modellin",
         "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T04:16:34Z"
+        "published_at": "2026-11-17T18:57:35Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News",
-        "url": "http://arxiv.org/abs/2611.22177v1",
-        "summary": "Large language model (LLM) trading agents are tested on news, but news reaches stock prices within minutes, and a benchmark that replays headlines at their publication time finds no alpha in trading on them. Money can then remain in two places, before news whose date is known, such as earnings announcements, and after ",
+        "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+        "url": "http://arxiv.org/abs/2611.23219v1",
+        "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper",
         "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T04:13:18Z"
+        "published_at": "2026-11-17T18:57:10Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Decision Stability and Model Reduction for Hamilton--Jacobi Navigation in Multiscale Flows",
-        "url": "http://arxiv.org/abs/2611.22176v1",
-        "summary": "Autonomous vehicles plan time-optimal routes through flow fields that are known only through reduced, finite-resolution models of an underlying multiscale flow. Classical Hamilton-Jacobi homogenization concerns convergence of the value function as the fine scale vanishes; but what a vehicle commits to is a route, and v",
+        "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+        "url": "http://arxiv.org/abs/2611.23211v1",
+        "summary": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds ",
         "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T04:11:31Z"
+        "published_at": "2026-11-17T18:50:22Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
-        "source_url": "https://huggingface.co/papers/2611.20992",
+        "source_anchor": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+        "source_url": "https://huggingface.co/papers/2611.22275",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Emergence and Collapse of Leader-Follower Flocks through Phantom Targets: Surprise Nullification in Bayesian and Inverse Bayesian Inference",
-        "source_url": "http://arxiv.org/abs/2611.22190v1",
+        "source_anchor": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+        "source_url": "http://arxiv.org/abs/2611.23225v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "5a42461737ed9f1c"
+      "receipt_hash": "56d3966d8113c17b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_5a42461737ed"
+      "receipt_hash": "arm_56d3966d8113"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
