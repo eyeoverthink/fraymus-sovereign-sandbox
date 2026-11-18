@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T20:12:49.320Z",
-  "packet_sha256": "1be2217657a61e3aac52321cf75c355d57ea6f375e36098cef47130164e970bf",
+  "updated_at": "2026-11-18T21:47:56.212Z",
+  "packet_sha256": "c77b4d488add609debaaedb9bfd59ed37cefd6f274341f7fd2f7d92892f7842c",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "8ff1828d6f21b818",
+    "merkle_root_hex": "f4cf1016139510c3",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "8ff1828d6f21b818",
-      "frame_sha256": "24bc4001ae30dec90f79d92676dc17b4ef874537bf152534548c68f7ba1fc992",
+      "merkle_root_hex": "f4cf1016139510c3",
+      "frame_sha256": "9633c98137aedd648bd687631955ecbd3494d01e72a71340f5d5e6db4253f30e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:e6b05df2:f8ddc7f8:36b71d5c:2bf2faf2",
+      "hdc_16k": "hdc16k:332282be:3d2ffa2d:3d2abd94:dbf84055",
       "spectral_4d": {
-        "coord4D": "36.188.64:1",
-        "rgbaStr": "{36}{188}{64}{1}",
-        "carrier_freq_hz": 301,
+        "coord4D": "150.51.201:129",
+        "rgbaStr": "{150}{51}{201}{129}",
+        "carrier_freq_hz": 365,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_8ff1828d6f21b818",
+        "receipt_id": "R_san_yin_f4cf1016139510c3",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T20:12:58.320Z"
+        "verified_at": "2026-11-18T21:48:02.142Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T20:12:49.541Z",
+    "harvested_at": "2026-11-18T21:47:56.810Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)",
         "url": "https://huggingface.co/papers/2611.20003",
         "summary": "In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and many of them arrive with a technical report that presents the model as new. What is actually new in these models, and is it tested? We put this question to LLM technical reports. We look at three thin",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-15T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
         "url": "https://huggingface.co/papers/2611.18553",
         "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
@@ -131,7 +131,7 @@
         "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
         "url": "https://huggingface.co/papers/2611.21925",
         "summary": "Speculative-diffusion decoding uses a small parallel drafter model to generate b draft tokens in one forward pass, which then undergo parallel verification via a larger target model. Faster inference can be achieved when multiple draft tokens pass verification simultaneously. Recent parallel draft architectures (DFlash",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-16T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "8ff1828d6f21b818"
+      "receipt_hash": "f4cf1016139510c3"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_8ff1828d6f21"
+      "receipt_hash": "arm_f4cf10161395"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
