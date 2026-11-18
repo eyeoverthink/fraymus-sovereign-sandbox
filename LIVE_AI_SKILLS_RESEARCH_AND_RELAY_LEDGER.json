@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T06:55:46.052Z",
-  "packet_sha256": "69bf19d6540728b2512cfb6f4d45a120243a7c92144908151483472613b620b9",
+  "updated_at": "2026-11-18T09:02:49.575Z",
+  "packet_sha256": "a43b5d3bf8ffeb55bc7383eb88acf4702d8faf6c2bedc98853308f214e8dde9f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "59eca665bb6c46cb",
+    "merkle_root_hex": "73df69dc8db646ed",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "59eca665bb6c46cb",
-      "frame_sha256": "d51245eaf1d795d49cd59ac6aafaad4f6781c502bda6de5f813ef9252e99a475",
+      "merkle_root_hex": "73df69dc8db646ed",
+      "frame_sha256": "64941c48b3d0a62b15361affbae39adfccfa25a8f25335a41dcef5096adca8d4",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:b8aa3248:d497c028:d0935286:7691e52b",
+      "hdc_16k": "hdc16k:b6c6d03a:c9f5e25c:b0aa916c:a51e6c9b",
       "spectral_4d": {
-        "coord4D": "213.18.69:234",
-        "rgbaStr": "{213}{18}{69}{234}",
-        "carrier_freq_hz": 307,
+        "coord4D": "100.148.28:72",
+        "rgbaStr": "{100}{148}{28}{72}",
+        "carrier_freq_hz": 294,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_59eca665bb6c46cb",
+        "receipt_id": "R_san_yin_73df69dc8db646ed",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T06:55:52.513Z"
+        "verified_at": "2026-11-18T09:02:57.575Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T06:55:46.428Z",
+    "harvested_at": "2026-11-18T09:02:57.575Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,100 +92,55 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
-        "url": "https://huggingface.co/papers/2611.08922",
-        "summary": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identification of early disease markers. Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes in multimodal and unstructured clinical d",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-06T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
-        "url": "https://huggingface.co/papers/2611.17621",
-        "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. ",
-        "metric": "81 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-        "url": "https://huggingface.co/papers/2611.22115",
-        "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining",
-        "metric": "122 upvotes",
-        "published_at": "2026-11-17T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "FastFrames: Video Generation at Interactive Latency",
-        "url": "https://huggingface.co/papers/2611.23226",
-        "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusio",
+        "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
+        "url": "https://huggingface.co/papers/2611.21392",
+        "summary": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an answer. Even when relevant evidence is present, performing these operations within long, dense visual sequences burdens both perception and reasoning. Video agents enable selective inspection, but return",
         "metric": "16 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation",
+        "url": "https://huggingface.co/papers/2611.23034",
+        "summary": "Multi-Teacher On-Policy Distillation (MOPD) enables a single student to absorb the skills of several domain teachers by learning from its own generated responses. We present Multimodal Model Multi-Teacher On-Policy Distillation Reasoner (M3OPD-Reasoner), a fully open recipe for post-training vision-language models (VLM",
+        "metric": "7 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-        "url": "https://huggingface.co/papers/2611.23219",
-        "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper",
-        "metric": "5 upvotes",
+        "title": "TPHC: Improving Hyper-Connections with Tensor-Parallel Grouped Updates",
+        "url": "https://huggingface.co/papers/2611.23026",
+        "summary": "Hyper-Connections (HC) expand the residual stream of a Transformer into N parallel streams, and manifold-constrained HC (mHC) stabilizes them at scale. However, mHC benefits little from more than four streams, partly because each sublayer writes a single output to all streams, limiting how differently they can be updat",
+        "metric": "7 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-        "url": "http://arxiv.org/abs/2611.23228v1",
-        "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), ar",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:59:27Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
+        "url": "https://huggingface.co/papers/2611.21152",
+        "summary": "Training coding agents for long-horizon tasks requires environments with verifiable feedback. Existing pipelines often follow a linear process that ends with validation, establishing usability but providing little guidance on improving training value. Recursive self-improvement (RSI) often requires model rollouts or mo",
+        "metric": "7 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-        "url": "http://arxiv.org/abs/2611.23225v1",
-        "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:58:40Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Equilibrium Statistics and Stability in Random Two-Population and Three-Population Evolutionary Games",
-        "url": "http://arxiv.org/abs/2611.23223v1",
-        "summary": "Multi-population matrix evolutionary games provide a framework for studying adaptation and strategic interactions among heterogeneous agents. When payoffs are uncertain, however, analysing a specified game does not reveal how frequently different evolutionary outcomes occur or how their probabilities depend on modellin",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:57:35Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-        "url": "http://arxiv.org/abs/2611.23219v1",
-        "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:57:10Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
-        "url": "http://arxiv.org/abs/2611.23211v1",
-        "summary": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds ",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:50:22Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "FMT: Lossless Image Compression in a Fixed Number of Parallel Steps",
+        "url": "https://huggingface.co/papers/2611.23108",
+        "summary": "Learned lossless codecs make smaller files than common classical codecs, yet the images we archive and train on still use classical codecs. A main reason is time: a learned codec takes seconds to decode a photo that a classical codec opens in milliseconds, and their faster variants give up most of their gain in size. W",
+        "metric": "9 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
-        "source_url": "https://huggingface.co/papers/2611.08922",
+        "source_anchor": "VideoNexus: Video Perception Beyond the Reasoning Context",
+        "source_url": "https://huggingface.co/papers/2611.21392",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-        "source_url": "http://arxiv.org/abs/2611.23225v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "59eca665bb6c46cb"
+      "receipt_hash": "73df69dc8db646ed"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_59eca665bb6c"
+      "receipt_hash": "arm_73df69dc8db6"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
