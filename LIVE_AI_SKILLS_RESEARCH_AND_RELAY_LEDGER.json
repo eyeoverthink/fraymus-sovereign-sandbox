@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T22:20:49.304Z",
-  "packet_sha256": "0402a849f8e12ffb818642685e54266f9402d2bde70400791a48faf3e9706cc8",
+  "updated_at": "2026-11-18T23:55:56.438Z",
+  "packet_sha256": "bad996ad50e21ccbd0a41ba501b4f99e7e6496b0f24f0a4999a750539d27af6e",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b5ff80d47751d17b",
+    "merkle_root_hex": "bf5fd3847edcdf24",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b5ff80d47751d17b",
-      "frame_sha256": "c8601ae8b9aa7250cc63c0135dc1ac6bd1b234d96fac41161a395a33818a6805",
+      "merkle_root_hex": "bf5fd3847edcdf24",
+      "frame_sha256": "b252836db1dcada99d743951522aefcffe766dfed4494457622c9d99b2f46780",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:6c67f8b3:ac9f243f:c8330feb:880e3b64",
+      "hdc_16k": "hdc16k:5f4569b4:19ea7740:46376820:fb496515",
       "spectral_4d": {
-        "coord4D": "200.96.26:232",
-        "rgbaStr": "{200}{96}{26}{232}",
-        "carrier_freq_hz": 320,
+        "coord4D": "178.82.131:109",
+        "rgbaStr": "{178}{82}{131}{109}",
+        "carrier_freq_hz": 359,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b5ff80d47751d17b",
+        "receipt_id": "R_san_yin_bf5fd3847edcdf24",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T22:20:55.092Z"
+        "verified_at": "2026-11-18T23:56:03.827Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T22:20:49.619Z",
+    "harvested_at": "2026-11-18T23:55:57.036Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Attention at Absolute Zero",
+        "url": "https://huggingface.co/papers/2611.11937",
+        "summary": "Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We build a higher-order attention layer whose state lives on pairs of items: for a pair (a, b), each third item k is a witness judged through its legs (a, k) and (k, b). It reads witnesses at zero temperatu",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Vision-based navigation systems for orbit must be trained almost entirely on synthetic imagery, because real labelled images of a given spacecraft in flight rarely exist. Benchmarks like SPEED+ are built for that situation: the training set comes from a simulator, and the test sets are real images of a satellite mockup",
         "metric": "1 upvotes",
         "published_at": "2026-11-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "GameRealm: Grounding Visual Learning in Interactive Games",
-        "url": "https://huggingface.co/papers/2611.23140",
-        "summary": "Visual foundation models are central to physical intelligence, yet their development remains constrained by fragmented training datasets, inconsistent annotation quality, and limited multimodal supervision. To address these challenges, we introduce GameRealm, a large-scale, richly annotated dataset that grounds visual ",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "CONGA: Compiling Gaussian Fiber Geometry for Structured Bayesian Inference",
-        "source_url": "https://huggingface.co/papers/2611.20995",
+        "source_anchor": "Attention at Absolute Zero",
+        "source_url": "https://huggingface.co/papers/2611.11937",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b5ff80d47751d17b"
+      "receipt_hash": "bf5fd3847edcdf24"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b5ff80d47751"
+      "receipt_hash": "arm_bf5fd3847edc"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
