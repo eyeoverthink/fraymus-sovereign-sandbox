@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T13:16:51.974Z",
-  "packet_sha256": "dc1a00e23d3573eac38f47e6670481190e84d3c940a3f3cbfacc149f5d401b84",
+  "updated_at": "2026-11-18T15:24:02.859Z",
+  "packet_sha256": "e9eac52505fcac0c205b898637b2784d50a13845b9f230db405320fcd1ecbeed",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "8d32c512f22cd3ce",
+    "merkle_root_hex": "2c5d65f6a5ab0b13",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "8d32c512f22cd3ce",
-      "frame_sha256": "094373b948b5e57722648b3c01ff64a68a5955f47f2b52f1ebdc46c59bde476c",
+      "merkle_root_hex": "2c5d65f6a5ab0b13",
+      "frame_sha256": "a79b096399f6d20b1eeb0812062e096a2b6ebcabc2114513a211ebc7094e4992",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:1b9a4a54:d31c02c9:4af3f580:c6b4c76d",
+      "hdc_16k": "hdc16k:d26a21e2:8593eaa8:9190079e:9304f39b",
       "spectral_4d": {
-        "coord4D": "9.67.115:185",
-        "rgbaStr": "{9}{67}{115}{185}",
-        "carrier_freq_hz": 246,
+        "coord4D": "167.155.9:99",
+        "rgbaStr": "{167}{155}{9}{99}",
+        "carrier_freq_hz": 325,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_8d32c512f22cd3ce",
+        "receipt_id": "R_san_yin_2c5d65f6a5ab0b13",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T13:16:58.016Z"
+        "verified_at": "2026-11-18T15:24:11.859Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T13:16:52.462Z",
+    "harvested_at": "2026-11-18T15:24:04.831Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning",
+        "url": "https://huggingface.co/papers/2611.21938",
+        "summary": "Robot policies trained by imitation generalize poorly outside the environments and objects seen in training. Published data-scaling studies find that generalization grows with the diversity of training environments and objects rather than with more demonstrations per environment. Robot data is costly to collect across ",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
+        "url": "https://huggingface.co/papers/2611.22563",
+        "summary": "CAD practitioners often work with proprietary parts that they are unwilling to share with external services. For individuals and small companies, bringing this work in-house also requires computational resources they can afford. We introduce CADMAGEDDON, an open-source agent that reconstructs editable CAD from meshes a",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "MillBill: A Machining Agent with Geometric Feedback",
+        "url": "https://huggingface.co/papers/2611.22565",
+        "summary": "Turning a CAD model into a machining program requires both process knowledge and geometric precision. Language models can generate such workflows by writing geometry and toolpath code for each part, but this makes numerical execution part of the model's task. We introduce MillBill, an agent that separates machining dec",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
         "url": "https://huggingface.co/papers/2611.21382",
         "summary": "Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet practical needs. Evaluation across artifact families helps distinguish broadly applicable authoring capabilities from strengths confined to a particular medium. We introduce VisualArtifactSpec 1.0 (VA",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-16T00:00:00.000Z"
       },
       {
@@ -106,33 +133,6 @@
         "summary": "Formal specifications define intended program behavior and underpin verification, but writing them in theorem provers such as Lean is slow and expertise-intensive, making specification a major bottleneck to scaling formally correct code. Autoformalization from natural-language problems is promising, yet training specif",
         "metric": "1 upvotes",
         "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "PanDWM: Panoramic 4D Driving World Models",
-        "url": "https://huggingface.co/papers/2611.19857",
-        "summary": "Driving world models usually generate videos from six pinhole cameras with separate optical centres and small overlaps, and must learn to keep these views consistent. We present PanDWM, which stitches them into one 360^circ panoramic band. Camera boundaries then fall inside one image, so keeping the views consistent me",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
-        "url": "https://huggingface.co/papers/2611.17048",
-        "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is",
-        "metric": "32 upvotes",
-        "published_at": "2026-11-15T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "The Noise Floor of a Quantization Comparison: Engine, restart, batch and kernel drift, measured against 8-bit and 4-bit effects in two decision models",
-        "url": "https://huggingface.co/papers/2611.15671",
-        "summary": "A quantized model is usually judged by comparing it with its BF16 original, but that comparison changes more than the weights. It often changes the serving engine, it always runs on a different server instance, it may change how requests are batched, and on some stacks the library selects a different kernel depending o",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-11T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
-        "source_url": "https://huggingface.co/papers/2611.21382",
+        "source_anchor": "HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning",
+        "source_url": "https://huggingface.co/papers/2611.21938",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "8d32c512f22cd3ce"
+      "receipt_hash": "2c5d65f6a5ab0b13"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_8d32c512f22c"
+      "receipt_hash": "arm_2c5d65f6a5ab"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
