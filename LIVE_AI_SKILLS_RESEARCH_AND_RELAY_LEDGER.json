@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T18:04:50.867Z",
-  "packet_sha256": "c9c7dc03ce481eccb83354f18973c61955cd265da170ae85091d9ca86d330723",
+  "updated_at": "2026-11-18T19:39:55.206Z",
+  "packet_sha256": "89a0330ea708e7a61bd23f63a438b0fc742f5ca233c042c1968cce7cf4ab4c87",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "3a7c1e7996423ba2",
+    "merkle_root_hex": "cc5050bc5603568b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "3a7c1e7996423ba2",
-      "frame_sha256": "4f101b560b32519d36507c661e2d06ea1d1e9503c54b950fb7092bf95eb504e9",
+      "merkle_root_hex": "cc5050bc5603568b",
+      "frame_sha256": "a292fdc2f7a929007ab47f69b96e26c7a0fb7b4a297838890d3cf1313d316b65",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:6f34963e:c78d3719:d5b2d8dc:6b45c3ee",
+      "hdc_16k": "hdc16k:12a1d45b:bb135a6d:01535299:a0ed33c1",
       "spectral_4d": {
-        "coord4D": "79.16.27:86",
-        "rgbaStr": "{79}{16}{27}{86}",
-        "carrier_freq_hz": 207,
+        "coord4D": "162.146.253:194",
+        "rgbaStr": "{162}{146}{253}{194}",
+        "carrier_freq_hz": 455,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_3a7c1e7996423ba2",
+        "receipt_id": "R_san_yin_cc5050bc5603568b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T18:04:56.966Z"
+        "verified_at": "2026-11-18T19:40:02.637Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T18:04:51.129Z",
+    "harvested_at": "2026-11-18T19:39:55.715Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark",
+        "url": "https://huggingface.co/papers/2611.20321",
+        "summary": "Vision-based navigation systems for orbit must be trained almost entirely on synthetic imagery, because real labelled images of a given spacecraft in flight rarely exist. Benchmarks like SPEED+ are built for that situation: the training set comes from a simulator, and the test sets are real images of a satellite mockup",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-15T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -122,16 +131,7 @@
         "title": "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
         "url": "https://huggingface.co/papers/2611.22563",
         "summary": "CAD practitioners often work with proprietary parts that they are unwilling to share with external services. For individuals and small companies, bringing this work in-house also requires computational resources they can afford. We introduce CADMAGEDDON, an open-source agent that reconstructs editable CAD from meshes a",
-        "metric": "6 upvotes",
-        "published_at": "2026-11-17T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "MillBill: A Machining Agent with Geometric Feedback",
-        "url": "https://huggingface.co/papers/2611.22565",
-        "summary": "Turning a CAD model into a machining program requires both process knowledge and geometric precision. Language models can generate such workflows by writing geometry and toolpath code for each part, but this makes numerical execution part of the model's task. We introduce MillBill, an agent that separates machining dec",
-        "metric": "3 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "GameRealm: Grounding Visual Learning in Interactive Games",
-        "source_url": "https://huggingface.co/papers/2611.23140",
+        "source_anchor": "Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark",
+        "source_url": "https://huggingface.co/papers/2611.20321",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "3a7c1e7996423ba2"
+      "receipt_hash": "cc5050bc5603568b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_3a7c1e799642"
+      "receipt_hash": "arm_cc5050bc5603"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
