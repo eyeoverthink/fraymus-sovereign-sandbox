@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T04:48:48.630Z",
-  "packet_sha256": "6abf361bc01379fd1d58bcd5d9d8cf81356bf16d5c17b03570ecf6a7d3cf5946",
+  "updated_at": "2026-11-18T05:21:40.055Z",
+  "packet_sha256": "6e5146d00731ce9ad693997ccdeb145bb0eab8540330ca33f7838e0087a03c59",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "56d3966d8113c17b",
+    "merkle_root_hex": "1b43a6d3a0b98031",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "56d3966d8113c17b",
-      "frame_sha256": "5bb5e908398d64a9fbf009c502509f620c0dfceae5a3e79e72fcfe49e87aa6b3",
+      "merkle_root_hex": "1b43a6d3a0b98031",
+      "frame_sha256": "ac23b1b28fc60edc4a52d4cb969a8dea7ff867c472b56134ecff44393e82c63a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:a6d9d49c:5fa3e36a:1742e698:1271ea36",
+      "hdc_16k": "hdc16k:2cb88724:9d3b4e15:37e59dfc:b469c0bc",
       "spectral_4d": {
-        "coord4D": "91.181.233:8",
-        "rgbaStr": "{91}{181}{233}{8}",
-        "carrier_freq_hz": 423,
+        "coord4D": "172.35.177:178",
+        "rgbaStr": "{172}{35}{177}{178}",
+        "carrier_freq_hz": 355,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_56d3966d8113c17b",
+        "receipt_id": "R_san_yin_1b43a6d3a0b98031",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T04:48:55.557Z"
+        "verified_at": "2026-11-18T05:21:46.900Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T04:48:49.610Z",
+    "harvested_at": "2026-11-18T05:21:40.311Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "FastFrames: Video Generation at Interactive Latency",
+        "url": "https://huggingface.co/papers/2611.23226",
+        "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusio",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+        "url": "https://huggingface.co/papers/2611.23219",
+        "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
+        "url": "https://huggingface.co/papers/2611.23143",
+        "summary": "Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representati",
+        "metric": "11 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
         "url": "https://huggingface.co/papers/2611.22275",
         "summary": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon c",
-        "metric": "1 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
@@ -104,35 +131,8 @@
         "title": "π^4: A Foundation Model for 4D Scene Geometry and Motion",
         "url": "https://huggingface.co/papers/2611.23144",
         "summary": "π^4 is a unified foundation model for 4D scene perception. From diverse, uncalibrated RGB observations in the wild---a single image, an unordered collection, or a video sequence---it recovers dense geometry, camera poses, and metric scale, together with 2D/3D point tracks and moving-object masks for multi-image inputs.",
-        "metric": "1 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns",
-        "url": "https://huggingface.co/papers/2611.19244",
-        "summary": "On-policy distillation (OPD) transfers specialized capabilities to language-model agents, but its cross-domain effects on interaction remain unclear. We investigate how OPD reshapes ReAct interaction patterns across mathematics, ALFWorld, and τ^2-bench, focusing on reasoning, actions, and observation acquisition. Gener",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-14T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "MPEG-Diffusion: Mixed-Resolution Video Generation",
-        "url": "https://huggingface.co/papers/2611.12069",
-        "summary": "Video diffusion transformers (DiTs) generate realistic videos, but their heavy computational cost limits broader real-world applications. Mixed-resolution generation reduces this cost by generating the visually important region at high resolution (HR) and the rest at low resolution (LR), yet existing methods suffer a s",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
-        "url": "https://huggingface.co/papers/2611.18856",
-        "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Imp",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
-        "source_url": "https://huggingface.co/papers/2611.22275",
+        "source_anchor": "FastFrames: Video Generation at Interactive Latency",
+        "source_url": "https://huggingface.co/papers/2611.23226",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "56d3966d8113c17b"
+      "receipt_hash": "1b43a6d3a0b98031"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_56d3966d8113"
+      "receipt_hash": "arm_1b43a6d3a0b9"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
