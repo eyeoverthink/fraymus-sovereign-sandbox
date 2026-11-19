@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T19:08:25.138Z",
-  "packet_sha256": "4aac18d985ef5e29ef1d036b57f00860fac419784113fbf7c677144d545d3184",
+  "updated_at": "2026-11-19T19:41:18.878Z",
+  "packet_sha256": "7786175a310b6c9d74d338507686562c9830b33e735b6f7dc529be260d698a0d",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "bd343b7f38d57e08",
+    "merkle_root_hex": "12209b760625a2b1",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "bd343b7f38d57e08",
-      "frame_sha256": "7db7503d0d744bb3881c4c5b0df6c7b2bb1c9aa0ef835ef9e8a423a8b6da4bb4",
+      "merkle_root_hex": "12209b760625a2b1",
+      "frame_sha256": "e0cc67f5ffd162272ddf1dae11246f68f0018c49891542cc5c1e7ea6466208b2",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:4dee2e73:80e2d5f4:4a08738d:6573edc0",
+      "hdc_16k": "hdc16k:20d9e42b:8c163b7c:62f7cc3b:670f662c",
       "spectral_4d": {
-        "coord4D": "125.183.80:61",
-        "rgbaStr": "{125}{183}{80}{61}",
-        "carrier_freq_hz": 357,
+        "coord4D": "224.204.103:245",
+        "rgbaStr": "{224}{204}{103}{245}",
+        "carrier_freq_hz": 438,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_bd343b7f38d57e08",
+        "receipt_id": "R_san_yin_12209b760625a2b1",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T19:08:33.771Z"
+        "verified_at": "2026-11-19T19:41:25.890Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T19:08:25.557Z",
+    "harvested_at": "2026-11-19T19:41:19.201Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Choosing Quantized Code LLMs by File Size and Energy per Solved Task",
+        "url": "https://huggingface.co/papers/2611.17605",
+        "summary": "A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine. A common rule says a larger model at lower precision tends to beat a smaller one at higher precision. We ran 24 GGUF files of Qwen2.5-Coder at four sizes on a fanless MacBo",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning",
+        "url": "https://huggingface.co/papers/2611.23779",
+        "summary": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance. We introduce TabBioMed, a large-scale benchmark of 94 curated public biomedi",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix. We present Kezek, a model that turns a mono recording of exactly two people into one track per person with the original ",
         "metric": "3 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
-        "url": "https://huggingface.co/papers/2611.23257",
-        "summary": "Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that co",
-        "metric": "7 upvotes",
-        "published_at": "2026-09-29T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "WaveView: The Novel View Is in the Noise",
-        "url": "https://huggingface.co/papers/2611.23994",
-        "summary": "Generative novel view synthesis (NVS) employs a diffusion model to render a static or dynamic scene from a target camera view. Explicit warp methods complete a reprojection of the source with video diffusion models, and implicit methods encode the camera parameters or 3D cues. Both add inference overhead, and the gener",
-        "metric": "7 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
-        "source_url": "https://huggingface.co/papers/2611.22382",
+        "source_anchor": "Choosing Quantized Code LLMs by File Size and Energy per Solved Task",
+        "source_url": "https://huggingface.co/papers/2611.17605",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "bd343b7f38d57e08"
+      "receipt_hash": "12209b760625a2b1"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_bd343b7f38d5"
+      "receipt_hash": "arm_12209b760625"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
