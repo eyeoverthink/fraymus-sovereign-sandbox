@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T11:06:52.477Z",
-  "packet_sha256": "969467d5c3429a64d161b7362519d05e44389330bfc8ecb452b2cb8574ea0a99",
+  "updated_at": "2026-11-19T12:41:59.670Z",
+  "packet_sha256": "dafa21a56be5289139e7b90750b2b53ad1168978a621f44efb2aaf2ff7c815bc",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "aee75ef70f6bad82",
+    "merkle_root_hex": "16b478ae11fff024",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "aee75ef70f6bad82",
-      "frame_sha256": "67175a3cd1231696fb136fe085db15e815edc8adb238a6ab77e0dfb8febb7b33",
+      "merkle_root_hex": "16b478ae11fff024",
+      "frame_sha256": "7ffb173fd31c3f75b041e6856491265f19aa963a59ffbfa5631b715334f8db49",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:d1319bb7:8600a486:cb2d315f:ade5e103",
+      "hdc_16k": "hdc16k:0e3a179f:84deeccf:76d5a001:016a68b6",
       "spectral_4d": {
-        "coord4D": "103.23.90:60",
-        "rgbaStr": "{103}{23}{90}{60}",
-        "carrier_freq_hz": 260,
+        "coord4D": "127.251.23:63",
+        "rgbaStr": "{127}{251}{23}{63}",
+        "carrier_freq_hz": 364,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_aee75ef70f6bad82",
+        "receipt_id": "R_san_yin_16b478ae11fff024",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T11:07:01.134Z"
+        "verified_at": "2026-11-19T12:42:07.956Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T11:06:52.760Z",
+    "harvested_at": "2026-11-19T12:42:00.242Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+        "url": "https://huggingface.co/papers/2611.23257",
+        "summary": "Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that co",
+        "metric": "3 upvotes",
+        "published_at": "2026-09-29T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "WaveView: The Novel View Is in the Noise",
+        "url": "https://huggingface.co/papers/2611.23994",
+        "summary": "Generative novel view synthesis (NVS) employs a diffusion model to render a static or dynamic scene from a target camera view. Explicit warp methods complete a reprojection of the source with video diffusion models, and implicit methods encode the camera parameters or 3D cues. Both add inference overhead, and the gener",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
+        "url": "https://huggingface.co/papers/2611.24408",
+        "summary": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action to keep a stable effect. Existing benchmarks mostly evaluate these properties against references fitted to the video under test, either a sce",
+        "metric": "9 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
         "url": "https://huggingface.co/papers/2611.24161",
         "summary": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks. Despite its effectiveness, this paradigm faces two fundamental limitations. First, relying on textual reasoning alone can limit perceptual ability in vision-centric questions, where accurate answers depend on interpreting ",
-        "metric": "0 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-18T10:05:18.000Z"
       },
       {
@@ -104,35 +131,8 @@
         "title": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
         "url": "https://huggingface.co/papers/2611.17600",
         "summary": "Multimodal tabular learning involves classification and regression on tables combining structured numerical and categorical features with unstructured text and images. These unstructured fields are commonly represented by pretrained encoder embeddings reduced with principal component analysis (PCA). This reduction prio",
-        "metric": "14 upvotes",
+        "metric": "15 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "BiCAT: Bimanual Coordination Action Tokenization",
-        "url": "https://huggingface.co/papers/2611.23499",
-        "summary": "Autoregressive vision-language-action (VLA) models predict discrete action tokens with the next-token objective of their vision-language backbone, so the action tokenizer defines the interface between the policy and the robot. In bimanual manipulation, the two arms share a repertoire of movements yet coordinate through",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-17T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
-        "url": "https://huggingface.co/papers/2611.23236",
-        "summary": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted collection or local token perturbation, often disrupting the inter-item semantic topology needed for ",
-        "metric": "2 upvotes",
-        "published_at": "2026-08-26T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
-        "url": "https://huggingface.co/papers/2611.23751",
-        "summary": "Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates. Existing dual-system agents offload such decisions to a lightweight System-1 model, but rely on workflow-specific hooks authored ",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
-        "source_url": "https://huggingface.co/papers/2611.24161",
+        "source_anchor": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+        "source_url": "https://huggingface.co/papers/2611.23257",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "aee75ef70f6bad82"
+      "receipt_hash": "16b478ae11fff024"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_aee75ef70f6b"
+      "receipt_hash": "arm_16b478ae11ff"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
