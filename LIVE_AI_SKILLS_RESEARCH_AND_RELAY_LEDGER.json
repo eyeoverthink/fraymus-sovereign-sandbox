@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-18T23:55:56.438Z",
-  "packet_sha256": "bad996ad50e21ccbd0a41ba501b4f99e7e6496b0f24f0a4999a750539d27af6e",
+  "updated_at": "2026-11-19T02:03:00.174Z",
+  "packet_sha256": "b60d2579201c06d8274a78e58bc2a1ee0fef770151696fa25ba46d6c384350ca",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "bf5fd3847edcdf24",
+    "merkle_root_hex": "e97e49fb939f9af7",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "bf5fd3847edcdf24",
-      "frame_sha256": "b252836db1dcada99d743951522aefcffe766dfed4494457622c9d99b2f46780",
+      "merkle_root_hex": "e97e49fb939f9af7",
+      "frame_sha256": "6eb55f5f4f0f727aa8a4e5c57c859c57c129b2089580905ed196e6cd9c124c5e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:5f4569b4:19ea7740:46376820:fb496515",
+      "hdc_16k": "hdc16k:731ccad1:5fb1c3d5:7fb1e073:85e76142",
       "spectral_4d": {
-        "coord4D": "178.82.131:109",
-        "rgbaStr": "{178}{82}{131}{109}",
-        "carrier_freq_hz": 359,
+        "coord4D": "110.181.95:95",
+        "rgbaStr": "{110}{181}{95}{95}",
+        "carrier_freq_hz": 356,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_bf5fd3847edcdf24",
+        "receipt_id": "R_san_yin_e97e49fb939f9af7",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-18T23:56:03.827Z"
+        "verified_at": "2026-11-19T02:03:08.174Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-18T23:55:57.036Z",
+    "harvested_at": "2026-11-19T02:03:08.174Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
+        "url": "https://huggingface.co/papers/2611.21644",
+        "summary": "Multimodal large language models (MLLMs) excel in vision-language tasks; yet, whether they maintain consistent understanding of information-rich visuals (InfoVis) when the surface language changes remains unclear. To quantify this capability, we introduce MInfoVisQA, a parallel benchmark with 8,960 QA configurations de",
+        "metric": "1 upvotes",
+        "published_at": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Attention at Absolute Zero",
         "url": "https://huggingface.co/papers/2611.11937",
         "summary": "Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We build a higher-order attention layer whose state lives on pairs of items: for a pair (a, b), each third item k is a witness judged through its legs (a, k) and (k, b). It reads witnesses at zero temperatu",
-        "metric": "1 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)",
         "url": "https://huggingface.co/papers/2611.20003",
         "summary": "In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and many of them arrive with a technical report that presents the model as new. What is actually new in these models, and is it tested? We put this question to LLM technical reports. We look at three thin",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-15T00:00:00.000Z"
       },
       {
@@ -124,68 +133,14 @@
         "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (",
         "metric": "2 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark",
-        "url": "https://huggingface.co/papers/2611.20321",
-        "summary": "Vision-based navigation systems for orbit must be trained almost entirely on synthetic imagery, because real labelled images of a given spacecraft in flight rarely exist. Benchmarks like SPEED+ are built for that situation: the training set comes from a simulator, and the test sets are real images of a satellite mockup",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-15T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-        "url": "http://arxiv.org/abs/2611.23228v1",
-        "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), ar",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:59:27Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-        "url": "http://arxiv.org/abs/2611.23225v1",
-        "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:58:40Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Equilibrium Statistics and Stability in Random Two-Population and Three-Population Evolutionary Games",
-        "url": "http://arxiv.org/abs/2611.23223v1",
-        "summary": "Multi-population matrix evolutionary games provide a framework for studying adaptation and strategic interactions among heterogeneous agents. When payoffs are uncertain, however, analysing a specified game does not reveal how frequently different evolutionary outcomes occur or how their probabilities depend on modellin",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:57:35Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-        "url": "http://arxiv.org/abs/2611.23219v1",
-        "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:57:10Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
-        "url": "http://arxiv.org/abs/2611.23211v1",
-        "summary": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds ",
-        "metric": "Published 2026-11-17",
-        "published_at": "2026-11-17T18:50:22Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Attention at Absolute Zero",
-        "source_url": "https://huggingface.co/papers/2611.11937",
+        "source_anchor": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
+        "source_url": "https://huggingface.co/papers/2611.21644",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-        "source_url": "http://arxiv.org/abs/2611.23225v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "bf5fd3847edcdf24"
+      "receipt_hash": "e97e49fb939f9af7"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_bf5fd3847edc"
+      "receipt_hash": "arm_e97e49fb939f"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
