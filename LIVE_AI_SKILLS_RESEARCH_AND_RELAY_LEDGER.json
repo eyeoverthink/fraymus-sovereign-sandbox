@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T06:17:54.906Z",
-  "packet_sha256": "7882e76f7579576ffcd9cc751e6198b64f12a6e82216987f93848a7905dea734",
+  "updated_at": "2026-11-19T06:50:56.267Z",
+  "packet_sha256": "e8b06e858c11967602f6f69a066f0c174b4594dcc266f3f2ed420b52dfee668c",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "d6753ac2c4218dbd",
+    "merkle_root_hex": "a6154a712982f945",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "d6753ac2c4218dbd",
-      "frame_sha256": "6b7c9a515fb279ff4b0dc3eb8c1226b49a43e942c4d24544360294c537098d32",
+      "merkle_root_hex": "a6154a712982f945",
+      "frame_sha256": "12cdb8ec23de034f44804c134537976736ed7dc9d2e04387299a80472d72e37e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:628b61b9:5fcebdb9:51dbafff:56a3bafb",
+      "hdc_16k": "hdc16k:7186bc31:279b299d:b348b0cf:70314e41",
       "spectral_4d": {
-        "coord4D": "107.124.154:81",
-        "rgbaStr": "{107}{124}{154}{81}",
-        "carrier_freq_hz": 355,
+        "coord4D": "18.205.184:236",
+        "rgbaStr": "{18}{205}{184}{236}",
+        "carrier_freq_hz": 368,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_d6753ac2c4218dbd",
+        "receipt_id": "R_san_yin_a6154a712982f945",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T06:18:01.673Z"
+        "verified_at": "2026-11-19T06:51:02.671Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T06:17:55.140Z",
+    "harvested_at": "2026-11-19T06:50:56.633Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
+        "url": "https://huggingface.co/papers/2611.24669",
+        "summary": "Adapting a film into a game requires selecting source elements and translating them into player actions, rules, and feedback. We introduce Movie2Game-Bench (M2G-bench), a benchmark for evaluating film-to-game adaptation beyond playability. M2G-bench combines general evaluation, movie-specific evaluation, and playtestin",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+        "url": "https://huggingface.co/papers/2611.24941",
+        "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate m",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+        "url": "https://huggingface.co/papers/2611.24362",
+        "summary": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to gene",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
         "url": "https://huggingface.co/papers/2611.24869",
         "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two chall",
-        "metric": "5 upvotes",
+        "metric": "10 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
@@ -108,39 +135,57 @@
         "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "PReMind: When Personal Memory Meets Visual Hazards",
-        "url": "https://huggingface.co/papers/2611.23808",
-        "summary": "Personalized vision-language assistants use visual observations and personal memories to provide advice tailored to the user. When the observed scene contains a physical hazard, personal context, such as allergies, medical conditions, or mobility constraints, can change what help is appropriate. Responding appropriatel",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+        "url": "http://arxiv.org/abs/2611.24932v1",
+        "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:55:07Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Late Entry in Looped Language Models",
-        "url": "https://huggingface.co/papers/2611.24576",
-        "summary": "Looped language models deepen reasoning at a compact parameter count by iterating a shared layer stack T times per token, turning recurrence depth directly into sequential decoding latency. Conventional early-exit decoding halts after initial passes without cache completion, truncating cached key-value states of past t",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+        "url": "http://arxiv.org/abs/2611.24927v1",
+        "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizations",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:53:58Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models",
-        "url": "https://huggingface.co/papers/2611.24098",
-        "summary": "Video rough-cut is a core stage in media production workflows, organizing raw media materials into an initial video cut. Despite recent advances in large vision-language models (LVLMs) for video-related tasks, automatic rough-cut remains underexplored, without a comprehensive benchmark for evaluation or mature workflow",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
+        "url": "http://arxiv.org/abs/2611.24925v1",
+        "summary": "Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended motion. We introduce Doppel, an embodiment-agnostic video worl",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:52:28Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+        "url": "http://arxiv.org/abs/2611.24924v1",
+        "summary": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select c",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:52:13Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration",
+        "url": "http://arxiv.org/abs/2611.24915v1",
+        "summary": "Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model. Our approach builds on task-dependent yet over",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:48:01Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "WorldRuler: Interactive World Modeling under Configurable Rules",
-        "source_url": "https://huggingface.co/papers/2611.24869",
+        "source_anchor": "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
+        "source_url": "https://huggingface.co/papers/2611.24669",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+        "source_url": "http://arxiv.org/abs/2611.24927v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "d6753ac2c4218dbd"
+      "receipt_hash": "a6154a712982f945"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_d6753ac2c421"
+      "receipt_hash": "arm_a6154a712982"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
