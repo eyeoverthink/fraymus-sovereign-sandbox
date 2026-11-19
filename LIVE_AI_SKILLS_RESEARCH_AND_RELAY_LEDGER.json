@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T17:31:30.425Z",
-  "packet_sha256": "0fd21ba7ae8c6c5975cfe4420da82979843f4b47b70ee2376c95a09fb484f407",
+  "updated_at": "2026-11-19T19:08:25.138Z",
+  "packet_sha256": "4aac18d985ef5e29ef1d036b57f00860fac419784113fbf7c677144d545d3184",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "76adc3f8fc3fd3f",
+    "merkle_root_hex": "bd343b7f38d57e08",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "76adc3f8fc3fd3f",
-      "frame_sha256": "7993a138e804775547fad55816648d5ccf6ee4718caae0fd9ec17b334387586c",
+      "merkle_root_hex": "bd343b7f38d57e08",
+      "frame_sha256": "7db7503d0d744bb3881c4c5b0df6c7b2bb1c9aa0ef835ef9e8a423a8b6da4bb4",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:490bd990:c9575af9:7fac372a:971c3aec",
+      "hdc_16k": "hdc16k:4dee2e73:80e2d5f4:4a08738d:6573edc0",
       "spectral_4d": {
-        "coord4D": "121.147.161:56",
-        "rgbaStr": "{121}{147}{161}{56}",
-        "carrier_freq_hz": 380,
+        "coord4D": "125.183.80:61",
+        "rgbaStr": "{125}{183}{80}{61}",
+        "carrier_freq_hz": 357,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_76adc3f8fc3fd3f",
+        "receipt_id": "R_san_yin_bd343b7f38d57e08",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T17:31:39.162Z"
+        "verified_at": "2026-11-19T19:08:33.771Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T17:31:31.022Z",
+    "harvested_at": "2026-11-19T19:08:25.557Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -104,7 +104,7 @@
         "title": "BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents",
         "url": "https://huggingface.co/papers/2611.21553",
         "summary": "Streaming video understanding is becoming increasingly important for real-world interactive systems. Such systems must be proactive for natural and useful human interaction: they should respond as soon as sufficient evidence becomes available while avoiding premature, redundant, or incorrect responses. We present BLIP-",
-        "metric": "5 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-11-16T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "76adc3f8fc3fd3f"
+      "receipt_hash": "bd343b7f38d57e08"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_76adc3f8fc3f"
+      "receipt_hash": "arm_bd343b7f38d5"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
