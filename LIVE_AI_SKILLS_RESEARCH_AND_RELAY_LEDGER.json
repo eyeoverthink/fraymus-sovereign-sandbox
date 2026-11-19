@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T21:20:06.853Z",
-  "packet_sha256": "460724bd5655960e3bdecc9c8c6a45ea334833c16ca5b9adf1cee522727c7269",
+  "updated_at": "2026-11-19T21:53:14.560Z",
+  "packet_sha256": "9dc1256daac09d5599ad511c4ade3b5e28cf4fc30cb1b5c2ab2aaada6478dcbd",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "1babeb9daec621e9",
+    "merkle_root_hex": "dabd5b1c2b8346ff",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "1babeb9daec621e9",
-      "frame_sha256": "7fd9e45fb628c470c1da9728a2f91f44044f19000b37d67c2f9c03d772e8b8e9",
+      "merkle_root_hex": "dabd5b1c2b8346ff",
+      "frame_sha256": "9289c2d56c8f324822783e927f53252392b29572e30677cce413613a08ca7392",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:b1a5de04:bedbbd22:56a26488:d8cfe86f",
+      "hdc_16k": "hdc16k:10de7c87:41976797:36db4eb7:0136ad77",
       "spectral_4d": {
-        "coord4D": "127.217.228:95",
-        "rgbaStr": "{127}{217}{228}{95}",
-        "carrier_freq_hz": 461,
+        "coord4D": "146.137.194:213",
+        "rgbaStr": "{146}{137}{194}{213}",
+        "carrier_freq_hz": 407,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_1babeb9daec621e9",
+        "receipt_id": "R_san_yin_dabd5b1c2b8346ff",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T21:20:13.844Z"
+        "verified_at": "2026-11-19T21:53:22.319Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T21:20:07.397Z",
+    "harvested_at": "2026-11-19T21:53:14.789Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
+        "url": "https://huggingface.co/papers/2611.24059",
+        "summary": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment again, an expert scores every sampled token",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
+        "url": "https://huggingface.co/papers/2611.24917",
+        "summary": "In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and hypothesis: if the world information is e",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +122,7 @@
         "title": "TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning",
         "url": "https://huggingface.co/papers/2611.23779",
         "summary": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance. We introduce TabBioMed, a large-scale benchmark of 94 curated public biomedi",
-        "metric": "3 upvotes",
+        "metric": "5 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
@@ -115,24 +133,6 @@
         "summary": "Large language models (LLMs) have renewed interest in Page Stream Segmentation (PSS), splitting a multi-page file into its constituent documents. Yet published LLM methods still frame the task as boundary classification over one or a few neighboring pages, and commercial document-splitting APIs do not disclose their me",
         "metric": "3 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents",
-        "url": "https://huggingface.co/papers/2611.21553",
-        "summary": "Streaming video understanding is becoming increasingly important for real-world interactive systems. Such systems must be proactive for natural and useful human interaction: they should respond as soon as sufficient evidence becomes available while avoiding premature, redundant, or incorrect responses. We present BLIP-",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
-        "url": "https://huggingface.co/papers/2611.16933",
-        "summary": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix. We present Kezek, a model that turns a mono recording of exactly two people into one track per person with the original ",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Choosing Quantized Code LLMs by File Size and Energy per Solved Task",
-        "source_url": "https://huggingface.co/papers/2611.17605",
+        "source_anchor": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
+        "source_url": "https://huggingface.co/papers/2611.24059",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "1babeb9daec621e9"
+      "receipt_hash": "dabd5b1c2b8346ff"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_1babeb9daec6"
+      "receipt_hash": "arm_dabd5b1c2b83"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
