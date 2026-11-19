@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T10:33:54.872Z",
-  "packet_sha256": "3b41908f5cc4d3243c5997975084c014a5a6e9c7e3e09ce011f510daa594e912",
+  "updated_at": "2026-11-19T11:06:52.477Z",
+  "packet_sha256": "969467d5c3429a64d161b7362519d05e44389330bfc8ecb452b2cb8574ea0a99",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "8153a15341101598",
+    "merkle_root_hex": "aee75ef70f6bad82",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "8153a15341101598",
-      "frame_sha256": "74b1b0e5959746a31cc53c4eff5e0f73643f07520c02524dd20b1398e089da9f",
+      "merkle_root_hex": "aee75ef70f6bad82",
+      "frame_sha256": "67175a3cd1231696fb136fe085db15e815edc8adb238a6ab77e0dfb8febb7b33",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:68652237:6a4b4aee:c17811d7:2832ae85",
+      "hdc_16k": "hdc16k:d1319bb7:8600a486:cb2d315f:ade5e103",
       "spectral_4d": {
-        "coord4D": "116.177.176:229",
-        "rgbaStr": "{116}{177}{176}{229}",
-        "carrier_freq_hz": 403,
+        "coord4D": "103.23.90:60",
+        "rgbaStr": "{103}{23}{90}{60}",
+        "carrier_freq_hz": 260,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_8153a15341101598",
+        "receipt_id": "R_san_yin_aee75ef70f6bad82",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T10:34:01.691Z"
+        "verified_at": "2026-11-19T11:07:01.134Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T10:33:55.309Z",
+    "harvested_at": "2026-11-19T11:06:52.760Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -104,7 +104,7 @@
         "title": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
         "url": "https://huggingface.co/papers/2611.17600",
         "summary": "Multimodal tabular learning involves classification and regression on tables combining structured numerical and categorical features with unstructured text and images. These unstructured fields are commonly represented by pretrained encoder embeddings reduced with principal component analysis (PCA). This reduction prio",
-        "metric": "8 upvotes",
+        "metric": "14 upvotes",
         "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "8153a15341101598"
+      "receipt_hash": "aee75ef70f6bad82"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_8153a1534110"
+      "receipt_hash": "arm_aee75ef70f6b"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
