@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T21:53:14.560Z",
-  "packet_sha256": "9dc1256daac09d5599ad511c4ade3b5e28cf4fc30cb1b5c2ab2aaada6478dcbd",
+  "updated_at": "2026-11-19T23:28:09.721Z",
+  "packet_sha256": "62938660ed434da76b141e1e8d0e92ac04c0bccc802009c035e989c6257ec682",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "dabd5b1c2b8346ff",
+    "merkle_root_hex": "889bea3bea8dece0",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "dabd5b1c2b8346ff",
-      "frame_sha256": "9289c2d56c8f324822783e927f53252392b29572e30677cce413613a08ca7392",
+      "merkle_root_hex": "889bea3bea8dece0",
+      "frame_sha256": "0387197d329410d91a438cb648fe3604ab203251d2fd28ab213c82af5fa5aa0e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:10de7c87:41976797:36db4eb7:0136ad77",
+      "hdc_16k": "hdc16k:4fc67b1a:c657d3b8:3ad49da2:2631560e",
       "spectral_4d": {
-        "coord4D": "146.137.194:213",
-        "rgbaStr": "{146}{137}{194}{213}",
-        "carrier_freq_hz": 407,
+        "coord4D": "3.135.25:125",
+        "rgbaStr": "{3}{135}{25}{125}",
+        "carrier_freq_hz": 230,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_dabd5b1c2b8346ff",
+        "receipt_id": "R_san_yin_889bea3bea8dece0",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T21:53:22.319Z"
+        "verified_at": "2026-11-19T23:28:16.642Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T21:53:14.789Z",
+    "harvested_at": "2026-11-19T23:28:11.331Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "General progress substitutes for specific training data in language models",
+        "url": "https://huggingface.co/papers/2611.24844",
+        "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general progress a model make",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
         "url": "https://huggingface.co/papers/2611.24059",
         "summary": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment again, an expert scores every sampled token",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
@@ -122,17 +131,8 @@
         "title": "TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning",
         "url": "https://huggingface.co/papers/2611.23779",
         "summary": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance. We introduce TabBioMed, a large-scale benchmark of 94 curated public biomedi",
-        "metric": "5 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
-        "url": "https://huggingface.co/papers/2611.22382",
-        "summary": "Large language models (LLMs) have renewed interest in Page Stream Segmentation (PSS), splitting a multi-page file into its constituent documents. Yet published LLM methods still frame the task as boundary classification over one or a few neighboring pages, and commercial document-splitting APIs do not disclose their me",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
-        "source_url": "https://huggingface.co/papers/2611.24059",
+        "source_anchor": "General progress substitutes for specific training data in language models",
+        "source_url": "https://huggingface.co/papers/2611.24844",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "dabd5b1c2b8346ff"
+      "receipt_hash": "889bea3bea8dece0"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_dabd5b1c2b83"
+      "receipt_hash": "arm_889bea3bea8d"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
