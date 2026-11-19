@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T02:35:52.331Z",
-  "packet_sha256": "694035d8eac6c91d44c510f674fdf7919b0960d2988781ca02d007a51578c230",
+  "updated_at": "2026-11-19T04:10:50.308Z",
+  "packet_sha256": "80b7ce1058f3da0bdef1d9c82071fc2abfba5053e5453fd7c0fed9d65f575986",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b1c2829d4ccdb07e",
+    "merkle_root_hex": "e0655ddf5f2cdea2",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b1c2829d4ccdb07e",
-      "frame_sha256": "9eea3f36c612134d4a8b1144c59d71d85fb3093cbe1a60d7decc39843aa09111",
+      "merkle_root_hex": "e0655ddf5f2cdea2",
+      "frame_sha256": "9d415bf54ca3ba2b2a2d4c82bf76c70d1ee12bd05663e496db8f7aa62a1af211",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8fa9f5ba:81bd1052:a2a784b2:28a8a512",
+      "hdc_16k": "hdc16k:8eb4872f:da82e271:f816541b:742548ac",
       "spectral_4d": {
-        "coord4D": "158.234.63:54",
-        "rgbaStr": "{158}{234}{63}{54}",
-        "carrier_freq_hz": 395,
+        "coord4D": "157.65.91:245",
+        "rgbaStr": "{157}{65}{91}{245}",
+        "carrier_freq_hz": 315,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b1c2829d4ccdb07e",
+        "receipt_id": "R_san_yin_e0655ddf5f2cdea2",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T02:36:00.331Z"
+        "verified_at": "2026-11-19T04:10:54.453Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T02:36:00.331Z",
+    "harvested_at": "2026-11-19T04:10:50.993Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,55 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
-        "url": "https://huggingface.co/papers/2611.21644",
-        "summary": "Multimodal large language models (MLLMs) excel in vision-language tasks; yet, whether they maintain consistent understanding of information-rich visuals (InfoVis) when the surface language changes remains unclear. To quantify this capability, we introduce MInfoVisQA, a parallel benchmark with 8,960 QA configurations de",
-        "metric": "1 upvotes",
-        "published_at": "2026-10-14T00:00:00.000Z"
+        "title": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+        "url": "https://huggingface.co/papers/2611.24154",
+        "summary": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifia",
+        "metric": "12 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Attention at Absolute Zero",
-        "url": "https://huggingface.co/papers/2611.11937",
-        "summary": "Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We build a higher-order attention layer whose state lives on pairs of items: for a pair (a, b), each third item k is a witness judged through its legs (a, k) and (k, b). It reads witnesses at zero temperatu",
-        "metric": "3 upvotes",
+        "title": "LogT: Logically Think with Images for Visual Search",
+        "url": "https://huggingface.co/papers/2611.19200",
+        "summary": "Thinking with images empowers vision-language models (VLMs) to use an external Zoom-in tool for fine-grained visual search. Recent works employ supervised fine-tuning (SFT) and reinforcement learning (RL) with tool-specific designs to enable such capabilities. However, achieving logical reasoning alongside accurate and",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-14T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+        "url": "https://huggingface.co/papers/2611.22033",
+        "summary": "Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process multimodal product listings (consisting of visual and text data) and recommend purchases on behalf of consumers. Naturally, one might assume that models with more thinking power would make higher-quality purchasing decisio",
+        "metric": "1 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "CONGA: Compiling Gaussian Fiber Geometry for Structured Bayesian Inference",
-        "url": "https://huggingface.co/papers/2611.20995",
-        "summary": "In structured Bayesian models, a large latent block is often Gaussian conditional on a smaller set of parameters, yet generic inference methods relearn this geometry during warmup. We study how this structure can be used to construct transports for posterior inference. The conditional mean and precision determine exact",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
+        "title": "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+        "url": "https://huggingface.co/papers/2611.22925",
+        "summary": "Visual proxies decouple explicit world-state simulation from photorealistic video synthesis, offering a controllable interface for both offline clip creation and real-time interactive streaming. Yet a practical renderer must address two challenges. Upstream proxies vary from coarse layouts to fine articulated geometry ",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)",
-        "url": "https://huggingface.co/papers/2611.20003",
-        "summary": "In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and many of them arrive with a technical report that presents the model as new. What is actually new in these models, and is it tested? We put this question to LLM technical reports. We look at three thin",
+        "title": "Let Samples Sing in Chorus: Mitigating Spurious Correlations via Cross-view Consensus",
+        "url": "https://huggingface.co/papers/2611.22668",
+        "summary": "Deep models often rely on spurious correlations that fail on underrepresented groups. Existing methods either correct human-specified bias attributes or infer unknown biases from the learned representation space. However, annotated attributes may differ from the shortcuts actually used by a model, while a single repres",
         "metric": "2 upvotes",
-        "published_at": "2026-11-15T00:00:00.000Z"
+        "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-        "url": "https://huggingface.co/papers/2611.18553",
-        "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+        "url": "http://arxiv.org/abs/2611.24932v1",
+        "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:55:07Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+        "url": "http://arxiv.org/abs/2611.24927v1",
+        "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizations",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:53:58Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
+        "url": "http://arxiv.org/abs/2611.24925v1",
+        "summary": "Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended motion. We introduce Doppel, an embodiment-agnostic video worl",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:52:28Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+        "url": "http://arxiv.org/abs/2611.24924v1",
+        "summary": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select c",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:52:13Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration",
+        "url": "http://arxiv.org/abs/2611.24915v1",
+        "summary": "Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model. Our approach builds on task-dependent yet over",
+        "metric": "Published 2026-11-18",
+        "published_at": "2026-11-18T18:48:01Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
-        "source_url": "https://huggingface.co/papers/2611.21644",
+        "source_anchor": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+        "source_url": "https://huggingface.co/papers/2611.24154",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+        "source_url": "http://arxiv.org/abs/2611.24927v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b1c2829d4ccdb07e"
+      "receipt_hash": "e0655ddf5f2cdea2"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b1c2829d4ccd"
+      "receipt_hash": "arm_e0655ddf5f2c"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
