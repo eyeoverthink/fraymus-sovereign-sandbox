@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T14:49:55.448Z",
-  "packet_sha256": "821a07e728ee00e9c458931fd4c2e8e8882b5a5cee29d760913754d69981a3c0",
+  "updated_at": "2026-11-19T16:57:08.572Z",
+  "packet_sha256": "b07ba5692777816699a7237487722e1d71e1ac8333abe6408a81b7f429088e53",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "bcd7ce4c0e5d8df9",
+    "merkle_root_hex": "eed1cb92311b1b26",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "bcd7ce4c0e5d8df9",
-      "frame_sha256": "57609acc083918b0772639139639b180ddbcb3d5b384f0760d7715761cfc4aca",
+      "merkle_root_hex": "eed1cb92311b1b26",
+      "frame_sha256": "a7eca3a33ae7530c3fe4aeb1c1014e542432b846d7334f6510439f6ad82557b4",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:56dda330:9907f31e:6aa4d70e:4370e353",
+      "hdc_16k": "hdc16k:e49b2dfa:ca2e1ee0:b22c35cc:d056a4c6",
       "spectral_4d": {
-        "coord4D": "87.96.154:204",
-        "rgbaStr": "{87}{96}{154}{204}",
-        "carrier_freq_hz": 328,
+        "coord4D": "167.236.163:163",
+        "rgbaStr": "{167}{236}{163}{163}",
+        "carrier_freq_hz": 458,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_bcd7ce4c0e5d8df9",
+        "receipt_id": "R_san_yin_eed1cb92311b1b26",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T14:50:03.659Z"
+        "verified_at": "2026-11-19T16:57:16.480Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T14:49:56.272Z",
+    "harvested_at": "2026-11-19T16:57:09.481Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
+        "url": "https://huggingface.co/papers/2611.22382",
+        "summary": "Large language models (LLMs) have renewed interest in Page Stream Segmentation (PSS), splitting a multi-page file into its constituent documents. Yet published LLM methods still frame the task as boundary classification over one or a few neighboring pages, and commercial document-splitting APIs do not disclose their me",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents",
+        "url": "https://huggingface.co/papers/2611.21553",
+        "summary": "Streaming video understanding is becoming increasingly important for real-world interactive systems. Such systems must be proactive for natural and useful human interaction: they should respond as soon as sufficient evidence becomes available while avoiding premature, redundant, or incorrect responses. We present BLIP-",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +122,7 @@
         "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
         "url": "https://huggingface.co/papers/2611.23257",
         "summary": "Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that co",
-        "metric": "6 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-09-29T00:00:00.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "WaveView: The Novel View Is in the Noise",
         "url": "https://huggingface.co/papers/2611.23994",
         "summary": "Generative novel view synthesis (NVS) employs a diffusion model to render a static or dynamic scene from a target camera view. Explicit warp methods complete a reprojection of the source with video diffusion models, and implicit methods encode the camera parameters or 3D cues. Both add inference overhead, and the gener",
-        "metric": "4 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
-        "url": "https://huggingface.co/papers/2611.24408",
-        "summary": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action to keep a stable effect. Existing benchmarks mostly evaluate these properties against references fitted to the video under test, either a sce",
-        "metric": "11 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
-        "url": "https://huggingface.co/papers/2611.24161",
-        "summary": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks. Despite its effectiveness, this paradigm faces two fundamental limitations. First, relying on textual reasoning alone can limit perceptual ability in vision-centric questions, where accurate answers depend on interpreting ",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-18T10:05:18.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
-        "source_url": "https://huggingface.co/papers/2611.16933",
+        "source_anchor": "RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
+        "source_url": "https://huggingface.co/papers/2611.22382",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "bcd7ce4c0e5d8df9"
+      "receipt_hash": "eed1cb92311b1b26"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_bcd7ce4c0e5d"
+      "receipt_hash": "arm_eed1cb92311b"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
