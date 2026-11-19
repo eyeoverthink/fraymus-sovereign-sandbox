@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T08:58:55.686Z",
-  "packet_sha256": "24e0f67918b261b9357d55a965fa6b06ed8872ac662ffba52528e121db0be58e",
+  "updated_at": "2026-11-19T10:33:54.872Z",
+  "packet_sha256": "3b41908f5cc4d3243c5997975084c014a5a6e9c7e3e09ce011f510daa594e912",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "fedc8f757f73b9df",
+    "merkle_root_hex": "8153a15341101598",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "fedc8f757f73b9df",
-      "frame_sha256": "369c3f61195160cb645bb94126de75f42eee285a060e5ccf29d7173c836087ee",
+      "merkle_root_hex": "8153a15341101598",
+      "frame_sha256": "74b1b0e5959746a31cc53c4eff5e0f73643f07520c02524dd20b1398e089da9f",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:55a9e56f:5dfacf5c:f6a4c4ff:a9f27e8e",
+      "hdc_16k": "hdc16k:68652237:6a4b4aee:c17811d7:2832ae85",
       "spectral_4d": {
-        "coord4D": "54.156.63:97",
-        "rgbaStr": "{54}{156}{63}{97}",
-        "carrier_freq_hz": 292,
+        "coord4D": "116.177.176:229",
+        "rgbaStr": "{116}{177}{176}{229}",
+        "carrier_freq_hz": 403,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_fedc8f757f73b9df",
+        "receipt_id": "R_san_yin_8153a15341101598",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T08:59:02.586Z"
+        "verified_at": "2026-11-19T10:34:01.691Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T08:58:55.914Z",
+    "harvested_at": "2026-11-19T10:33:55.309Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
-        "url": "https://huggingface.co/papers/2611.24654",
-        "summary": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorporates the preservation constraint into the parameterization of the model update. By analyzing the l",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
-        "url": "https://huggingface.co/papers/2611.23386",
-        "summary": "Language models can gain capacity at little computational cost from n-gram embedding tables: large tables of learned vectors for short sequences of consecutive tokens, which are looked up and added to the model's input or to its intermediate layers. Recent designs commonly use a separate n-gram embedding table for each",
+        "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
+        "url": "https://huggingface.co/papers/2611.24161",
+        "summary": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks. Despite its effectiveness, this paradigm faces two fundamental limitations. First, relying on textual reasoning alone can limit perceptual ability in vision-centric questions, where accurate answers depend on interpreting ",
         "metric": "0 upvotes",
-        "published_at": "2026-11-17T00:00:00.000Z"
+        "published_at": "2026-11-18T10:05:18.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
-        "url": "https://huggingface.co/papers/2611.24789",
-        "summary": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervi",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
+        "title": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
+        "url": "https://huggingface.co/papers/2611.17600",
+        "summary": "Multimodal tabular learning involves classification and regression on tables combining structured numerical and categorical features with unstructured text and images. These unstructured fields are commonly represented by pretrained encoder embeddings reduced with principal component analysis (PCA). This reduction prio",
+        "metric": "8 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
-        "url": "https://huggingface.co/papers/2611.24651",
-        "summary": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent harnesses, data wor",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
-        "url": "https://huggingface.co/papers/2611.22673",
-        "summary": "We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation evaluation. Existing evaluators rely on holistic MLLM judgments or vision-language metrics, yet aligning their scores with human judgments and tracing them to specific temporal violations remain open ch",
+        "title": "BiCAT: Bimanual Coordination Action Tokenization",
+        "url": "https://huggingface.co/papers/2611.23499",
+        "summary": "Autoregressive vision-language-action (VLA) models predict discrete action tokens with the next-token objective of their vision-language backbone, so the action tokenizer defines the interface between the policy and the robot. In bimanual manipulation, the two arms share a repertoire of movements yet coordinate through",
         "metric": "2 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+        "url": "https://huggingface.co/papers/2611.23236",
+        "summary": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted collection or local token perturbation, often disrupting the inter-item semantic topology needed for ",
+        "metric": "2 upvotes",
+        "published_at": "2026-08-26T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
+        "url": "https://huggingface.co/papers/2611.23751",
+        "summary": "Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates. Existing dual-system agents offload such decisions to a lightweight System-1 model, but rely on workflow-specific hooks authored ",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
-        "source_url": "https://huggingface.co/papers/2611.24654",
+        "source_anchor": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
+        "source_url": "https://huggingface.co/papers/2611.24161",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "fedc8f757f73b9df"
+      "receipt_hash": "8153a15341101598"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_fedc8f757f73"
+      "receipt_hash": "arm_8153a1534110"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
