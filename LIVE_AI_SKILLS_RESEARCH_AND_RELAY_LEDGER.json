@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-19T06:50:56.267Z",
-  "packet_sha256": "e8b06e858c11967602f6f69a066f0c174b4594dcc266f3f2ed420b52dfee668c",
+  "updated_at": "2026-11-19T08:25:57.025Z",
+  "packet_sha256": "dc6afccad8ef279e06aacadc0658b3a2db500e274d24d6fa1839df8860ec25f3",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a6154a712982f945",
+    "merkle_root_hex": "21797ce8f2328677",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a6154a712982f945",
-      "frame_sha256": "12cdb8ec23de034f44804c134537976736ed7dc9d2e04387299a80472d72e37e",
+      "merkle_root_hex": "21797ce8f2328677",
+      "frame_sha256": "d204cea3fc5b54f589062514444e3c5005fad6aa3ea98f22c2f1f12a44476a1f",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:7186bc31:279b299d:b348b0cf:70314e41",
+      "hdc_16k": "hdc16k:349ecb5e:c4c48d8e:bf8cc36e:9956e840",
       "spectral_4d": {
-        "coord4D": "18.205.184:236",
-        "rgbaStr": "{18}{205}{184}{236}",
-        "carrier_freq_hz": 368,
+        "coord4D": "210.4.206:163",
+        "rgbaStr": "{210}{4}{206}{163}",
+        "carrier_freq_hz": 375,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a6154a712982f945",
+        "receipt_id": "R_san_yin_21797ce8f2328677",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-19T06:51:02.671Z"
+        "verified_at": "2026-11-19T08:26:05.157Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-19T06:50:56.633Z",
+    "harvested_at": "2026-11-19T08:25:57.582Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+        "url": "https://huggingface.co/papers/2611.24789",
+        "summary": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervi",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+        "url": "https://huggingface.co/papers/2611.24651",
+        "summary": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent harnesses, data wor",
+        "metric": "4 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
+        "url": "https://huggingface.co/papers/2611.22673",
+        "summary": "We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation evaluation. Existing evaluators rely on holistic MLLM judgments or vision-language metrics, yet aligning their scores with human judgments and tracing them to specific temporal violations remain open ch",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -106,33 +133,6 @@
         "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate m",
         "metric": "1 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
-        "url": "https://huggingface.co/papers/2611.24362",
-        "summary": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to gene",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
-        "url": "https://huggingface.co/papers/2611.24869",
-        "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two chall",
-        "metric": "10 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "NexSight: Verifiable Tasks for Fine-Grained Agentic Long-Video Understanding",
-        "url": "https://huggingface.co/papers/2611.22790",
-        "summary": "Fine-grained questions about long videos ask how many times an action occurs, in what order events unfold, or exactly when a state changes. Answering them can require finding brief moments scattered across hours of footage. Agentic models that decide when and where to look promise to find these moments, yet this abilit",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
-        "source_url": "https://huggingface.co/papers/2611.24669",
+        "source_anchor": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+        "source_url": "https://huggingface.co/papers/2611.24789",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a6154a712982f945"
+      "receipt_hash": "21797ce8f2328677"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a6154a712982"
+      "receipt_hash": "arm_21797ce8f232"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
