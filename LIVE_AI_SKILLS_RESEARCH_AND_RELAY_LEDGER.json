@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T08:37:19.691Z",
-  "packet_sha256": "69684e76788fd05fc8798b975477e3456c19aad6825f2b10429167483fe2cfa0",
+  "updated_at": "2026-11-20T10:12:23.737Z",
+  "packet_sha256": "5a9bf40b41655ac4d46763ec52c8dc5a51fde22c4a5c8d1690b00ddada1bbda3",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "748701c3d277e19b",
+    "merkle_root_hex": "57c49dae4f19fb8b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "748701c3d277e19b",
-      "frame_sha256": "96f8bfb1bf418664cba5d8fe655b423d15bc9aa10faeb74934cd7a1b81550351",
+      "merkle_root_hex": "57c49dae4f19fb8b",
+      "frame_sha256": "bc5fefe2184b32740d00c929e690a1f496b5b4607b272e07a82b934f2d2b8379",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:1f4877e4:804d93d6:fe593418:923839fb",
+      "hdc_16k": "hdc16k:da4a1754:46035fe8:73bde9fc:ac506259",
       "spectral_4d": {
-        "coord4D": "150.248.191:177",
-        "rgbaStr": "{150}{248}{191}{177}",
-        "carrier_freq_hz": 471,
+        "coord4D": "188.95.239:226",
+        "rgbaStr": "{188}{95}{239}{226}",
+        "carrier_freq_hz": 433,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_748701c3d277e19b",
+        "receipt_id": "R_san_yin_57c49dae4f19fb8b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T08:37:26.683Z"
+        "verified_at": "2026-11-20T10:12:30.870Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T08:37:20.294Z",
+    "harvested_at": "2026-11-20T10:12:24.273Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,46 +92,46 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
-        "url": "https://huggingface.co/papers/2611.26268",
-        "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fixed Top-k applies one budget across different score distributions and couples routing to task granula",
-        "metric": "5 upvotes",
+        "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
+        "url": "https://huggingface.co/papers/2611.25935",
+        "summary": "Facial deepfake detectors are usually trained on blending fakes, where a generated face is pasted back into a real frame. Recent generators synthesize the entire face and leave no traces of blending. On a benchmark of 19 datasets released from 2019 to 2026, the best prior facial deepfake detector reaches a mean AUROC o",
+        "metric": "0 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
-        "url": "https://huggingface.co/papers/2611.25005",
-        "summary": "Recent work on human-scene interaction (HSI) generation moves from single interactions to long-horizon interaction, where a language-model agent plans and executes a sequence of interactions in a 3D scene under one instruction. However, existing agents struggle in challenging everyday scenarios (e.g., picking up a toy ",
-        "metric": "1 upvotes",
+        "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+        "url": "https://huggingface.co/papers/2611.26073",
+        "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are annotated by the same",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
+        "url": "https://huggingface.co/papers/2611.25279",
+        "summary": "Dense metric mapping from a single camera and IMU remains challenging: visual-inertial odometry (VIO) provides metric motion but sparse geometry, whereas feed-forward depth models predict dense structure without ensuring metric scale. We present Accord, which constructs an accurate online dense metric map from any came",
+        "metric": "6 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
-        "url": "https://huggingface.co/papers/2611.26444",
-        "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. ",
-        "metric": "34 upvotes",
+        "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+        "url": "https://huggingface.co/papers/2611.26617",
+        "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and fo",
+        "metric": "1 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
-        "url": "https://huggingface.co/papers/2611.00911",
-        "summary": "Decision-making in humans and AI involves multiple cognitive abilities. System One decision models produce fast, structured choices. Their cognitive strengths and limitations, however, remain poorly understood. We introduce S1CogBench, a benchmark of 24 established cognitive tasks and 27 evaluation modes, evaluating se",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-14T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
-        "url": "https://huggingface.co/papers/2611.25980",
-        "summary": "World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without executing them in the real world. Yet despite producing increasingly realistic videos, current world models often fail to capture how small action changes affect future observations. This limits their ",
-        "metric": "9 upvotes",
+        "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+        "url": "https://huggingface.co/papers/2611.26590",
+        "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We i",
+        "metric": "6 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
-        "source_url": "https://huggingface.co/papers/2611.26268",
+        "source_anchor": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
+        "source_url": "https://huggingface.co/papers/2611.25935",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "748701c3d277e19b"
+      "receipt_hash": "57c49dae4f19fb8b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_748701c3d277"
+      "receipt_hash": "arm_57c49dae4f19"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
