@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T01:38:17.434Z",
-  "packet_sha256": "fdfb70b9b73549bf9fdc770825f5a2e309c4baf346c4e0785d4eef03c6f16647",
+  "updated_at": "2026-11-20T02:11:15.000Z",
+  "packet_sha256": "c5959a0bc31e3342b26362e8a6e80bf63655c741f5b079b4a4b91a0bc687b0b4",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "2269585f5c4bf525",
+    "merkle_root_hex": "cd70ed817999bab0",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "2269585f5c4bf525",
-      "frame_sha256": "50a6ce24166e941c17dc3fbdb3871bb8dee9c3000daf8422313e97a6c33354f1",
+      "merkle_root_hex": "cd70ed817999bab0",
+      "frame_sha256": "ba97fbc283636594dc5cd7518e11f55fd8be8ba846caac1afb86b26d0d017eac",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:65dc7080:2d7000e3:7a33fe4e:523eedb1",
+      "hdc_16k": "hdc16k:fb16a8c7:988cbba3:a1a6037d:91cb8ff1",
       "spectral_4d": {
-        "coord4D": "80.166.206:36",
-        "rgbaStr": "{80}{166}{206}{36}",
-        "carrier_freq_hz": 393,
+        "coord4D": "186.151.251:194",
+        "rgbaStr": "{186}{151}{251}{194}",
+        "carrier_freq_hz": 470,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_2269585f5c4bf525",
+        "receipt_id": "R_san_yin_cd70ed817999bab0",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T01:38:24.888Z"
+        "verified_at": "2026-11-20T02:11:20.216Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T01:38:18.362Z",
+    "harvested_at": "2026-11-20T02:11:15.275Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels",
+        "url": "https://huggingface.co/papers/2611.08136",
+        "summary": "Anomaly detection (AD) is often framed as a representation-learning problem, where strong performance is expected to require learned features or AD-specific optimization. However, this view can overlook the intrinsic separability of anomalies from normal references, even in the absence of learned representations. We th",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-09T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine. A common rule says a larger model at lower precision tends to beat a smaller one at higher precision. We ran 24 GGUF files of Qwen2.5-Coder at four sizes on a fanless MacBo",
         "metric": "2 upvotes",
         "published_at": "2026-11-13T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning",
-        "url": "https://huggingface.co/papers/2611.23779",
-        "summary": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance. We introduce TabBioMed, a large-scale benchmark of 94 curated public biomedi",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "General progress substitutes for specific training data in language models",
-        "source_url": "https://huggingface.co/papers/2611.24844",
+        "source_anchor": "How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels",
+        "source_url": "https://huggingface.co/papers/2611.08136",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "2269585f5c4bf525"
+      "receipt_hash": "cd70ed817999bab0"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_2269585f5c4b"
+      "receipt_hash": "arm_cd70ed817999"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
