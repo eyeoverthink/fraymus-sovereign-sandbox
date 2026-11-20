@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T16:34:30.026Z",
-  "packet_sha256": "7d381268efd3a1f26227a6a3bc0b217c61d26a8cae482abf7b75f548eff6b68f",
+  "updated_at": "2026-11-20T17:07:25.546Z",
+  "packet_sha256": "0ac96a36ed2f2a48d9322061249a9b33e1d3ecbc4e08442f8eca2a54e8e5c414",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "22cd4dc794503f29",
+    "merkle_root_hex": "f3520a3a0af16674",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "22cd4dc794503f29",
-      "frame_sha256": "55f6e8bcf506f2a22f98c1c32aaf9a48c6e80604c6fc33f52953bfb37855bec7",
+      "merkle_root_hex": "f3520a3a0af16674",
+      "frame_sha256": "e790a98d92e8bbfbcd5c985155d07c2b519921aaac0af04a922e28ba7e0533da",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:d5f52afa:9221c74a:4732ee7e:128e0d4c",
+      "hdc_16k": "hdc16k:f560ee3a:82161fa9:f5f3863a:dc9d186f",
       "spectral_4d": {
-        "coord4D": "85.246.232:188",
-        "rgbaStr": "{85}{246}{232}{188}",
-        "carrier_freq_hz": 456,
+        "coord4D": "231.144.169:141",
+        "rgbaStr": "{231}{144}{169}{141}",
+        "carrier_freq_hz": 445,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_22cd4dc794503f29",
+        "receipt_id": "R_san_yin_f3520a3a0af16674",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T16:34:36.667Z"
+        "verified_at": "2026-11-20T17:07:32.937Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T16:34:31.596Z",
+    "harvested_at": "2026-11-20T17:07:25.831Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Language Models Can Rewrite Their Own Weights",
+        "url": "https://huggingface.co/papers/2611.21885",
+        "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to m",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -123,15 +132,6 @@
         "url": "https://huggingface.co/papers/2611.26211",
         "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames. However, ve",
         "metric": "1 upvotes",
-        "published_at": "2026-11-19T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
-        "url": "https://huggingface.co/papers/2611.26511",
-        "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these methods all share th",
-        "metric": "3 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "System 1 agents: a method for local, reliable and fast agentic AI",
-        "source_url": "https://huggingface.co/papers/2611.21053",
+        "source_anchor": "Language Models Can Rewrite Their Own Weights",
+        "source_url": "https://huggingface.co/papers/2611.21885",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "22cd4dc794503f29"
+      "receipt_hash": "f3520a3a0af16674"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_22cd4dc79450"
+      "receipt_hash": "arm_f3520a3a0af1"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
