@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T00:01:18.355Z",
-  "packet_sha256": "6c3ec87e01418620a1a66e745b4e007b9d6f423c42fee91de766ac4e0321f14e",
+  "updated_at": "2026-11-20T01:38:17.434Z",
+  "packet_sha256": "fdfb70b9b73549bf9fdc770825f5a2e309c4baf346c4e0785d4eef03c6f16647",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b8df4fb644122943",
+    "merkle_root_hex": "2269585f5c4bf525",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b8df4fb644122943",
-      "frame_sha256": "93b7353b7c80f1aa76adf3aef555559787016b3c09fd8dc226a8bbcf513310d9",
+      "merkle_root_hex": "2269585f5c4bf525",
+      "frame_sha256": "50a6ce24166e941c17dc3fbdb3871bb8dee9c3000daf8422313e97a6c33354f1",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:10e893d2:b26b4b3b:6abe43f0:7eca45f1",
+      "hdc_16k": "hdc16k:65dc7080:2d7000e3:7a33fe4e:523eedb1",
       "spectral_4d": {
-        "coord4D": "147.183.53:59",
-        "rgbaStr": "{147}{183}{53}{59}",
-        "carrier_freq_hz": 354,
+        "coord4D": "80.166.206:36",
+        "rgbaStr": "{80}{166}{206}{36}",
+        "carrier_freq_hz": 393,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b8df4fb644122943",
+        "receipt_id": "R_san_yin_2269585f5c4bf525",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T00:01:26.356Z"
+        "verified_at": "2026-11-20T01:38:24.888Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T00:01:26.356Z",
+    "harvested_at": "2026-11-20T01:38:18.362Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "General progress substitutes for specific training data in language models",
         "url": "https://huggingface.co/papers/2611.24844",
         "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general progress a model make",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
         "url": "https://huggingface.co/papers/2611.24059",
         "summary": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment again, an expert scores every sampled token",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
@@ -113,7 +113,7 @@
         "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
         "url": "https://huggingface.co/papers/2611.24917",
         "summary": "In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and hypothesis: if the world information is e",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
@@ -131,7 +131,7 @@
         "title": "TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning",
         "url": "https://huggingface.co/papers/2611.23779",
         "summary": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance. We introduce TabBioMed, a large-scale benchmark of 94 curated public biomedi",
-        "metric": "7 upvotes",
+        "metric": "8 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b8df4fb644122943"
+      "receipt_hash": "2269585f5c4bf525"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b8df4fb64412"
+      "receipt_hash": "arm_2269585f5c4b"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
