@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T02:11:15.000Z",
-  "packet_sha256": "c5959a0bc31e3342b26362e8a6e80bf63655c741f5b079b4a4b91a0bc687b0b4",
+  "updated_at": "2026-11-20T03:46:18.675Z",
+  "packet_sha256": "64bba2154a38de466c3baa5127f110d35b974015102b3241315149a9fdb3ffac",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "cd70ed817999bab0",
+    "merkle_root_hex": "79b705ea32576b60",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "cd70ed817999bab0",
-      "frame_sha256": "ba97fbc283636594dc5cd7518e11f55fd8be8ba846caac1afb86b26d0d017eac",
+      "merkle_root_hex": "79b705ea32576b60",
+      "frame_sha256": "87211b62138618ab54289d9e1eec2c42e2e54a544cbd5b776ea08073c9e4b892",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:fb16a8c7:988cbba3:a1a6037d:91cb8ff1",
+      "hdc_16k": "hdc16k:a25c666d:761954f7:d51f7601:90073610",
       "spectral_4d": {
-        "coord4D": "186.151.251:194",
-        "rgbaStr": "{186}{151}{251}{194}",
-        "carrier_freq_hz": 470,
+        "coord4D": "135.33.27:98",
+        "rgbaStr": "{135}{33}{27}{98}",
+        "carrier_freq_hz": 248,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_cd70ed817999bab0",
+        "receipt_id": "R_san_yin_79b705ea32576b60",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T02:11:20.216Z"
+        "verified_at": "2026-11-20T03:46:23.834Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T02:11:15.275Z",
+    "harvested_at": "2026-11-20T03:46:19.850Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
+        "url": "https://huggingface.co/papers/2611.23835",
+        "summary": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show th",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Unfinished-Bench: Measuring Rule Violations by Persistent Agents in Realistic Work Environments",
+        "url": "https://huggingface.co/papers/2611.17460",
+        "summary": "AI agents are increasingly equipped with persistence toward task completion to run delegated work autonomously for long periods, under many unstated constraints from internal documents and other people's authority. When completion requires violating a rule, the agent must decide alone, yet benchmarks of instruction-rul",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels",
         "url": "https://huggingface.co/papers/2611.08136",
         "summary": "Anomaly detection (AD) is often framed as a representation-learning problem, where strong performance is expected to require learned features or AD-specific optimization. However, this view can overlook the intrinsic separability of anomalies from normal references, even in the absence of learned representations. We th",
-        "metric": "3 upvotes",
+        "metric": "7 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -113,79 +131,61 @@
         "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
         "url": "https://huggingface.co/papers/2611.24059",
         "summary": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment again, an expert scores every sampled token",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
-        "url": "https://huggingface.co/papers/2611.24917",
-        "summary": "In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and hypothesis: if the world information is e",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Choosing Quantized Code LLMs by File Size and Energy per Solved Task",
-        "url": "https://huggingface.co/papers/2611.17605",
-        "summary": "A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine. A common rule says a larger model at lower precision tends to beat a smaller one at higher precision. We ran 24 GGUF files of Qwen2.5-Coder at four sizes on a fanless MacBo",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-13T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Studying AI Act Mentions: A first look at the impact of the European Union's AI regulation on Hugging Face",
+        "url": "http://arxiv.org/abs/2611.26050v1",
+        "summary": "The European Union's Artificial Intelligence Act (AI Act) entered into force in August 2024, and its obligations apply in stages. Obligations for providers of general-purpose AI models have applied since August 2025, and transparency rules since August 2026. These obligations affect developers who share and deploy mode",
+        "metric": "Published 2026-11-19",
+        "published_at": "2026-11-19T12:57:53Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
-        "url": "http://arxiv.org/abs/2611.24932v1",
-        "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory",
-        "metric": "Published 2026-11-18",
-        "published_at": "2026-11-18T18:55:07Z"
+        "title": "AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction",
+        "url": "http://arxiv.org/abs/2611.26048v1",
+        "summary": "High-fidelity scene reconstruction with an unmanned aerial vehicle (UAV) requires more than identifying valuable viewpoints: the system must autonomously acquire informative observations and determine task completion under different sensing configurations and limited flight resources. We present AGE-Capture, an autonom",
+        "metric": "Published 2026-11-19",
+        "published_at": "2026-11-19T12:55:48Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
-        "url": "http://arxiv.org/abs/2611.24927v1",
-        "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizations",
-        "metric": "Published 2026-11-18",
-        "published_at": "2026-11-18T18:53:58Z"
+        "title": "Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy Evaluation",
+        "url": "http://arxiv.org/abs/2611.26046v1",
+        "summary": "Scaling embodied interaction data requires a broad collection of usable tasks, yet specifying and validating each task instance remains costly. We present AgenticTask, an agent-based framework that expands existing task collections under human intent. Its central representation links interaction requirements to object ",
+        "metric": "Published 2026-11-19",
+        "published_at": "2026-11-19T12:55:12Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
-        "url": "http://arxiv.org/abs/2611.24925v1",
-        "summary": "Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended motion. We introduce Doppel, an embodiment-agnostic video worl",
-        "metric": "Published 2026-11-18",
-        "published_at": "2026-11-18T18:52:28Z"
+        "title": "Presenting Your Figures: Data-informed Animated Transitions Across Scientific Figure Panels",
+        "url": "http://arxiv.org/abs/2611.26036v1",
+        "summary": "Multi-panel figures are commonly used in research papers to show scientific data, and researchers often reuse them when presenting their work. Presenting these figures often involves explaining how data across chart panels are related. Animated transitions can progressively reveal these relationships, but two static pa",
+        "metric": "Published 2026-11-19",
+        "published_at": "2026-11-19T12:46:05Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
-        "url": "http://arxiv.org/abs/2611.24924v1",
-        "summary": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select c",
-        "metric": "Published 2026-11-18",
-        "published_at": "2026-11-18T18:52:13Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration",
-        "url": "http://arxiv.org/abs/2611.24915v1",
-        "summary": "Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model. Our approach builds on task-dependent yet over",
-        "metric": "Published 2026-11-18",
-        "published_at": "2026-11-18T18:48:01Z"
+        "title": "SEOYUN: Refusal-Inducing Exam Documents for AI-Glasses Pipelines",
+        "url": "http://arxiv.org/abs/2611.26033v1",
+        "summary": "Camera-equipped glasses can convert an examination page into a query to a vision-language model (VLM). Device detection addresses possession; a complementary question is whether an examination document can reduce the usefulness of an unauthorized capture. We present SEOYUN, an application-specific framework for refusal",
+        "metric": "Published 2026-11-19",
+        "published_at": "2026-11-19T12:43:31Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels",
-        "source_url": "https://huggingface.co/papers/2611.08136",
+        "source_anchor": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
+        "source_url": "https://huggingface.co/papers/2611.23835",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
-        "source_url": "http://arxiv.org/abs/2611.24927v1",
+        "source_anchor": "AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction",
+        "source_url": "http://arxiv.org/abs/2611.26048v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "cd70ed817999bab0"
+      "receipt_hash": "79b705ea32576b60"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_cd70ed817999"
+      "receipt_hash": "arm_79b705ea3257"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
