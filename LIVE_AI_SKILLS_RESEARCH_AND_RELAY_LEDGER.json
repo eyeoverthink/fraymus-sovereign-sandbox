@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T12:20:28.974Z",
-  "packet_sha256": "e24cf658c35124c01cd703441c179234bb641657a5ef66a5bfe58fdad4ec75a5",
+  "updated_at": "2026-11-20T14:27:22.141Z",
+  "packet_sha256": "90d998ad1c3f63126c2295771af7b99e31470ac5752e018771171a5a8517874d",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "ebf6d6823cc952d6",
+    "merkle_root_hex": "c1c52968685e843d",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "ebf6d6823cc952d6",
-      "frame_sha256": "03aea1d5bdf61e8801bcd4606b9d7dbbb3370c9e7c50cf9b3d80c3a56e3d9f09",
+      "merkle_root_hex": "c1c52968685e843d",
+      "frame_sha256": "71fc0f910aba0a21aa24aa18b5bae8df8dd44a5f62b21500d7e47b81ae3cd0f2",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:3d3af536:b5793ba4:ffa36930:4604e446",
+      "hdc_16k": "hdc16k:e5872518:3d9c521f:b72e2970:1fb74319",
       "spectral_4d": {
-        "coord4D": "3.174.161:213",
-        "rgbaStr": "{3}{174}{161}{213}",
-        "carrier_freq_hz": 329,
+        "coord4D": "113.252.15:145",
+        "rgbaStr": "{113}{252}{15}{145}",
+        "carrier_freq_hz": 353,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_ebf6d6823cc952d6",
+        "receipt_id": "R_san_yin_c1c52968685e843d",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T12:20:36.825Z"
+        "verified_at": "2026-11-20T14:27:30.772Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T12:20:29.477Z",
+    "harvested_at": "2026-11-20T14:27:24.168Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-        "url": "https://huggingface.co/papers/2611.26286",
-        "summary": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the F1000 and PLOS journ",
-        "metric": "5 upvotes",
+        "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+        "url": "https://huggingface.co/papers/2611.26211",
+        "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames. However, ve",
+        "metric": "1 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
-        "url": "https://huggingface.co/papers/2611.26408",
-        "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a benchmark of LLM-dri",
-        "metric": "7 upvotes",
-        "published_at": "2026-11-19T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
-        "url": "https://huggingface.co/papers/2611.25935",
-        "summary": "Facial deepfake detectors are usually trained on blending fakes, where a generated face is pasted back into a real frame. Recent generators synthesize the entire face and leave no traces of blending. On a benchmark of 19 datasets released from 2019 to 2026, the best prior facial deepfake detector reaches a mean AUROC o",
+        "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+        "url": "https://huggingface.co/papers/2611.26511",
+        "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these methods all share th",
         "metric": "0 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
-        "url": "https://huggingface.co/papers/2611.26073",
-        "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are annotated by the same",
-        "metric": "14 upvotes",
+        "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+        "url": "https://huggingface.co/papers/2611.26450",
+        "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and z",
+        "metric": "1 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
-        "url": "https://huggingface.co/papers/2611.25279",
-        "summary": "Dense metric mapping from a single camera and IMU remains challenging: visual-inertial odometry (VIO) provides metric motion but sparse geometry, whereas feed-forward depth models predict dense structure without ensuring metric scale. We present Accord, which constructs an accurate online dense metric map from any came",
-        "metric": "5 upvotes",
+        "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
+        "url": "https://huggingface.co/papers/2611.25179",
+        "summary": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure. Passing an expert demonstration shows that a checker accepts one way of completing the task. Learned policies, however, may stop after partial progress or complete the task i",
+        "metric": "1 upvotes",
         "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
+        "url": "https://huggingface.co/papers/2611.19499",
+        "summary": "A direction in a language model's hidden state can be used to probe whether a concept is present or to steer the model toward it. Although probe directions are often reused for steering, the direction that best detects a concept need not be the one that best changes it. We study this distinction in three instruction-tu",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-14T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-        "source_url": "https://huggingface.co/papers/2611.26286",
+        "source_anchor": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+        "source_url": "https://huggingface.co/papers/2611.26211",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "ebf6d6823cc952d6"
+      "receipt_hash": "c1c52968685e843d"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_ebf6d6823cc9"
+      "receipt_hash": "arm_c1c52968685e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
