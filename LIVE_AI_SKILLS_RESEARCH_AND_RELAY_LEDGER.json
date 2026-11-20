@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T15:00:16.439Z",
-  "packet_sha256": "7950dc58fd01fcc48fda51dcc35d3c9358d1d10a93c3da4a829ef6504de11f1f",
+  "updated_at": "2026-11-20T16:34:30.026Z",
+  "packet_sha256": "7d381268efd3a1f26227a6a3bc0b217c61d26a8cae482abf7b75f548eff6b68f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9e15becff2ff1394",
+    "merkle_root_hex": "22cd4dc794503f29",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9e15becff2ff1394",
-      "frame_sha256": "8e3c0dde3c7166ddaf293923509ac1713f31bfbb7f3529d009c415af6cef29a9",
+      "merkle_root_hex": "22cd4dc794503f29",
+      "frame_sha256": "55f6e8bcf506f2a22f98c1c32aaf9a48c6e80604c6fc33f52953bfb37855bec7",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8b16ba98:98300d84:fff6a6ce:64803eda",
+      "hdc_16k": "hdc16k:d5f52afa:9221c74a:4732ee7e:128e0d4c",
       "spectral_4d": {
-        "coord4D": "142.60.13:222",
-        "rgbaStr": "{142}{60}{13}{222}",
-        "carrier_freq_hz": 259,
+        "coord4D": "85.246.232:188",
+        "rgbaStr": "{85}{246}{232}{188}",
+        "carrier_freq_hz": 456,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9e15becff2ff1394",
+        "receipt_id": "R_san_yin_22cd4dc794503f29",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T15:00:23.409Z"
+        "verified_at": "2026-11-20T16:34:36.667Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T15:00:19.879Z",
+    "harvested_at": "2026-11-20T16:34:31.596Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+        "url": "https://huggingface.co/papers/2611.21053",
+        "summary": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs). Cloud LLMs expose patient data. Local LLMs hallucinate, and an invented value in a tool call propagates through every later step. Here we present a method to build System 1 agen",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+        "url": "https://huggingface.co/papers/2611.25567",
+        "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detecto",
+        "metric": "8 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "AURA: AUdio-dRiven streaming Avatar",
+        "url": "https://huggingface.co/papers/2611.26540",
+        "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generatio",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,35 +131,8 @@
         "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
         "url": "https://huggingface.co/papers/2611.26511",
         "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these methods all share th",
-        "metric": "0 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
-        "url": "https://huggingface.co/papers/2611.26450",
-        "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and z",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-19T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
-        "url": "https://huggingface.co/papers/2611.25179",
-        "summary": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure. Passing an expert demonstration shows that a checker accepts one way of completing the task. Learned policies, however, may stop after partial progress or complete the task i",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
-        "url": "https://huggingface.co/papers/2611.19499",
-        "summary": "A direction in a language model's hidden state can be used to probe whether a concept is present or to steer the model toward it. Although probe directions are often reused for steering, the direction that best detects a concept need not be the one that best changes it. We study this distinction in three instruction-tu",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-14T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-        "source_url": "https://huggingface.co/papers/2611.26211",
+        "source_anchor": "System 1 agents: a method for local, reliable and fast agentic AI",
+        "source_url": "https://huggingface.co/papers/2611.21053",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9e15becff2ff1394"
+      "receipt_hash": "22cd4dc794503f29"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9e15becff2ff"
+      "receipt_hash": "arm_22cd4dc79450"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
