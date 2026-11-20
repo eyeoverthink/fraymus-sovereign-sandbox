@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T03:46:18.675Z",
-  "packet_sha256": "64bba2154a38de466c3baa5127f110d35b974015102b3241315149a9fdb3ffac",
+  "updated_at": "2026-11-20T05:53:27.073Z",
+  "packet_sha256": "1711df48b185208bae39908cd4206cb0e08642361c1fb882bf87f03e8f52b093",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "79b705ea32576b60",
+    "merkle_root_hex": "d8aa46003ee54cd7",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "79b705ea32576b60",
-      "frame_sha256": "87211b62138618ab54289d9e1eec2c42e2e54a544cbd5b776ea08073c9e4b892",
+      "merkle_root_hex": "d8aa46003ee54cd7",
+      "frame_sha256": "2b836ac3deee2aa8fdb294bee3f01bd39b9cfab1e64dae45e2136eccf00ebf53",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:a25c666d:761954f7:d51f7601:90073610",
+      "hdc_16k": "hdc16k:5c62978c:28e3a6bb:82d81d1c:1b5e9025",
       "spectral_4d": {
-        "coord4D": "135.33.27:98",
-        "rgbaStr": "{135}{33}{27}{98}",
-        "carrier_freq_hz": 248,
+        "coord4D": "43.131.106:195",
+        "rgbaStr": "{43}{131}{106}{195}",
+        "carrier_freq_hz": 296,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_79b705ea32576b60",
+        "receipt_id": "R_san_yin_d8aa46003ee54cd7",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T03:46:23.834Z"
+        "verified_at": "2026-11-20T05:53:35.568Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T03:46:19.850Z",
+    "harvested_at": "2026-11-20T05:53:27.320Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,100 +92,55 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
-        "url": "https://huggingface.co/papers/2611.23835",
-        "summary": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show th",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
+        "title": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
+        "url": "https://huggingface.co/papers/2611.26298",
+        "summary": "As multimodal large language models (MLLMs) become increasingly integrated into everyday life, their ability to provide safe and reliable assistance in realistic daily activities remains insufficiently explored. Existing safety benchmarks primarily focus on isolated harmful requests or adversarial scenarios, overlookin",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Unfinished-Bench: Measuring Rule Violations by Persistent Agents in Realistic Work Environments",
-        "url": "https://huggingface.co/papers/2611.17460",
-        "summary": "AI agents are increasingly equipped with persistence toward task completion to run delegated work autonomously for long periods, under many unstated constraints from internal documents and other people's authority. When completion requires violating a rule, the agent must decide alone, yet benchmarks of instruction-rul",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-12T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels",
-        "url": "https://huggingface.co/papers/2611.08136",
-        "summary": "Anomaly detection (AD) is often framed as a representation-learning problem, where strong performance is expected to require learned features or AD-specific optimization. However, this view can overlook the intrinsic separability of anomalies from normal references, even in the absence of learned representations. We th",
-        "metric": "7 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "General progress substitutes for specific training data in language models",
-        "url": "https://huggingface.co/papers/2611.24844",
-        "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general progress a model make",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
-        "url": "https://huggingface.co/papers/2611.24059",
-        "summary": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment again, an expert scores every sampled token",
+        "title": "Posterior Matching Distillation",
+        "url": "https://huggingface.co/papers/2611.26629",
+        "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, w",
         "metric": "4 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
+        "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Studying AI Act Mentions: A first look at the impact of the European Union's AI regulation on Hugging Face",
-        "url": "http://arxiv.org/abs/2611.26050v1",
-        "summary": "The European Union's Artificial Intelligence Act (AI Act) entered into force in August 2024, and its obligations apply in stages. Obligations for providers of general-purpose AI models have applied since August 2025, and transparency rules since August 2026. These obligations affect developers who share and deploy mode",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T12:57:53Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+        "url": "https://huggingface.co/papers/2611.26510",
+        "summary": "Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable h",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction",
-        "url": "http://arxiv.org/abs/2611.26048v1",
-        "summary": "High-fidelity scene reconstruction with an unmanned aerial vehicle (UAV) requires more than identifying valuable viewpoints: the system must autonomously acquire informative observations and determine task completion under different sensing configurations and limited flight resources. We present AGE-Capture, an autonom",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T12:55:48Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
+        "url": "https://huggingface.co/papers/2611.25776",
+        "summary": "Supervised fine-tuning (SFT) is the stage in which Video Large Language Models (VideoLLMs) advance their capability to reason over video. However, the VideoLLM also learns to answer from textual regularities of its training data, a shortcut that bypasses the video. The regularities behind the shortcut are hard to defin",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy Evaluation",
-        "url": "http://arxiv.org/abs/2611.26046v1",
-        "summary": "Scaling embodied interaction data requires a broad collection of usable tasks, yet specifying and validating each task instance remains costly. We present AgenticTask, an agent-based framework that expands existing task collections under human intent. Its central representation links interaction requirements to object ",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T12:55:12Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Presenting Your Figures: Data-informed Animated Transitions Across Scientific Figure Panels",
-        "url": "http://arxiv.org/abs/2611.26036v1",
-        "summary": "Multi-panel figures are commonly used in research papers to show scientific data, and researchers often reuse them when presenting their work. Presenting these figures often involves explaining how data across chart panels are related. Animated transitions can progressively reveal these relationships, but two static pa",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T12:46:05Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "SEOYUN: Refusal-Inducing Exam Documents for AI-Glasses Pipelines",
-        "url": "http://arxiv.org/abs/2611.26033v1",
-        "summary": "Camera-equipped glasses can convert an examination page into a query to a vision-language model (VLM). Device detection addresses possession; a complementary question is whether an examination document can reduce the usefulness of an unauthorized capture. We present SEOYUN, an application-specific framework for refusal",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T12:43:31Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+        "url": "https://huggingface.co/papers/2611.26624",
+        "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play exper",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
-        "source_url": "https://huggingface.co/papers/2611.23835",
+        "source_anchor": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
+        "source_url": "https://huggingface.co/papers/2611.26298",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction",
-        "source_url": "http://arxiv.org/abs/2611.26048v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "79b705ea32576b60"
+      "receipt_hash": "d8aa46003ee54cd7"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_79b705ea3257"
+      "receipt_hash": "arm_d8aa46003ee5"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
