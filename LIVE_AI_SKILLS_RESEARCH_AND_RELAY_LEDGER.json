@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T19:15:20.355Z",
-  "packet_sha256": "613a65b7bf0571a8b6639eb8c83b74b729b4dce64c20bd0b891c21313b79b028",
+  "updated_at": "2026-11-20T20:50:23.199Z",
+  "packet_sha256": "4481d1fb0f129339457d2e90c3c145d21528df4f53210867db7c1b9780a63f2c",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "819bf722a6734bf3",
+    "merkle_root_hex": "2dcb801ac6121e14",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "819bf722a6734bf3",
-      "frame_sha256": "f3c72bc2de291d287067ca929dae80be25840e424a47dc51d44e3cab89c31664",
+      "merkle_root_hex": "2dcb801ac6121e14",
+      "frame_sha256": "bd14007e6c4ce6a09fb87402344a808cc8867543f7e774fc1a90a33f3312443e",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:3122b55f:9cfe6168:86775b49:84a0c166",
+      "hdc_16k": "hdc16k:dc58eadc:d25dd14e:d478cfc2:30cdc7ad",
       "spectral_4d": {
-        "coord4D": "243.199.43:194",
-        "rgbaStr": "{243}{199}{43}{194}",
-        "carrier_freq_hz": 412,
+        "coord4D": "189.20.196:126",
+        "rgbaStr": "{189}{20}{196}{126}",
+        "carrier_freq_hz": 367,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_819bf722a6734bf3",
+        "receipt_id": "R_san_yin_2dcb801ac6121e14",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T19:15:28.303Z"
+        "verified_at": "2026-11-20T20:50:32.199Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T19:15:20.728Z",
+    "harvested_at": "2026-11-20T20:50:23.923Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
+        "url": "https://huggingface.co/papers/2611.15941",
+        "summary": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images. However, most existing vectorization methods optimize for pixel-level render- ing fidelity, often producing SVGs that lack alignment with human-perceived object-",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-11T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+        "url": "https://huggingface.co/papers/2611.25200",
+        "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice. We screened 412 historical website A/B tests and evaluated four systems on the 318 that ran longer than 21 days. Each system predicted an original ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
         "url": "https://huggingface.co/papers/2611.26627",
         "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requ",
-        "metric": "1 upvotes",
+        "metric": "11 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
@@ -113,26 +131,8 @@
         "title": "Language Models Can Rewrite Their Own Weights",
         "url": "https://huggingface.co/papers/2611.21885",
         "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to m",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "System 1 agents: a method for local, reliable and fast agentic AI",
-        "url": "https://huggingface.co/papers/2611.21053",
-        "summary": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs). Cloud LLMs expose patient data. Local LLMs hallucinate, and an invented value in a tool call propagates through every later step. Here we present a method to build System 1 agen",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
-        "url": "https://huggingface.co/papers/2611.25567",
-        "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detecto",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-        "source_url": "https://huggingface.co/papers/2611.26627",
+        "source_anchor": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
+        "source_url": "https://huggingface.co/papers/2611.15941",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "819bf722a6734bf3"
+      "receipt_hash": "2dcb801ac6121e14"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_819bf722a673"
+      "receipt_hash": "arm_2dcb801ac612"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
