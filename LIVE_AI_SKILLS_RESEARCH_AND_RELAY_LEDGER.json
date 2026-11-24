@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T02:16:13.335Z",
-  "packet_sha256": "d2d2f1caaefa9ad723ff08f72707ac9f27742ebc69b425d7d8b75f13958c4ca4",
+  "updated_at": "2026-11-24T02:49:11.312Z",
+  "packet_sha256": "f9d44fd9084d01f263d4d68be62928069bf7b2a888df68be7330f71ef014f989",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "c212e3e4d9b3ab29",
+    "merkle_root_hex": "eaae391fada2c5f9",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "c212e3e4d9b3ab29",
-      "frame_sha256": "0379fe0d9d8640fe741fb215cc6ce66770e6fe7e0c3eb3c9ad0d475d22ed27d6",
+      "merkle_root_hex": "eaae391fada2c5f9",
+      "frame_sha256": "1cfdb85523929bf1c4b2f20415b6101acfc8389f41eb1cab3fff40ae1cc1d9ce",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:0c4c0c4f:bb8a2c78:5249594f:12edc90f",
+      "hdc_16k": "hdc16k:d2509506:48bae0d0:1fcfe0aa:d01316e3",
       "spectral_4d": {
-        "coord4D": "3.121.254:13",
-        "rgbaStr": "{3}{121}{254}{13}",
-        "carrier_freq_hz": 351,
+        "coord4D": "28.253.184:85",
+        "rgbaStr": "{28}{253}{184}{85}",
+        "carrier_freq_hz": 401,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_c212e3e4d9b3ab29",
+        "receipt_id": "R_san_yin_eaae391fada2c5f9",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T02:16:18.095Z"
+        "verified_at": "2026-11-24T02:49:15.593Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T02:16:13.860Z",
+    "harvested_at": "2026-11-24T02:49:11.547Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+        "url": "https://huggingface.co/papers/2611.25476",
+        "summary": "Neural networks encode learned capabilities in their weights, yet extending those capabilities with explicit task knowledge remains a fundamental challenge. Here we show that Weight-Space Programming (WSP), in which executable programs read, construct or modify a network's weights directly, can install new capabilities",
+        "metric": "6 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Plan4D: Generative Plannable 4D Worlds",
+        "url": "https://huggingface.co/papers/2611.26516",
+        "summary": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling. In this paper, we introduce plan4d, a possible next milestone towards building a generative plannable 4D w",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Agent skills are documents in which experts write down procedural knowledge, and models increasingly maintain them by rewriting them without feedback. Such rewriting could adapt a skill to the model that uses it or erode the expert knowledge that makes it useful, yet how skills evolve under this feedback-free self-evol",
         "metric": "3 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
-        "url": "https://huggingface.co/papers/2611.27490",
-        "summary": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge. We introduce Doppeldwarf-306: 1,691 openly licensed photographs of 306 bronze dwarf statues in Wrocław, Poland, many made in themed series that share one style, with the pho",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-20T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
-        "url": "https://huggingface.co/papers/2611.26954",
-        "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scal",
-        "metric": "28 upvotes",
-        "published_at": "2026-11-20T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields",
-        "source_url": "https://huggingface.co/papers/2611.28123",
+        "source_anchor": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+        "source_url": "https://huggingface.co/papers/2611.25476",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "c212e3e4d9b3ab29"
+      "receipt_hash": "eaae391fada2c5f9"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_c212e3e4d9b3"
+      "receipt_hash": "arm_eaae391fada2"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
