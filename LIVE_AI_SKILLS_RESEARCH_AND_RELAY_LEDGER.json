@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T01:32:57.926Z",
-  "packet_sha256": "cf5d93d26748b56af183d79b77b3b93ea5985e4a8df7fe72b4ba5ceddd3fd15b",
+  "updated_at": "2026-11-24T02:16:13.335Z",
+  "packet_sha256": "d2d2f1caaefa9ad723ff08f72707ac9f27742ebc69b425d7d8b75f13958c4ca4",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "77d4503943398bb5",
+    "merkle_root_hex": "c212e3e4d9b3ab29",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "77d4503943398bb5",
-      "frame_sha256": "766129773c4ad50625cfca634a7a6f02b306e05555c3884d63f6476d7f0e5b5a",
+      "merkle_root_hex": "c212e3e4d9b3ab29",
+      "frame_sha256": "0379fe0d9d8640fe741fb215cc6ce66770e6fe7e0c3eb3c9ad0d475d22ed27d6",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:9085a66d:ca11945d:e77d9433:ffae923c",
+      "hdc_16k": "hdc16k:0c4c0c4f:bb8a2c78:5249594f:12edc90f",
       "spectral_4d": {
-        "coord4D": "118.97.41:119",
-        "rgbaStr": "{118}{97}{41}{119}",
-        "carrier_freq_hz": 283,
+        "coord4D": "3.121.254:13",
+        "rgbaStr": "{3}{121}{254}{13}",
+        "carrier_freq_hz": 351,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_77d4503943398bb5",
+        "receipt_id": "R_san_yin_c212e3e4d9b3ab29",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T01:33:01.580Z"
+        "verified_at": "2026-11-24T02:16:18.095Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T01:32:58.224Z",
+    "harvested_at": "2026-11-24T02:16:13.860Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields",
+        "url": "https://huggingface.co/papers/2611.28123",
+        "summary": "Operating in the physical world requires reasoning beyond what cameras directly capture. In a city, radio signals are invisible to the lens, yet their strength is governed by the buildings and streets an image does show. Given only these visible structures, can vision-language models (VLMs) infer the invisible radio fi",
+        "metric": "4 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events",
+        "url": "https://huggingface.co/papers/2611.24249",
+        "summary": "Advancing physical artificial intelligence (Physical AI) requires moving beyond static object recognition to ground how real-world mechanics (e.g., impact, friction, and force transfer) unfold over time. While multimodal aligners seek to capture these interactions by matching multi-sensor streams, prevailing architectu",
+        "metric": "4 upvotes",
+        "published_at": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
         "url": "https://huggingface.co/papers/2611.25534",
         "summary": "Agent skills are documents in which experts write down procedural knowledge, and models increasingly maintain them by rewriting them without feedback. Such rewriting could adapt a skill to the model that uses it or erode the expert knowledge that makes it useful, yet how skills evolve under this feedback-free self-evol",
-        "metric": "1 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
@@ -117,75 +135,57 @@
         "published_at": "2026-11-20T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Autoregressive View Model",
-        "url": "https://huggingface.co/papers/2611.23417",
-        "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation. Through a unified in-context interface, AVM conditions on images or videos to generate short clips along a requested camera path. Visual context grounds reconstruction and int",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-17T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Search From the Start: Search-Native Pretraining for Language Models",
-        "url": "https://huggingface.co/papers/2611.26809",
-        "summary": "Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remains predominantly focused on predicting static text, with search capabilities typically introduced during post-training. We propose Search-Native Pretraining as a practical route to teach search capabili",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-19T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "ViewAgent3D: A Training-Free Multi-View Pipeline for 3D Scene Understanding",
+        "url": "http://arxiv.org/abs/2611.28673v1",
+        "summary": "3D scene understanding tasks are often approached by building explicit 3D scene representations or by training specialized multi-modal models over point clouds, voxels, or scene graphs. We take a complementary view: for many queries, the main bottleneck is not the absence of a stronger 3D representation but the selecti",
+        "metric": "Published 2026-11-21",
+        "published_at": "2026-11-21T08:50:36Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
-        "url": "http://arxiv.org/abs/2611.27967v1",
-        "summary": "Dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a specification package that turns a functional manipulation brief into a parameterized hand model and routes every candidate through",
-        "metric": "Published 2026-11-20",
-        "published_at": "2026-11-20T18:48:12Z"
+        "title": "The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates",
+        "url": "http://arxiv.org/abs/2611.28671v1",
+        "summary": "Multi-agent systems (MAS) usually coordinate heterogeneous models and tools to solve complex tasks, creating a growing need for reliable evaluation. However, a multi-agent workflow that is fastest in one serving environment can lose its advantage in another, even when its models, prompts, and task remain fixed. This ma",
+        "metric": "Published 2026-11-21",
+        "published_at": "2026-11-21T08:50:10Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Explicational statistics: research for an AI age",
-        "url": "http://arxiv.org/abs/2611.27961v1",
-        "summary": "AI is dramatically changing the statistical research landscape. I argue that production of a distinct category of statistical knowledge, which I refer to as explicational statistics, is actually becoming more valuable as AI increasingly automates other parts of the research process. I define explicational statistics, c",
-        "metric": "Published 2026-11-20",
-        "published_at": "2026-11-20T18:41:17Z"
+        "title": "When to Test, Repair, or Regenerate: Decision-Guided Efficient RTL Generation",
+        "url": "http://arxiv.org/abs/2611.28667v1",
+        "summary": "Large language models (LLMs) can generate register-transfer-level (RTL) designs from natural-language specifications. To improve functional correctness, many RTL agents use simulation feedback to guide refinement. However, without a reference testbench, generating one for every initial implementation incurs inference c",
+        "metric": "Published 2026-11-21",
+        "published_at": "2026-11-21T08:47:17Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Real-time neuromorphic audio and vision perception for autonomous robotic applications: Integration and experimental evaluation on a rover platform",
-        "url": "http://arxiv.org/abs/2611.27953v1",
-        "summary": "Neuromorphic sensing and computing offer a promising alternative to conventional deep learning pipelines for mobile robots, where perception must run continuously under tight latency and energy constraints. However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, and their integration",
-        "metric": "Published 2026-11-20",
-        "published_at": "2026-11-20T18:27:26Z"
+        "title": "RecallWorld: Episodic Memory for Persistent Embodied Video World Models",
+        "url": "http://arxiv.org/abs/2611.28666v1",
+        "summary": "Video world models generate plausible novel views but often lack persistent memory, failing to preserve a place's geometry and appearance when an agent revisits a scene. A central challenge is how previous views should be effectively used for creating memory. Reconstructing them independently underutilizes geometric co",
+        "metric": "Published 2026-11-21",
+        "published_at": "2026-11-21T08:46:31Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Perceived Differences in Activity and Experience Between Developing Software With and Without AI",
-        "url": "http://arxiv.org/abs/2611.27947v1",
-        "summary": "The fundamental changes in software engineering driven by generative AI will have profound effects not only on the number of available software engineering jobs but also on what software engineering itself looks like. As the career evolves, questions arise about what the skillset and interests of the next generation of",
-        "metric": "Published 2026-11-20",
-        "published_at": "2026-11-20T18:18:55Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Interactive Semi-Parametric On-Track Learning for Vehicle Dynamics in Autonomous Racing",
-        "url": "http://arxiv.org/abs/2611.27932v1",
-        "summary": "Autonomous racing requires an accurate vehicle dynamics model near the limits of handling, yet a mismatch between the nominal and actual dynamics inevitably remains. To reduce this mismatch, existing methods learn from on-track data, i.e., data collected while the vehicle drives on the track under racing conditions, by",
-        "metric": "Published 2026-11-20",
-        "published_at": "2026-11-20T18:08:14Z"
+        "title": "Persuasion from Within: Model-Based Insider Attacks in Multi-Agent LLM Debate and Consensus",
+        "url": "http://arxiv.org/abs/2611.28660v1",
+        "summary": "Large language models (LLMs) are increasingly deployed in multi-agent systems for collective decision-making, such as multi-agent debate and consensus games, in which agents exchange messages and update their answers over multiple rounds and a resolution mechanism aggregates them into a final outcome. Most multi-agent ",
+        "metric": "Published 2026-11-21",
+        "published_at": "2026-11-21T08:41:43Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
-        "source_url": "https://huggingface.co/papers/2611.25534",
+        "source_anchor": "Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields",
+        "source_url": "https://huggingface.co/papers/2611.28123",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Explicational statistics: research for an AI age",
-        "source_url": "http://arxiv.org/abs/2611.27961v1",
+        "source_anchor": "The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates",
+        "source_url": "http://arxiv.org/abs/2611.28671v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "77d4503943398bb5"
+      "receipt_hash": "c212e3e4d9b3ab29"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_77d450394339"
+      "receipt_hash": "arm_c212e3e4d9b3"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
