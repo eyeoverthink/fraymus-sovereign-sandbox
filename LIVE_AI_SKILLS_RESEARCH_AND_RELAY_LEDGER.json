@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T00:46:57.751Z",
-  "packet_sha256": "48585eaf88a42f31a0537f222553669e2d8745d37fbc77abc5695b3f29c5efd4",
+  "updated_at": "2026-11-24T01:32:59.814Z",
+  "packet_sha256": "fcea4a6683900e432ad9565ee82b272396b3ec3bec566951446688213f4b5d23",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "810640b36e4d3b4b",
+    "merkle_root_hex": "bea2779a9d319385",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "810640b36e4d3b4b",
-      "frame_sha256": "1ed1c8745430d7ddcf7ca0ef6b869aa9d48830e09ff9ab4ce3a1a87bb1bccb70",
+      "merkle_root_hex": "bea2779a9d319385",
+      "frame_sha256": "4d94d341a9cea774dbccfa2741c3526192bc3863b205fb488002d95462584856",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:377ee318:256410f3:d5713224:2044c121",
+      "hdc_16k": "hdc16k:71627691:7c7fb19f:bb077413:c040fe7e",
       "spectral_4d": {
-        "coord4D": "30.209.200:116",
-        "rgbaStr": "{30}{209}{200}{116}",
-        "carrier_freq_hz": 386,
+        "coord4D": "77.148.211:65",
+        "rgbaStr": "{77}{148}{211}{65}",
+        "carrier_freq_hz": 384,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_810640b36e4d3b4b",
+        "receipt_id": "R_san_yin_bea2779a9d319385",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T00:47:04.597Z"
+        "verified_at": "2026-11-24T01:33:01.414Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T00:46:58.431Z",
+    "harvested_at": "2026-11-24T01:32:59.980Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
+        "url": "https://huggingface.co/papers/2611.25534",
+        "summary": "Agent skills are documents in which experts write down procedural knowledge, and models increasingly maintain them by rewriting them without feedback. Such rewriting could adapt a skill to the model that uses it or erode the expert knowledge that makes it useful, yet how skills evolve under this feedback-free self-evol",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
         "url": "https://huggingface.co/papers/2611.27490",
         "summary": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge. We introduce Doppeldwarf-306: 1,691 openly licensed photographs of 306 bronze dwarf statues in Wrocław, Poland, many made in themed series that share one style, with the pho",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-20T00:00:00.000Z"
       },
       {
@@ -104,7 +113,7 @@
         "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
         "url": "https://huggingface.co/papers/2611.26954",
         "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scal",
-        "metric": "25 upvotes",
+        "metric": "28 upvotes",
         "published_at": "2026-11-20T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "Autoregressive View Model",
         "url": "https://huggingface.co/papers/2611.23417",
         "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation. Through a unified in-context interface, AVM conditions on images or videos to generate short clips along a requested camera path. Visual context grounds reconstruction and int",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-17T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remains predominantly focused on predicting static text, with search capabilities typically introduced during post-training. We propose Search-Native Pretraining as a practical route to teach search capabili",
         "metric": "2 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
-        "url": "https://huggingface.co/papers/2611.27398",
-        "summary": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where objects undergo physical assemblies and disassemblies. TTU requires continuously tracking objects through transformations, identifying new entities, maintaining a state graph of their relationships, and a",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-20T10:03:29.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
-        "source_url": "https://huggingface.co/papers/2611.27490",
+        "source_anchor": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
+        "source_url": "https://huggingface.co/papers/2611.25534",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "810640b36e4d3b4b"
+      "receipt_hash": "bea2779a9d319385"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_810640b36e4d"
+      "receipt_hash": "arm_bea2779a9d31"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
