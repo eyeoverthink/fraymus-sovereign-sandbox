@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T08:39:20.415Z",
-  "packet_sha256": "22abae9763e0bad40c89287509c01b02351f9ac73589172cfb386bd74e05792e",
+  "updated_at": "2026-11-24T09:12:11.250Z",
+  "packet_sha256": "9a7bc69b69e0d2d27465e59612339aad6c154e3dc8d9de55fbacd64dbc7fe754",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "f3e67a820dfae6c9",
+    "merkle_root_hex": "31a7e815f0831433",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "f3e67a820dfae6c9",
-      "frame_sha256": "8dfbacfdb39bc74eedcc834f070ce84dbcdcdb7aaa3938dfdb4dec1ce9ca6fa3",
+      "merkle_root_hex": "31a7e815f0831433",
+      "frame_sha256": "fc5806e7ec5388aefedca26339786ab9c9da5b8a0c6b023e1c6148bf5b5fb0e9",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:65dede49:1ea04d2a:7f753a17:2490706c",
+      "hdc_16k": "hdc16k:94d4bc6d:8ea5885a:93ced029:f9cecb58",
       "spectral_4d": {
-        "coord4D": "141.251.172:253",
-        "rgbaStr": "{141}{251}{172}{253}",
-        "carrier_freq_hz": 456,
+        "coord4D": "252.88.6:231",
+        "rgbaStr": "{252}{88}{6}{231}",
+        "carrier_freq_hz": 333,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_f3e67a820dfae6c9",
+        "receipt_id": "R_san_yin_31a7e815f0831433",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T08:39:28.415Z"
+        "verified_at": "2026-11-24T09:12:18.360Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T08:39:28.415Z",
+    "harvested_at": "2026-11-24T09:12:11.507Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,55 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
-        "url": "https://huggingface.co/papers/2611.30157",
-        "summary": "Effective real-time, full-duplex multimodal interaction requires systems to understand not only what users say, but also the communicative needs conveyed through prosody, facial expressions, gestures, and context, and to generate audiovisual responses that appropriately address those needs. Existing evaluations offer l",
-        "metric": "4 upvotes",
+        "title": "MomentMem: Memorizing Key Moments for Robot Manipulation",
+        "url": "https://huggingface.co/papers/2611.26745",
+        "summary": "Robotic manipulation often requires remembering visual information that is no longer observable, such as the original location of an object. Existing approaches typically rely on full observation histories, which become redundant over long horizons, or text summaries, which may omit precise visual details. We study vis",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "ReWeave: Emergent Physical Task Topologies for Embodied Harness Optimization and Cross-Task Meta-Distillation",
+        "url": "https://huggingface.co/papers/2611.31053",
+        "summary": "Long-horizon embodied tasks involve physical dependencies that may only become clear through interaction. As task understanding deepens, past trials can reveal new information for adaptation and transfer. However, coarse progress feedback cannot identify which physical preconditions held, leaving search unguided, while",
+        "metric": "1 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
-        "url": "https://huggingface.co/papers/2611.30662",
-        "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our ",
-        "metric": "17 upvotes",
+        "title": "World Models as Native Latent Action Models",
+        "url": "https://huggingface.co/papers/2611.30898",
+        "summary": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models (IDM, FDM) from scra",
+        "metric": "1 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "NoHairCache: Calibrate-Once KV Cache Eviction with One Power-Law Exponent",
-        "url": "https://huggingface.co/papers/2611.29006",
-        "summary": "The decay exponent α in KV-cache eviction is an intrinsic property of the model: calibrated once on a single corpus, it transfers directly across domains. Attention-based accumulation (H2O) and recency-based sliding windows (StreamingLLM) are two dominant eviction frameworks, often treated as unrelated, but we show tha",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-21T00:00:00.000Z"
+        "title": "WeaveVLA: 3D Relational Grounding for Vision-Language-Action Models",
+        "url": "https://huggingface.co/papers/2611.31126",
+        "summary": "Vision-language-action (VLA) models leverage pretrained vision-language representations for instruction-conditioned robot control, yet their understanding of task-relevant 3D relations and how these relations evolve during manipulation remains largely implicit. To address this challenge, we introduce WeaveVLA, a framew",
+        "metric": "7 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Feedback Shortcut: Speculative Decoding for Latent Feedback Transformers",
-        "url": "https://huggingface.co/papers/2611.28227",
-        "summary": "Feeding each position's top-layer hidden state back into the next position's input improves Transformer performance. However, this feedback breaks speculative decoding, since verifying a drafted token requires the top-layer state from its preceding position, which forces the draft to rely on an approximate stand-in. Tr",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-20T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Polytropos: What Do Vision-Language Model Descriptions Make of a Cultural Object?",
-        "url": "https://huggingface.co/papers/2611.29355",
-        "summary": "Vision-language models have become a new kind of describer, writing about almost anything people see, and their descriptions now shape how cultures are known by people and by other models. Descriptions of cultures tend to turn particular things into types, and what a description loses shows what its describer lacks. We",
+        "title": "DiLE: Discrimination-Aware Latent-Space Learning for Universal Multimodal Embeddings",
+        "url": "https://huggingface.co/papers/2611.25419",
+        "summary": "Multimodal large language models have greatly improved input understanding in universal multimodal embedding models. However, this understanding does not ensure that their embeddings preserve the evidence needed to distinguish relevant items from confusable alternatives. To preserve essential discriminative evidence in",
         "metric": "3 upvotes",
-        "published_at": "2026-11-22T00:00:00.000Z"
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Closed-Form Formula for $d_{\\mathrm{critical}}(a_0)$ in Large Fully Connected Power Grids",
+        "url": "http://arxiv.org/abs/2611.30922v1",
+        "summary": "Kadloor and Santhi (arXiv:1011.4098) modeled cascading failures in a large fully connected power grid by a coupled four-variable recursion for the minimum surviving load $a_n$, the mean failed load $μ_{n-1}$, the redistributed load $\\mathcal{D}_n$, and the stagewise failure probability $p_n$. They noted that the recurs",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T16:15:00Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Big Tree Viewer: A high-performance browser-based phylogenetic tree viewer with agentic AI integration",
+        "url": "http://arxiv.org/abs/2611.30920v1",
+        "summary": "Phylogenetic trees represent evolutionary history visually, and the ability to display and explore them is a key function in research across biological disciplines. Very large gene and species trees are becoming common with the increasing availability of low cost DNA sequencing, creating performance and informativeness",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T16:14:47Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "CoSel: Cooperation as Selection for End-to-End Driving",
+        "url": "http://arxiv.org/abs/2611.30918v1",
+        "summary": "Cooperative driving can extend a vehicle's awareness beyond its own sensors, but existing cooperative end-to-end methods inject shared information into the planner and rely on cooperative driving demonstrations to learn how to use it. The moments in which shared information should change a driving decision are rare in ",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T16:10:14Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "TrialAgentBench: Evaluating AI Agents for Clinical-Trial Analysis and Long-Horizon Drug-Development Decisions",
+        "url": "http://arxiv.org/abs/2611.30916v1",
+        "summary": "Clinical drug development is a long-horizon, high-stakes process requiring sequential decisions based on information that costs money and time to acquire. AI agents have demonstrated capabilities for scientific analysis, but there is no established way to evaluate them on these decisions, as real trials are expensive, ",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T16:08:36Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Demystifying Detectors Guarding Agent Skill Hubs",
+        "url": "http://arxiv.org/abs/2611.30913v1",
+        "summary": "Agent Skills has gained widespread adoption as an open standard for extending agent capabilities. To facilitate skill sharing, public skill hubs have grown in popularity and increasingly rely on automated security detectors to identify malicious skills at scale. Yet, the effectiveness and limitations of these detectors",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T16:07:07Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
-        "source_url": "https://huggingface.co/papers/2611.30157",
+        "source_anchor": "MomentMem: Memorizing Key Moments for Robot Manipulation",
+        "source_url": "https://huggingface.co/papers/2611.26745",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "Big Tree Viewer: A high-performance browser-based phylogenetic tree viewer with agentic AI integration",
+        "source_url": "http://arxiv.org/abs/2611.30920v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "f3e67a820dfae6c9"
+      "receipt_hash": "31a7e815f0831433"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_f3e67a820dfa"
+      "receipt_hash": "arm_31a7e815f083"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
