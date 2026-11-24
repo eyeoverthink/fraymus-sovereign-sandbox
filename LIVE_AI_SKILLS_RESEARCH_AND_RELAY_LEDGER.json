@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T06:31:23.911Z",
-  "packet_sha256": "cbd210e2a010bb1baf4e13a85d250d31ed642a3ff2c1616b655c3f2e1ad0c394",
+  "updated_at": "2026-11-24T07:04:14.130Z",
+  "packet_sha256": "a07ccc8c688f4d3ee0725af2ca6b45f34c2b45c74aca9c951c7cb5cc145c843b",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "2f18dac239f032c7",
+    "merkle_root_hex": "b0cd004ee11c837a",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "2f18dac239f032c7",
-      "frame_sha256": "e9ecbc16f05c2957f87e24a6ed43cf68a7df68f325d7597f617a2ca378397d78",
+      "merkle_root_hex": "b0cd004ee11c837a",
+      "frame_sha256": "88893ee3444f9c7b13e002f5b416330d58f6be1be74670eaf06e696cbaacb4f9",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:9bb1a0e3:1c398ba6:72c5622d:06c233dd",
+      "hdc_16k": "hdc16k:38f75983:0bea12ac:393d9e27:ac3ddf64",
       "spectral_4d": {
-        "coord4D": "233.236.188:22",
-        "rgbaStr": "{233}{236}{188}{22}",
-        "carrier_freq_hz": 509,
+        "coord4D": "136.137.62:227",
+        "rgbaStr": "{136}{137}{62}{227}",
+        "carrier_freq_hz": 327,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_2f18dac239f032c7",
+        "receipt_id": "R_san_yin_b0cd004ee11c837a",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T06:31:31.313Z"
+        "verified_at": "2026-11-24T07:04:20.935Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T06:31:24.443Z",
+    "harvested_at": "2026-11-24T07:04:14.385Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Distill the Correction, Not the Rewrite: Hindsight Twins for Self-Improving Text-to-Image Models",
-        "url": "https://huggingface.co/papers/2611.31048",
-        "summary": "Text-to-image models can learn from their own mistakes by distilling a self-teacher conditioned on a vision-language critic's revised prompt. However, such self-teachers barely improve alignment, and both they and their hindsight-contrast variants absorb the critic's unintended additions to the scene, such as lighting ",
-        "metric": "0 upvotes",
+        "title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+        "url": "https://huggingface.co/papers/2611.30207",
+        "summary": "Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task collections check these tests only against the reference fix. We ask what makes a task good training data, focusing on the correctness of its reward labels. We audit SWE-Gym with two LLM families, and a sus",
+        "metric": "4 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "GameDojo: Benchmarking Real-Time Interactive Agents in Video Games",
-        "url": "https://huggingface.co/papers/2611.30771",
-        "summary": "Interactive intelligence requires agents to act on observations and adapt to the consequences of actions. Studying these abilities calls for diverse, challenging tasks under controlled conditions. We introduce GameDojo, a controllable interactive gameplay benchmark of 120 boss encounters across 20 games for evaluating ",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Typhoon OCR 2: From Thai Document Transcription to Multilingual, Multi-Task OCR",
-        "url": "https://huggingface.co/papers/2611.27494",
-        "summary": "Typhoon OCR 1.5 focused on reading Thai documents. However, in real-world workflows, users often need to extract specific information or preserve the structure of an entire page for further processing. Typhoon OCR 2 handles both tasks in a single model, with prompt-driven extraction and structured full-page parsing. Fu",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "A Pipeline-Parallel System for Depth-Recurrent Models",
-        "url": "https://huggingface.co/papers/2611.30581",
-        "summary": "Depth-recurrent (Looped) models raise effective depth by applying a shared stack of blocks several times. Scaling them usually requires pipeline parallelism, but commonly used interleaved 1F1B is drawn for an acyclic stage graph in which each micro-batch enters each stage once. Once that stack is split across stages, t",
+        "title": "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
+        "url": "https://huggingface.co/papers/2611.30813",
+        "summary": "Pretrained vision is a common start for robot learning, but most comparisons still score one pooled vector from a third-person image. Bimanual policies instead read dense patch tokens from cameras on the robot. We introduce HIVE-Bench: one shared flow-matching policy reads 20 encoders from seven families on 24 egocentr",
         "metric": "3 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "How Complete Must an Environment Be to Train a Capable GUI Agent?",
-        "url": "https://huggingface.co/papers/2611.23946",
-        "summary": "Graphical user interface (GUI) agents are widely trained in executable GUI environments. To lower cost, build environments in batches, and reduce manual effort, each work trades away part of the environment through its construction choices. We describe these choices along three dimensions: reward coverage, the goal-rea",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
+        "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+        "url": "https://huggingface.co/papers/2611.31115",
+        "summary": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study it",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "WorldLeague: Benchmarking Physical Agency",
+        "url": "https://huggingface.co/papers/2611.30989",
+        "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, ",
+        "metric": "8 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
+        "url": "https://huggingface.co/papers/2611.30573",
+        "summary": "4D occupancy forecasting predicts the 3D semantic occupancy of a driving scene seconds ahead. Over a few seconds, the scene changes little while the vehicle moves, so most of the space ahead has already been seen. Sorting the future into unchanged, changed, and unseen space, we find that current camera-based world mode",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Distill the Correction, Not the Rewrite: Hindsight Twins for Self-Improving Text-to-Image Models",
-        "source_url": "https://huggingface.co/papers/2611.31048",
+        "source_anchor": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+        "source_url": "https://huggingface.co/papers/2611.30207",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "2f18dac239f032c7"
+      "receipt_hash": "b0cd004ee11c837a"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_2f18dac239f0"
+      "receipt_hash": "arm_b0cd004ee11c"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
