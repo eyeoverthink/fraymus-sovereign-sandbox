@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T12:54:17.995Z",
-  "packet_sha256": "a4284f74bf5d9e9620e5320d0182048962bad4d2269479de609ff99f2a5c5fb0",
+  "updated_at": "2026-11-24T13:27:19.786Z",
+  "packet_sha256": "9bf9c6c7a3729cdd065a22dba6a299a50aa5c26d6b87242b89b33558fef42cec",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "dbcf77edf766cb4",
+    "merkle_root_hex": "a2d0a6fa73628883",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "dbcf77edf766cb4",
-      "frame_sha256": "dd2a6cbfa3bd62512677b932c636ac088786149191f33cba7007aee73e72b55f",
+      "merkle_root_hex": "a2d0a6fa73628883",
+      "frame_sha256": "ec39e051ef65587181103326020d8139f6636bab10a492c6a00b5a8d2298344b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:29e4935d:f3562958:d6317f6d:12c34150",
+      "hdc_16k": "hdc16k:2ff75013:735cf390:97d42853:74c479bb",
       "spectral_4d": {
-        "coord4D": "221.42.108:191",
-        "rgbaStr": "{221}{42}{108}{191}",
-        "carrier_freq_hz": 348,
+        "coord4D": "236.57.224:81",
+        "rgbaStr": "{236}{57}{224}{81}",
+        "carrier_freq_hz": 430,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_dbcf77edf766cb4",
+        "receipt_id": "R_san_yin_a2d0a6fa73628883",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T12:54:25.661Z"
+        "verified_at": "2026-11-24T13:27:27.912Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T12:54:18.465Z",
+    "harvested_at": "2026-11-24T13:27:20.194Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 5,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
+        "url": "https://huggingface.co/papers/2611.29723",
+        "summary": "Animal re-identification (Re-ID) must distinguish individuals across species and capture conditions. We introduce ApexID, a hierarchical SphereFace2-based loss that integrates global identity discrimination with balanced animal-category supervision. Using 132,533 images curated from 19 public datasets, we evaluate thre",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-22T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "LLMs Memorize Their Own Hallucinations During Post-Training",
+        "url": "https://huggingface.co/papers/2611.26863",
+        "summary": "Reasoning domains have shaped the post-training recipes of frontier models even though they are trained and deployed in domains beyond math and code. In this paper, we study the consequences of directly adopting reasoning-centric training recipes, e.g., the use of outcome-based rewards for reinforcement learning (RL), ",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +122,7 @@
         "title": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
         "url": "https://huggingface.co/papers/2611.30495",
         "summary": "Human demonstrations provide a rich source of bimanual dexterous skills, yet transferring them to robot hands remains challenging. Existing methods primarily optimize object trajectory tracking, often overlooking how human hands interact with the object. Even with accurate tracking, robots may contact incorrect object ",
-        "metric": "1 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -113,34 +131,16 @@
         "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
         "url": "https://huggingface.co/papers/2611.12164",
         "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and t",
-        "metric": "40 upvotes",
+        "metric": "42 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Open Vision Banana: An Open Framework for Unified Visual Perception through Generation in RGB Space",
-        "url": "https://huggingface.co/papers/2611.28489",
-        "summary": "Vision Banana showed that a closed image generator, instruction-tuned to paint perception outputs as RGB images, becomes a generalist vision model. Does this carry over to open generators, and if not, what fails? We answer with Open Vision Banana (OVB), an open framework that adapts the 7B diffusion generator of Qwen-I",
-        "metric": "14 upvotes",
-        "published_at": "2026-11-21T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "SynthDCB: World Distillation for Scalable Device Control Benchmarking",
-        "url": "https://huggingface.co/papers/2611.18639",
-        "summary": "Scaling device-control evaluation requires scaling both interactive worlds and the tasks agents must solve. We introduce SynthDCB, a benchmark for environment awareness and device control built through world distillation (WD). World distillation transforms knowledge of device behaviors, constraints, and environmental e",
-        "metric": "23 upvotes",
-        "published_at": "2026-11-19T00:00:00.000Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
-        "source_url": "https://huggingface.co/papers/2611.31198",
+        "source_anchor": "ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
+        "source_url": "https://huggingface.co/papers/2611.29723",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -178,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "dbcf77edf766cb4"
+      "receipt_hash": "a2d0a6fa73628883"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_dbcf77edf766"
+      "receipt_hash": "arm_a2d0a6fa7362"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
