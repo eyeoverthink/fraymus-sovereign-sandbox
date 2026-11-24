@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T04:23:14.381Z",
-  "packet_sha256": "d9413f437b31360f7609956d62a99548d7382862e74ca35d226dedf4ea53b0ce",
+  "updated_at": "2026-11-24T04:56:17.813Z",
+  "packet_sha256": "a8199a7769b74ab98c560d4f29addd85540ab3191567d2b13dcf33175d9a2cd6",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b8870956dd8b812b",
+    "merkle_root_hex": "789397b94be3ae09",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b8870956dd8b812b",
-      "frame_sha256": "e595c7c72e7ea634e194ce248bbce7e2bae9b1ef3b03292c045352711bb12ce5",
+      "merkle_root_hex": "789397b94be3ae09",
+      "frame_sha256": "c99b7063aae24658fd6ab22cab8211aab387bd7e535726eae364775d4155c188",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:d75e2b9d:124050f6:481da291:c2b39627",
+      "hdc_16k": "hdc16k:0a0b749e:53ca2315:915d15d0:d274e76d",
       "spectral_4d": {
-        "coord4D": "229.149.199:199",
-        "rgbaStr": "{229}{149}{199}{199}",
-        "carrier_freq_hz": 464,
+        "coord4D": "201.155.112:99",
+        "rgbaStr": "{201}{155}{112}{99}",
+        "carrier_freq_hz": 402,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b8870956dd8b812b",
+        "receipt_id": "R_san_yin_789397b94be3ae09",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T04:23:19.438Z"
+        "verified_at": "2026-11-24T04:56:22.345Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T04:23:14.919Z",
+    "harvested_at": "2026-11-24T04:56:18.066Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Beyond Attention Maps: Understanding and Improving Medical MLLMs via Visual Values",
+        "url": "https://huggingface.co/papers/2611.29361",
+        "summary": "Current MLLM methods largely focus on whether models attend to the right visual regions, implicitly treating spatial attention map as the primary key of effective visual perception. To examine this assumption, we introduce a medical VQA dataset with paired non-contrast (NC) and contrast-enhanced (CE) images that share ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-22T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +113,7 @@
         "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
         "url": "https://huggingface.co/papers/2611.29238",
         "summary": "AI-driven game development holds the potential to transform diverse human inspirations into interactive experiences. However, existing systems and benchmarks primarily focus on explicit development specifications, with limited support for adapting multimodal references and evaluating actual gameplay experiences. We int",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-22T00:00:00.000Z"
       },
       {
@@ -122,17 +131,8 @@
         "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
         "url": "https://huggingface.co/papers/2611.28202",
         "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time. Existing harnesses such as VISTA improve the f",
-        "metric": "21 upvotes",
+        "metric": "23 upvotes",
         "published_at": "2026-11-20T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
-        "url": "https://huggingface.co/papers/2611.28833",
-        "summary": "Frontier language models can now read and edit the weights of a neural network much like code and thereby improve a small model, an approach known as Weight-Space Programming (WSP). We further explore applying WSP to a language model itself, which we call Self-WSP. Specifically, Qwen3.5-0.8B reads its own weights, prop",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-21T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
-        "source_url": "https://huggingface.co/papers/2611.27319",
+        "source_anchor": "Beyond Attention Maps: Understanding and Improving Medical MLLMs via Visual Values",
+        "source_url": "https://huggingface.co/papers/2611.29361",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b8870956dd8b812b"
+      "receipt_hash": "789397b94be3ae09"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b8870956dd8b"
+      "receipt_hash": "arm_789397b94be3"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
