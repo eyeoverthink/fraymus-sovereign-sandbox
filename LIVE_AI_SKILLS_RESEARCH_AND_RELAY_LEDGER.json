@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T07:04:14.130Z",
-  "packet_sha256": "a07ccc8c688f4d3ee0725af2ca6b45f34c2b45c74aca9c951c7cb5cc145c843b",
+  "updated_at": "2026-11-24T08:39:20.415Z",
+  "packet_sha256": "22abae9763e0bad40c89287509c01b02351f9ac73589172cfb386bd74e05792e",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b0cd004ee11c837a",
+    "merkle_root_hex": "f3e67a820dfae6c9",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b0cd004ee11c837a",
-      "frame_sha256": "88893ee3444f9c7b13e002f5b416330d58f6be1be74670eaf06e696cbaacb4f9",
+      "merkle_root_hex": "f3e67a820dfae6c9",
+      "frame_sha256": "8dfbacfdb39bc74eedcc834f070ce84dbcdcdb7aaa3938dfdb4dec1ce9ca6fa3",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:38f75983:0bea12ac:393d9e27:ac3ddf64",
+      "hdc_16k": "hdc16k:65dede49:1ea04d2a:7f753a17:2490706c",
       "spectral_4d": {
-        "coord4D": "136.137.62:227",
-        "rgbaStr": "{136}{137}{62}{227}",
-        "carrier_freq_hz": 327,
+        "coord4D": "141.251.172:253",
+        "rgbaStr": "{141}{251}{172}{253}",
+        "carrier_freq_hz": 456,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b0cd004ee11c837a",
+        "receipt_id": "R_san_yin_f3e67a820dfae6c9",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T07:04:20.935Z"
+        "verified_at": "2026-11-24T08:39:28.415Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T07:04:14.385Z",
+    "harvested_at": "2026-11-24T08:39:28.415Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,100 +92,55 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
-        "url": "https://huggingface.co/papers/2611.30207",
-        "summary": "Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task collections check these tests only against the reference fix. We ask what makes a task good training data, focusing on the correctness of its reward labels. We audit SWE-Gym with two LLM families, and a sus",
+        "title": "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
+        "url": "https://huggingface.co/papers/2611.30157",
+        "summary": "Effective real-time, full-duplex multimodal interaction requires systems to understand not only what users say, but also the communicative needs conveyed through prosody, facial expressions, gestures, and context, and to generate audiovisual responses that appropriately address those needs. Existing evaluations offer l",
         "metric": "4 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
-        "url": "https://huggingface.co/papers/2611.30813",
-        "summary": "Pretrained vision is a common start for robot learning, but most comparisons still score one pooled vector from a third-person image. Bimanual policies instead read dense patch tokens from cameras on the robot. We introduce HIVE-Bench: one shared flow-matching policy reads 20 encoders from seven families on 24 egocentr",
-        "metric": "3 upvotes",
+        "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+        "url": "https://huggingface.co/papers/2611.30662",
+        "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our ",
+        "metric": "17 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "RUIBench: What Makes a Good Robot-Use Interface?",
-        "url": "https://huggingface.co/papers/2611.31115",
-        "summary": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study it",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "WorldLeague: Benchmarking Physical Agency",
-        "url": "https://huggingface.co/papers/2611.30989",
-        "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, ",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
-        "url": "https://huggingface.co/papers/2611.30573",
-        "summary": "4D occupancy forecasting predicts the 3D semantic occupancy of a driving scene seconds ahead. Over a few seconds, the scene changes little while the vehicle moves, so most of the space ahead has already been seen. Sorting the future into unchanged, changed, and unseen space, we find that current camera-based world mode",
+        "title": "NoHairCache: Calibrate-Once KV Cache Eviction with One Power-Law Exponent",
+        "url": "https://huggingface.co/papers/2611.29006",
+        "summary": "The decay exponent α in KV-cache eviction is an intrinsic property of the model: calibrated once on a single corpus, it transfers directly across domains. Attention-based accumulation (H2O) and recency-based sliding windows (StreamingLLM) are two dominant eviction frameworks, often treated as unrelated, but we show tha",
         "metric": "1 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
+        "published_at": "2026-11-21T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Closed-Form Formula for $d_{\\mathrm{critical}}(a_0)$ in Large Fully Connected Power Grids",
-        "url": "http://arxiv.org/abs/2611.30922v1",
-        "summary": "Kadloor and Santhi (arXiv:1011.4098) modeled cascading failures in a large fully connected power grid by a coupled four-variable recursion for the minimum surviving load $a_n$, the mean failed load $μ_{n-1}$, the redistributed load $\\mathcal{D}_n$, and the stagewise failure probability $p_n$. They noted that the recurs",
-        "metric": "Published 2026-11-23",
-        "published_at": "2026-11-23T16:15:00Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Feedback Shortcut: Speculative Decoding for Latent Feedback Transformers",
+        "url": "https://huggingface.co/papers/2611.28227",
+        "summary": "Feeding each position's top-layer hidden state back into the next position's input improves Transformer performance. However, this feedback breaks speculative decoding, since verifying a drafted token requires the top-layer state from its preceding position, which forces the draft to rely on an approximate stand-in. Tr",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-20T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Big Tree Viewer: A high-performance browser-based phylogenetic tree viewer with agentic AI integration",
-        "url": "http://arxiv.org/abs/2611.30920v1",
-        "summary": "Phylogenetic trees represent evolutionary history visually, and the ability to display and explore them is a key function in research across biological disciplines. Very large gene and species trees are becoming common with the increasing availability of low cost DNA sequencing, creating performance and informativeness",
-        "metric": "Published 2026-11-23",
-        "published_at": "2026-11-23T16:14:47Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "CoSel: Cooperation as Selection for End-to-End Driving",
-        "url": "http://arxiv.org/abs/2611.30918v1",
-        "summary": "Cooperative driving can extend a vehicle's awareness beyond its own sensors, but existing cooperative end-to-end methods inject shared information into the planner and rely on cooperative driving demonstrations to learn how to use it. The moments in which shared information should change a driving decision are rare in ",
-        "metric": "Published 2026-11-23",
-        "published_at": "2026-11-23T16:10:14Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "TrialAgentBench: Evaluating AI Agents for Clinical-Trial Analysis and Long-Horizon Drug-Development Decisions",
-        "url": "http://arxiv.org/abs/2611.30916v1",
-        "summary": "Clinical drug development is a long-horizon, high-stakes process requiring sequential decisions based on information that costs money and time to acquire. AI agents have demonstrated capabilities for scientific analysis, but there is no established way to evaluate them on these decisions, as real trials are expensive, ",
-        "metric": "Published 2026-11-23",
-        "published_at": "2026-11-23T16:08:36Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Demystifying Detectors Guarding Agent Skill Hubs",
-        "url": "http://arxiv.org/abs/2611.30913v1",
-        "summary": "Agent Skills has gained widespread adoption as an open standard for extending agent capabilities. To facilitate skill sharing, public skill hubs have grown in popularity and increasingly rely on automated security detectors to identify malicious skills at scale. Yet, the effectiveness and limitations of these detectors",
-        "metric": "Published 2026-11-23",
-        "published_at": "2026-11-23T16:07:07Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Polytropos: What Do Vision-Language Model Descriptions Make of a Cultural Object?",
+        "url": "https://huggingface.co/papers/2611.29355",
+        "summary": "Vision-language models have become a new kind of describer, writing about almost anything people see, and their descriptions now shape how cultures are known by people and by other models. Descriptions of cultures tend to turn particular things into types, and what a description loses shows what its describer lacks. We",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-22T00:00:00.000Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
-        "source_url": "https://huggingface.co/papers/2611.30207",
+        "source_anchor": "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
+        "source_url": "https://huggingface.co/papers/2611.30157",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Big Tree Viewer: A high-performance browser-based phylogenetic tree viewer with agentic AI integration",
-        "source_url": "http://arxiv.org/abs/2611.30920v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b0cd004ee11c837a"
+      "receipt_hash": "f3e67a820dfae6c9"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b0cd004ee11c"
+      "receipt_hash": "arm_f3e67a820dfa"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
