@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T13:27:19.786Z",
-  "packet_sha256": "9bf9c6c7a3729cdd065a22dba6a299a50aa5c26d6b87242b89b33558fef42cec",
+  "updated_at": "2026-11-24T15:03:16.380Z",
+  "packet_sha256": "c19cbf235ace2ea6e0ea4db8dd8fddcaca2eb6e0a0b4fa75287c5ad0456fd3e1",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,43 +52,52 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a2d0a6fa73628883",
+    "merkle_root_hex": "90ab8c82f4452a04",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a2d0a6fa73628883",
-      "frame_sha256": "ec39e051ef65587181103326020d8139f6636bab10a492c6a00b5a8d2298344b",
+      "merkle_root_hex": "90ab8c82f4452a04",
+      "frame_sha256": "d0f5a12866c70314783a524cec4baf57948d64b96a11a6cf9881706f8f8771ad",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:2ff75013:735cf390:97d42853:74c479bb",
+      "hdc_16k": "hdc16k:12d1a6d5:24993b5e:779dbddd:91d54c74",
       "spectral_4d": {
-        "coord4D": "236.57.224:81",
-        "rgbaStr": "{236}{57}{224}{81}",
-        "carrier_freq_hz": 430,
+        "coord4D": "208.245.161:40",
+        "rgbaStr": "{208}{245}{161}{40}",
+        "carrier_freq_hz": 485,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a2d0a6fa73628883",
+        "receipt_id": "R_san_yin_90ab8c82f4452a04",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T13:27:27.912Z"
+        "verified_at": "2026-11-24T15:03:23.981Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T13:27:20.194Z",
+    "harvested_at": "2026-11-24T15:03:17.177Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Single-Transformer Latent Diffusion",
+        "url": "https://huggingface.co/papers/2611.29064",
+        "summary": "Latent generative models typically rely on three separate networks: an encoder that tokenizes pixels, a generator that models the latent distribution, and a decoder that maps latents back to pixels. UNITE recently merged the first two into a single generative encoder trained in one stage, but its decoder remains a sepa",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-21T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -113,7 +122,7 @@
         "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
         "url": "https://huggingface.co/papers/2611.31198",
         "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query types, evidence forma",
-        "metric": "3 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -122,25 +131,61 @@
         "title": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
         "url": "https://huggingface.co/papers/2611.30495",
         "summary": "Human demonstrations provide a rich source of bimanual dexterous skills, yet transferring them to robot hands remains challenging. Existing methods primarily optimize object trajectory tracking, often overlooking how human hands interact with the object. Even with accurate tracking, robots may contact incorrect object ",
-        "metric": "6 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
-        "url": "https://huggingface.co/papers/2611.12164",
-        "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and t",
-        "metric": "42 upvotes",
-        "published_at": "2026-11-09T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+        "url": "http://arxiv.org/abs/2611.31240v1",
+        "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory prediction. Our analysi",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T18:59:52Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Modern Self-Supervised Vision Transformers Are Pareidolic",
+        "url": "http://arxiv.org/abs/2611.31238v1",
+        "summary": "In human perception, pareidolia is the tendency to perceive a meaningful pattern, such as a face, in a random or ambiguous stimulus.We find a similar phenomenon in modern self-supervised Vision Transformers (ViTs): on white noise, which contains neither objects nor spatial structure, a few directions of their features ",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T18:59:41Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming",
+        "url": "http://arxiv.org/abs/2611.31233v1",
+        "summary": "CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap. Retrieval fails when wrong matches, or hard negatives, outrank the correct one, and the gap is the usual suspect. Yet removing it post hoc",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T18:59:13Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+        "url": "http://arxiv.org/abs/2611.31228v1",
+        "summary": "Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This strategy presupposes two capabilities: (1) in-situ monitoring fidelity (does confidence drop when an error occurs?) and (",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T18:58:52Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks",
+        "url": "http://arxiv.org/abs/2611.31223v1",
+        "summary": "Artificial intelligence (AI)-driven automation will help future mobile networks translate high-level network intents into concrete network optimization or control actions. However, existing approaches often focus on intent management and orchestration, leaving the adaptation of underlying network optimization and contr",
+        "metric": "Published 2026-11-23",
+        "published_at": "2026-11-23T18:57:32Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
-        "source_url": "https://huggingface.co/papers/2611.29723",
+        "source_anchor": "Single-Transformer Latent Diffusion",
+        "source_url": "https://huggingface.co/papers/2611.29064",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "Modern Self-Supervised Vision Transformers Are Pareidolic",
+        "source_url": "http://arxiv.org/abs/2611.31238v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a2d0a6fa73628883"
+      "receipt_hash": "90ab8c82f4452a04"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a2d0a6fa7362"
+      "receipt_hash": "arm_90ab8c82f445"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
