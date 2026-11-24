@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-20T20:50:23.199Z",
-  "packet_sha256": "4481d1fb0f129339457d2e90c3c145d21528df4f53210867db7c1b9780a63f2c",
+  "updated_at": "2026-11-24T00:46:57.751Z",
+  "packet_sha256": "48585eaf88a42f31a0537f222553669e2d8745d37fbc77abc5695b3f29c5efd4",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "2dcb801ac6121e14",
+    "merkle_root_hex": "810640b36e4d3b4b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "2dcb801ac6121e14",
-      "frame_sha256": "bd14007e6c4ce6a09fb87402344a808cc8867543f7e774fc1a90a33f3312443e",
+      "merkle_root_hex": "810640b36e4d3b4b",
+      "frame_sha256": "1ed1c8745430d7ddcf7ca0ef6b869aa9d48830e09ff9ab4ce3a1a87bb1bccb70",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:dc58eadc:d25dd14e:d478cfc2:30cdc7ad",
+      "hdc_16k": "hdc16k:377ee318:256410f3:d5713224:2044c121",
       "spectral_4d": {
-        "coord4D": "189.20.196:126",
-        "rgbaStr": "{189}{20}{196}{126}",
-        "carrier_freq_hz": 367,
+        "coord4D": "30.209.200:116",
+        "rgbaStr": "{30}{209}{200}{116}",
+        "carrier_freq_hz": 386,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_2dcb801ac6121e14",
+        "receipt_id": "R_san_yin_810640b36e4d3b4b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-20T20:50:32.199Z"
+        "verified_at": "2026-11-24T00:47:04.597Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-20T20:50:23.923Z",
+    "harvested_at": "2026-11-24T00:46:58.431Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,100 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
-        "url": "https://huggingface.co/papers/2611.15941",
-        "summary": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images. However, most existing vectorization methods optimize for pixel-level render- ing fidelity, often producing SVGs that lack alignment with human-perceived object-",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-11T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
-        "url": "https://huggingface.co/papers/2611.25200",
-        "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice. We screened 412 historical website A/B tests and evaluated four systems on the 318 that ran longer than 21 days. Each system predicted an original ",
+        "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
+        "url": "https://huggingface.co/papers/2611.27490",
+        "summary": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge. We introduce Doppeldwarf-306: 1,691 openly licensed photographs of 306 bronze dwarf statues in Wrocław, Poland, many made in themed series that share one style, with the pho",
         "metric": "1 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
+        "published_at": "2026-11-20T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-        "url": "https://huggingface.co/papers/2611.26627",
-        "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requ",
-        "metric": "11 upvotes",
+        "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
+        "url": "https://huggingface.co/papers/2611.26954",
+        "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scal",
+        "metric": "25 upvotes",
+        "published_at": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Autoregressive View Model",
+        "url": "https://huggingface.co/papers/2611.23417",
+        "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation. Through a unified in-context interface, AVM conditions on images or videos to generate short clips along a requested camera path. Visual context grounds reconstruction and int",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Search From the Start: Search-Native Pretraining for Language Models",
+        "url": "https://huggingface.co/papers/2611.26809",
+        "summary": "Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remains predominantly focused on predicting static text, with search capabilities typically introduced during post-training. We propose Search-Native Pretraining as a practical route to teach search capabili",
+        "metric": "2 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "In Situ Training of Optical Neural Networks by Coding Agents",
-        "url": "https://huggingface.co/papers/2611.23875",
-        "summary": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be trained with the hardware. In situ training relies on an expert-built calibrated digital model of each device or on gradient-free trial and error. Coding agents, large language models that write and ru",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-18T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Language Models Can Rewrite Their Own Weights",
-        "url": "https://huggingface.co/papers/2611.21885",
-        "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to m",
+        "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+        "url": "https://huggingface.co/papers/2611.27398",
+        "summary": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where objects undergo physical assemblies and disassemblies. TTU requires continuously tracking objects through transformations, identifying new entities, maintaining a state graph of their relationships, and a",
         "metric": "3 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
+        "published_at": "2026-11-20T10:03:29.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
-        "url": "http://arxiv.org/abs/2611.26624v1",
-        "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play exper",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T18:59:34Z"
+        "title": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
+        "url": "http://arxiv.org/abs/2611.27967v1",
+        "summary": "Dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a specification package that turns a functional manipulation brief into a parameterized hand model and routes every candidate through",
+        "metric": "Published 2026-11-20",
+        "published_at": "2026-11-20T18:48:12Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
-        "url": "http://arxiv.org/abs/2611.26619v1",
-        "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memo",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T18:58:31Z"
+        "title": "Explicational statistics: research for an AI age",
+        "url": "http://arxiv.org/abs/2611.27961v1",
+        "summary": "AI is dramatically changing the statistical research landscape. I argue that production of a distinct category of statistical knowledge, which I refer to as explicational statistics, is actually becoming more valuable as AI increasingly automates other parts of the research process. I define explicational statistics, c",
+        "metric": "Published 2026-11-20",
+        "published_at": "2026-11-20T18:41:17Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
-        "url": "http://arxiv.org/abs/2611.26613v1",
-        "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fai",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T18:57:25Z"
+        "title": "Real-time neuromorphic audio and vision perception for autonomous robotic applications: Integration and experimental evaluation on a rover platform",
+        "url": "http://arxiv.org/abs/2611.27953v1",
+        "summary": "Neuromorphic sensing and computing offer a promising alternative to conventional deep learning pipelines for mobile robots, where perception must run continuously under tight latency and energy constraints. However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, and their integration",
+        "metric": "Published 2026-11-20",
+        "published_at": "2026-11-20T18:27:26Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
-        "url": "http://arxiv.org/abs/2611.26601v1",
-        "summary": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports and disclosures and ar",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T18:54:19Z"
+        "title": "Perceived Differences in Activity and Experience Between Developing Software With and Without AI",
+        "url": "http://arxiv.org/abs/2611.27947v1",
+        "summary": "The fundamental changes in software engineering driven by generative AI will have profound effects not only on the number of available software engineering jobs but also on what software engineering itself looks like. As the career evolves, questions arise about what the skillset and interests of the next generation of",
+        "metric": "Published 2026-11-20",
+        "published_at": "2026-11-20T18:18:55Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
-        "url": "http://arxiv.org/abs/2611.26596v1",
-        "summary": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (PGX), a framework th",
-        "metric": "Published 2026-11-19",
-        "published_at": "2026-11-19T18:52:18Z"
+        "title": "Interactive Semi-Parametric On-Track Learning for Vehicle Dynamics in Autonomous Racing",
+        "url": "http://arxiv.org/abs/2611.27932v1",
+        "summary": "Autonomous racing requires an accurate vehicle dynamics model near the limits of handling, yet a mismatch between the nominal and actual dynamics inevitably remains. To reduce this mismatch, existing methods learn from on-track data, i.e., data collected while the vehicle drives on the track under racing conditions, by",
+        "metric": "Published 2026-11-20",
+        "published_at": "2026-11-20T18:08:14Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
-        "source_url": "https://huggingface.co/papers/2611.15941",
+        "source_anchor": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
+        "source_url": "https://huggingface.co/papers/2611.27490",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
-        "source_url": "http://arxiv.org/abs/2611.26619v1",
+        "source_anchor": "Explicational statistics: research for an AI age",
+        "source_url": "http://arxiv.org/abs/2611.27961v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "2dcb801ac6121e14"
+      "receipt_hash": "810640b36e4d3b4b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_2dcb801ac612"
+      "receipt_hash": "arm_810640b36e4d"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
