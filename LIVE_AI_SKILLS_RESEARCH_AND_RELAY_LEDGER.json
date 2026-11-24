@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T19:52:13.961Z",
-  "packet_sha256": "b98627c147e8bc7f1be278a5348f4152c4f11d8784d6347efb50a0fa0629067a",
+  "updated_at": "2026-11-24T21:28:16.011Z",
+  "packet_sha256": "528ce30a6d6281f66371eae2691ac055c4c3abc31ed4c803611898d55ceb21ad",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "edf51e5c4e9b289d",
+    "merkle_root_hex": "146b178ced53a9a1",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "edf51e5c4e9b289d",
-      "frame_sha256": "752a8e74cf9a62c19060b501b6249c0e7ea71929d023384e0aa40894b93e0b99",
+      "merkle_root_hex": "146b178ced53a9a1",
+      "frame_sha256": "602bfba460ba339020aaded28f9f577cf7ac3cce882929192657d9f2bf417569",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:9bc83cbf:b1c16de5:cabe130b:fe2bc161",
+      "hdc_16k": "hdc16k:71bc2736:b7002f85:46ee23c4:65cb45f3",
       "spectral_4d": {
-        "coord4D": "117.42.142:116",
-        "rgbaStr": "{117}{42}{142}{116}",
-        "carrier_freq_hz": 308,
+        "coord4D": "96.43.251:164",
+        "rgbaStr": "{96}{43}{251}{164}",
+        "carrier_freq_hz": 358,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_edf51e5c4e9b289d",
+        "receipt_id": "R_san_yin_146b178ced53a9a1",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T19:52:20.155Z"
+        "verified_at": "2026-11-24T21:28:23.513Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T19:52:14.248Z",
+    "harvested_at": "2026-11-24T21:28:16.578Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
+        "url": "https://huggingface.co/papers/2611.28167",
+        "summary": "Answering questions over days or weeks of video requires searching for scattered clues across long timelines. Existing video agents rely on complex memory graphs and fixed retrieval pipelines, which restrict how the agent can search. We propose VideoJSON, a minimal harness for ultra-long video understanding that keeps ",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
         "url": "https://huggingface.co/papers/2611.30900",
         "summary": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN). However, most of them encode a sample of past frames again at every decision and are trained on isolated decisions, so computation is redundant and the usable history is short. They also learn from their own m",
-        "metric": "1 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Language model agents are increasingly asked to run ongoing multi-day operations rather than finish isolated single-turn tasks. In daily operations, today's choices reshape later observations and cash constraints because empty shelves hide lost walk-in demand, short-shipped customers quietly shrink future orders weeks ",
         "metric": "2 upvotes",
         "published_at": "2026-11-19T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "CCFinance: Reconstructing Financial News Samples from Web Archives",
-        "url": "https://huggingface.co/papers/2611.30737",
-        "summary": "Proprietary news archives assign stories to firms, so reproducing a financial study often requires access to both the articles and the vendor's assignments. CCFinance lets researchers reconstruct firm coverage under different selection rules by recording which version of a story was captured, which issuers it names and",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
-        "source_url": "https://huggingface.co/papers/2611.30900",
+        "source_anchor": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
+        "source_url": "https://huggingface.co/papers/2611.28167",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "edf51e5c4e9b289d"
+      "receipt_hash": "146b178ced53a9a1"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_edf51e5c4e9b"
+      "receipt_hash": "arm_146b178ced53"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
