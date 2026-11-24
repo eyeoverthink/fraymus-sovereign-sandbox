@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-24T10:47:19.223Z",
-  "packet_sha256": "1962bff889ec1beaff77ce52fe2ae105f12e9beeb54344b30ae971253fc8fa8d",
+  "updated_at": "2026-11-24T11:20:12.020Z",
+  "packet_sha256": "ec96008ebd82b614be3224678b16b41c60eb3d01e8903efbdca31494983a605b",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "afb8539982ae8f73",
+    "merkle_root_hex": "be377d4af2945d73",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "afb8539982ae8f73",
-      "frame_sha256": "b74bf526ac9bc0223f1a07db3b8d0cb5639d3f511ad0120fa0d88f8769652b72",
+      "merkle_root_hex": "be377d4af2945d73",
+      "frame_sha256": "28e86420d93a15f5db2576c62816694f05470fa0c4037bd56fd643fa1e362fbe",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:c7924b81:681506cf:0eda029b:e2239dbf",
+      "hdc_16k": "hdc16k:c06ef5b3:f92308c9:dc5c39c3:773a22a7",
       "spectral_4d": {
-        "coord4D": "183.75.245:38",
-        "rgbaStr": "{183}{75}{245}{38}",
-        "carrier_freq_hz": 422,
+        "coord4D": "40.232.100:32",
+        "rgbaStr": "{40}{232}{100}{32}",
+        "carrier_freq_hz": 348,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_afb8539982ae8f73",
+        "receipt_id": "R_san_yin_be377d4af2945d73",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-24T10:47:26.980Z"
+        "verified_at": "2026-11-24T11:20:19.780Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-24T10:47:19.677Z",
+    "harvested_at": "2026-11-24T11:20:12.395Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
         "url": "https://huggingface.co/papers/2611.12164",
         "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and t",
-        "metric": "26 upvotes",
+        "metric": "33 upvotes",
         "published_at": "2026-11-09T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "afb8539982ae8f73"
+      "receipt_hash": "be377d4af2945d73"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_afb8539982ae"
+      "receipt_hash": "arm_be377d4af294"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
