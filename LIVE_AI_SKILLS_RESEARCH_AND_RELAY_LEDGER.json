@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T00:09:25.328Z",
-  "packet_sha256": "10ca1f5ceb3ab4cf68258e94a42543e34f86e856244fad47478096c43fdd9546",
+  "updated_at": "2026-11-25T01:44:19.301Z",
+  "packet_sha256": "7c31f38a1feec8370a04dfb8e15d74f1d97d472a104df7e28ef079e7027341d2",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "1f3b8578d9ea2abe",
+    "merkle_root_hex": "79812df066ce0a7d",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "1f3b8578d9ea2abe",
-      "frame_sha256": "9cb1d25e02e65b023ce80e31310e07f7bb579ef1c7808050d542e69f67b5179e",
+      "merkle_root_hex": "79812df066ce0a7d",
+      "frame_sha256": "fbb5811f8442dce1273b4d5f64564513a33fc87bc718256005fe68c868b794bb",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:474d788c:a8152344:6b7bc0ae:040ad137",
+      "hdc_16k": "hdc16k:ea0e76eb:1cb14673:76efa3f3:9393f128",
       "spectral_4d": {
-        "coord4D": "156.177.210:94",
-        "rgbaStr": "{156}{177}{210}{94}",
-        "carrier_freq_hz": 445,
+        "coord4D": "251.181.129:31",
+        "rgbaStr": "{251}{181}{129}{31}",
+        "carrier_freq_hz": 455,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_1f3b8578d9ea2abe",
+        "receipt_id": "R_san_yin_79812df066ce0a7d",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T00:09:30.063Z"
+        "verified_at": "2026-11-25T01:44:24.240Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T00:09:25.843Z",
+    "harvested_at": "2026-11-25T01:44:19.715Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+        "url": "https://huggingface.co/papers/2611.31358",
+        "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts u",
+        "metric": "18 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Let Vision-Language Models Generate Images through Their Representations",
+        "url": "https://huggingface.co/papers/2611.31237",
+        "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this knowledge effective",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -114,24 +132,6 @@
         "url": "https://huggingface.co/papers/2611.30900",
         "summary": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN). However, most of them encode a sample of past frames again at every decision and are trained on isolated decisions, so computation is redundant and the usable history is short. They also learn from their own m",
         "metric": "3 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Frontier models need only one text to unmask its human or AI author",
-        "url": "https://huggingface.co/papers/2611.26216",
-        "summary": "Given a single text and a simple zero-shot prompt (no web access, tools, candidate lists, or writing samples), frontier models can answer \"who wrote this?\" at three increasingly specific levels: (1) whether an AI or human wrote it, (2) if an AI, which lab, and (3) if a human, often exactly who. The latest models (Claud",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
-        "url": "https://huggingface.co/papers/2611.31225",
-        "summary": "Dataset distillation (DD) aims to compress a large dataset into a small synthetic one that remains effective for training neural networks. Despite its success in supervised learning, DD remains underexplored in self-supervised learning (SSL), where distilled data must preserve the information needed to learn representa",
-        "metric": "2 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "PixelOne: From Options to Pixels in a Single Forward for GUI Grounding",
-        "source_url": "https://huggingface.co/papers/2611.30235",
+        "source_anchor": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+        "source_url": "https://huggingface.co/papers/2611.31358",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "1f3b8578d9ea2abe"
+      "receipt_hash": "79812df066ce0a7d"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_1f3b8578d9ea"
+      "receipt_hash": "arm_79812df066ce"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
