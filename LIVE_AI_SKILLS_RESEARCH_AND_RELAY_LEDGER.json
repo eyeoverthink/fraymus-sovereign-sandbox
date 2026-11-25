@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T03:52:15.789Z",
-  "packet_sha256": "1946ef53bc563f5c5bfe47a4c3d945d1700ebcca6f7c390aec2b95538ac85ffc",
+  "updated_at": "2026-11-25T04:25:15.107Z",
+  "packet_sha256": "e7955826b7e0757cf1f06685a791efa167f6d4e61f5bb4e1b748da4f16a7b61c",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "70f9dec14450d7be",
+    "merkle_root_hex": "a8c8716bdc079532",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "70f9dec14450d7be",
-      "frame_sha256": "8179d5ecd533631d6c152f1e059f1fe1958be2754339d9fb1036ae8e9040a514",
+      "merkle_root_hex": "a8c8716bdc079532",
+      "frame_sha256": "7ab2e83f7f99048be922c163e3adf4c7442180832c5bf4251b0861812bcb96ef",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:1443f561:eaa72cf9:06b6df97:32705fab",
+      "hdc_16k": "hdc16k:83b6fec1:44d2bdf8:561b6113:f4ff3265",
       "spectral_4d": {
-        "coord4D": "129.121.213:236",
-        "rgbaStr": "{129}{121}{213}{236}",
-        "carrier_freq_hz": 399,
+        "coord4D": "122.178.232:63",
+        "rgbaStr": "{122}{178}{232}{63}",
+        "carrier_freq_hz": 438,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_70f9dec14450d7be",
+        "receipt_id": "R_san_yin_a8c8716bdc079532",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T03:52:20.251Z"
+        "verified_at": "2026-11-25T04:25:19.149Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T03:52:16.743Z",
+    "harvested_at": "2026-11-25T04:25:15.395Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
+        "url": "https://huggingface.co/papers/2611.32067",
+        "summary": "We propose LoopDVR, a framework for converting pretrained Transformer-based dense visual recognition models into parameter-efficient looped networks. Rather than reducing the network width or depth directly, LoopDVR reuses Transformer blocks across layers in both the ViT backbone and Transformer decoder, reducing the n",
+        "metric": "4 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
+        "url": "https://huggingface.co/papers/2611.32554",
+        "summary": "Segmenting a 3D object into semantically meaningful parts requires joint reasoning about geometric structure and semantic context. Pretrained 3D experts provide spatially grounded region proposals, while 2D experts provide semantic cues for identifying object parts. The challenge is to integrate these complementary cap",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato",
         "url": "https://huggingface.co/papers/2611.29547",
         "summary": "Representation alignment markedly accelerates diffusion training, but one-step generators raise a question that diffusion does not: which training path should receive the loss? A one-step generator sees two kinds of inputs. Corrupted real images come with their clean counterpart, which provides an instance-paired targe",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-22T00:00:00.000Z"
       },
       {
@@ -104,7 +122,7 @@
         "title": "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
         "url": "https://huggingface.co/papers/2611.31184",
         "summary": "Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates the computation cost. Yet most of these tokens carry redundant spat",
-        "metric": "4 upvotes",
+        "metric": "6 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -113,24 +131,6 @@
         "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
         "url": "https://huggingface.co/papers/2611.30962",
         "summary": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a clo",
-        "metric": "8 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments",
-        "url": "https://huggingface.co/papers/2611.32094",
-        "summary": "Spatial reasoning in hospitals requires tracking look-alike equipment, interpreting patient-relative directions, and judging passage widths, yet existing benchmarks provide limited coverage of these abilities. We introduce Clinical3D-Bench, a simulated benchmark with 3,368 questions of eight types on egocentric walkthr",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
-        "url": "https://huggingface.co/papers/2611.31205",
-        "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each member reasons and acts ",
         "metric": "10 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato",
-        "source_url": "https://huggingface.co/papers/2611.29547",
+        "source_anchor": "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
+        "source_url": "https://huggingface.co/papers/2611.32067",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "70f9dec14450d7be"
+      "receipt_hash": "a8c8716bdc079532"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_70f9dec14450"
+      "receipt_hash": "arm_a8c8716bdc07"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
