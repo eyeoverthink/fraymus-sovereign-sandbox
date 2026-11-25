@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T10:49:22.214Z",
-  "packet_sha256": "0d0e8f0de614c0e6571a155d1d507daf5daab53f5df6b32ae983e63c74e65ea5",
+  "updated_at": "2026-11-25T12:24:22.559Z",
+  "packet_sha256": "d2f4662c08c882bbd880a584478b4673b12a8b4ab8f0030a45b8d2de98fdfdcd",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "cfb194dded3201da",
+    "merkle_root_hex": "23f94558e772a19",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "cfb194dded3201da",
-      "frame_sha256": "50eeb229917f23e1af90b491232590151a0660605ca1cf0acbbecba7d358fe84",
+      "merkle_root_hex": "23f94558e772a19",
+      "frame_sha256": "946232ef8e209246c45a8a674487d229f378214f8c582affe805c10c1adae648",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:7cf8c09a:bd4a6cfd:76e3e3f2:b41e47ce",
+      "hdc_16k": "hdc16k:95a9b5c4:935d929a:870425ee:e752b296",
       "spectral_4d": {
-        "coord4D": "80.238.178:41",
-        "rgbaStr": "{80}{238}{178}{41}",
-        "carrier_freq_hz": 418,
+        "coord4D": "148.98.50:239",
+        "rgbaStr": "{148}{98}{50}{239}",
+        "carrier_freq_hz": 305,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_cfb194dded3201da",
+        "receipt_id": "R_san_yin_23f94558e772a19",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T10:49:29.653Z"
+        "verified_at": "2026-11-25T12:24:31.559Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T10:49:22.457Z",
+    "harvested_at": "2026-11-25T12:24:23.005Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+        "url": "https://huggingface.co/papers/2611.32649",
+        "summary": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or static images, and risk ",
+        "metric": "15 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "FATCAT: Fault Injection Attacks Targeting Chip-level Alignment",
+        "url": "https://huggingface.co/papers/2611.31129",
+        "summary": "Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity. In this paper, we present FATCAT, the first physical fault-injection attacks capable of eliminating ",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -114,24 +132,6 @@
         "url": "https://huggingface.co/papers/2611.30963",
         "summary": "Robotic manipulation policies can improve action prediction by anticipating how objects move and how their spatial relationships change. World Action Models (WAMs) learn to predict future visual observations, but their training objectives typically leave the underlying 3D geometric transitions implicit. To alleviate th",
         "metric": "2 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
-        "url": "https://huggingface.co/papers/2611.33148",
-        "summary": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose ",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
-        "url": "https://huggingface.co/papers/2611.31442",
-        "summary": "Dense-embedding retrievers can fail adversarially: when a query is answered by a document A and reversed by a near-copy B that differs from A by a small meaning-changing edit (a \"trap\"), raw cosine over E5-Large-v2 places B in the top-10 for 82-100% of queries at a pool of 5,000. We study two things. First, a small lea",
-        "metric": "1 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
-        "source_url": "https://huggingface.co/papers/2611.32918",
+        "source_anchor": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+        "source_url": "https://huggingface.co/papers/2611.32649",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "cfb194dded3201da"
+      "receipt_hash": "23f94558e772a19"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_cfb194dded32"
+      "receipt_hash": "arm_23f94558e772"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
