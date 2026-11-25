@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T12:57:25.093Z",
-  "packet_sha256": "cf13eaa5b0eb5dd12b723da1894ff44e6c1378f76e5f5c1efaf0f6bb88084afe",
+  "updated_at": "2026-11-25T14:32:25.057Z",
+  "packet_sha256": "b9fb560ec95d8fdd3c70591ff391a715b6489ec76f2c4c1d39a9961cf618cddb",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "cc93717c1e49c6e1",
+    "merkle_root_hex": "8cf010f7851ce3cf",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "cc93717c1e49c6e1",
-      "frame_sha256": "0c8840d70a8378cd5b75107dc3b84416557cee96cd4003afcf59b90312f85f6f",
+      "merkle_root_hex": "8cf010f7851ce3cf",
+      "frame_sha256": "96485e83229cba290d87697fc5eeda68c5acf4318c3b95c8aab168cdf92a96d5",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ec18c364:a8e5b274:ddb4b6e2:5b55c17b",
+      "hdc_16k": "hdc16k:d6f2dc2d:495b3d54:3311e0d5:d4cee120",
       "spectral_4d": {
-        "coord4D": "12.136.64:215",
-        "rgbaStr": "{12}{136}{64}{215}",
-        "carrier_freq_hz": 258,
+        "coord4D": "150.72.94:131",
+        "rgbaStr": "{150}{72}{94}{131}",
+        "carrier_freq_hz": 316,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_cc93717c1e49c6e1",
+        "receipt_id": "R_san_yin_8cf010f7851ce3cf",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T12:57:33.570Z"
+        "verified_at": "2026-11-25T14:32:32.732Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T12:57:25.366Z",
+    "harvested_at": "2026-11-25T14:32:25.755Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
+        "url": "https://huggingface.co/papers/2611.31752",
+        "summary": "Split-training privacy evaluations fail through distinct mechanisms. Evaluators can overlook an exposed gradient channel, align reconstructions against shifted labels, or deploy uncalibrated probes before testing a candidate defence, while calibrated attacks can also refute real defences. Separating these failure modes",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +113,7 @@
         "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
         "url": "https://huggingface.co/papers/2611.32649",
         "summary": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or static images, and risk ",
-        "metric": "15 upvotes",
+        "metric": "17 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard fine-tuning lowers instruction-following, reasoning and coding benchmarks by 35 points on average, and that these losses track a collapse in answer length: fine-tuned models at least halve their respon",
         "metric": "1 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
-        "url": "https://huggingface.co/papers/2611.31258",
-        "summary": "Context compaction enables large language model agents to tackle long-horizon tasks within limited context budgets by replacing interaction histories with compressed summaries. However, learning effective compaction jointly with the agent policy remains challenging, as summaries affect task success over many subsequent",
-        "metric": "0 upvotes",
-        "published_at": "2026-10-19T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA",
-        "source_url": "https://huggingface.co/papers/2611.32782",
+        "source_anchor": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
+        "source_url": "https://huggingface.co/papers/2611.31752",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "cc93717c1e49c6e1"
+      "receipt_hash": "8cf010f7851ce3cf"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_cc93717c1e49"
+      "receipt_hash": "arm_8cf010f7851c"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
