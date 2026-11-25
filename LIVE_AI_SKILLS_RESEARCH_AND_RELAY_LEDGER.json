@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T01:44:19.301Z",
-  "packet_sha256": "7c31f38a1feec8370a04dfb8e15d74f1d97d472a104df7e28ef079e7027341d2",
+  "updated_at": "2026-11-25T02:17:16.001Z",
+  "packet_sha256": "a5d58b57dfdb4708ceee3278f3e18597a25902a99e700b0bba881db0ed1b468a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "79812df066ce0a7d",
+    "merkle_root_hex": "10033cf2865576a9",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "79812df066ce0a7d",
-      "frame_sha256": "fbb5811f8442dce1273b4d5f64564513a33fc87bc718256005fe68c868b794bb",
+      "merkle_root_hex": "10033cf2865576a9",
+      "frame_sha256": "d375099b414ea2655ce9695f754f41d884dfcb2c460b7211292a30f4cbc3c0fb",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ea0e76eb:1cb14673:76efa3f3:9393f128",
+      "hdc_16k": "hdc16k:a95b5e30:e09b6fab:68292b80:809e8dda",
       "spectral_4d": {
-        "coord4D": "251.181.129:31",
-        "rgbaStr": "{251}{181}{129}{31}",
-        "carrier_freq_hz": 455,
+        "coord4D": "211.117.9:155",
+        "rgbaStr": "{211}{117}{9}{155}",
+        "carrier_freq_hz": 328,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_79812df066ce0a7d",
+        "receipt_id": "R_san_yin_10033cf2865576a9",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T01:44:24.240Z"
+        "verified_at": "2026-11-25T02:17:20.016Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T01:44:19.715Z",
+    "harvested_at": "2026-11-25T02:17:16.420Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation",
+        "url": "https://huggingface.co/papers/2611.31595",
+        "summary": "Cheap language-model raters grade chain-of-thought reasoning at scale, yet systematic step-rating errors can skew reasoning audits and solution rankings. We introduce LUCID (Loop for Unbiased Calibration via Inference-time Diagnosis), which pairs prompt self-correction with Design-based Supervised Learning (DSL). Witho",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Context-Grounded Skill Internalization for Vision-Language Agents",
+        "url": "https://huggingface.co/papers/2611.30075",
+        "summary": "Skill internalization offers a way for agents to learn useful behaviors from skills and use them without explicit guidance in context at inference time. A common approach is to generate demonstration trajectories with the skill in context and then fine-tune the same model on its own trajectories with the skill removed.",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
         "url": "https://huggingface.co/papers/2611.31358",
         "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts u",
-        "metric": "18 upvotes",
+        "metric": "21 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -114,24 +132,6 @@
         "url": "https://huggingface.co/papers/2611.30235",
         "summary": "GUI grounding requires precise clicks at low latency. Recent models such as GUI-Decisions and GUI-Swift predict coordinates in one forward pass using fixed global bins with local refinement. However, screenshot downsampling removes detail needed to locate small controls, while fixed bins cover larger pixel ranges at hi",
         "metric": "1 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
-        "url": "https://huggingface.co/papers/2611.28167",
-        "summary": "Answering questions over days or weeks of video requires searching for scattered clues across long timelines. Existing video agents rely on complex memory graphs and fixed retrieval pipelines, which restrict how the agent can search. We propose VideoJSON, a minimal harness for ultra-long video understanding that keeps ",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-20T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
-        "url": "https://huggingface.co/papers/2611.30900",
-        "summary": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN). However, most of them encode a sample of past frames again at every decision and are trained on isolated decisions, so computation is redundant and the usable history is short. They also learn from their own m",
-        "metric": "3 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
-        "source_url": "https://huggingface.co/papers/2611.31358",
+        "source_anchor": "LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation",
+        "source_url": "https://huggingface.co/papers/2611.31595",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "79812df066ce0a7d"
+      "receipt_hash": "10033cf2865576a9"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_79812df066ce"
+      "receipt_hash": "arm_10033cf28655"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
