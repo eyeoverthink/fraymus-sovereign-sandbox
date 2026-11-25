@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T12:24:22.559Z",
-  "packet_sha256": "d2f4662c08c882bbd880a584478b4673b12a8b4ab8f0030a45b8d2de98fdfdcd",
+  "updated_at": "2026-11-25T12:57:25.093Z",
+  "packet_sha256": "cf13eaa5b0eb5dd12b723da1894ff44e6c1378f76e5f5c1efaf0f6bb88084afe",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "23f94558e772a19",
+    "merkle_root_hex": "cc93717c1e49c6e1",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "23f94558e772a19",
-      "frame_sha256": "946232ef8e209246c45a8a674487d229f378214f8c582affe805c10c1adae648",
+      "merkle_root_hex": "cc93717c1e49c6e1",
+      "frame_sha256": "0c8840d70a8378cd5b75107dc3b84416557cee96cd4003afcf59b90312f85f6f",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:95a9b5c4:935d929a:870425ee:e752b296",
+      "hdc_16k": "hdc16k:ec18c364:a8e5b274:ddb4b6e2:5b55c17b",
       "spectral_4d": {
-        "coord4D": "148.98.50:239",
-        "rgbaStr": "{148}{98}{50}{239}",
-        "carrier_freq_hz": 305,
+        "coord4D": "12.136.64:215",
+        "rgbaStr": "{12}{136}{64}{215}",
+        "carrier_freq_hz": 258,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_23f94558e772a19",
+        "receipt_id": "R_san_yin_cc93717c1e49c6e1",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T12:24:31.559Z"
+        "verified_at": "2026-11-25T12:57:33.570Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T12:24:23.005Z",
+    "harvested_at": "2026-11-25T12:57:25.366Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA",
+        "url": "https://huggingface.co/papers/2611.32782",
+        "summary": "Modern large language models (LLMs) keep the feed-forward network (FFN) intermediate width identical across every layer, a convention inherited from the original Transformer. Yet mechanistic work suggests layers at different depths do qualitatively different work, raising a natural question: are their capacity demands ",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Context compaction enables large language model agents to tackle long-horizon tasks within limited context budgets by replacing interaction histories with compressed summaries. However, learning effective compaction jointly with the agent policy remains challenging, as summaries affect task success over many subsequent",
         "metric": "0 upvotes",
         "published_at": "2026-10-19T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
-        "url": "https://huggingface.co/papers/2611.30963",
-        "summary": "Robotic manipulation policies can improve action prediction by anticipating how objects move and how their spatial relationships change. World Action Models (WAMs) learn to predict future visual observations, but their training objectives typically leave the underlying 3D geometric transitions implicit. To alleviate th",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
-        "source_url": "https://huggingface.co/papers/2611.32649",
+        "source_anchor": "Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA",
+        "source_url": "https://huggingface.co/papers/2611.32782",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "23f94558e772a19"
+      "receipt_hash": "cc93717c1e49c6e1"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_23f94558e772"
+      "receipt_hash": "arm_cc93717c1e49"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
