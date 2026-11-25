@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T08:41:15.855Z",
-  "packet_sha256": "efdde042e98f24e708817e254e3a240b7fd734c4c65adf810bc8aa679ef8aef1",
+  "updated_at": "2026-11-25T10:16:17.912Z",
+  "packet_sha256": "f24d3bf69c01a0d22981b859dc9fe51c0a9f6c86ba3ce250a02297a7bb2123d9",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "f0f359e86a2dcccb",
+    "merkle_root_hex": "41b9e0f760db1b0b",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "f0f359e86a2dcccb",
-      "frame_sha256": "816177c15ba171fcc003f998cbff375f545a286d45ec9a261a17b848e10b1798",
+      "merkle_root_hex": "41b9e0f760db1b0b",
+      "frame_sha256": "9b191a2e8e907162c715ccc6c1315652d633bac89962fd5e57558369415958a1",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:a8dc9d4e:42c4206c:68311f20:214c0f43",
+      "hdc_16k": "hdc16k:4862824f:9d833e0b:14a3c34f:7d1caa69",
       "spectral_4d": {
-        "coord4D": "129.97.119:193",
-        "rgbaStr": "{129}{97}{119}{193}",
-        "carrier_freq_hz": 333,
+        "coord4D": "155.25.26:46",
+        "rgbaStr": "{155}{25}{26}{46}",
+        "carrier_freq_hz": 254,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_f0f359e86a2dcccb",
+        "receipt_id": "R_san_yin_41b9e0f760db1b0b",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T08:41:24.051Z"
+        "verified_at": "2026-11-25T10:16:25.152Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T08:41:16.478Z",
+    "harvested_at": "2026-11-25T10:16:18.716Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,46 +92,46 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "SpecEngineeringBench: Evaluating Coding Agents as Autonomous Specification Engineers",
-        "url": "https://huggingface.co/papers/2611.32973",
-        "summary": "Autonomous specification engineering requires coding agents to translate functional requirements into executable tests and use the results to discover and validate defects. However, existing benchmarks evaluate coding agents on explicitly specified test generation tasks, commonly providing an issue description, a desig",
+        "title": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
+        "url": "https://huggingface.co/papers/2611.31258",
+        "summary": "Context compaction enables large language model agents to tackle long-horizon tasks within limited context budgets by replacing interaction histories with compressed summaries. However, learning effective compaction jointly with the agent policy remains challenging, as summaries affect task success over many subsequent",
         "metric": "0 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
+        "published_at": "2026-10-19T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "ReFocus: Progress-Guided Adaptive Practice for Long-Horizon Robotic Manipulation Reinforcement Learning",
-        "url": "https://huggingface.co/papers/2611.32639",
-        "summary": "Online reinforcement learning (RL) enables vision-language-action policies to improve through environmental interaction. However, in long-horizon manipulation, sparse success/failure feedback provides little information about where policies encounter bottlenecks. Moreover, repeated full-task rollouts also leave these b",
+        "title": "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
+        "url": "https://huggingface.co/papers/2611.30963",
+        "summary": "Robotic manipulation policies can improve action prediction by anticipating how objects move and how their spatial relationships change. World Action Models (WAMs) learn to predict future visual observations, but their training objectives typically leave the underlying 3D geometric transitions implicit. To alleviate th",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+        "url": "https://huggingface.co/papers/2611.33148",
+        "summary": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose ",
         "metric": "1 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
-        "url": "https://huggingface.co/papers/2611.32884",
-        "summary": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several possible answers. An outcome reward at the end of the episode scores only the final answer, so it cannot t",
-        "metric": "27 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
+        "title": "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
+        "url": "https://huggingface.co/papers/2611.31442",
+        "summary": "Dense-embedding retrievers can fail adversarially: when a query is answered by a document A and reversed by a near-copy B that differs from A by a small meaning-changing edit (a \"trap\"), raw cosine over E5-Large-v2 places B in the top-10 for 82-100% of queries at a pool of 5,000. We study two things. First, a small lea",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "LingSante MedGuard Technical Report",
-        "url": "https://huggingface.co/papers/2611.25509",
-        "summary": "As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these risks requires checking clinical claims against relevant evidence, verifying calculations, and applyi",
-        "metric": "27 upvotes",
-        "published_at": "2026-11-19T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
-        "url": "https://huggingface.co/papers/2611.33010",
-        "summary": "Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, a benchmark built on",
-        "metric": "23 upvotes",
+        "title": "GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?",
+        "url": "https://huggingface.co/papers/2611.33020",
+        "summary": "Despite strong performance on standard benchmarks, video reasoning models remain vulnerable to visual degradation, raising concerns about their reliability in safety-critical scenarios. Existing benchmarks address this concern in part by simulating visual degradation or probing model reasoning with challenging question",
+        "metric": "2 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "SpecEngineeringBench: Evaluating Coding Agents as Autonomous Specification Engineers",
-        "source_url": "https://huggingface.co/papers/2611.32973",
+        "source_anchor": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
+        "source_url": "https://huggingface.co/papers/2611.31258",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "f0f359e86a2dcccb"
+      "receipt_hash": "41b9e0f760db1b0b"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_f0f359e86a2d"
+      "receipt_hash": "arm_41b9e0f760db"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
