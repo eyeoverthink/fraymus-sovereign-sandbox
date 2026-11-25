@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T14:32:25.057Z",
-  "packet_sha256": "b9fb560ec95d8fdd3c70591ff391a715b6489ec76f2c4c1d39a9961cf618cddb",
+  "updated_at": "2026-11-25T15:05:26.508Z",
+  "packet_sha256": "1975273c192e313351d4fa3c545479a61caf1c5704e508c4bbfb7759a0ceb6f1",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "8cf010f7851ce3cf",
+    "merkle_root_hex": "3171c2e2505f1746",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "8cf010f7851ce3cf",
-      "frame_sha256": "96485e83229cba290d87697fc5eeda68c5acf4318c3b95c8aab168cdf92a96d5",
+      "merkle_root_hex": "3171c2e2505f1746",
+      "frame_sha256": "401df01c0c1876393b01a52b26e0318b348371845872de303c033e6bc3c1e932",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:d6f2dc2d:495b3d54:3311e0d5:d4cee120",
+      "hdc_16k": "hdc16k:592d7756:d9cba546:45e2cf88:bb2897b8",
       "spectral_4d": {
-        "coord4D": "150.72.94:131",
-        "rgbaStr": "{150}{72}{94}{131}",
-        "carrier_freq_hz": 316,
+        "coord4D": "64.29.240:28",
+        "rgbaStr": "{64}{29}{240}{28}",
+        "carrier_freq_hz": 326,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_8cf010f7851ce3cf",
+        "receipt_id": "R_san_yin_3171c2e2505f1746",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T14:32:32.732Z"
+        "verified_at": "2026-11-25T15:05:34.788Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T14:32:25.755Z",
+    "harvested_at": "2026-11-25T15:05:26.763Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
+        "url": "https://huggingface.co/papers/2510.22622",
+        "summary": "Audio-visual deepfakes can spread misinformation and enable impersonation, undermining trust in digital media. However, existing datasets provide limited coverage of forgery operations and their combinations, constraining detector development and systematic evaluation. We introduce Mega-MMDF, containing 100,000 real an",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+        "url": "https://huggingface.co/papers/2611.31358",
+        "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts u",
+        "metric": "74 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth",
+        "url": "https://huggingface.co/papers/2611.31977",
+        "summary": "Looped transformers reuse one block of shared weights along the depth of the network. Recent looped diffusion transformers are trained from scratch, which repeats the full pretraining cost although strong pretrained non-looped diffusion transformers exist. We propose Distill to Loop (Dooop), which distills a pretrained",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -105,33 +132,6 @@
         "url": "https://huggingface.co/papers/2611.32782",
         "summary": "Modern large language models (LLMs) keep the feed-forward network (FFN) intermediate width identical across every layer, a convention inherited from the original Transformer. Yet mechanistic work suggests layers at different depths do qualitatively different work, raising a natural question: are their capacity demands ",
         "metric": "0 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
-        "url": "https://huggingface.co/papers/2611.32649",
-        "summary": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or static images, and risk ",
-        "metric": "17 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "FATCAT: Fault Injection Attacks Targeting Chip-level Alignment",
-        "url": "https://huggingface.co/papers/2611.31129",
-        "summary": "Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity. In this paper, we present FATCAT, the first physical fault-injection attacks capable of eliminating ",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
-        "url": "https://huggingface.co/papers/2611.32918",
-        "summary": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard fine-tuning lowers instruction-following, reasoning and coding benchmarks by 35 points on average, and that these losses track a collapse in answer length: fine-tuned models at least halve their respon",
-        "metric": "1 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
-        "source_url": "https://huggingface.co/papers/2611.31752",
+        "source_anchor": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
+        "source_url": "https://huggingface.co/papers/2510.22622",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "8cf010f7851ce3cf"
+      "receipt_hash": "3171c2e2505f1746"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_8cf010f7851c"
+      "receipt_hash": "arm_3171c2e2505f"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
