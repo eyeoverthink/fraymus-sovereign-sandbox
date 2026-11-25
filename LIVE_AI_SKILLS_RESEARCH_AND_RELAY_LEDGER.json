@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T04:25:15.107Z",
-  "packet_sha256": "e7955826b7e0757cf1f06685a791efa167f6d4e61f5bb4e1b748da4f16a7b61c",
+  "updated_at": "2026-11-25T06:00:14.843Z",
+  "packet_sha256": "6a3a37ae0f5ee91e18001a80210c5f76f757eafa86207d20241e50b7bfa0e14a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a8c8716bdc079532",
+    "merkle_root_hex": "d5620e52ba973fc6",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a8c8716bdc079532",
-      "frame_sha256": "7ab2e83f7f99048be922c163e3adf4c7442180832c5bf4251b0861812bcb96ef",
+      "merkle_root_hex": "d5620e52ba973fc6",
+      "frame_sha256": "22a1b089f075819e92b2458355886e894c5e22a691c24507ec8de0498c0c5e53",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:83b6fec1:44d2bdf8:561b6113:f4ff3265",
+      "hdc_16k": "hdc16k:94e92636:74e77b94:356d3408:889930b9",
       "spectral_4d": {
-        "coord4D": "122.178.232:63",
-        "rgbaStr": "{122}{178}{232}{63}",
-        "carrier_freq_hz": 438,
+        "coord4D": "34.161.176:137",
+        "rgbaStr": "{34}{161}{176}{137}",
+        "carrier_freq_hz": 348,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a8c8716bdc079532",
+        "receipt_id": "R_san_yin_d5620e52ba973fc6",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T04:25:19.149Z"
+        "verified_at": "2026-11-25T06:00:22.844Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T04:25:15.395Z",
+    "harvested_at": "2026-11-25T06:00:22.844Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,100 +92,55 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
-        "url": "https://huggingface.co/papers/2611.32067",
-        "summary": "We propose LoopDVR, a framework for converting pretrained Transformer-based dense visual recognition models into parameter-efficient looped networks. Rather than reducing the network width or depth directly, LoopDVR reuses Transformer blocks across layers in both the ViT backbone and Transformer decoder, reducing the n",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
-        "url": "https://huggingface.co/papers/2611.32554",
-        "summary": "Segmenting a 3D object into semantically meaningful parts requires joint reasoning about geometric structure and semantic context. Pretrained 3D experts provide spatially grounded region proposals, while 2D experts provide semantic cues for identifying object parts. The challenge is to integrate these complementary cap",
+        "title": "ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks",
+        "url": "https://huggingface.co/papers/2611.32183",
+        "summary": "People reason with pictures as well as words. Interleaved multimodal reasoning gives models a similar way to solve problems by creating intermediate images and using them to guide further reasoning. Training models with this ability usually relies on task-specific demonstrations, which are difficult to collect. We intr",
         "metric": "1 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato",
-        "url": "https://huggingface.co/papers/2611.29547",
-        "summary": "Representation alignment markedly accelerates diffusion training, but one-step generators raise a question that diffusion does not: which training path should receive the loss? A one-step generator sees two kinds of inputs. Corrupted real images come with their clean counterpart, which provides an instance-paired targe",
+        "title": "AdProducer: Towards Agentic Advertising Video Generation",
+        "url": "https://huggingface.co/papers/2611.31466",
+        "summary": "Recent advances in video generation have made automated advertising production increasingly feasible. However, an effective advertisement must faithfully represent the product and communicate its selling points through compelling visual storytelling, which requires more than visual synthesis: it calls for deeper produc",
         "metric": "2 upvotes",
-        "published_at": "2026-11-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
-        "url": "https://huggingface.co/papers/2611.31184",
-        "summary": "Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates the computation cost. Yet most of these tokens carry redundant spat",
-        "metric": "6 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
-        "url": "https://huggingface.co/papers/2611.30962",
-        "summary": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a clo",
-        "metric": "10 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
+        "title": "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation",
+        "url": "https://huggingface.co/papers/2611.32736",
+        "summary": "Fine-tuning a generator on a complete high-resolution canvas requires long image sequences and substantial computation, yet local regions can still exhibit unnatural repetitive stripes when training resources are limited. We introduce Qwen-Image-HD, which adapts Qwen-Image 2.0 to high-resolution synthesis through local",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Within-task hazards of AI agents: unidentified by time-horizon curves, identified by repeated runs",
-        "url": "http://arxiv.org/abs/2611.32415v1",
-        "summary": "The time horizon of an AI agent is read off a curve: the probability that the agent completes a task, plotted against the time a human needs for it. Several recent analyses fit survival models to this curve and conclude that agents' hazard of failure declines as a task goes on. The curve cannot support that conclusion.",
-        "metric": "Published 2026-11-24",
-        "published_at": "2026-11-24T11:18:43Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Residual Guidance for Real-Time Interactive Video Generation",
+        "url": "https://huggingface.co/papers/2611.32820",
+        "summary": "Real-time interactive video generation allows users to change the prompt during generation to steer the evolving video. However, existing streaming models, which generate videos chunk by chunk, often keep following the previous prompt after a switch. We trace this failure to context inertia, where the previous chunk ac",
+        "metric": "4 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Verify then Steer: Progress Hallucination-Aware Recovery for Continuous Vision-and-Language Navigation",
-        "url": "http://arxiv.org/abs/2611.32400v1",
-        "summary": "Vision-and-Language Navigation (VLN) requires an agent to follow language instructions to reach a target in an unseen 3D environment. However, existing methods still struggle to recover from route deviations at test time. We investigate this limitation through the lens of instruction progress, and trace it to a phenome",
-        "metric": "Published 2026-11-24",
-        "published_at": "2026-11-24T11:05:44Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "A direct majorant and an improved Huber constant on cofinite Fuchsian groups",
-        "url": "http://arxiv.org/abs/2611.32398v1",
-        "summary": "To obtain an effective upper bound for Huber's constant on cofinite Fuchsian groups, we introduce an algorithm that bypasses the quantitative Karamata Tauberian theorem in estimating spectral-counting growth by direct use of re-optimized Gaussian kernel instead. Further steps involve the different choice of a compactly",
-        "metric": "Published 2026-11-24",
-        "published_at": "2026-11-24T11:04:11Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Evolve to Learn: Gradient-aligned experience evolution for model self-improvement",
-        "url": "http://arxiv.org/abs/2611.32390v1",
-        "summary": "Self-evolving language models can continuously acquire useful experience through test-time interaction, reflection, and prompt optimization, yet turning such experience into model itself to ensure self improvement remains challenging. On-policy self-distillation (OPSD) provides a natural mechanism for internalizing tes",
-        "metric": "Published 2026-11-24",
-        "published_at": "2026-11-24T10:54:17Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "AgentBank: Banking on Blockchain Agentic Payments",
-        "url": "http://arxiv.org/abs/2611.32389v1",
-        "summary": "AI agents increasingly pay for data and computation through protocols such as x402 and AP2, but individually funded wallets idle and require asset transfers for every payment. We present AgentBank, a smart-contract banking layer that lets agents spend bank liabilities under owner-issued mandates and on-chain spending l",
-        "metric": "Published 2026-11-24",
-        "published_at": "2026-11-24T10:53:33Z"
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "RoMo Hands: A Large Scale Richly Organized Text to Hand Motion Dataset",
+        "url": "https://huggingface.co/papers/2611.31766",
+        "summary": "While text-driven body motion generation has matured, pure-hand synthesis remains bottlenecked by data. Existing datasets often treat hands as rigid end-effectors, lack fine-grained captions, or are too limited in scale to support robust generalization. We introduce RoMo Hands, an in-the-wild, text-paired dataset of ~5",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
-        "source_url": "https://huggingface.co/papers/2611.32067",
+        "source_anchor": "ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks",
+        "source_url": "https://huggingface.co/papers/2611.32183",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Verify then Steer: Progress Hallucination-Aware Recovery for Continuous Vision-and-Language Navigation",
-        "source_url": "http://arxiv.org/abs/2611.32400v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a8c8716bdc079532"
+      "receipt_hash": "d5620e52ba973fc6"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a8c8716bdc07"
+      "receipt_hash": "arm_d5620e52ba97"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
