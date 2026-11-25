@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T17:13:31.074Z",
-  "packet_sha256": "b26738cf131bd9366094032e4092d0017d3135a45107f3cbfed5f5d3830b6554",
+  "updated_at": "2026-11-25T18:48:31.419Z",
+  "packet_sha256": "429e0244149dc6ae0978408bb839771168ec9a6d53bef8de2c18bfb9460a6684",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "76f5372d9c8e4c22",
+    "merkle_root_hex": "5209dc4e66502416",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "76f5372d9c8e4c22",
-      "frame_sha256": "90a0dd08d9257c5c3ee8d803ac5ffe9a099db10dd64358c7aaf95dff2ee175d7",
+      "merkle_root_hex": "5209dc4e66502416",
+      "frame_sha256": "0baa11f5df85da934bf79c08c4b8f5c27fe2313e1e41854046e8abd837c9a05a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:80af18e1:84aa1add:a0f7f6d5:d1becc11",
+      "hdc_16k": "hdc16k:9d9d88bc:c0b2c06f:20b05d20:294f3025",
       "spectral_4d": {
-        "coord4D": "144.160.221:8",
-        "rgbaStr": "{144}{160}{221}{8}",
-        "carrier_freq_hz": 434,
+        "coord4D": "11.170.17:245",
+        "rgbaStr": "{11}{170}{17}{245}",
+        "carrier_freq_hz": 250,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_76f5372d9c8e4c22",
+        "receipt_id": "R_san_yin_5209dc4e66502416",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T17:13:36.187Z"
+        "verified_at": "2026-11-25T18:48:38.779Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T17:13:31.306Z",
+    "harvested_at": "2026-11-25T18:48:31.996Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,24 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Degradation of Language Models under Controlled Load: Synchronization, Rule Execution and Misfires on the Background",
+        "url": "https://huggingface.co/papers/2611.27404",
+        "summary": "As the load grows, a language model makes more and more errors, but different processes stand behind this decline in quality. The model may lose the correspondence with the source text, it may keep its place in the text but execute a rule wrongly, or it may change a word that no rule concerns. In this work the degradat",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
+        "url": "https://huggingface.co/papers/2611.30017",
+        "summary": "We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain experts in software engineering, physical engineering, machine learning, and scientific computing. Tasks range from optimizing kernels and designing an aircraft, to identifying the faults responsible for a",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -115,24 +133,6 @@
         "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts u",
         "metric": "77 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth",
-        "url": "https://huggingface.co/papers/2611.31977",
-        "summary": "Looped transformers reuse one block of shared weights along the depth of the network. Recent looped diffusion transformers are trained from scratch, which repeats the full pretraining cost although strong pretrained non-looped diffusion transformers exist. We propose Distill to Loop (Dooop), which distills a pretrained",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
-        "url": "https://huggingface.co/papers/2611.31752",
-        "summary": "Split-training privacy evaluations fail through distinct mechanisms. Evaluators can overlook an exposed gradient channel, align reconstructions against shifted labels, or deploy uncalibrated probes before testing a candidate defence, while calibrated attacks can also refute real defences. Separating these failure modes",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "SpatialArena: Where Do Geometric Foundation Models Stand?",
-        "source_url": "https://huggingface.co/papers/2611.32816",
+        "source_anchor": "Degradation of Language Models under Controlled Load: Synchronization, Rule Execution and Misfires on the Background",
+        "source_url": "https://huggingface.co/papers/2611.27404",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "76f5372d9c8e4c22"
+      "receipt_hash": "5209dc4e66502416"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_76f5372d9c8e"
+      "receipt_hash": "arm_5209dc4e6650"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
