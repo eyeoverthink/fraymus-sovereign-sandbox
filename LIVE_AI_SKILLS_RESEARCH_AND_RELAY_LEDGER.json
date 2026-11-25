@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T06:00:14.843Z",
-  "packet_sha256": "6a3a37ae0f5ee91e18001a80210c5f76f757eafa86207d20241e50b7bfa0e14a",
+  "updated_at": "2026-11-25T06:33:14.921Z",
+  "packet_sha256": "fe662f6c3c3b0efb41f803dbdd27b7dc14ed11dd1b5a35998d364c645de9b6f0",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "d5620e52ba973fc6",
+    "merkle_root_hex": "8d4a3c69220aa8b1",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "d5620e52ba973fc6",
-      "frame_sha256": "22a1b089f075819e92b2458355886e894c5e22a691c24507ec8de0498c0c5e53",
+      "merkle_root_hex": "8d4a3c69220aa8b1",
+      "frame_sha256": "05b737b2b178062ad3a3899c8d00406738c75074f31e558ca0bf430e183d5d77",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:94e92636:74e77b94:356d3408:889930b9",
+      "hdc_16k": "hdc16k:ab06c2a6:550d0d13:e9c4fb9a:c7d8c6ec",
       "spectral_4d": {
-        "coord4D": "34.161.176:137",
-        "rgbaStr": "{34}{161}{176}{137}",
-        "carrier_freq_hz": 348,
+        "coord4D": "5.183.55:178",
+        "rgbaStr": "{5}{183}{55}{178}",
+        "carrier_freq_hz": 275,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_d5620e52ba973fc6",
+        "receipt_id": "R_san_yin_8d4a3c69220aa8b1",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T06:00:22.844Z"
+        "verified_at": "2026-11-25T06:33:17.442Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T06:00:22.844Z",
+    "harvested_at": "2026-11-25T06:33:15.170Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,55 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks",
-        "url": "https://huggingface.co/papers/2611.32183",
-        "summary": "People reason with pictures as well as words. Interleaved multimodal reasoning gives models a similar way to solve problems by creating intermediate images and using them to guide further reasoning. Training models with this ability usually relies on task-specific demonstrations, which are difficult to collect. We intr",
+        "title": "LingSante MedGuard Technical Report",
+        "url": "https://huggingface.co/papers/2611.25509",
+        "summary": "As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these risks requires checking clinical claims against relevant evidence, verifying calculations, and applyi",
+        "metric": "8 upvotes",
+        "published_at": "2026-11-19T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+        "url": "https://huggingface.co/papers/2611.33010",
+        "summary": "Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, a benchmark built on",
+        "metric": "8 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Factorized Context Attention: From Emulated to Native Grid Probing",
+        "url": "https://huggingface.co/papers/2611.32423",
+        "summary": "Models read a book, an hour of video, or an image in one forward pass. As the context grows, this pass slows down, loses accuracy, and stops at the context window. Sparse attention is efficient, but keeps the other two limitations. Grid probing, a recent training-free method, recovers the accuracy and extends the reach",
         "metric": "1 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "AdProducer: Towards Agentic Advertising Video Generation",
-        "url": "https://huggingface.co/papers/2611.31466",
-        "summary": "Recent advances in video generation have made automated advertising production increasingly feasible. However, an effective advertisement must faithfully represent the product and communicate its selling points through compelling visual storytelling, which requires more than visual synthesis: it calls for deeper produc",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation",
-        "url": "https://huggingface.co/papers/2611.32736",
-        "summary": "Fine-tuning a generator on a complete high-resolution canvas requires long image sequences and substantial computation, yet local regions can still exhibit unnatural repetitive stripes when training resources are limited. We introduce Qwen-Image-HD, which adapts Qwen-Image 2.0 to high-resolution synthesis through local",
-        "metric": "1 upvotes",
+        "title": "VenusOCR2.0: Towards Efficient and Effective Document Parsing",
+        "url": "https://huggingface.co/papers/2611.32617",
+        "summary": "We present VenusOCR2.0, a compact 1B-parameter vision-language recognizer designed for both high-accuracy and high-throughput document parsing across text, tables, and formulas. To continuously improve recognition quality without self-training collapse, we build a bounded recursive self-improvement (RSI) data engine wh",
+        "metric": "6 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Residual Guidance for Real-Time Interactive Video Generation",
-        "url": "https://huggingface.co/papers/2611.32820",
-        "summary": "Real-time interactive video generation allows users to change the prompt during generation to steer the evolving video. However, existing streaming models, which generate videos chunk by chunk, often keep following the previous prompt after a switch. We trace this failure to context inertia, where the previous chunk ac",
-        "metric": "4 upvotes",
+        "title": "Reinforcing Diffusion Models by Instantaneous Trajectory Distribution Matching",
+        "url": "https://huggingface.co/papers/2611.30986",
+        "summary": "Forward diffusion reinforcement learning (RL)---enabling deterministic ODE sampling without trajectory backpropagation---has grown increasingly popular for efficiently aligning diffusion models. However, we reveal that existing methods essentially rely on signed reward-weighted regression (RWR), regressing the trainabl",
+        "metric": "6 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "RoMo Hands: A Large Scale Richly Organized Text to Hand Motion Dataset",
-        "url": "https://huggingface.co/papers/2611.31766",
-        "summary": "While text-driven body motion generation has matured, pure-hand synthesis remains bottlenecked by data. Existing datasets often treat hands as rigid end-effectors, lack fine-grained captions, or are too limited in scale to support robust generalization. We introduce RoMo Hands, an in-the-wild, text-paired dataset of ~5",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Envy-Free Cake-Cutting for Five Agents",
+        "url": "http://arxiv.org/abs/2611.33149v1",
+        "summary": "We study the envy-free cake-cutting problem, in which a divisible resource must be divided among a set of agents with heterogeneous preferences in a way that ensures that no agent envies the piece obtained by another. Remarkably, under some mild continuity assumptions on the agent valuations, it is known that an envy-f",
+        "metric": "Published 2026-11-24",
+        "published_at": "2026-11-24T18:58:57Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+        "url": "http://arxiv.org/abs/2611.33148v1",
+        "summary": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose ",
+        "metric": "Published 2026-11-24",
+        "published_at": "2026-11-24T18:58:53Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+        "url": "http://arxiv.org/abs/2611.33144v1",
+        "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop d",
+        "metric": "Published 2026-11-24",
+        "published_at": "2026-11-24T18:56:44Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
+        "url": "http://arxiv.org/abs/2611.33143v1",
+        "summary": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities under robot motion and c",
+        "metric": "Published 2026-11-24",
+        "published_at": "2026-11-24T18:56:22Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action",
+        "url": "http://arxiv.org/abs/2611.33137v1",
+        "summary": "We present Physicl Scenes, a high-quality artist-created and curated dataset of 6,499 3D scenes spanning household rooms, public interiors, and outdoor spaces. The dataset combines detailed geometry, physically based materials, and carefully composed environments with object- and part-level semantic annotations, provid",
+        "metric": "Published 2026-11-24",
+        "published_at": "2026-11-24T18:55:07Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks",
-        "source_url": "https://huggingface.co/papers/2611.32183",
+        "source_anchor": "LingSante MedGuard Technical Report",
+        "source_url": "https://huggingface.co/papers/2611.25509",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+        "source_url": "http://arxiv.org/abs/2611.33148v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "d5620e52ba973fc6"
+      "receipt_hash": "8d4a3c69220aa8b1"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_d5620e52ba97"
+      "receipt_hash": "arm_8d4a3c69220a"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
