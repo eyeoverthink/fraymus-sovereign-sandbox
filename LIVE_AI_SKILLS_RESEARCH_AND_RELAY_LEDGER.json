@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T10:16:17.912Z",
-  "packet_sha256": "f24d3bf69c01a0d22981b859dc9fe51c0a9f6c86ba3ce250a02297a7bb2123d9",
+  "updated_at": "2026-11-25T10:49:22.214Z",
+  "packet_sha256": "0d0e8f0de614c0e6571a155d1d507daf5daab53f5df6b32ae983e63c74e65ea5",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "41b9e0f760db1b0b",
+    "merkle_root_hex": "cfb194dded3201da",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "41b9e0f760db1b0b",
-      "frame_sha256": "9b191a2e8e907162c715ccc6c1315652d633bac89962fd5e57558369415958a1",
+      "merkle_root_hex": "cfb194dded3201da",
+      "frame_sha256": "50eeb229917f23e1af90b491232590151a0660605ca1cf0acbbecba7d358fe84",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:4862824f:9d833e0b:14a3c34f:7d1caa69",
+      "hdc_16k": "hdc16k:7cf8c09a:bd4a6cfd:76e3e3f2:b41e47ce",
       "spectral_4d": {
-        "coord4D": "155.25.26:46",
-        "rgbaStr": "{155}{25}{26}{46}",
-        "carrier_freq_hz": 254,
+        "coord4D": "80.238.178:41",
+        "rgbaStr": "{80}{238}{178}{41}",
+        "carrier_freq_hz": 418,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_41b9e0f760db1b0b",
+        "receipt_id": "R_san_yin_cfb194dded3201da",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T10:16:25.152Z"
+        "verified_at": "2026-11-25T10:49:29.653Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T10:16:18.716Z",
+    "harvested_at": "2026-11-25T10:49:22.457Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
+        "url": "https://huggingface.co/papers/2611.32918",
+        "summary": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard fine-tuning lowers instruction-following, reasoning and coding benchmarks by 35 points on average, and that these losses track a collapse in answer length: fine-tuned models at least halve their respon",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Dense-embedding retrievers can fail adversarially: when a query is answered by a document A and reversed by a near-copy B that differs from A by a small meaning-changing edit (a \"trap\"), raw cosine over E5-Large-v2 places B in the top-10 for 82-100% of queries at a pool of 5,000. We study two things. First, a small lea",
         "metric": "1 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?",
-        "url": "https://huggingface.co/papers/2611.33020",
-        "summary": "Despite strong performance on standard benchmarks, video reasoning models remain vulnerable to visual degradation, raising concerns about their reliability in safety-critical scenarios. Existing benchmarks address this concern in part by simulating visual degradation or probing model reasoning with challenging question",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
-        "source_url": "https://huggingface.co/papers/2611.31258",
+        "source_anchor": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
+        "source_url": "https://huggingface.co/papers/2611.32918",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "41b9e0f760db1b0b"
+      "receipt_hash": "cfb194dded3201da"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_41b9e0f760db"
+      "receipt_hash": "arm_cfb194dded32"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
