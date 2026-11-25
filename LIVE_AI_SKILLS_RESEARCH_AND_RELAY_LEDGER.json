@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-25T15:05:26.508Z",
-  "packet_sha256": "1975273c192e313351d4fa3c545479a61caf1c5704e508c4bbfb7759a0ceb6f1",
+  "updated_at": "2026-11-25T17:13:31.074Z",
+  "packet_sha256": "b26738cf131bd9366094032e4092d0017d3135a45107f3cbfed5f5d3830b6554",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "3171c2e2505f1746",
+    "merkle_root_hex": "76f5372d9c8e4c22",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "3171c2e2505f1746",
-      "frame_sha256": "401df01c0c1876393b01a52b26e0318b348371845872de303c033e6bc3c1e932",
+      "merkle_root_hex": "76f5372d9c8e4c22",
+      "frame_sha256": "90a0dd08d9257c5c3ee8d803ac5ffe9a099db10dd64358c7aaf95dff2ee175d7",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:592d7756:d9cba546:45e2cf88:bb2897b8",
+      "hdc_16k": "hdc16k:80af18e1:84aa1add:a0f7f6d5:d1becc11",
       "spectral_4d": {
-        "coord4D": "64.29.240:28",
-        "rgbaStr": "{64}{29}{240}{28}",
-        "carrier_freq_hz": 326,
+        "coord4D": "144.160.221:8",
+        "rgbaStr": "{144}{160}{221}{8}",
+        "carrier_freq_hz": 434,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_3171c2e2505f1746",
+        "receipt_id": "R_san_yin_76f5372d9c8e4c22",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-25T15:05:34.788Z"
+        "verified_at": "2026-11-25T17:13:36.187Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-25T15:05:26.763Z",
+    "harvested_at": "2026-11-25T17:13:31.306Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "SpatialArena: Where Do Geometric Foundation Models Stand?",
+        "url": "https://huggingface.co/papers/2611.32816",
+        "summary": "3D perception is shifting from task-specific pipelines to geometric foundation models: monocular depth networks, feed-forward 3D/4D reconstruction models, and vision--language models that predict geometry. However, their progress cannot be measured reliably. Published numbers are not comparable, because every paper sam",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
         "url": "https://huggingface.co/papers/2510.22622",
         "summary": "Audio-visual deepfakes can spread misinformation and enable impersonation, undermining trust in digital media. However, existing datasets provide limited coverage of forgery operations and their combinations, constraining detector development and systematic evaluation. We introduce Mega-MMDF, containing 100,000 real an",
-        "metric": "3 upvotes",
+        "metric": "8 upvotes",
         "published_at": "2026-11-20T00:00:00.000Z"
       },
       {
@@ -104,7 +113,7 @@
         "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
         "url": "https://huggingface.co/papers/2611.31358",
         "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts u",
-        "metric": "74 upvotes",
+        "metric": "77 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth",
         "url": "https://huggingface.co/papers/2611.31977",
         "summary": "Looped transformers reuse one block of shared weights along the depth of the network. Recent looped diffusion transformers are trained from scratch, which repeats the full pretraining cost although strong pretrained non-looped diffusion transformers exist. We propose Distill to Loop (Dooop), which distills a pretrained",
-        "metric": "1 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
@@ -122,16 +131,7 @@
         "title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
         "url": "https://huggingface.co/papers/2611.31752",
         "summary": "Split-training privacy evaluations fail through distinct mechanisms. Evaluators can overlook an exposed gradient channel, align reconstructions against shifted labels, or deploy uncalibrated probes before testing a candidate defence, while calibrated attacks can also refute real defences. Separating these failure modes",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA",
-        "url": "https://huggingface.co/papers/2611.32782",
-        "summary": "Modern large language models (LLMs) keep the feed-forward network (FFN) intermediate width identical across every layer, a convention inherited from the original Transformer. Yet mechanistic work suggests layers at different depths do qualitatively different work, raising a natural question: are their capacity demands ",
-        "metric": "0 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
-        "source_url": "https://huggingface.co/papers/2510.22622",
+        "source_anchor": "SpatialArena: Where Do Geometric Foundation Models Stand?",
+        "source_url": "https://huggingface.co/papers/2611.32816",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "3171c2e2505f1746"
+      "receipt_hash": "76f5372d9c8e4c22"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_3171c2e2505f"
+      "receipt_hash": "arm_76f5372d9c8e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
