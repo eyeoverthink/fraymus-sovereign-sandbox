@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T14:37:36.229Z",
-  "packet_sha256": "bb8b1d5b0cadc65cab0ebf83000061c6b48e03e22bded7dbcb3eaa2dab8cde62",
+  "updated_at": "2026-11-26T16:12:33.604Z",
+  "packet_sha256": "9d3f1f823f2489a5feae9d64be0847761e09f5fd9b7a5f1976c416ed254aff62",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "32fcbe4435beadf9",
+    "merkle_root_hex": "92d1100321094412",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "32fcbe4435beadf9",
-      "frame_sha256": "31bf66a5604d8d9aedfacfe625d6d4d4b2e672f8f4bb1a7993244fcccdb6456f",
+      "merkle_root_hex": "92d1100321094412",
+      "frame_sha256": "e16882a069403c89e2c37f468f1aa25aabd77e11c1481800125c6f5b13d1c798",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:43f64f75:10eafaae:66269adb:bc30cfc0",
+      "hdc_16k": "hdc16k:d37bfa9e:010de669:bad4c81e:bbe77bb8",
       "spectral_4d": {
-        "coord4D": "49.191.102:165",
-        "rgbaStr": "{49}{191}{102}{165}",
-        "carrier_freq_hz": 331,
+        "coord4D": "225.104.130:160",
+        "rgbaStr": "{225}{104}{130}{160}",
+        "carrier_freq_hz": 397,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_32fcbe4435beadf9",
+        "receipt_id": "R_san_yin_92d1100321094412",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T14:37:43.629Z"
+        "verified_at": "2026-11-26T16:12:41.554Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T14:37:36.712Z",
+    "harvested_at": "2026-11-26T16:12:34.414Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,33 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+        "url": "https://huggingface.co/papers/2611.33093",
+        "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
+        "url": "https://huggingface.co/papers/2611.34079",
+        "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. Meanwhile, existing image- and video-based methods may generate unseen regions but produce inconsist",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
+        "url": "https://huggingface.co/papers/2611.21155",
+        "summary": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in practice because it reduces the effort of user review and feedback. We formalize this task as edit r",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-16T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -106,33 +133,6 @@
         "summary": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between this panoramic coverage and the field of view of LiDAR poses a substantial challenge for panoramic Gaussian splatting SLAM that relies on LiDAR depth priors. We introduce GOLD-SLAM, a Gaussian-splatting ",
         "metric": "0 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
-        "url": "https://huggingface.co/papers/2611.28244",
-        "summary": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to performance. We systematic",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-20T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
-        "url": "https://huggingface.co/papers/2611.32938",
-        "summary": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs). Existing video retrieval-augmented generation (RAG) methods rely on frame selection and token compression, but overlook how much each additional token is worth. We introduce ",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
-        "url": "https://huggingface.co/papers/2611.21056",
-        "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations. A common pattern uses downstream task-derived evidence to decide which candidates or lineages continue evolving, which we term evaluate-and-select. Obtaining this signal requires",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
-        "source_url": "https://huggingface.co/papers/2611.30334",
+        "source_anchor": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+        "source_url": "https://huggingface.co/papers/2611.33093",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "32fcbe4435beadf9"
+      "receipt_hash": "92d1100321094412"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_32fcbe4435be"
+      "receipt_hash": "arm_92d110032109"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
