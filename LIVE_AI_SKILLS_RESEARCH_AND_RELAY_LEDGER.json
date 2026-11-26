@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T14:04:34.223Z",
-  "packet_sha256": "103ab4c024059da76c052ff8783a410f83ed9a0fe7214d4971ab3a4ab29158be",
+  "updated_at": "2026-11-26T14:37:36.229Z",
+  "packet_sha256": "bb8b1d5b0cadc65cab0ebf83000061c6b48e03e22bded7dbcb3eaa2dab8cde62",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "6609f176901fc3a3",
+    "merkle_root_hex": "32fcbe4435beadf9",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "6609f176901fc3a3",
-      "frame_sha256": "0ac29e7a435482072b2c527eea5d7842b4c06270391d1f53c9909969d9fcf513",
+      "merkle_root_hex": "32fcbe4435beadf9",
+      "frame_sha256": "31bf66a5604d8d9aedfacfe625d6d4d4b2e672f8f4bb1a7993244fcccdb6456f",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:96cd59d5:6f30b1a5:080c6fa9:343987f4",
+      "hdc_16k": "hdc16k:43f64f75:10eafaae:66269adb:bc30cfc0",
       "spectral_4d": {
-        "coord4D": "10.194.158:122",
-        "rgbaStr": "{10}{194}{158}{122}",
-        "carrier_freq_hz": 342,
+        "coord4D": "49.191.102:165",
+        "rgbaStr": "{49}{191}{102}{165}",
+        "carrier_freq_hz": 331,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_6609f176901fc3a3",
+        "receipt_id": "R_san_yin_32fcbe4435beadf9",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T14:04:42.100Z"
+        "verified_at": "2026-11-26T14:37:43.629Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T14:04:35.381Z",
+    "harvested_at": "2026-11-26T14:37:36.712Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
+        "url": "https://huggingface.co/papers/2611.30334",
+        "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work has applied LLMs to this problem, achieving stateof-the-art performance. Notably, reasoning LLMs ha",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations. A common pattern uses downstream task-derived evidence to decide which candidates or lineages continue evolving, which we term evaluate-and-select. Obtaining this signal requires",
         "metric": "1 upvotes",
         "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Letting Models Manage Their Own Context: Where We Stand",
-        "url": "https://huggingface.co/papers/2611.34147",
-        "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API. We gave models control over their",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
-        "source_url": "https://huggingface.co/papers/2611.32335",
+        "source_anchor": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
+        "source_url": "https://huggingface.co/papers/2611.30334",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "6609f176901fc3a3"
+      "receipt_hash": "32fcbe4435beadf9"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_6609f176901f"
+      "receipt_hash": "arm_32fcbe4435be"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
