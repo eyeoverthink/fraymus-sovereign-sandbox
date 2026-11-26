@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T12:29:29.455Z",
-  "packet_sha256": "6ea7337b7b51f8cff9ac02679df271b1c410e39f1ee2fd2cf1c540351f9dfa17",
+  "updated_at": "2026-11-26T13:06:05.817Z",
+  "packet_sha256": "d3a50d228885ee8ddf3510482f4fc478feb5cd702f2b4c0ef48ddf66a08e34b3",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "4ba3c59cd6916d5c",
+    "merkle_root_hex": "857bb5c40fbeaa4e",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "4ba3c59cd6916d5c",
-      "frame_sha256": "8297051a6d6b3cdf58a3b8868e349198fc9d5c9acc67aec57f91e0adb41f7738",
+      "merkle_root_hex": "857bb5c40fbeaa4e",
+      "frame_sha256": "11750c5dc7b343dcd4f9e30a01d312881007ecdcbd14e18eadb6cdfb59c35ef2",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:4f642d23:524c4840:a8077d2d:d233e7b0",
+      "hdc_16k": "hdc16k:acb6985e:826ab373:1c310a7a:03c3134b",
       "spectral_4d": {
-        "coord4D": "130.151.5:26",
-        "rgbaStr": "{130}{151}{5}{26}",
-        "carrier_freq_hz": 300,
+        "coord4D": "17.117.12:93",
+        "rgbaStr": "{17}{117}{12}{93}",
+        "carrier_freq_hz": 220,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_4ba3c59cd6916d5c",
+        "receipt_id": "R_san_yin_857bb5c40fbeaa4e",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T12:29:36.772Z"
+        "verified_at": "2026-11-26T13:06:07.538Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T12:29:29.760Z",
+    "harvested_at": "2026-11-26T13:06:06.444Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+        "url": "https://huggingface.co/papers/2611.28244",
+        "summary": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to performance. We systematic",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-20T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -123,15 +132,6 @@
         "url": "https://huggingface.co/papers/2611.32786",
         "summary": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows. Testing this assumption requires a proxy whose state is explicit and can be perturbed. We present SimPWM (Simulator-as-Proxy World Model): given a ca",
         "metric": "0 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
-        "url": "https://huggingface.co/papers/2611.33307",
-        "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in English. We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages, compari",
-        "metric": "1 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Efficient Video Retrieval Augmented Generation via Token Allocation",
-        "source_url": "https://huggingface.co/papers/2611.32938",
+        "source_anchor": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+        "source_url": "https://huggingface.co/papers/2611.28244",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "4ba3c59cd6916d5c"
+      "receipt_hash": "857bb5c40fbeaa4e"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_4ba3c59cd691"
+      "receipt_hash": "arm_857bb5c40fbe"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
