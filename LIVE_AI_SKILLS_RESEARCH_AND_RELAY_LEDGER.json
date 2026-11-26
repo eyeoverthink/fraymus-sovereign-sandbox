@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T21:00:36.518Z",
-  "packet_sha256": "865a00ed110102b8160b4a69e7206638401e327b5fc773283bad6fc7c66ab25c",
+  "updated_at": "2026-11-26T22:35:34.126Z",
+  "packet_sha256": "da3403112418e2d65e730c761dd919a9f54406923fc6ec441dba9ae5669b4636",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b218b6e8d6b18e57",
+    "merkle_root_hex": "537096de22308359",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b218b6e8d6b18e57",
-      "frame_sha256": "f9ebed8010bffd8ccf162de70ba555a7518dc045969f0f2196ffd981ffac5757",
+      "merkle_root_hex": "537096de22308359",
+      "frame_sha256": "c2c6ee34b465e1cc539c875cd50bd3d6552487f8e4ea4d4c05dafb17d9c34997",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:d64e6aff:a4daa1f9:e7c27dc7:bcf7e20a",
+      "hdc_16k": "hdc16k:d4673f71:eb7e6ee0:96f5c833:fedaba03",
       "spectral_4d": {
-        "coord4D": "249.235.237:128",
-        "rgbaStr": "{249}{235}{237}{128}",
-        "carrier_freq_hz": 545,
+        "coord4D": "194.198.238:52",
+        "rgbaStr": "{194}{198}{238}{52}",
+        "carrier_freq_hz": 494,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b218b6e8d6b18e57",
+        "receipt_id": "R_san_yin_537096de22308359",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T21:00:43.773Z"
+        "verified_at": "2026-11-26T22:35:41.893Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T21:00:39.427Z",
+    "harvested_at": "2026-11-26T22:35:34.536Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Evaluating Memanto on DolphinBench for AI Agents",
+        "url": "https://huggingface.co/papers/2611.28231",
+        "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out which channel from earlier interactions and use it in a tool call. We evaluate Memanto, a memory agent that ranks memories ",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-20T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents",
         "metric": "2 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
-        "url": "https://huggingface.co/papers/2611.34079",
-        "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. Meanwhile, existing image- and video-based methods may generate unseen regions but produce inconsist",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Look Back: Reinforcement Learning with Counterfactual World Models",
-        "source_url": "https://huggingface.co/papers/2611.29259",
+        "source_anchor": "Evaluating Memanto on DolphinBench for AI Agents",
+        "source_url": "https://huggingface.co/papers/2611.28231",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b218b6e8d6b18e57"
+      "receipt_hash": "537096de22308359"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b218b6e8d6b1"
+      "receipt_hash": "arm_537096de2230"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
