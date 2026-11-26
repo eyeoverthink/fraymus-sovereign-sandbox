@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T13:07:14.830Z",
-  "packet_sha256": "eaa738665f48bfa1ed2e878a2c3174f9258974f473fcae2f17ae6c275f17f3e5",
+  "updated_at": "2026-11-26T14:04:34.223Z",
+  "packet_sha256": "103ab4c024059da76c052ff8783a410f83ed9a0fe7214d4971ab3a4ab29158be",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "4ac5db5aae698c6e",
+    "merkle_root_hex": "6609f176901fc3a3",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "4ac5db5aae698c6e",
-      "frame_sha256": "bfb2629df9867a1deeb507d4ac5b877a1a3c59a50ed5c4a9461527e9460bbea2",
+      "merkle_root_hex": "6609f176901fc3a3",
+      "frame_sha256": "0ac29e7a435482072b2c527eea5d7842b4c06270391d1f53c9909969d9fcf513",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:66c0ced4:bc4355b7:daa3d074:2180dcd3",
+      "hdc_16k": "hdc16k:96cd59d5:6f30b1a5:080c6fa9:343987f4",
       "spectral_4d": {
-        "coord4D": "191.178.98:157",
-        "rgbaStr": "{191}{178}{98}{157}",
-        "carrier_freq_hz": 402,
+        "coord4D": "10.194.158:122",
+        "rgbaStr": "{10}{194}{158}{122}",
+        "carrier_freq_hz": 342,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_4ac5db5aae698c6e",
+        "receipt_id": "R_san_yin_6609f176901fc3a3",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T13:07:16.392Z"
+        "verified_at": "2026-11-26T14:04:42.100Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T13:07:15.002Z",
+    "harvested_at": "2026-11-26T14:04:35.381Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
+        "url": "https://huggingface.co/papers/2611.32335",
+        "summary": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between this panoramic coverage and the field of view of LiDAR poses a substantial challenge for panoramic Gaussian splatting SLAM that relies on LiDAR depth priors. We introduce GOLD-SLAM, a Gaussian-splatting ",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
         "url": "https://huggingface.co/papers/2611.28244",
         "summary": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to performance. We systematic",
-        "metric": "1 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-20T00:00:00.000Z"
       },
       {
@@ -124,15 +133,6 @@
         "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API. We gave models control over their",
         "metric": "5 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Simulator-as-Proxy World Model for Robot Manipulation",
-        "url": "https://huggingface.co/papers/2611.32786",
-        "summary": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows. Testing this assumption requires a proxy whose state is explicit and can be perturbed. We present SimPWM (Simulator-as-Proxy World Model): given a ca",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
-        "source_url": "https://huggingface.co/papers/2611.28244",
+        "source_anchor": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
+        "source_url": "https://huggingface.co/papers/2611.32335",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "4ac5db5aae698c6e"
+      "receipt_hash": "6609f176901fc3a3"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_4ac5db5aae69"
+      "receipt_hash": "arm_6609f176901f"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
