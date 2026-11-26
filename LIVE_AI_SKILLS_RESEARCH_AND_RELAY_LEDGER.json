@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T22:35:34.126Z",
-  "packet_sha256": "da3403112418e2d65e730c761dd919a9f54406923fc6ec441dba9ae5669b4636",
+  "updated_at": "2026-11-26T23:08:35.597Z",
+  "packet_sha256": "e752754410f621328e13344399516dd1f28ea9d60bef3c3b549db4e7b5e51985",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "537096de22308359",
+    "merkle_root_hex": "4b8c9e9cf18f171",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "537096de22308359",
-      "frame_sha256": "c2c6ee34b465e1cc539c875cd50bd3d6552487f8e4ea4d4c05dafb17d9c34997",
+      "merkle_root_hex": "4b8c9e9cf18f171",
+      "frame_sha256": "f69ee0effc0e66ec4835a6c64008e942771d011b55433cb65ce9b9ef0f1219ac",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:d4673f71:eb7e6ee0:96f5c833:fedaba03",
+      "hdc_16k": "hdc16k:dceb35a0:7bc73410:e8a80126:2c6993b2",
       "spectral_4d": {
-        "coord4D": "194.198.238:52",
-        "rgbaStr": "{194}{198}{238}{52}",
-        "carrier_freq_hz": 494,
+        "coord4D": "246.158.224:239",
+        "rgbaStr": "{246}{158}{224}{239}",
+        "carrier_freq_hz": 493,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_537096de22308359",
+        "receipt_id": "R_san_yin_4b8c9e9cf18f171",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T22:35:41.893Z"
+        "verified_at": "2026-11-26T23:08:42.496Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T22:35:34.536Z",
+    "harvested_at": "2026-11-26T23:08:35.941Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -131,7 +131,7 @@
         "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
         "url": "https://huggingface.co/papers/2611.33093",
         "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "537096de22308359"
+      "receipt_hash": "4b8c9e9cf18f171"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_537096de2230"
+      "receipt_hash": "arm_4b8c9e9cf18f"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
