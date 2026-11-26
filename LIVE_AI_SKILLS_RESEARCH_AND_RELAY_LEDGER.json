@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T16:45:33.373Z",
-  "packet_sha256": "0de6e0040b6c438ce5e1244ccec432e750cf8242d74a96c67634ec78a9f3b19e",
+  "updated_at": "2026-11-26T18:20:33.043Z",
+  "packet_sha256": "5de9fd59d6d242e79a97a02ffde959e197a744badcdf6b596870f3e21af86ad4",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9a110268b57d73cb",
+    "merkle_root_hex": "58fb2b32fda7c323",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9a110268b57d73cb",
-      "frame_sha256": "a3f583134742b7974406b3ffb8401b39ff30b9e86471b1c17311e6c54b05667b",
+      "merkle_root_hex": "58fb2b32fda7c323",
+      "frame_sha256": "23f90221a74c57832cc8cf85f11b59e0fbe4c58d37568f2c65793f12e54a68ca",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:3be32b36:638b80cc:ef38ee00:16279927",
+      "hdc_16k": "hdc16k:7fdd0f1a:7565184e:c1da5336:f40ddb4f",
       "spectral_4d": {
-        "coord4D": "163.245.131:19",
-        "rgbaStr": "{163}{245}{131}{19}",
-        "carrier_freq_hz": 442,
+        "coord4D": "35.249.2:33",
+        "rgbaStr": "{35}{249}{2}{33}",
+        "carrier_freq_hz": 300,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9a110268b57d73cb",
+        "receipt_id": "R_san_yin_58fb2b32fda7c323",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T16:45:41.835Z"
+        "verified_at": "2026-11-26T18:20:41.073Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T16:45:33.655Z",
+    "harvested_at": "2026-11-26T18:20:33.504Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,19 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+        "url": "https://huggingface.co/papers/2611.34363",
+        "summary": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated c",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
         "url": "https://huggingface.co/papers/2611.28732",
         "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level h",
-        "metric": "2 upvotes",
+        "metric": "3 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
@@ -113,7 +122,7 @@
         "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
         "url": "https://huggingface.co/papers/2611.34079",
         "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. Meanwhile, existing image- and video-based methods may generate unseen regions but produce inconsist",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
@@ -122,17 +131,8 @@
         "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
         "url": "https://huggingface.co/papers/2611.21155",
         "summary": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in practice because it reduces the effort of user review and feedback. We formalize this task as edit r",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-16T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
-        "url": "https://huggingface.co/papers/2611.30334",
-        "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work has applied LLMs to this problem, achieving stateof-the-art performance. Notably, reasoning LLMs ha",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
-        "source_url": "https://huggingface.co/papers/2611.28732",
+        "source_anchor": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+        "source_url": "https://huggingface.co/papers/2611.34363",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9a110268b57d73cb"
+      "receipt_hash": "58fb2b32fda7c323"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9a110268b57d"
+      "receipt_hash": "arm_58fb2b32fda7"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
