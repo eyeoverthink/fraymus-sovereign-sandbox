@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T05:31:36.281Z",
-  "packet_sha256": "18a7b0a83a53e674e6d45d45fda3b32e19a886f6badf041b8566a41721df8cfc",
+  "updated_at": "2026-11-26T06:05:32.906Z",
+  "packet_sha256": "256cf17ac45b6cfb500b23d4ade07d48c0441124f4103f0564c68decdfe885dc",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "fd59274267113323",
+    "merkle_root_hex": "33343a7a8698294",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "fd59274267113323",
-      "frame_sha256": "017c8f53353940948e01c908f1a83737f53fc80f6aa62dca219873ce929b9a12",
+      "merkle_root_hex": "33343a7a8698294",
+      "frame_sha256": "461aac9eda8e6ae8429c344064d59e3f02359dd2de97fcb038f438dc8e070cd4",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:cdf9b700:a60e8655:fb7eb9fa:35374352",
+      "hdc_16k": "hdc16k:403c525a:145f92b3:ba3ae58a:6121fc9c",
       "spectral_4d": {
-        "coord4D": "1.124.143:83",
-        "rgbaStr": "{1}{124}{143}{83}",
+        "coord4D": "70.26.172:158",
+        "rgbaStr": "{70}{26}{172}{158}",
         "carrier_freq_hz": 289,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_fd59274267113323",
+        "receipt_id": "R_san_yin_33343a7a8698294",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T05:31:43.678Z"
+        "verified_at": "2026-11-26T06:05:39.865Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T05:31:36.878Z",
+    "harvested_at": "2026-11-26T06:05:33.721Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
+        "url": "https://huggingface.co/papers/2611.30965",
+        "summary": "Large language models (LLMs) that continue improving after deployment (e.g., recursive self-improvement) offer a promising path toward general intelligence. Current test-time methods pursue this goal on unlabeled questions, primarily relying on self-consistency: they generate independent solutions and use majority voti",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Puzzling-Bench: Evaluating Language Models on 23,777 Human-Written Puzzles with Community-Verified Answers",
+        "url": "https://huggingface.co/papers/2611.34331",
+        "summary": "We introduce Puzzling-Bench, a benchmark of 23,777 puzzles with community-verified answers drawn from the Puzzling Stack Exchange archive (2014-2026): riddles, ciphers, logic grids, lateral-thinking problems, wordplay and recreational mathematics, a third of them with images. Every puzzle carries the answer accepted by",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control",
+        "url": "https://huggingface.co/papers/2611.33922",
+        "summary": "Flow-based generative policies offer expressive action modeling for embodied control, yet achieving efficient one-step generation under reward-driven policy optimization remains challenging. In particular, evolving action distributions during online reinforcement learning may introduce inconsistencies between instantan",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
         "url": "https://huggingface.co/papers/2611.34811",
         "summary": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusion transformer (DiT)",
-        "metric": "2 upvotes",
+        "metric": "9 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
@@ -105,33 +132,6 @@
         "url": "https://huggingface.co/papers/2611.33894",
         "summary": "Image analogy transfers a demonstrated transformation from a before/after pair (A, A') to a new query image B. Existing methods assume all changes in (A, A') should be fully transferred, limiting flexibility when users want only a subset of the demonstrated edits. We introduce Selective Image Analogy (SIA), a new setti",
         "metric": "1 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
-        "url": "https://huggingface.co/papers/2611.34849",
-        "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual be",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
-        "url": "https://huggingface.co/papers/2611.34347",
-        "summary": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuri",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Improving and Expanding Video Editing Capabilities Without Videos",
-        "url": "https://huggingface.co/papers/2611.34941",
-        "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video",
-        "metric": "11 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
-        "source_url": "https://huggingface.co/papers/2611.34811",
+        "source_anchor": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
+        "source_url": "https://huggingface.co/papers/2611.30965",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "fd59274267113323"
+      "receipt_hash": "33343a7a8698294"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_fd5927426711"
+      "receipt_hash": "arm_33343a7a8698"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
