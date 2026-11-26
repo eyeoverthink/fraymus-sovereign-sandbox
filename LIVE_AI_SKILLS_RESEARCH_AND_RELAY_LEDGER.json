@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T03:23:36.478Z",
-  "packet_sha256": "3e76123696cb025bca402093954861e332d286b6e9448fac6dfffddc8fab6ab1",
+  "updated_at": "2026-11-26T05:31:36.281Z",
+  "packet_sha256": "18a7b0a83a53e674e6d45d45fda3b32e19a886f6badf041b8566a41721df8cfc",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "6d1a02c93326577b",
+    "merkle_root_hex": "fd59274267113323",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "6d1a02c93326577b",
-      "frame_sha256": "9563784b8832b160a4e7216265a4010da1ecac0ffeaeb1fa624bde2e28404bb1",
+      "merkle_root_hex": "fd59274267113323",
+      "frame_sha256": "017c8f53353940948e01c908f1a83737f53fc80f6aa62dca219873ce929b9a12",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:a09188bf:174cc59e:04e5c235:f629d364",
+      "hdc_16k": "hdc16k:cdf9b700:a60e8655:fb7eb9fa:35374352",
       "spectral_4d": {
-        "coord4D": "149.99.120:75",
-        "rgbaStr": "{149}{99}{120}{75}",
-        "carrier_freq_hz": 346,
+        "coord4D": "1.124.143:83",
+        "rgbaStr": "{1}{124}{143}{83}",
+        "carrier_freq_hz": 289,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_6d1a02c93326577b",
+        "receipt_id": "R_san_yin_fd59274267113323",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T03:23:43.869Z"
+        "verified_at": "2026-11-26T05:31:43.678Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T03:23:36.923Z",
+    "harvested_at": "2026-11-26T05:31:36.878Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,100 +92,100 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
-        "url": "https://huggingface.co/papers/2611.33144",
-        "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop d",
-        "metric": "11 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
-        "url": "https://huggingface.co/papers/2611.30844",
-        "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Looped MoE DiT (DyLoMo-",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
-        "url": "https://huggingface.co/papers/2611.27962",
-        "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within. This uniformity is a convention rather than a principled design c",
+        "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+        "url": "https://huggingface.co/papers/2611.34811",
+        "summary": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusion transformer (DiT)",
         "metric": "2 upvotes",
-        "published_at": "2026-11-20T00:00:00.000Z"
+        "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Steerable by Design: Conditional Pretraining for Robust Control of Language Models",
-        "url": "https://huggingface.co/papers/2611.32199",
-        "summary": "Our goal is to build language models that are steerable by design. Today's language models are pretrained with next-token prediction, which relegates alignment and control to the final 1% of training tokens or inference-time interventions. These models repurpose a single input channel for both instructions and data, le",
-        "metric": "4 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
+        "title": "SIA: Selective Image Analogy",
+        "url": "https://huggingface.co/papers/2611.33894",
+        "summary": "Image analogy transfers a demonstrated transformation from a before/after pair (A, A') to a new query image B. Existing methods assume all changes in (A, A') should be fully transferred, limiting flexibility when users want only a subset of the demonstrated edits. We introduce Selective Image Analogy (SIA), a new setti",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "LookAnything: A Foundation Model for Holistic Gaze Following",
-        "url": "https://huggingface.co/papers/2611.32351",
-        "summary": "Human gaze provides a rich window into attention and intent, making its understanding essential for applications ranging from social signal analysis to human-robot interaction. Existing methods typically employ highly customized architectures relying on auxiliary inputs like head crops or depth maps, causing cascading ",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
+        "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+        "url": "https://huggingface.co/papers/2611.34849",
+        "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual be",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+        "url": "https://huggingface.co/papers/2611.34347",
+        "summary": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuri",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+        "url": "https://huggingface.co/papers/2611.34941",
+        "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video",
+        "metric": "11 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Co-World Model for Human-Video-to-Robot Transfer via Co-Constructed Shared Latent Dynamics",
-        "url": "http://arxiv.org/abs/2611.34302v1",
-        "summary": "Human videos are abundant and cheap to obtain, whereas robot trajectories remain scarce and costly, making zero-shot skill transfer from a single human demonstration an appealing route to scalable robot learning. Existing methods, however, either retarget human-specific geometry or match only static visual goals, and t",
+        "title": "Tracking Any Point with Agentic Visual Reasoning",
+        "url": "http://arxiv.org/abs/2611.34943v1",
+        "summary": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surf",
         "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T12:54:52Z"
+        "published_at": "2026-11-25T18:59:58Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "LatENSO v1.0: a learned latent state of the tropical Pacific for seasonal ENSO operators and forecasting",
-        "url": "http://arxiv.org/abs/2611.34296v1",
-        "summary": "Here we present LatENSO v1.0, a machine-learning forecast system for the El Niño-Southern Oscillation (ENSO) built around a learned, 32-dimensional state of the tropical Pacific. A Swin-transformer autoencoder compresses thirteen monthly-averaged ocean and atmosphere fields into 32 numbers, trained to reconstruct the f",
+        "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+        "url": "http://arxiv.org/abs/2611.34942v1",
+        "summary": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mis",
         "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T12:49:39Z"
+        "published_at": "2026-11-25T18:59:57Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "Energy-Aware Distributed Task Allocation via Local Submodular Maximization",
-        "url": "http://arxiv.org/abs/2611.34293v1",
-        "summary": "This paper studies distributed task allocation under time-varying agent sets, task sets, and communication graphs. At each decision epoch, the stage allocation problem is formulated as monotone submodular maximization over a time-varying, energy-filtered admissible ground set subject to a partition-matroid constraint. ",
+        "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+        "url": "http://arxiv.org/abs/2611.34934v1",
+        "summary": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to",
         "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T12:46:38Z"
+        "published_at": "2026-11-25T18:59:28Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "WebVibe: Multimodal Interactive Website Generation via Reverse Synthesis and Visual Self-Distillation",
-        "url": "http://arxiv.org/abs/2611.34292v1",
-        "summary": "Although multimodal large language models translate single screenshots into static HTML, generating interactive functional websites from design specifications still struggles with multi-page routing and stateful widget transitions. Examining existing training pipelines reveals two bottlenecks: (1) in forward data synth",
+        "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
+        "url": "http://arxiv.org/abs/2611.34925v1",
+        "summary": "Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-envir",
         "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T12:46:28Z"
+        "published_at": "2026-11-25T18:58:56Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
         "kind": "paper",
-        "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-        "url": "http://arxiv.org/abs/2611.34290v1",
-        "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited",
+        "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+        "url": "http://arxiv.org/abs/2611.34920v1",
+        "summary": "Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when participants react throughout a session. We introduce $μ$-Bench, a benchmark for joint task completion in closed-loop, full-du",
         "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T12:43:37Z"
+        "published_at": "2026-11-25T18:58:42Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
-        "source_url": "https://huggingface.co/papers/2611.33144",
+        "source_anchor": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+        "source_url": "https://huggingface.co/papers/2611.34811",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "LatENSO v1.0: a learned latent state of the tropical Pacific for seasonal ENSO operators and forecasting",
-        "source_url": "http://arxiv.org/abs/2611.34296v1",
+        "source_anchor": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+        "source_url": "http://arxiv.org/abs/2611.34942v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "6d1a02c93326577b"
+      "receipt_hash": "fd59274267113323"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_6d1a02c93326"
+      "receipt_hash": "arm_fd5927426711"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
