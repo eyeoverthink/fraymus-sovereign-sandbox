@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T16:12:33.604Z",
-  "packet_sha256": "9d3f1f823f2489a5feae9d64be0847761e09f5fd9b7a5f1976c416ed254aff62",
+  "updated_at": "2026-11-26T16:45:33.373Z",
+  "packet_sha256": "0de6e0040b6c438ce5e1244ccec432e750cf8242d74a96c67634ec78a9f3b19e",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "92d1100321094412",
+    "merkle_root_hex": "9a110268b57d73cb",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "92d1100321094412",
-      "frame_sha256": "e16882a069403c89e2c37f468f1aa25aabd77e11c1481800125c6f5b13d1c798",
+      "merkle_root_hex": "9a110268b57d73cb",
+      "frame_sha256": "a3f583134742b7974406b3ffb8401b39ff30b9e86471b1c17311e6c54b05667b",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:d37bfa9e:010de669:bad4c81e:bbe77bb8",
+      "hdc_16k": "hdc16k:3be32b36:638b80cc:ef38ee00:16279927",
       "spectral_4d": {
-        "coord4D": "225.104.130:160",
-        "rgbaStr": "{225}{104}{130}{160}",
-        "carrier_freq_hz": 397,
+        "coord4D": "163.245.131:19",
+        "rgbaStr": "{163}{245}{131}{19}",
+        "carrier_freq_hz": 442,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_92d1100321094412",
+        "receipt_id": "R_san_yin_9a110268b57d73cb",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T16:12:41.554Z"
+        "verified_at": "2026-11-26T16:45:41.835Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T16:12:34.414Z",
+    "harvested_at": "2026-11-26T16:45:33.655Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+        "url": "https://huggingface.co/papers/2611.28732",
+        "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level h",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work has applied LLMs to this problem, achieving stateof-the-art performance. Notably, reasoning LLMs ha",
         "metric": "1 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
-        "url": "https://huggingface.co/papers/2611.32335",
-        "summary": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between this panoramic coverage and the field of view of LiDAR poses a substantial challenge for panoramic Gaussian splatting SLAM that relies on LiDAR depth priors. We introduce GOLD-SLAM, a Gaussian-splatting ",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
-        "source_url": "https://huggingface.co/papers/2611.33093",
+        "source_anchor": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+        "source_url": "https://huggingface.co/papers/2611.28732",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "92d1100321094412"
+      "receipt_hash": "9a110268b57d73cb"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_92d110032109"
+      "receipt_hash": "arm_9a110268b57d"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
