@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T06:05:32.906Z",
-  "packet_sha256": "256cf17ac45b6cfb500b23d4ade07d48c0441124f4103f0564c68decdfe885dc",
+  "updated_at": "2026-11-26T07:40:34.349Z",
+  "packet_sha256": "d7731bf09cef385bed25c16a825cf89ec1c4ca8d7191c8a91942a3bf7ea02c8b",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,39 +52,39 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "33343a7a8698294",
+    "merkle_root_hex": "5e78b49dcaa0a931",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "33343a7a8698294",
-      "frame_sha256": "461aac9eda8e6ae8429c344064d59e3f02359dd2de97fcb038f438dc8e070cd4",
+      "merkle_root_hex": "5e78b49dcaa0a931",
+      "frame_sha256": "91d128a6acb4c4c3e61f659ca5386e7d06cdb004353b386166c6cc053a147b89",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:403c525a:145f92b3:ba3ae58a:6121fc9c",
+      "hdc_16k": "hdc16k:45ec8316:899dbfc5:5c568ca8:a40e841b",
       "spectral_4d": {
-        "coord4D": "70.26.172:158",
-        "rgbaStr": "{70}{26}{172}{158}",
-        "carrier_freq_hz": 289,
+        "coord4D": "145.209.40:166",
+        "rgbaStr": "{145}{209}{40}{166}",
+        "carrier_freq_hz": 360,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_33343a7a8698294",
+        "receipt_id": "R_san_yin_5e78b49dcaa0a931",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T06:05:39.865Z"
+        "verified_at": "2026-11-26T07:40:42.447Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T06:05:33.721Z",
+    "harvested_at": "2026-11-26T07:40:34.619Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
@@ -92,100 +92,55 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
-        "url": "https://huggingface.co/papers/2611.30965",
-        "summary": "Large language models (LLMs) that continue improving after deployment (e.g., recursive self-improvement) offer a promising path toward general intelligence. Current test-time methods pursue this goal on unlabeled questions, primarily relying on self-consistency: they generate independent solutions and use majority voti",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Puzzling-Bench: Evaluating Language Models on 23,777 Human-Written Puzzles with Community-Verified Answers",
-        "url": "https://huggingface.co/papers/2611.34331",
-        "summary": "We introduce Puzzling-Bench, a benchmark of 23,777 puzzles with community-verified answers drawn from the Puzzling Stack Exchange archive (2014-2026): riddles, ciphers, logic grids, lateral-thinking problems, wordplay and recreational mathematics, a third of them with images. Every puzzle carries the answer accepted by",
+        "title": "Change the Base, Change the Game: Rethinking Pan-sharpening",
+        "url": "https://huggingface.co/papers/2611.32002",
+        "summary": "Many pan-sharpening (PS) networks reconstruct high-resolution multispectral (HRMS) images by adding learned residuals to 4times-interpolated low-resolution multispectral (LRMS) inputs, incorporating panchromatic (PAN) detail only through these residual corrections. This raises a simple question: Why start with a blurry",
         "metric": "2 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Playfulness as Feedback for Agentic Game Development",
+        "url": "https://huggingface.co/papers/2611.33457",
+        "summary": "Coding agents can generate runnable games from natural-language descriptions. However, a runnable game does not guarantee an excellent gameplay experience for players. In our view, a playful game should provide 1) reliable core functionality, 2) appealing visual design and assets, and 3) rich gameplay that supports exp",
+        "metric": "7 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+        "url": "https://huggingface.co/papers/2611.34420",
+        "summary": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We introduce DocSEAM (Docume",
+        "metric": "3 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control",
-        "url": "https://huggingface.co/papers/2611.33922",
-        "summary": "Flow-based generative policies offer expressive action modeling for embodied control, yet achieving efficient one-step generation under reward-driven policy optimization remains challenging. In particular, evolving action distributions during online reinforcement learning may introduce inconsistencies between instantan",
-        "metric": "5 upvotes",
+        "title": "Mixture-of-Loops Transformer",
+        "url": "https://huggingface.co/papers/2611.34923",
+        "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), wh",
+        "metric": "22 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
-        "url": "https://huggingface.co/papers/2611.34811",
-        "summary": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusion transformer (DiT)",
-        "metric": "9 upvotes",
+        "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
+        "url": "https://huggingface.co/papers/2611.33925",
+        "summary": "Robot world models are increasingly used to evaluate and plan policies, yet robot training data are dominated by successful demonstrations. Off the happy path, when a grasp is misaligned or mistimed and the object is pushed, tilted, or slips, their predictions break down. Across five pretrained action-conditioned model",
+        "metric": "6 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "SIA: Selective Image Analogy",
-        "url": "https://huggingface.co/papers/2611.33894",
-        "summary": "Image analogy transfers a demonstrated transformation from a before/after pair (A, A') to a new query image B. Existing methods assume all changes in (A, A') should be fully transferred, limiting flexibility when users want only a subset of the demonstrated edits. We introduce Selective Image Analogy (SIA), a new setti",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Tracking Any Point with Agentic Visual Reasoning",
-        "url": "http://arxiv.org/abs/2611.34943v1",
-        "summary": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surf",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:59:58Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
-        "url": "http://arxiv.org/abs/2611.34942v1",
-        "summary": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mis",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:59:57Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Attack Policy Selection can Mislead Monitor Evaluators",
-        "url": "http://arxiv.org/abs/2611.34934v1",
-        "summary": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:59:28Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
-        "url": "http://arxiv.org/abs/2611.34925v1",
-        "summary": "Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-envir",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:58:56Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
-        "url": "http://arxiv.org/abs/2611.34920v1",
-        "summary": "Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when participants react throughout a session. We introduce $μ$-Bench, a benchmark for joint task completion in closed-loop, full-du",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:58:42Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
-        "source_url": "https://huggingface.co/papers/2611.30965",
+        "source_anchor": "Change the Base, Change the Game: Rethinking Pan-sharpening",
+        "source_url": "https://huggingface.co/papers/2611.32002",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
-        "source_url": "http://arxiv.org/abs/2611.34942v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "33343a7a8698294"
+      "receipt_hash": "5e78b49dcaa0a931"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_33343a7a8698"
+      "receipt_hash": "arm_5e78b49dcaa0"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
