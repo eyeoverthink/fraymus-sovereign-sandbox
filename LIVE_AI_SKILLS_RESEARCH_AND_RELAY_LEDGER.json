@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T08:13:32.797Z",
-  "packet_sha256": "af2dce905ce3147becb20f88748cbbbb4426b0584f8f0b7bcbb154df56afdd4e",
+  "updated_at": "2026-11-26T09:48:34.818Z",
+  "packet_sha256": "22c488581b181e5646ce67cde0dfc387d9fbbe3ea938b9b237bf906e97e8502f",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "d81207cacf96d94c",
+    "merkle_root_hex": "7e9e4f61e1508e49",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "d81207cacf96d94c",
-      "frame_sha256": "bf860484adbc1ccf2a0756ad2383711054229cb5163891f8628fc10878926ddc",
+      "merkle_root_hex": "7e9e4f61e1508e49",
+      "frame_sha256": "6046058e10be7551c31992383a4085b70909dbbf3cd568fc197b9db55d926436",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:c90498bd:e12e8bfd:55698c67:4d34ca43",
+      "hdc_16k": "hdc16k:9bc3d148:dee75f3d:3f5a5c92:1f3c4635",
       "spectral_4d": {
-        "coord4D": "191.134.4:132",
-        "rgbaStr": "{191}{134}{4}{132}",
-        "carrier_freq_hz": 324,
+        "coord4D": "96.70.5:142",
+        "rgbaStr": "{96}{70}{5}{142}",
+        "carrier_freq_hz": 235,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_d81207cacf96d94c",
+        "receipt_id": "R_san_yin_7e9e4f61e1508e49",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T08:13:37.431Z"
+        "verified_at": "2026-11-26T09:48:42.874Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T08:13:33.973Z",
+    "harvested_at": "2026-11-26T09:48:35.149Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,46 +92,46 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
-        "url": "https://huggingface.co/papers/2611.30895",
-        "summary": "Proactive assistants that guide people through physical tasks must decide, every few seconds, whether a step is complete and whether a mistake has occurred. We find that two benchmarks for this task largely reward knowing when rather than seeing what: a timer that never looks at the video, raising an alarm at 25 s and ",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator",
-        "url": "https://huggingface.co/papers/2611.34750",
-        "summary": "LLM agents have made remarkable progress in robot manipulation, yet they suffer from expensive inference, dense step-by-step control, and tool bottlenecks. We introduce SOLVE, a training-free, versatile and efficient agent policy: a multimodal LLM agent writes a sparse, ordered sequence of 6-DoF end-effector keyposes p",
-        "metric": "0 upvotes",
+        "title": "Letting Models Manage Their Own Context: Where We Stand",
+        "url": "https://huggingface.co/papers/2611.34147",
+        "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API. We gave models control over their",
+        "metric": "3 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Change the Base, Change the Game: Rethinking Pan-sharpening",
-        "url": "https://huggingface.co/papers/2611.32002",
-        "summary": "Many pan-sharpening (PS) networks reconstruct high-resolution multispectral (HRMS) images by adding learned residuals to 4times-interpolated low-resolution multispectral (LRMS) inputs, incorporating panchromatic (PAN) detail only through these residual corrections. This raises a simple question: Why start with a blurry",
-        "metric": "2 upvotes",
+        "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+        "url": "https://huggingface.co/papers/2611.32786",
+        "summary": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows. Testing this assumption requires a proxy whose state is explicit and can be perturbed. We present SimPWM (Simulator-as-Proxy World Model): given a ca",
+        "metric": "0 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Playfulness as Feedback for Agentic Game Development",
-        "url": "https://huggingface.co/papers/2611.33457",
-        "summary": "Coding agents can generate runnable games from natural-language descriptions. However, a runnable game does not guarantee an excellent gameplay experience for players. In our view, a playful game should provide 1) reliable core functionality, 2) appealing visual design and assets, and 3) rich gameplay that supports exp",
-        "metric": "10 upvotes",
+        "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+        "url": "https://huggingface.co/papers/2611.33307",
+        "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in English. We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages, compari",
+        "metric": "0 upvotes",
         "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
-        "url": "https://huggingface.co/papers/2611.34420",
-        "summary": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We introduce DocSEAM (Docume",
-        "metric": "10 upvotes",
+        "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
+        "url": "https://huggingface.co/papers/2611.34777",
+        "summary": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: every sampled trajectory receives zero reward, leaving group-relative methods without a reward-based policy gradient. A common remedy supplies complete solutions from a stronger model, but full trajector",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
+        "url": "https://huggingface.co/papers/2611.34756",
+        "summary": "Fully online on-policy distillation (OPD) is costly for long-horizon agents because each update depends on fresh environment rollouts. Prefix replay offers an efficient alternative by sampling current-student responses from stored histories, reducing idle time for long-tail rollouts and allowing each collected trajecto",
+        "metric": "1 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
-        "source_url": "https://huggingface.co/papers/2611.30895",
+        "source_anchor": "Letting Models Manage Their Own Context: Where We Stand",
+        "source_url": "https://huggingface.co/papers/2611.34147",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "d81207cacf96d94c"
+      "receipt_hash": "7e9e4f61e1508e49"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_d81207cacf96"
+      "receipt_hash": "arm_7e9e4f61e150"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
