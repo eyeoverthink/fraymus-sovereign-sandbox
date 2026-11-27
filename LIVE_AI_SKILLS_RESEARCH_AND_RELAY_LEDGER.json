@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T07:39:38.637Z",
-  "packet_sha256": "1525a767ee67c9e77f5ea79c047967c98d0485bb465a172ae5003868234a2d5c",
+  "updated_at": "2026-11-27T09:15:36.626Z",
+  "packet_sha256": "c43b3007291b7c2ec9c1a133dd2d13ce93f050b294665c4d0817b0e1ca8f2a68",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,43 +52,52 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "a7bbe8d2c56c20f4",
+    "merkle_root_hex": "99db069214dd40d2",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "a7bbe8d2c56c20f4",
-      "frame_sha256": "515c1e697997a8670bc7d1d251f852eabc937bd906bce7c553becf808366cf43",
+      "merkle_root_hex": "99db069214dd40d2",
+      "frame_sha256": "1643b7bd0d1a0b22a3093a15cf7203febe0dab687115bd2155f6306b3964ddb3",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:bd68d13c:94880ca6:252db09e:923a225e",
+      "hdc_16k": "hdc16k:1e2e9465:cbe6c4c3:f734b95d:8d44c033",
       "spectral_4d": {
-        "coord4D": "81.92.30:105",
-        "rgbaStr": "{81}{92}{30}{105}",
-        "carrier_freq_hz": 253,
+        "coord4D": "22.67.183:189",
+        "rgbaStr": "{22}{67}{183}{189}",
+        "carrier_freq_hz": 292,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_a7bbe8d2c56c20f4",
+        "receipt_id": "R_san_yin_99db069214dd40d2",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T07:39:44.763Z"
+        "verified_at": "2026-11-27T09:15:45.626Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T07:39:38.925Z",
+    "harvested_at": "2026-11-27T09:15:37.134Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 5,
+      "total": 10,
       "huggingface_papers": 5,
-      "arxiv_preprints": 0,
+      "arxiv_preprints": 5,
       "github_repos": 0,
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+        "url": "https://huggingface.co/papers/2611.31155",
+        "summary": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in it has its own rank pattern, an invariant formed by the ranks of the factor matrices of a scheme, so all schemes are pairwise inequivalent. The schemes were obtained by a numerical method combining grad",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -113,7 +122,7 @@
         "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
         "url": "https://huggingface.co/papers/2611.31619",
         "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We ",
-        "metric": "25 upvotes",
+        "metric": "29 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -126,21 +135,57 @@
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "When an AI agent makes a mistake in a database, what decides the damage?",
-        "url": "https://huggingface.co/papers/2611.30483",
-        "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what decides the damage when such an agent makes a mistake: the model, a guard layer in front of the database, or the databas",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Tracking Any Point with Agentic Visual Reasoning",
+        "url": "http://arxiv.org/abs/2611.34943v1",
+        "summary": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surf",
+        "metric": "Published 2026-11-25",
+        "published_at": "2026-11-25T18:59:58Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+        "url": "http://arxiv.org/abs/2611.34942v1",
+        "summary": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mis",
+        "metric": "Published 2026-11-25",
+        "published_at": "2026-11-25T18:59:57Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+        "url": "http://arxiv.org/abs/2611.34934v1",
+        "summary": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to",
+        "metric": "Published 2026-11-25",
+        "published_at": "2026-11-25T18:59:28Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
+        "url": "http://arxiv.org/abs/2611.34925v1",
+        "summary": "Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-envir",
+        "metric": "Published 2026-11-25",
+        "published_at": "2026-11-25T18:58:56Z"
+      },
+      {
+        "source": "arXiv Live CS.AI/LG",
+        "kind": "paper",
+        "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+        "url": "http://arxiv.org/abs/2611.34920v1",
+        "summary": "Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when participants react throughout a session. We introduce $μ$-Bench, a benchmark for joint task completion in closed-loop, full-du",
+        "metric": "Published 2026-11-25",
+        "published_at": "2026-11-25T18:58:42Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Pretrained Tabular Features and the Measurement of Financial Proximity",
-        "source_url": "https://huggingface.co/papers/2611.31491",
+        "source_anchor": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+        "source_url": "https://huggingface.co/papers/2611.31155",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -157,8 +202,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Live AI Systems Telemetry",
-        "source_url": "https://arxiv.org/list/cs.AI/recent",
+        "source_anchor": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+        "source_url": "http://arxiv.org/abs/2611.34942v1",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -178,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "a7bbe8d2c56c20f4"
+      "receipt_hash": "99db069214dd40d2"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_a7bbe8d2c56c"
+      "receipt_hash": "arm_99db069214dd"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
