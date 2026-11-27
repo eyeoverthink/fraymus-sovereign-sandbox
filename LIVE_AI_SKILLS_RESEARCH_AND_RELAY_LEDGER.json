@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-26T23:08:35.597Z",
-  "packet_sha256": "e752754410f621328e13344399516dd1f28ea9d60bef3c3b549db4e7b5e51985",
+  "updated_at": "2026-11-27T00:43:37.285Z",
+  "packet_sha256": "837af82829cfb82b76b8c216ad5a2d25f28b89026d8e47c7db2aa8175d5aecba",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "4b8c9e9cf18f171",
+    "merkle_root_hex": "747068d5ddb73e6a",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "4b8c9e9cf18f171",
-      "frame_sha256": "f69ee0effc0e66ec4835a6c64008e942771d011b55433cb65ce9b9ef0f1219ac",
+      "merkle_root_hex": "747068d5ddb73e6a",
+      "frame_sha256": "36dab56ed351f34770279f30a4ef097c081ae7f5f34fea73ff41183cdc12bc10",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:dceb35a0:7bc73410:e8a80126:2c6993b2",
+      "hdc_16k": "hdc16k:868bd883:b6d0daf7:df3f682b:c4a9fce2",
       "spectral_4d": {
-        "coord4D": "246.158.224:239",
-        "rgbaStr": "{246}{158}{224}{239}",
-        "carrier_freq_hz": 493,
+        "coord4D": "54.218.181:110",
+        "rgbaStr": "{54}{218}{181}{110}",
+        "carrier_freq_hz": 394,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_4b8c9e9cf18f171",
+        "receipt_id": "R_san_yin_747068d5ddb73e6a",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-26T23:08:42.496Z"
+        "verified_at": "2026-11-27T00:43:44.369Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-26T23:08:35.941Z",
+    "harvested_at": "2026-11-27T00:43:37.816Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+        "url": "https://huggingface.co/papers/2611.29969",
+        "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces, but largely imitate prescribed evidence acquisition patterns rather than optimizing the support that the returned evidence ",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level h",
         "metric": "3 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
-        "url": "https://huggingface.co/papers/2611.33093",
-        "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Evaluating Memanto on DolphinBench for AI Agents",
-        "source_url": "https://huggingface.co/papers/2611.28231",
+        "source_anchor": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+        "source_url": "https://huggingface.co/papers/2611.29969",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "4b8c9e9cf18f171"
+      "receipt_hash": "747068d5ddb73e6a"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_4b8c9e9cf18f"
+      "receipt_hash": "arm_747068d5ddb7"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
