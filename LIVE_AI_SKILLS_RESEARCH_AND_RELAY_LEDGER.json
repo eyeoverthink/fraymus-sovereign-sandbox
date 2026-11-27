@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T07:06:50.530Z",
-  "packet_sha256": "51737e675003f5fe3325e2656cee1f7d3402649f049129f90f6fb52412a5d1b7",
+  "updated_at": "2026-11-27T07:39:38.637Z",
+  "packet_sha256": "1525a767ee67c9e77f5ea79c047967c98d0485bb465a172ae5003868234a2d5c",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b12852170f398c24",
+    "merkle_root_hex": "a7bbe8d2c56c20f4",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b12852170f398c24",
-      "frame_sha256": "dd3155d979087e8cdc132f1c2bd888d4738aca10f2972e3e993b5e367bc88eeb",
+      "merkle_root_hex": "a7bbe8d2c56c20f4",
+      "frame_sha256": "515c1e697997a8670bc7d1d251f852eabc937bd906bce7c553becf808366cf43",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:5418fcd2:91bedc6e:07da869c:b8d8fcc8",
+      "hdc_16k": "hdc16k:bd68d13c:94880ca6:252db09e:923a225e",
       "spectral_4d": {
-        "coord4D": "221.49.85:217",
-        "rgbaStr": "{221}{49}{85}{217}",
-        "carrier_freq_hz": 338,
+        "coord4D": "81.92.30:105",
+        "rgbaStr": "{81}{92}{30}{105}",
+        "carrier_freq_hz": 253,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b12852170f398c24",
+        "receipt_id": "R_san_yin_a7bbe8d2c56c20f4",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T07:06:59.530Z"
+        "verified_at": "2026-11-27T07:39:44.763Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T07:06:58.530Z",
+    "harvested_at": "2026-11-27T07:39:38.925Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 5,
@@ -92,10 +92,28 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+        "url": "https://huggingface.co/papers/2611.31491",
+        "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and medium-sized tabular ben",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+        "url": "https://huggingface.co/papers/2611.28849",
+        "summary": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved. Choosing how to help requires distinguishing an established hazard from a condition that still needs verification, a distinction that binary safety labels leave unspecified. We formulate this",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-21T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
         "url": "https://huggingface.co/papers/2611.31619",
         "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We ",
-        "metric": "16 upvotes",
+        "metric": "25 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -115,32 +133,14 @@
         "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what decides the damage when such an agent makes a mistake: the model, a guard layer in front of the database, or the databas",
         "metric": "3 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
-        "url": "https://huggingface.co/papers/2611.32238",
-        "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a policy is reliable only from a limited set of start states, while the agent may invoke it outside this ",
-        "metric": "5 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
-        "url": "https://huggingface.co/papers/2611.34719",
-        "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift from backbone adaptati",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
-        "source_url": "https://huggingface.co/papers/2611.31619",
+        "source_anchor": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+        "source_url": "https://huggingface.co/papers/2611.31491",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -178,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b12852170f398c24"
+      "receipt_hash": "a7bbe8d2c56c20f4"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b12852170f39"
+      "receipt_hash": "arm_a7bbe8d2c56c"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
