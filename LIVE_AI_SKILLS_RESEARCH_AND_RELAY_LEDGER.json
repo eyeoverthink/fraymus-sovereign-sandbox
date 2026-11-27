@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T20:28:36.074Z",
-  "packet_sha256": "cebfd169b089b1f441b276d459dced6c18fa3fec2ae3c19c7dfc1c285a071fdf",
+  "updated_at": "2026-11-27T22:03:40.346Z",
+  "packet_sha256": "4547d8412ace1731910eeb842976520fcd8ea71e9610062cb51383de72038216",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9d4b8f9dca5e626f",
+    "merkle_root_hex": "b181186c80ddb9d5",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9d4b8f9dca5e626f",
-      "frame_sha256": "d8f68c20e531e2d7d156f44a3ffe0101bde0605dab8f7cdffcf3ac8b6abf8eed",
+      "merkle_root_hex": "b181186c80ddb9d5",
+      "frame_sha256": "2482a0240b7574e561285eaa5a22dc49ea08ed4deb566dc83e20235c3befe0c3",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:eb030198:3c81efbc:fa952fc0:c174495d",
+      "hdc_16k": "hdc16k:eb5cf69b:f41b4b28:3a51de2d:248e0ad4",
       "spectral_4d": {
-        "coord4D": "216.246.140:32",
-        "rgbaStr": "{216}{246}{140}{32}",
-        "carrier_freq_hz": 478,
+        "coord4D": "36.130.160:36",
+        "rgbaStr": "{36}{130}{160}{36}",
+        "carrier_freq_hz": 322,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9d4b8f9dca5e626f",
+        "receipt_id": "R_san_yin_b181186c80ddb9d5",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T20:28:44.033Z"
+        "verified_at": "2026-11-27T22:03:47.909Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T20:28:36.317Z",
+    "harvested_at": "2026-11-27T22:03:40.767Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
         "url": "https://huggingface.co/papers/2611.30025",
         "summary": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), a continuous-time primitive for replacing standard neural layers in MLPs, Transformers, and graph ne",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -104,7 +104,7 @@
         "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
         "url": "https://huggingface.co/papers/2611.30723",
         "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose acoustic detail, whereas acoustic-oriented tokenizers retain acoustic variation that makes language mo",
-        "metric": "1 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9d4b8f9dca5e626f"
+      "receipt_hash": "b181186c80ddb9d5"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9d4b8f9dca5e"
+      "receipt_hash": "arm_b181186c80dd"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
