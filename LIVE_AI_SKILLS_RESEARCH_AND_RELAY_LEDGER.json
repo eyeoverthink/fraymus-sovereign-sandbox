@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T04:59:41.222Z",
-  "packet_sha256": "4596dd4e55bff6ceb6546b5dd13411380b90e8c7d15bc95f73f5b215a78d1389",
+  "updated_at": "2026-11-27T05:32:29.403Z",
+  "packet_sha256": "0e605bef1f3d0d45cea68a863508a9329c06352bf68757e7f82fcc616cc364de",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "819a43d7e99eccb9",
+    "merkle_root_hex": "9e06c90bbf138f78",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "819a43d7e99eccb9",
-      "frame_sha256": "f1acdae116d004f3d672b2dd0ebd2282898a4ca3471d57ef1948cf786a9c3eae",
+      "merkle_root_hex": "9e06c90bbf138f78",
+      "frame_sha256": "41e012cc1683c07168e73a85db8d6551ae6f398555beb25309bf4721cc236df1",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:ef6d9f98:6492cd60:9c293842:1b1b5e11",
+      "hdc_16k": "hdc16k:05ca278a:a344fb73:30240ec2:edabe30c",
       "spectral_4d": {
-        "coord4D": "241.172.218:225",
-        "rgbaStr": "{241}{172}{218}{225}",
-        "carrier_freq_hz": 494,
+        "coord4D": "65.224.18:204",
+        "rgbaStr": "{65}{224}{18}{204}",
+        "carrier_freq_hz": 311,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_819a43d7e99eccb9",
+        "receipt_id": "R_san_yin_9e06c90bbf138f78",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T04:59:45.471Z"
+        "verified_at": "2026-11-27T05:32:33.233Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T04:59:41.670Z",
+    "harvested_at": "2026-11-27T05:32:29.803Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -113,7 +113,7 @@
         "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
         "url": "https://huggingface.co/papers/2611.34232",
         "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating sys",
-        "metric": "41 upvotes",
+        "metric": "46 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "819a43d7e99eccb9"
+      "receipt_hash": "9e06c90bbf138f78"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_819a43d7e99e"
+      "receipt_hash": "arm_9e06c90bbf13"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
