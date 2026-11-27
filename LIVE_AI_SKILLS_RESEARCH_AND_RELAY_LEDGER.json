@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T16:11:30.796Z",
-  "packet_sha256": "e0aa793fa00ff0aca7caba2cf8e4a431cb85053ff4f5be60d24d1cd0f169f614",
+  "updated_at": "2026-11-27T17:46:46.735Z",
+  "packet_sha256": "e797234d6807b0291b45f68636f57905f96823ef66b692c145ccc2f82e247973",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "8b008259ef452781",
+    "merkle_root_hex": "f7118ffdab4ced49",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "8b008259ef452781",
-      "frame_sha256": "5668ada18dbefe399396a13248c552ef8ed5839257bc6d54f9a451386e929852",
+      "merkle_root_hex": "f7118ffdab4ced49",
+      "frame_sha256": "1720d9fc64fc961dd4c7220d3ae8590d27506df53beb2e3872e0c9271ec0bd67",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:3e0cdc50:58cb2edf:c83c140a:40b03297",
+      "hdc_16k": "hdc16k:67ed4b81:8da0113c:d6106645:4fcc58d2",
       "spectral_4d": {
-        "coord4D": "86.104.173:161",
-        "rgbaStr": "{86}{104}{173}{161}",
-        "carrier_freq_hz": 343,
+        "coord4D": "23.32.217:252",
+        "rgbaStr": "{23}{32}{217}{252}",
+        "carrier_freq_hz": 292,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_8b008259ef452781",
+        "receipt_id": "R_san_yin_f7118ffdab4ced49",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T16:11:37.739Z"
+        "verified_at": "2026-11-27T17:46:55.735Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T16:11:31.113Z",
+    "harvested_at": "2026-11-27T17:46:47.182Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+        "url": "https://huggingface.co/papers/2611.30723",
+        "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose acoustic detail, whereas acoustic-oriented tokenizers retain acoustic variation that makes language mo",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -104,7 +113,7 @@
         "title": "Revisiting LLMs as Context Engineers",
         "url": "https://huggingface.co/papers/2611.30494",
         "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task by casting the LLM it",
-        "metric": "2 upvotes",
+        "metric": "4 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -123,15 +132,6 @@
         "url": "https://huggingface.co/papers/2611.31155",
         "summary": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in it has its own rank pattern, an invariant formed by the ranks of the factor matrices of a scheme, so all schemes are pairwise inequivalent. The schemes were obtained by a numerical method combining grad",
         "metric": "0 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
-        "url": "https://huggingface.co/papers/2611.31491",
-        "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and medium-sized tabular ben",
-        "metric": "1 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
-        "source_url": "https://huggingface.co/papers/2611.27112",
+        "source_anchor": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+        "source_url": "https://huggingface.co/papers/2611.30723",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "8b008259ef452781"
+      "receipt_hash": "f7118ffdab4ced49"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_8b008259ef45"
+      "receipt_hash": "arm_f7118ffdab4c"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
