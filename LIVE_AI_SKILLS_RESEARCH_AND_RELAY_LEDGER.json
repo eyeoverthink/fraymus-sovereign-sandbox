@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T05:32:29.403Z",
-  "packet_sha256": "0e605bef1f3d0d45cea68a863508a9329c06352bf68757e7f82fcc616cc364de",
+  "updated_at": "2026-11-27T07:06:50.530Z",
+  "packet_sha256": "51737e675003f5fe3325e2656cee1f7d3402649f049129f90f6fb52412a5d1b7",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,43 +52,70 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "9e06c90bbf138f78",
+    "merkle_root_hex": "b12852170f398c24",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "9e06c90bbf138f78",
-      "frame_sha256": "41e012cc1683c07168e73a85db8d6551ae6f398555beb25309bf4721cc236df1",
+      "merkle_root_hex": "b12852170f398c24",
+      "frame_sha256": "dd3155d979087e8cdc132f1c2bd888d4738aca10f2972e3e993b5e367bc88eeb",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:05ca278a:a344fb73:30240ec2:edabe30c",
+      "hdc_16k": "hdc16k:5418fcd2:91bedc6e:07da869c:b8d8fcc8",
       "spectral_4d": {
-        "coord4D": "65.224.18:204",
-        "rgbaStr": "{65}{224}{18}{204}",
-        "carrier_freq_hz": 311,
+        "coord4D": "221.49.85:217",
+        "rgbaStr": "{221}{49}{85}{217}",
+        "carrier_freq_hz": 338,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_9e06c90bbf138f78",
+        "receipt_id": "R_san_yin_b12852170f398c24",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T05:32:33.233Z"
+        "verified_at": "2026-11-27T07:06:59.530Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T05:32:29.803Z",
+    "harvested_at": "2026-11-27T07:06:58.530Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
-      "total": 10,
+      "total": 5,
       "huggingface_papers": 5,
-      "arxiv_preprints": 5,
+      "arxiv_preprints": 0,
       "github_repos": 0,
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+        "url": "https://huggingface.co/papers/2611.31619",
+        "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We ",
+        "metric": "16 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Generation as Reverse Encoding",
+        "url": "https://huggingface.co/papers/2611.34782",
+        "summary": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet the same abstraction makes the return to pixels far harder, shifting much of the burden onto a larger decoder. We ask why the representation-to-pixel path should be learned independently when the enco",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+        "url": "https://huggingface.co/papers/2611.30483",
+        "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what decides the damage when such an agent makes a mistake: the model, a guard layer in front of the database, or the databas",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -106,86 +133,14 @@
         "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift from backbone adaptati",
         "metric": "2 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
-        "url": "https://huggingface.co/papers/2611.34232",
-        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating sys",
-        "metric": "46 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-        "url": "https://huggingface.co/papers/2611.34852",
-        "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores the",
-        "metric": "22 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
-        "url": "https://huggingface.co/papers/2611.32993",
-        "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncalibrated autoregressive decoding and shortcut reliance on irrelevant anatomical regions. We introduce",
-        "metric": "3 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Tracking Any Point with Agentic Visual Reasoning",
-        "url": "http://arxiv.org/abs/2611.34943v1",
-        "summary": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surf",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:59:58Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
-        "url": "http://arxiv.org/abs/2611.34942v1",
-        "summary": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mis",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:59:57Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "Attack Policy Selection can Mislead Monitor Evaluators",
-        "url": "http://arxiv.org/abs/2611.34934v1",
-        "summary": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:59:28Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
-        "url": "http://arxiv.org/abs/2611.34925v1",
-        "summary": "Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-envir",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:58:56Z"
-      },
-      {
-        "source": "arXiv Live CS.AI/LG",
-        "kind": "paper",
-        "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
-        "url": "http://arxiv.org/abs/2611.34920v1",
-        "summary": "Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when participants react throughout a session. We introduce $μ$-Bench, a benchmark for joint task completion in closed-loop, full-du",
-        "metric": "Published 2026-11-25",
-        "published_at": "2026-11-25T18:58:42Z"
       }
     ],
     "curve_augmentations": [
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
-        "source_url": "https://huggingface.co/papers/2611.32238",
+        "source_anchor": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+        "source_url": "https://huggingface.co/papers/2611.31619",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -202,8 +157,8 @@
       {
         "curve_id": "CURVE-III-FULL-CORPUS-DYAD-LAW",
         "title": "Full-Corpus Shared Context Law (Babel v16 + Live Trend Augmentation)",
-        "source_anchor": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
-        "source_url": "http://arxiv.org/abs/2611.34942v1",
+        "source_anchor": "Live AI Systems Telemetry",
+        "source_url": "https://arxiv.org/list/cs.AI/recent",
         "benchmark_delta": "+18.7% vs Partitioned Specialist Context",
         "implementation_status": "ACTIVE ACROSS ALL 26 BOUND IDENTITIES",
         "test_verification": "Replaces 50/50 split context with unified full-corpus AgentMemory + GitHub Comm Bus broadcasting so no operator re-pasting is ever required."
@@ -223,14 +178,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "9e06c90bbf138f78"
+      "receipt_hash": "b12852170f398c24"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_9e06c90bbf13"
+      "receipt_hash": "arm_b12852170f39"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
