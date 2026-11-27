@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T14:03:38.616Z",
-  "packet_sha256": "e7488e73db6d34accfbd0e1ba42d5eb3d72fc00bd293fbac6493a9011938fdcc",
+  "updated_at": "2026-11-27T15:38:38.104Z",
+  "packet_sha256": "2d39f13a17044194bed120da7d1a6c877d66b75b0b3f1b7375d9c683e0279325",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "bb5b66f171da7ee",
+    "merkle_root_hex": "69e8b99d8ac9100e",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "bb5b66f171da7ee",
-      "frame_sha256": "41b5a43394692d4ddead89ec07b279dd37ead7c4f0b49dae64f84566b8c8cf23",
+      "merkle_root_hex": "69e8b99d8ac9100e",
+      "frame_sha256": "f495dd1eac098dc8693fb6ea8e2f702d1efb9817f1aba259c93b2665529bef98",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:4eb2ed45:32842367:93a4c07b:f2434df6",
+      "hdc_16k": "hdc16k:213b4724:77732dec:dd54bbc2:95bd2090",
       "spectral_4d": {
-        "coord4D": "65.181.164:51",
-        "rgbaStr": "{65}{181}{164}{51}",
-        "carrier_freq_hz": 370,
+        "coord4D": "244.149.221:30",
+        "rgbaStr": "{244}{149}{221}{30}",
+        "carrier_freq_hz": 485,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_bb5b66f171da7ee",
+        "receipt_id": "R_san_yin_69e8b99d8ac9100e",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T14:03:47.616Z"
+        "verified_at": "2026-11-27T15:38:47.104Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T14:03:38.941Z",
+    "harvested_at": "2026-11-27T15:38:38.813Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+        "url": "https://huggingface.co/papers/2611.27112",
+        "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules file do at a boundary, against a gate? I tested one 278-word rules file, with hypotheses and analysis",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-20T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -124,15 +133,6 @@
         "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and medium-sized tabular ben",
         "metric": "1 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
-        "url": "https://huggingface.co/papers/2611.28849",
-        "summary": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved. Choosing how to help requires distinguishing an established hazard from a condition that still needs verification, a distinction that binary safety labels leave unspecified. We formulate this",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-21T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Revisiting LLMs as Context Engineers",
-        "source_url": "https://huggingface.co/papers/2611.30494",
+        "source_anchor": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+        "source_url": "https://huggingface.co/papers/2611.27112",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "bb5b66f171da7ee"
+      "receipt_hash": "69e8b99d8ac9100e"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_bb5b66f171da"
+      "receipt_hash": "arm_69e8b99d8ac9"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
