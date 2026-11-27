@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T11:22:34.302Z",
-  "packet_sha256": "8669d22b2685103a330cc32ed0423188ec28727aa9828712b824b9586f1016d6",
+  "updated_at": "2026-11-27T11:55:28.577Z",
+  "packet_sha256": "afdbc4c010c6a016cc4d570174b5e5b311baf3a95e7f43371daefb7269a6b0a0",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "c1cd3d16b4ce3186",
+    "merkle_root_hex": "aed3b91759ca0dd9",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "c1cd3d16b4ce3186",
-      "frame_sha256": "bfa55fb89e15ce90645d7a7d0b8b285bbeb626914a22d3468977de1dfbf4b408",
+      "merkle_root_hex": "aed3b91759ca0dd9",
+      "frame_sha256": "601e359efa6e10e552f7cc8353681f0d1b57fef357ea6c6d52a42e3bc3c9e680",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:104225be:860ee233:150e3144:7cc1a2d3",
+      "hdc_16k": "hdc16k:64c91aa2:9e409972:eb5461be:2e0f1368",
       "spectral_4d": {
-        "coord4D": "191.165.95:184",
-        "rgbaStr": "{191}{165}{95}{184}",
-        "carrier_freq_hz": 393,
+        "coord4D": "96.30.53:158",
+        "rgbaStr": "{96}{30}{53}{158}",
+        "carrier_freq_hz": 239,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_c1cd3d16b4ce3186",
+        "receipt_id": "R_san_yin_aed3b91759ca0dd9",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T11:22:43.302Z"
+        "verified_at": "2026-11-27T11:55:34.923Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T11:22:34.959Z",
+    "harvested_at": "2026-11-27T11:55:28.810Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -131,7 +131,7 @@
         "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
         "url": "https://huggingface.co/papers/2611.31619",
         "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We ",
-        "metric": "35 upvotes",
+        "metric": "37 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "c1cd3d16b4ce3186"
+      "receipt_hash": "aed3b91759ca0dd9"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_c1cd3d16b4ce"
+      "receipt_hash": "arm_aed3b91759ca"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
