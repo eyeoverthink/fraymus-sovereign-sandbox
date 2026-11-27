@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T09:48:28.886Z",
-  "packet_sha256": "a7019c9429cb9a120ae137e2f93119a0f0ef4daecd33ff119bd86813e2eab897",
+  "updated_at": "2026-11-27T11:22:34.302Z",
+  "packet_sha256": "8669d22b2685103a330cc32ed0423188ec28727aa9828712b824b9586f1016d6",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "2a718c2b3fb276a7",
+    "merkle_root_hex": "c1cd3d16b4ce3186",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "2a718c2b3fb276a7",
-      "frame_sha256": "b990b5fa9cca03a936d2534782ba3c71d2c2d8f2df1bb839b46805d6e1fc6cd5",
+      "merkle_root_hex": "c1cd3d16b4ce3186",
+      "frame_sha256": "bfa55fb89e15ce90645d7a7d0b8b285bbeb626914a22d3468977de1dfbf4b408",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:e023016b:e6b42c06:9ca0bc39:fc32e5d8",
+      "hdc_16k": "hdc16k:104225be:860ee233:150e3144:7cc1a2d3",
       "spectral_4d": {
-        "coord4D": "185.144.181:250",
-        "rgbaStr": "{185}{144}{181}{250}",
-        "carrier_freq_hz": 426,
+        "coord4D": "191.165.95:184",
+        "rgbaStr": "{191}{165}{95}{184}",
+        "carrier_freq_hz": 393,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_2a718c2b3fb276a7",
+        "receipt_id": "R_san_yin_c1cd3d16b4ce3186",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T09:48:35.050Z"
+        "verified_at": "2026-11-27T11:22:43.302Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T09:48:29.172Z",
+    "harvested_at": "2026-11-27T11:22:34.959Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+        "url": "https://huggingface.co/papers/2611.31516",
+        "summary": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditional BA where a good estimation is assumed. While recent methods optimize surrogate Object Space Erro",
+        "metric": "1 upvotes",
+        "published_at": "2026-11-23T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -122,17 +131,8 @@
         "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
         "url": "https://huggingface.co/papers/2611.31619",
         "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We ",
-        "metric": "34 upvotes",
+        "metric": "35 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Generation as Reverse Encoding",
-        "url": "https://huggingface.co/papers/2611.34782",
-        "summary": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet the same abstraction makes the return to pixels far harder, shifting much of the burden onto a larger decoder. We ask why the representation-to-pixel path should be learned independently when the enco",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
-        "source_url": "https://huggingface.co/papers/2611.31155",
+        "source_anchor": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+        "source_url": "https://huggingface.co/papers/2611.31516",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "2a718c2b3fb276a7"
+      "receipt_hash": "c1cd3d16b4ce3186"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_2a718c2b3fb2"
+      "receipt_hash": "arm_c1cd3d16b4ce"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
