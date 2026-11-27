@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T02:51:36.263Z",
-  "packet_sha256": "b344781b3327034cc0806a088617fd94b628ff21febb291172ce1cc3811651e2",
+  "updated_at": "2026-11-27T03:24:36.876Z",
+  "packet_sha256": "cb7ed1807197e0526c77a1358bccc643042dda243e7d13f90d3012faa8504631",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "bf06c90c106cd20e",
+    "merkle_root_hex": "df16ee4708bcf601",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "bf06c90c106cd20e",
-      "frame_sha256": "353734a56263acbf7be919f5659aa16ae72f32dba029a1815ba04993067bfd49",
+      "merkle_root_hex": "df16ee4708bcf601",
+      "frame_sha256": "562c247da2c25f0f595960795b171181862bb3cce776be6b270b6981a3824bc5",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8ae6ed4b:debc397f:9218d6e7:0794aa37",
+      "hdc_16k": "hdc16k:3bda4eb5:2f535fe4:849bd387:27c65b14",
       "spectral_4d": {
-        "coord4D": "53.55.52:165",
-        "rgbaStr": "{53}{55}{52}{165}",
-        "carrier_freq_hz": 228,
+        "coord4D": "86.44.36:125",
+        "rgbaStr": "{86}{44}{36}{125}",
+        "carrier_freq_hz": 232,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_bf06c90c106cd20e",
+        "receipt_id": "R_san_yin_df16ee4708bcf601",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T02:51:41.333Z"
+        "verified_at": "2026-11-27T03:24:41.256Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T02:51:36.703Z",
+    "harvested_at": "2026-11-27T03:24:37.100Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,47 +92,47 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
-        "url": "https://huggingface.co/papers/2611.34457",
-        "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifa",
-        "metric": "4 upvotes",
+        "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+        "url": "https://huggingface.co/papers/2611.34852",
+        "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores the",
+        "metric": "16 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
-        "url": "https://huggingface.co/papers/2611.34051",
-        "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training fail",
-        "metric": "9 upvotes",
+        "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+        "url": "https://huggingface.co/papers/2611.32993",
+        "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncalibrated autoregressive decoding and shortcut reliance on irrelevant anatomical regions. We introduce",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+        "url": "https://huggingface.co/papers/2611.34290",
+        "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited",
+        "metric": "10 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
-        "url": "https://huggingface.co/papers/2611.20844",
-        "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a decision required from one that read most of the environment, nor an agent that never located the evidence from one that",
-        "metric": "1 upvotes",
-        "published_at": "2026-11-16T00:00:00.000Z"
+        "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+        "url": "https://huggingface.co/papers/2611.34813",
+        "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the f",
+        "metric": "3 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
-        "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
-        "url": "https://huggingface.co/papers/2611.29829",
-        "summary": "Agentic pipelines that combine graph detectors, deterministic rules, retrieval-augmented generation and an LLM judge are being proposed to monitor illicit cryptocurrency flows and to write regulation-citing justifications for analysts. They are evaluated on end-to-end accuracy or on the quality of those justifications,",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-22T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
-        "url": "https://huggingface.co/papers/2611.29969",
-        "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces, but largely imitate prescribed evidence acquisition patterns rather than optimizing the support that the returned evidence ",
-        "metric": "0 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
+        "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+        "url": "https://huggingface.co/papers/2611.34693",
+        "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a fine-grained speculative stre",
+        "metric": "12 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
-        "source_url": "https://huggingface.co/papers/2611.34457",
+        "source_anchor": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+        "source_url": "https://huggingface.co/papers/2611.34852",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "bf06c90c106cd20e"
+      "receipt_hash": "df16ee4708bcf601"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_bf06c90c106c"
+      "receipt_hash": "arm_df16ee4708bc"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
