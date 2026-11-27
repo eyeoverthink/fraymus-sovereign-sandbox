@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T00:43:37.285Z",
-  "packet_sha256": "837af82829cfb82b76b8c216ad5a2d25f28b89026d8e47c7db2aa8175d5aecba",
+  "updated_at": "2026-11-27T01:16:34.983Z",
+  "packet_sha256": "2095554a2f2cf033c2f2d8f3b2e5e7adc8da117e7d275ca9e693b0326badf192",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "747068d5ddb73e6a",
+    "merkle_root_hex": "fd9c69cfdab5af5e",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "747068d5ddb73e6a",
-      "frame_sha256": "36dab56ed351f34770279f30a4ef097c081ae7f5f34fea73ff41183cdc12bc10",
+      "merkle_root_hex": "fd9c69cfdab5af5e",
+      "frame_sha256": "03d1ffedb6526daec0148762fdcce3e8861e59184a8e1e1ae6e107cb14a6c545",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:868bd883:b6d0daf7:df3f682b:c4a9fce2",
+      "hdc_16k": "hdc16k:1c3ad989:01d9b1dc:c7dccf65:b7430225",
       "spectral_4d": {
-        "coord4D": "54.218.181:110",
-        "rgbaStr": "{54}{218}{181}{110}",
-        "carrier_freq_hz": 394,
+        "coord4D": "3.209.255:237",
+        "rgbaStr": "{3}{209}{255}{237}",
+        "carrier_freq_hz": 402,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_747068d5ddb73e6a",
+        "receipt_id": "R_san_yin_fd9c69cfdab5af5e",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T00:43:44.369Z"
+        "verified_at": "2026-11-27T01:16:38.940Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T00:43:37.816Z",
+    "harvested_at": "2026-11-27T01:16:35.263Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
+        "url": "https://huggingface.co/papers/2611.29829",
+        "summary": "Agentic pipelines that combine graph detectors, deterministic rules, retrieval-augmented generation and an LLM judge are being proposed to monitor illicit cryptocurrency flows and to write regulation-citing justifications for analysts. They are evaluated on end-to-end accuracy or on the quality of those justifications,",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-22T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -123,15 +132,6 @@
         "url": "https://huggingface.co/papers/2611.34363",
         "summary": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated c",
         "metric": "4 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
-        "url": "https://huggingface.co/papers/2611.28732",
-        "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level h",
-        "metric": "3 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
-        "source_url": "https://huggingface.co/papers/2611.29969",
+        "source_anchor": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
+        "source_url": "https://huggingface.co/papers/2611.29829",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "747068d5ddb73e6a"
+      "receipt_hash": "fd9c69cfdab5af5e"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_747068d5ddb7"
+      "receipt_hash": "arm_fd9c69cfdab5"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
