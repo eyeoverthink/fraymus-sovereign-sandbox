@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T03:24:36.876Z",
-  "packet_sha256": "cb7ed1807197e0526c77a1358bccc643042dda243e7d13f90d3012faa8504631",
+  "updated_at": "2026-11-27T04:59:41.222Z",
+  "packet_sha256": "4596dd4e55bff6ceb6546b5dd13411380b90e8c7d15bc95f73f5b215a78d1389",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "df16ee4708bcf601",
+    "merkle_root_hex": "819a43d7e99eccb9",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "df16ee4708bcf601",
-      "frame_sha256": "562c247da2c25f0f595960795b171181862bb3cce776be6b270b6981a3824bc5",
+      "merkle_root_hex": "819a43d7e99eccb9",
+      "frame_sha256": "f1acdae116d004f3d672b2dd0ebd2282898a4ca3471d57ef1948cf786a9c3eae",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:3bda4eb5:2f535fe4:849bd387:27c65b14",
+      "hdc_16k": "hdc16k:ef6d9f98:6492cd60:9c293842:1b1b5e11",
       "spectral_4d": {
-        "coord4D": "86.44.36:125",
-        "rgbaStr": "{86}{44}{36}{125}",
-        "carrier_freq_hz": 232,
+        "coord4D": "241.172.218:225",
+        "rgbaStr": "{241}{172}{218}{225}",
+        "carrier_freq_hz": 494,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_df16ee4708bcf601",
+        "receipt_id": "R_san_yin_819a43d7e99eccb9",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T03:24:41.256Z"
+        "verified_at": "2026-11-27T04:59:45.471Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T03:24:37.100Z",
+    "harvested_at": "2026-11-27T04:59:41.670Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -92,10 +92,37 @@
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
+        "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+        "url": "https://huggingface.co/papers/2611.32238",
+        "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a policy is reliable only from a limited set of start states, while the agent may invoke it outside this ",
+        "metric": "5 upvotes",
+        "published_at": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+        "url": "https://huggingface.co/papers/2611.34719",
+        "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift from backbone adaptati",
+        "metric": "2 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+        "url": "https://huggingface.co/papers/2611.34232",
+        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating sys",
+        "metric": "41 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
         "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
         "url": "https://huggingface.co/papers/2611.34852",
         "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores the",
-        "metric": "16 upvotes",
+        "metric": "22 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
@@ -104,35 +131,8 @@
         "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
         "url": "https://huggingface.co/papers/2611.32993",
         "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncalibrated autoregressive decoding and shortcut reliance on irrelevant anatomical regions. We introduce",
-        "metric": "2 upvotes",
-        "published_at": "2026-11-24T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-        "url": "https://huggingface.co/papers/2611.34290",
-        "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited",
-        "metric": "10 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
-        "url": "https://huggingface.co/papers/2611.34813",
-        "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the f",
         "metric": "3 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
-        "url": "https://huggingface.co/papers/2611.34693",
-        "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a fine-grained speculative stre",
-        "metric": "12 upvotes",
-        "published_at": "2026-11-25T00:00:00.000Z"
+        "published_at": "2026-11-24T00:00:00.000Z"
       },
       {
         "source": "arXiv Live CS.AI/LG",
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-        "source_url": "https://huggingface.co/papers/2611.34852",
+        "source_anchor": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+        "source_url": "https://huggingface.co/papers/2611.32238",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "df16ee4708bcf601"
+      "receipt_hash": "819a43d7e99eccb9"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_df16ee4708bc"
+      "receipt_hash": "arm_819a43d7e99e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
