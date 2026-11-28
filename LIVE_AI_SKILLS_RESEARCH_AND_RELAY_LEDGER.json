@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-28T12:56:33.154Z",
-  "packet_sha256": "11ad0733d1faeeb6e4378bb1239d635f879d38c1f8ec3ad0c1a54b062d029a54",
+  "updated_at": "2026-11-28T15:03:33.624Z",
+  "packet_sha256": "7e8c36b8c3d1c1c0cdf72ab71f8990187bf5671c760fc4dfbf41104baabecb6a",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "d955254e97656894",
+    "merkle_root_hex": "16bb20cff20cf9b1",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "d955254e97656894",
-      "frame_sha256": "ef58515254ce1b8c823afd6714b55b29e821cdf47946b7b6b0c24c60ee0536fc",
+      "merkle_root_hex": "16bb20cff20cf9b1",
+      "frame_sha256": "2a6f15a5d5b9277bc750226714e1cc7cd8d6e619ec058d12efe36eb5e45075af",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:8a027689:255ffbf1:c8f12f51:f0f29d2f",
+      "hdc_16k": "hdc16k:633f3874:6f050b4c:2e156a76:d342b14b",
       "spectral_4d": {
-        "coord4D": "239.88.81:82",
-        "rgbaStr": "{239}{88}{81}{82}",
-        "carrier_freq_hz": 368,
+        "coord4D": "42.111.21:165",
+        "rgbaStr": "{42}{111}{21}{165}",
+        "carrier_freq_hz": 236,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_d955254e97656894",
+        "receipt_id": "R_san_yin_16bb20cff20cf9b1",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-28T12:56:41.202Z"
+        "verified_at": "2026-11-28T15:03:41.555Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-28T12:56:33.496Z",
+    "harvested_at": "2026-11-28T15:03:34.098Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -122,7 +122,7 @@
         "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
         "url": "https://huggingface.co/papers/2611.27112",
         "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules file do at a boundary, against a gate? I tested one 278-word rules file, with hypotheses and analysis",
-        "metric": "0 upvotes",
+        "metric": "1 upvotes",
         "published_at": "2026-11-20T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "d955254e97656894"
+      "receipt_hash": "16bb20cff20cf9b1"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_d955254e9765"
+      "receipt_hash": "arm_16bb20cff20c"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
