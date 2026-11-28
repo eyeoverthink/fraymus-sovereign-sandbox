@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-28T04:59:28.775Z",
-  "packet_sha256": "44e05e63b1da4b2de69766d7fbe374c8b05812b03f3fe487940ee4ba28704091",
+  "updated_at": "2026-11-28T06:34:36.703Z",
+  "packet_sha256": "64d8cf0c548156bbdedd7f930da439e053484858167a3a5fd96dda978db0e659",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "8f0065f37fd979ab",
+    "merkle_root_hex": "4a7c4c70fb0e8da4",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "8f0065f37fd979ab",
-      "frame_sha256": "ba1a8044136033be612f54fa4b7cb9d464cbc9223788936aa12b5cf70a908878",
+      "merkle_root_hex": "4a7c4c70fb0e8da4",
+      "frame_sha256": "8ef20095ef5dfbbb2f0ef3872c84116b4e2e006f95aa7d775880482332e5585a",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:aef324f9:09055e5c:3fc6ee9d:df9ff89e",
+      "hdc_16k": "hdc16k:01ecac71:3e543312:aab06793:e58f424b",
       "spectral_4d": {
-        "coord4D": "186.26.128:68",
-        "rgbaStr": "{186}{26}{128}{68}",
-        "carrier_freq_hz": 330,
+        "coord4D": "142.242.196:149",
+        "rgbaStr": "{142}{242}{196}{149}",
+        "carrier_freq_hz": 466,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_8f0065f37fd979ab",
+        "receipt_id": "R_san_yin_4a7c4c70fb0e8da4",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-28T04:59:33.185Z"
+        "verified_at": "2026-11-28T06:34:41.831Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-28T04:59:28.988Z",
+    "harvested_at": "2026-11-28T06:34:41.744Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -95,7 +95,7 @@
         "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
         "url": "https://huggingface.co/papers/2611.33885",
         "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or leaves view. The target layout specifies where the object should reappear, while its appearance must b",
-        "metric": "0 upvotes",
+        "metric": "2 upvotes",
         "published_at": "2026-11-25T00:00:00.000Z"
       },
       {
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "8f0065f37fd979ab"
+      "receipt_hash": "4a7c4c70fb0e8da4"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_8f0065f37fd9"
+      "receipt_hash": "arm_4a7c4c70fb0e"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
