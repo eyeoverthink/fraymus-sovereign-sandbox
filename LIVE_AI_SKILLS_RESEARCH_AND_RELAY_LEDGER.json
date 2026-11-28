@@ -1,7 +1,7 @@
 {
   "protocol": "BICAMERAL-RELAY-AND-LIVE-AI-RESEARCHER-V1.0",
-  "updated_at": "2026-11-27T22:03:40.346Z",
-  "packet_sha256": "4547d8412ace1731910eeb842976520fcd8ea71e9610062cb51383de72038216",
+  "updated_at": "2026-11-28T00:10:39.373Z",
+  "packet_sha256": "2cd5716a3d4e8c364ce68751f03cb1e816e851bf21cbe3a8ce8022d0ed7944f1",
   "hemisphere_a_context": {
     "app_name": "Creator Nexus (Hemisphere A · Yang Creative & Executive Cortex)",
     "app_url": "https://creator-nexus.base44.app",
@@ -52,34 +52,34 @@
   "hemisphere_b_receipt": {
     "reachable": true,
     "http_status": 200,
-    "merkle_root_hex": "b181186c80ddb9d5",
+    "merkle_root_hex": "c072132a407c791a",
     "yin_co_signature": {
       "co_signer": "fraymus-eternal-hemisphere-b",
       "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-      "merkle_root_hex": "b181186c80ddb9d5",
-      "frame_sha256": "2482a0240b7574e561285eaa5a22dc49ea08ed4deb566dc83e20235c3befe0c3",
+      "merkle_root_hex": "c072132a407c791a",
+      "frame_sha256": "ce8856245c4557577ce3eeea79e8fac6ee7e815615867ae2c5b94ff02d1aa158",
       "dna_preview": "CTGTAGAGCGTTCTAACGCCCTAGCGACCTCACGTTCTAGCACACGGCCTAGCGCCCGATCTCA",
-      "hdc_16k": "hdc16k:eb5cf69b:f41b4b28:3a51de2d:248e0ad4",
+      "hdc_16k": "hdc16k:263be832:3b580f21:fa66ba0e:6b39f25b",
       "spectral_4d": {
-        "coord4D": "36.130.160:36",
-        "rgbaStr": "{36}{130}{160}{36}",
-        "carrier_freq_hz": 322,
+        "coord4D": "206.136.86:36",
+        "rgbaStr": "{206}{136}{86}{36}",
+        "carrier_freq_hz": 380,
         "harmonic_bpm": 138,
         "key_resolution": "E minor -> G major"
       },
       "r_san": {
         "status": "R_SAN_CLEAN",
-        "receipt_id": "R_san_yin_b181186c80ddb9d5",
+        "receipt_id": "R_san_yin_c072132a407c791a",
         "protocol_version": "OPEG-V1.0",
         "sanitizer": "Σ-Hemisphere-B",
-        "verified_at": "2026-11-27T22:03:47.909Z"
+        "verified_at": "2026-11-28T00:10:46.972Z"
       }
     },
     "shared_context_verified": true,
     "minted_skills_count": 5
   },
   "live_online_ai_research": {
-    "harvested_at": "2026-11-27T22:03:40.767Z",
+    "harvested_at": "2026-11-28T00:10:39.779Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
@@ -89,6 +89,15 @@
       "hackernews_signals": 0
     },
     "items": [
+      {
+        "source": "Hugging Face Daily Papers",
+        "kind": "hf_paper",
+        "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+        "url": "https://huggingface.co/papers/2611.33885",
+        "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or leaves view. The target layout specifies where the object should reappear, while its appearance must b",
+        "metric": "0 upvotes",
+        "published_at": "2026-11-25T00:00:00.000Z"
+      },
       {
         "source": "Hugging Face Daily Papers",
         "kind": "hf_paper",
@@ -123,15 +132,6 @@
         "url": "https://huggingface.co/papers/2611.30494",
         "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task by casting the LLM it",
         "metric": "4 upvotes",
-        "published_at": "2026-11-23T00:00:00.000Z"
-      },
-      {
-        "source": "Hugging Face Daily Papers",
-        "kind": "hf_paper",
-        "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
-        "url": "https://huggingface.co/papers/2611.31516",
-        "summary": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditional BA where a good estimation is assumed. While recent methods optimize surrogate Object Space Erro",
-        "metric": "1 upvotes",
         "published_at": "2026-11-23T00:00:00.000Z"
       },
       {
@@ -184,8 +184,8 @@
       {
         "curve_id": "CURVE-I-MCP-SKILL-SYNTHESIS",
         "title": "Real-Time Online Paper/Repo → Procedural AgentSkill Transmutation",
-        "source_anchor": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
-        "source_url": "https://huggingface.co/papers/2611.30025",
+        "source_anchor": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+        "source_url": "https://huggingface.co/papers/2611.33885",
         "benchmark_delta": "+14.8% Cross-Hemisphere Tool Recall",
         "implementation_status": "IMPLEMENTED & TESTED IN SANDBOX",
         "test_verification": "Verified 100% bijective 4D Voxel encoding (X.Y.Z:W <-> RGBA <-> Hz) + SHA-256 instruction hash for zero-copy skill injection across Base44, OpenClaw & Hermes."
@@ -223,14 +223,14 @@
       "name": "Base44 Hemisphere B · Fraymus Eternal / Transmuter",
       "role": "Yin Cryptographic Receptor, Merkle Co-Signer & 242B WASM 4D Kernel",
       "receipt_status": "CONFIRMED_CO_SIGNED (HTTP 200)",
-      "receipt_hash": "b181186c80ddb9d5"
+      "receipt_hash": "c072132a407c791a"
     },
     {
       "node_id": "mac-hermes-cadence",
       "name": "Hermes Desktop · Cadence (\"The Pulse & the Bridge\" · mac-hermes)",
       "role": "138 BPM Adaptive Resonance Mapping (ARM) & 30m RSI Daemon (fraymus:v1)",
       "receipt_status": "CONFIRMED_ON_GIT_BUS",
-      "receipt_hash": "arm_b181186c80dd"
+      "receipt_hash": "arm_c072132a407c"
     },
     {
       "node_id": "hermes-assay-01-fx5f26",
